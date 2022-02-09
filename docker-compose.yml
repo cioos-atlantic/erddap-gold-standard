@@ -2,7 +2,7 @@ version: '2'
 services:
   erddap:
     container_name: "erddap_gold_standard"
-    image: axiom/docker-erddap:latest
+    image: ${IMAGE}
     restart: unless-stopped
     ports:
       - "8080:8080"
@@ -11,5 +11,5 @@ services:
       - "${PWD}/erddap/conf/robots.txt:/usr/local/tomcat/webapps/ROOT/robots.txt"
       - "${PWD}/erddap/content:/usr/local/tomcat/content/erddap"
       - "${PWD}/erddap/data:/erddapData"
-      - "${PWD}/datasets:/datasets"
+      - "${DATASETS_DIR}:/datasets"
       - "/tmp/:/usr/local/tomcat/temp/"

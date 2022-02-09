@@ -34,6 +34,8 @@ or
 docker-compose up -d
 ```
 
+If using docker-compose, be sure to setup a .env file for your environment first, using the supplied .env.template file as a reference.
+
 After startup, go to http://localhost:8080/erddap/index.html 
 
 You can monitor http://localhost:8080/erddap/status.html to see the status of dataset loading.

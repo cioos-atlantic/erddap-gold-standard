@@ -79,7 +79,7 @@
       <!-- sourceAttributes>
       </sourceAttributes -->
       <addAttributes>
-        <att name="ioos_category">Unknown</att>
+        <att name="ioos_category">Identifier</att>
         <att name="long_name">Cruise</att>
       </addAttributes>
     </dataVariable>
@@ -90,7 +90,7 @@
       <!-- sourceAttributes>
       </sourceAttributes -->
       <addAttributes>
-        <att name="ioos_category">Unknown</att>
+        <att name="ioos_category">Identifier</att>
         <att name="long_name">Event</att>
         <att name="missing_value">999</att>
       </addAttributes>
@@ -113,7 +113,7 @@
       <!-- sourceAttributes>
       </sourceAttributes -->
       <addAttributes>
-        <att name="ioos_category">Unknown</att>
+        <att name="ioos_category">Identifier</att>
         <att name="long_name">Type</att>
       </addAttributes>
     </dataVariable>
@@ -172,6 +172,7 @@
       <addAttributes>
         <att name="ioos_category">Location</att>
         <att name="long_name">Bot Depth(m)</att>
+        <att name="units">m</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -181,7 +182,7 @@
       <!-- sourceAttributes>
       </sourceAttributes -->
       <addAttributes>
-        <att name="ioos_category">Unknown</att>
+        <att name="ioos_category">Other</att>
         <att name="long_name">Instrument</att>
       </addAttributes>
     </dataVariable>
@@ -205,6 +206,7 @@
       <addAttributes>
         <att name="ioos_category">Pressure</att>
         <att name="long_name">Pressure(dbar)</att>
+        <att name="units">dbar</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -216,6 +218,7 @@
       <addAttributes>
         <att name="ioos_category">Temperature</att>
         <att name="long_name">Temperature(o C)</att>
+        <att name="units">degree_C</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -230,6 +233,7 @@
         <att name="ioos_category">Salinity</att>
         <att name="long_name">Sea Water Electrical Conductivity</att>
         <att name="standard_name">sea_water_electrical_conductivity</att>
+        <att name="units">S m-1</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -241,6 +245,7 @@
       <addAttributes>
         <att name="ioos_category">Dissolved O2</att>
         <att name="long_name">Oxygen(V)</att>
+        <att name="units">V</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -256,6 +261,7 @@
         <att name="ioos_category">Location</att>
         <att name="long_name">Depth</att>
         <att name="standard_name">depth</att>
+        <att name="units">m</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -282,6 +288,7 @@
       <addAttributes>
         <att name="ioos_category">Dissolved O2</att>
         <att name="long_name">Oxygen(m L/L)</att>
+        <att name="units">mL L-1</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -293,6 +300,7 @@
       <addAttributes>
         <att name="ioos_category">Dissolved O2</att>
         <att name="long_name">Oxygen(mg/L)</att>
+        <att name="units">mg L-1</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -304,6 +312,7 @@
       <addAttributes>
         <att name="ioos_category">Dissolved O2</att>
         <att name="long_name">Oxygen(&#37;)</att>
+        <att name="units">percent</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -313,8 +322,9 @@
       <!-- sourceAttributes>
       </sourceAttributes -->
       <addAttributes>
-        <att name="ioos_category">Unknown</att>
+        <att name="ioos_category">Location</att>
         <att name="long_name">Descent Rate(m/s)</att>
+        <att name="units">m s-1</att>
       </addAttributes>
     </dataVariable>
   </dataset>
@@ -2531,7 +2541,7 @@
       <addAttributes>
         <att name="ioos_category">Salinity</att>
         <att name="long_name">Volume Fraction Of Salinity In Sea Water</att>
-        <att name="units">practical salinity units</att>
+        <att name="units">PSU</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -2885,7 +2895,7 @@
       <addAttributes>
         <att name="ioos_category">Salinity</att>
         <att name="long_name">Volume Fraction Of Salinity In Sea Water</att>
-        <att name="units">practical salinity units</att>
+        <att name="units">PSU</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -3239,7 +3249,7 @@
       <addAttributes>
         <att name="ioos_category">Salinity</att>
         <att name="long_name">Volume Fraction Of Salinity In Sea Water</att>
-        <att name="units">practical salinity units</att>
+        <att name="units">PSU</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>

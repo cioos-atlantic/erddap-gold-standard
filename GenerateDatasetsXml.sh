@@ -4,7 +4,7 @@ if [ -z $DATASETS_DIR ]; then
   DATASETS_DIR=/srv/data/erddap
 fi
 if [ -z $IMAGE ]; then
-  IMAGE=cioosatlantic/docker-erddap:latest
+  IMAGE=axiom/docker-erddap:latest
 fi
 docker run --rm -it \
   -v "${DATASETS_DIR}:/datasets" \

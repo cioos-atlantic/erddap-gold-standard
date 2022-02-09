@@ -506,7 +506,7 @@
       <destinationName>time</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Time</att>
         <att name="long_name">Timestamp</att>
@@ -521,7 +521,7 @@
       <destinationName>buoy_id</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Identifier</att>
         <att name="long_name">Buoy Id</att>
@@ -532,7 +532,7 @@
       <destinationName>buoy_name</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Identifier</att>
         <att name="long_name">Buoy Name</att>
@@ -543,7 +543,7 @@
       <destinationName>latitude</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">90.0</att>
         <att name="colorBarMinimum" type="double">-90.0</att>
@@ -558,7 +558,7 @@
       <destinationName>longitude</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">180.0</att>
         <att name="colorBarMinimum" type="double">-180.0</att>
@@ -573,7 +573,7 @@
       <destinationName>battery_voltage</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">Battery Voltage (V)</att>
@@ -585,7 +585,7 @@
       <destinationName>temp_c</destinationName>
       <dataType>byte</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">Device Temp C (C)</att>
@@ -597,7 +597,7 @@
       <destinationName>wave_ht_sig</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Surface Waves</att>
         <att name="long_name">Wave Ht Sig (m)</att>
@@ -611,7 +611,7 @@
       <destinationName>wave_period_max</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">20.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
@@ -626,7 +626,7 @@
       <destinationName>wave_ht_max</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Surface Waves</att>
         <att name="long_name">Wave Ht Max (m)</att>
@@ -639,7 +639,7 @@
       <destinationName>wave_dir_avg</destinationName>
       <dataType>short</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">360.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
@@ -654,7 +654,7 @@
       <destinationName>wave_spread_avg</destinationName>
       <dataType>byte</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Surface Waves</att>
         <att name="long_name">Wave Spread Avg (degrees)</att>
@@ -666,7 +666,7 @@
       <destinationName>sample_quality</destinationName>
       <dataType>byte</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">150.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
@@ -680,7 +680,7 @@
       <destinationName>temp_water_c</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">Temp Water C (C)</att>
@@ -692,7 +692,7 @@
       <destinationName>wind_speed</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">15.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
@@ -708,7 +708,7 @@
       <destinationName>wind_dir_deci_deg</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">360.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
@@ -723,7 +723,7 @@
       <destinationName>air_pres</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">Air Pres (h Pa)</att>
@@ -735,7 +735,7 @@
       <destinationName>humidity_percent</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">100.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
@@ -749,7 +749,7 @@
       <destinationName>temp_air_c</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">Temp Air C (C)</att>
@@ -761,7 +761,7 @@
       <destinationName>precip_rain_int</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Meteorology</att>
         <att name="long_name">Precip Rain Int (mm/hr)</att>
@@ -773,7 +773,7 @@
       <destinationName>precip_hail_int</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Meteorology</att>
         <att name="long_name">Precip Hail Int (hits/(cm^2 * Hr))</att>
@@ -785,7 +785,7 @@
       <destinationName>compass_deci_deg</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">Compass Deci Deg (degrees)</att>
@@ -797,7 +797,7 @@
       <destinationName>wind_bearing</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Wind</att>
         <att name="long_name">Wind Bearing (degrees)</att>
@@ -851,7 +851,7 @@
       <destinationName>time</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Time</att>
         <att name="long_name">Timestamp</att>
@@ -866,7 +866,7 @@
       <destinationName>buoy_id</destinationName>
       <dataType>short</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Identifier</att>
         <att name="long_name">Buoy Id</att>
@@ -877,7 +877,7 @@
       <destinationName>buoy_name</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">Buoy Name</att>
@@ -888,7 +888,7 @@
       <destinationName>latitude</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">90.0</att>
         <att name="colorBarMinimum" type="double">-90.0</att>
@@ -903,7 +903,7 @@
       <destinationName>longitude</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">180.0</att>
         <att name="colorBarMinimum" type="double">-180.0</att>
@@ -918,7 +918,7 @@
       <destinationName>battery_voltage</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">Battery Voltage (V)</att>
@@ -930,7 +930,7 @@
       <destinationName>temp_c</destinationName>
       <dataType>byte</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">Device Temp C (C)</att>
@@ -942,7 +942,7 @@
       <destinationName>wave_ht_sig</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Surface Waves</att>
         <att name="long_name">Wave Ht Sig (m)</att>
@@ -955,7 +955,7 @@
       <destinationName>wave_period_max</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">20.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
@@ -970,7 +970,7 @@
       <destinationName>wave_ht_max</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Surface Waves</att>
         <att name="long_name">Wave Ht Max (m)</att>
@@ -983,7 +983,7 @@
       <destinationName>wave_dir_avg</destinationName>
       <dataType>short</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">360.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
@@ -998,7 +998,7 @@
       <destinationName>wave_spread_avg</destinationName>
       <dataType>byte</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Surface Waves</att>
         <att name="long_name">Wave Spread Avg (degrees)</att>
@@ -1010,7 +1010,7 @@
       <destinationName>sample_quality</destinationName>
       <dataType>byte</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">150.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
@@ -1024,7 +1024,7 @@
       <destinationName>temp_water_c</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">Temp Water C (C)</att>
@@ -1036,7 +1036,7 @@
       <destinationName>wind_speed</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">15.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
@@ -1052,7 +1052,7 @@
       <destinationName>wind_dir_deci_deg</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">360.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
@@ -1067,7 +1067,7 @@
       <destinationName>air_pres</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">Air Pres (h Pa)</att>
@@ -1079,7 +1079,7 @@
       <destinationName>humidity_percent</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">100.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
@@ -1093,7 +1093,7 @@
       <destinationName>temp_air_c</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">Temp Air C (C)</att>
@@ -1105,7 +1105,7 @@
       <destinationName>precip_rain_int</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Meteorology</att>
         <att name="long_name">Precip Rain Int (mm/hr)</att>
@@ -1117,7 +1117,7 @@
       <destinationName>precip_hail_int</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Meteorology</att>
         <att name="long_name">Precip Hail Int (hits/(cm^2 * Hr))</att>
@@ -1129,7 +1129,7 @@
       <destinationName>compass_deci_deg</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">Compass Deci Deg (degrees)</att>
@@ -1141,7 +1141,7 @@
       <destinationName>wind_bearing</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Wind</att>
         <att name="long_name">Wind Bearing (degrees)</att>
@@ -1196,7 +1196,7 @@
       <destinationName>time</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Time</att>
         <att name="long_name">Timestamp</att>
@@ -1211,7 +1211,7 @@
       <destinationName>buoy_id</destinationName>
       <dataType>short</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Identifier</att>
         <att name="long_name">Buoy Id</att>
@@ -1222,7 +1222,7 @@
       <destinationName>buoy_name</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">Buoy Name</att>
@@ -1233,7 +1233,7 @@
       <destinationName>latitude</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">90.0</att>
         <att name="colorBarMinimum" type="double">-90.0</att>
@@ -1248,7 +1248,7 @@
       <destinationName>longitude</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">180.0</att>
         <att name="colorBarMinimum" type="double">-180.0</att>
@@ -1263,7 +1263,7 @@
       <destinationName>battery_voltage</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">Battery Voltage (V)</att>
@@ -1275,7 +1275,7 @@
       <destinationName>temp_c</destinationName>
       <dataType>byte</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">Device Temp C (C)</att>
@@ -1287,7 +1287,7 @@
       <destinationName>wave_ht_sig</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Surface Waves</att>
         <att name="long_name">Wave Ht Sig (m)</att>
@@ -1300,7 +1300,7 @@
       <destinationName>wave_period_max</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">20.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
@@ -1315,7 +1315,7 @@
       <destinationName>wave_ht_max</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Surface Waves</att>
         <att name="long_name">Wave Ht Max (m)</att>
@@ -1328,7 +1328,7 @@
       <destinationName>wave_dir_avg</destinationName>
       <dataType>short</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">360.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
@@ -1343,7 +1343,7 @@
       <destinationName>wave_spread_avg</destinationName>
       <dataType>byte</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Surface Waves</att>
         <att name="long_name">Wave Spread Avg (degrees)</att>
@@ -1355,7 +1355,7 @@
       <destinationName>sample_quality</destinationName>
       <dataType>byte</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">150.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
@@ -1369,7 +1369,7 @@
       <destinationName>temp_water_c</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">Temp Water C (C)</att>
@@ -1381,7 +1381,7 @@
       <destinationName>wind_speed</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">15.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
@@ -1397,7 +1397,7 @@
       <destinationName>wind_dir_deci_deg</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">360.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
@@ -1412,7 +1412,7 @@
       <destinationName>air_pres</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">Air Pres (h Pa)</att>
@@ -1424,7 +1424,7 @@
       <destinationName>humidity_percent</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">100.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
@@ -1438,7 +1438,7 @@
       <destinationName>temp_air_c</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">Temp Air C (C)</att>
@@ -1450,7 +1450,7 @@
       <destinationName>precip_rain_int</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Meteorology</att>
         <att name="long_name">Precip Rain Int (mm/hr)</att>
@@ -1462,7 +1462,7 @@
       <destinationName>precip_hail_int</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Meteorology</att>
         <att name="long_name">Precip Hail Int (hits/(cm^2 * Hr))</att>
@@ -1474,7 +1474,7 @@
       <destinationName>compass_deci_deg</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">Compass Deci Deg (degrees)</att>
@@ -1486,7 +1486,7 @@
       <destinationName>wind_bearing</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Wind</att>
         <att name="long_name">Wind Bearing (degrees)</att>
@@ -1540,7 +1540,7 @@
       <destinationName>time</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Time</att>
         <att name="long_name">Start Datetime</att>
@@ -1555,7 +1555,7 @@
       <destinationName>end_datetime</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Time</att>
         <att name="long_name">End Datetime</att>
@@ -1569,7 +1569,7 @@
       <destinationName>date_collected</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Time</att>
         <att name="long_name">Date Collected</att>
@@ -1583,7 +1583,7 @@
       <destinationName>study_area</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Location</att>
         <att name="long_name">Study Area</att>
@@ -1594,7 +1594,7 @@
       <destinationName>location</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Location</att>
         <att name="long_name">Location</att>
@@ -1605,7 +1605,7 @@
       <destinationName>sample_id</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Identifier</att>
         <att name="long_name">Sample Id</att>
@@ -1616,7 +1616,7 @@
       <destinationName>plastic_id</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Identifier</att>
         <att name="long_name">Plastic Id</att>
@@ -1627,7 +1627,7 @@
       <destinationName>type</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Identifier</att>
         <att name="long_name">Type</att>
@@ -1638,7 +1638,7 @@
       <destinationName>size_class</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Identifier</att>
         <att name="long_name">Size Class</att>
@@ -1649,7 +1649,7 @@
       <destinationName>colour</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Identifier</att>
         <att name="long_name">Colour</att>
@@ -1660,7 +1660,7 @@
       <destinationName>colour_2</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Identifier</att>
         <att name="long_name">Colour 2</att>
@@ -1671,7 +1671,7 @@
       <destinationName>erosion</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Identifier</att>
         <att name="long_name">Erosion</att>
@@ -1682,7 +1682,7 @@
       <destinationName>erosion_type</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Identifier</att>
         <att name="long_name">Erosion Type</att>
@@ -1693,7 +1693,7 @@
       <destinationName>erosion_type_2</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Identifier</att>
         <att name="long_name">Erosion Type 2</att>
@@ -1704,7 +1704,7 @@
       <destinationName>beaufort_sea_state</destinationName>
       <dataType>byte</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="byte">127</att>
         <att name="ioos_category">Location</att>
@@ -1716,7 +1716,7 @@
       <destinationName>trawl_speed</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Currents</att>
         <att name="long_name">Trawl Speed</att>
@@ -1728,7 +1728,7 @@
       <destinationName>time_in</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Time</att>
         <att name="long_name">Time In</att>
@@ -1739,7 +1739,7 @@
       <destinationName>time_out</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Time</att>
         <att name="long_name">Time Out</att>
@@ -1750,7 +1750,7 @@
       <destinationName>total_time</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Time</att>
         <att name="long_name">Total Time</att>
@@ -1762,7 +1762,7 @@
       <destinationName>latitude</destinationName>
       <dataType>double</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="double">NaN</att>
         <att name="colorBarMaximum" type="double">90.0</att>
@@ -1779,7 +1779,7 @@
       <destinationName>longitude</destinationName>
       <dataType>double</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="double">NaN</att>
         <att name="colorBarMaximum" type="double">180.0</att>
@@ -1796,7 +1796,7 @@
       <destinationName>latitude_out</destinationName>
       <dataType>double</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="double">NaN</att>
         <att name="colorBarMaximum" type="double">90.0</att>
@@ -1812,7 +1812,7 @@
       <destinationName>longitude_out</destinationName>
       <dataType>double</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="double">NaN</att>
         <att name="colorBarMaximum" type="double">180.0</att>
@@ -1828,7 +1828,7 @@
       <destinationName>flowmeter_in</destinationName>
       <dataType>int</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="int">2147483647</att>
         <att name="ioos_category">Other</att>
@@ -1841,7 +1841,7 @@
       <destinationName>flowmeter_out</destinationName>
       <dataType>int</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="int">2147483647</att>
         <att name="ioos_category">Other</att>
@@ -1854,7 +1854,7 @@
       <destinationName>distance_travelled</destinationName>
       <dataType>double</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="double">NaN</att>
         <att name="ioos_category">Location</att>
@@ -1867,7 +1867,7 @@
       <destinationName>trawl_time</destinationName>
       <dataType>short</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="short">32767</att>
         <att name="ioos_category">Time</att>
@@ -1880,7 +1880,7 @@
       <destinationName>speed</destinationName>
       <dataType>double</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="double">NaN</att>
         <att name="ioos_category">Currents</att>
@@ -1893,7 +1893,7 @@
       <destinationName>surface_area</destinationName>
       <dataType>double</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="double">NaN</att>
         <att name="ioos_category">Other</att>
@@ -1906,7 +1906,7 @@
       <destinationName>notes</destinationName>
       <dataType>String</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Other</att>
         <att name="long_name">Notes</att>
@@ -1974,7 +1974,7 @@
       <destinationName>dataset</destinationName>
       <dataType>short</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="short">NaN</att>
         <att name="ioos_category">Other</att>
@@ -1986,7 +1986,7 @@
       <destinationName>year</destinationName>
       <dataType>short</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="short">32767</att>
         <att name="ioos_category">Time</att>
@@ -1998,7 +1998,7 @@
       <destinationName>climate_index</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="float">NaN</att>
         <att name="ioos_category">Other</att>
@@ -2050,7 +2050,7 @@
       <destinationName>dataset</destinationName>
       <dataType>short</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="short">NaN</att>
         <att name="ioos_category">Other</att>
@@ -2062,7 +2062,7 @@
       <destinationName>Year</destinationName>
       <dataType>short</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="short">32767</att>
         <att name="ioos_category">Unknown</att>
@@ -2074,7 +2074,7 @@
       <destinationName>Winter_NAO</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="float">NaN</att>
         <att name="ioos_category">Unknown</att>
@@ -2086,7 +2086,7 @@
       <destinationName>Air_Temp</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Temperature</att>
         <att name="long_name">Air Temp</att>
@@ -2097,7 +2097,7 @@
       <destinationName>Sea_Ice</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="float">NaN</att>
         <att name="ioos_category">Ice Distribution</att>
@@ -2109,7 +2109,7 @@
       <destinationName>Icebergs</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Ice Distribution</att>
         <att name="long_name">Icebergs</att>
@@ -2120,7 +2120,7 @@
       <destinationName>SST</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="float">NaN</att>
         <att name="ioos_category">Temperature</att>
@@ -2132,7 +2132,7 @@
       <destinationName>S27_Temp</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="float">NaN</att>
         <att name="ioos_category">Unknown</att>
@@ -2144,7 +2144,7 @@
       <destinationName>S27_Sal</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="float">NaN</att>
         <att name="ioos_category">Unknown</att>
@@ -2156,7 +2156,7 @@
       <destinationName>S27_CIL</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="float">NaN</att>
         <att name="ioos_category">Unknown</att>
@@ -2168,7 +2168,7 @@
       <destinationName>CIL_area</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">CIL Area</att>
@@ -2179,7 +2179,7 @@
       <destinationName>bottom_temp</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="float">NaN</att>
         <att name="ioos_category">Unknown</att>
@@ -2233,7 +2233,7 @@
       <destinationName>dataset</destinationName>
       <dataType>short</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="short">NaN</att>
         <att name="ioos_category">Other</att>
@@ -2245,7 +2245,7 @@
       <destinationName>Year</destinationName>
       <dataType>short</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="short">32767</att>
         <att name="ioos_category">Time</att>
@@ -2257,7 +2257,7 @@
       <destinationName>Winter_NAO</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="float">NaN</att>
         <att name="ioos_category">Unknown</att>
@@ -2269,7 +2269,7 @@
       <destinationName>Air_Temp</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Temperature</att>
         <att name="long_name">Air Temp</att>
@@ -2280,7 +2280,7 @@
       <destinationName>Sea_Ice</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="float">NaN</att>
         <att name="ioos_category">Ice Distribution</att>
@@ -2292,7 +2292,7 @@
       <destinationName>Icebergs</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Ice Distribution</att>
         <att name="long_name">Icebergs</att>
@@ -2303,7 +2303,7 @@
       <destinationName>SST</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="float">NaN</att>
         <att name="ioos_category">Temperature</att>
@@ -2315,7 +2315,7 @@
       <destinationName>S27_Temp</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="float">NaN</att>
         <att name="ioos_category">Unknown</att>
@@ -2327,7 +2327,7 @@
       <destinationName>S27_Sal</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="float">NaN</att>
         <att name="ioos_category">Unknown</att>
@@ -2339,7 +2339,7 @@
       <destinationName>S27_CIL</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="float">NaN</att>
         <att name="ioos_category">Unknown</att>
@@ -2351,7 +2351,7 @@
       <destinationName>CIL_area</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">CIL Area</att>
@@ -2362,7 +2362,7 @@
       <destinationName>Bottom_Temp</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-        </sourceAttributes -->
+      </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="float">NaN</att>
         <att name="ioos_category">Unknown</att>
@@ -4191,12 +4191,12 @@
       <destinationName>time</destinationName>
       <dataType>double</dataType>
       <!-- sourceAttributes>
-            <att name="calendar">gregorian</att>
-            <att name="description">Time of measurement</att>
-            <att name="force_name">time</att>
-            <att name="standard_name">time</att>
-            <att name="units">seconds since 1970-01-01T00:00:00 UTC</att>
-        </sourceAttributes -->
+          <att name="calendar">gregorian</att>
+          <att name="description">Time of measurement</att>
+          <att name="force_name">time</att>
+          <att name="standard_name">time</att>
+          <att name="units">seconds since 1970-01-01T00:00:00 UTC</att>
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Time</att>
         <att name="long_name">Time</att>
@@ -4208,10 +4208,10 @@
       <destinationName>cell_range</destinationName>
       <dataType>double</dataType>
       <!-- sourceAttributes>
-            <att name="force_name">BurstVelocityENU_Range</att>
-            <att name="long_name">cell range</att>
-            <att name="units">m</att>
-        </sourceAttributes -->
+          <att name="force_name">BurstVelocityENU_Range</att>
+          <att name="long_name">cell range</att>
+          <att name="units">m</att>
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Unknown</att>
       </addAttributes>
@@ -4221,10 +4221,10 @@
       <destinationName>eastward_sea_water_velocity</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-            <att name="force_name">Vel_East</att>
-            <att name="standard_name">eastward_sea_water_velocity</att>
-            <att name="units">m/s</att>
-        </sourceAttributes -->
+          <att name="force_name">Vel_East</att>
+          <att name="standard_name">eastward_sea_water_velocity</att>
+          <att name="units">m/s</att>
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">0.5</att>
         <att name="colorBarMinimum" type="double">-0.5</att>
@@ -4237,10 +4237,10 @@
       <destinationName>northward_sea_water_velocity</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-            <att name="force_name">Vel_North</att>
-            <att name="standard_name">northward_sea_water_velocity</att>
-            <att name="units">m/s</att>
-        </sourceAttributes -->
+          <att name="force_name">Vel_North</att>
+          <att name="standard_name">northward_sea_water_velocity</att>
+          <att name="units">m/s</att>
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">0.5</att>
         <att name="colorBarMinimum" type="double">-0.5</att>
@@ -4253,10 +4253,10 @@
       <destinationName>upward_sea_water_velocity</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-            <att name="force_name">Vel_Up1</att>
-            <att name="standard_name">upward_sea_water_velocity</att>
-            <att name="units">m/s</att>
-        </sourceAttributes -->
+          <att name="force_name">Vel_Up1</att>
+          <att name="standard_name">upward_sea_water_velocity</att>
+          <att name="units">m/s</att>
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">0.5</att>
         <att name="colorBarMinimum" type="double">-0.5</att>
@@ -4269,10 +4269,10 @@
       <destinationName>speed_of_sound_in_sea_water</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-            <att name="force_name">SpeedOfSound</att>
-            <att name="standard_name">speed_of_sound_in_sea_water</att>
-            <att name="units">m/s</att>
-        </sourceAttributes -->
+          <att name="force_name">SpeedOfSound</att>
+          <att name="standard_name">speed_of_sound_in_sea_water</att>
+          <att name="units">m/s</att>
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Currents</att>
         <att name="long_name">Speed Of Sound In Sea Water</att>
@@ -4283,11 +4283,11 @@
       <destinationName>cell_size</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-            <att name="description">Cell Size</att>
-            <att name="force_name">CellSize</att>
-            <att name="long_name">cell size</att>
-            <att name="units">m</att>
-        </sourceAttributes -->
+          <att name="description">Cell Size</att>
+          <att name="force_name">CellSize</att>
+          <att name="long_name">cell size</att>
+          <att name="units">m</att>
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Unknown</att>
       </addAttributes>
@@ -4297,10 +4297,10 @@
       <destinationName>cell_count</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-            <att name="description">Number of cells</att>
-            <att name="force_name">NumberofCells</att>
-            <att name="long_name">cell count</att>
-        </sourceAttributes -->
+          <att name="description">Number of cells</att>
+          <att name="force_name">NumberofCells</att>
+          <att name="long_name">cell count</att>
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">100.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
@@ -4312,10 +4312,10 @@
       <destinationName>sea_water_temperature</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-            <att name="force_name">WaterTemperature</att>
-            <att name="standard_name">sea_water_temperature</att>
-            <att name="units">degree_Celsius</att>
-        </sourceAttributes -->
+          <att name="force_name">WaterTemperature</att>
+          <att name="standard_name">sea_water_temperature</att>
+          <att name="units">degree_Celsius</att>
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">32.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
@@ -4328,10 +4328,10 @@
       <destinationName>sea_water_pressure</destinationName>
       <dataType>double</dataType>
       <!-- sourceAttributes>
-            <att name="force_name">Pressure</att>
-            <att name="standard_name">sea_water_pressure</att>
-            <att name="units">dbar</att>
-        </sourceAttributes -->
+          <att name="force_name">Pressure</att>
+          <att name="standard_name">sea_water_pressure</att>
+          <att name="units">dbar</att>
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">5000.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
@@ -4403,12 +4403,12 @@
       <destinationName>sea_water_pressure</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-            <att name="_FillValue" type="float">-9.0</att>
-            <att name="description">Mean pressure / distance during burst</att>
-            <att name="force_name">Pressure</att>
-            <att name="standard_name">sea_water_pressure</att>
-            <att name="units">dbar</att>
-        </sourceAttributes -->
+          <att name="_FillValue" type="float">-9.0</att>
+          <att name="description">Mean pressure / distance during burst</att>
+          <att name="force_name">Pressure</att>
+          <att name="standard_name">sea_water_pressure</att>
+          <att name="units">dbar</att>
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">5000.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
@@ -4421,12 +4421,12 @@
       <destinationName>time</destinationName>
       <dataType>double</dataType>
       <!-- sourceAttributes>
-            <att name="calendar">gregorian</att>
-            <att name="description">Time of measurement</att>
-            <att name="force_name">time</att>
-            <att name="standard_name">time</att>
-            <att name="units">seconds since 1970-01-01T00:00:00 UTC</att>
-        </sourceAttributes -->
+          <att name="calendar">gregorian</att>
+          <att name="description">Time of measurement</att>
+          <att name="force_name">time</att>
+          <att name="standard_name">time</att>
+          <att name="units">seconds since 1970-01-01T00:00:00 UTC</att>
+      </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Time</att>
         <att name="long_name">Time</att>
@@ -4438,12 +4438,12 @@
       <destinationName>sea_surface_wave_maximum_period</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-            <att name="_FillValue" type="float">-9.0</att>
-            <att name="description">Periods for Tm02: Spectrum mean wave; Tp: Peak wave; Tz: Mean zero-crossing; T3: Mean 1/3; T10:</att>
-            <att name="force_name">Period_Tp</att>
-            <att name="standard_name">sea_surface_wave_maximum_period</att>
-            <att name="units">s</att>
-        </sourceAttributes -->
+          <att name="_FillValue" type="float">-9.0</att>
+          <att name="description">Periods for Tm02: Spectrum mean wave; Tp: Peak wave; Tz: Mean zero-crossing; T3: Mean 1/3; T10:</att>
+          <att name="force_name">Period_Tp</att>
+          <att name="standard_name">sea_surface_wave_maximum_period</att>
+          <att name="units">s</att>
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">20.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
@@ -4456,12 +4456,12 @@
       <destinationName>sea_surface_wave_significant_height</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-            <att name="_FillValue" type="float">-9.0</att>
-            <att name="description">Hm0: Significant height; H3: AST mean height of the 33&#37; largest waves; H10: AST mean height of </att>
-            <att name="force_name">Height_Hm0</att>
-            <att name="standard_name">sea_surface_wave_significant_height</att>
-            <att name="units">m</att>
-        </sourceAttributes -->
+          <att name="_FillValue" type="float">-9.0</att>
+          <att name="description">Hm0: Significant height; H3: AST mean height of the 33&#37; largest waves; H10: AST mean height of </att>
+          <att name="force_name">Height_Hm0</att>
+          <att name="standard_name">sea_surface_wave_significant_height</att>
+          <att name="units">m</att>
+      </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">10.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
@@ -4473,8 +4473,8 @@
   </dataset>
   <!-- FORCE ADCP Mar 2018: END -->
 
-<!-- St. FX Marine Ecology Lab HOBO logger: START -->
-<dataset type="EDDTableFromAsciiFiles" datasetID="marine_ecology_lab_c17d_14ed_c2f8" active="true">
+  <!-- St. FX Marine Ecology Lab HOBO logger: START -->
+  <dataset type="EDDTableFromAsciiFiles" datasetID="marine_ecology_lab_c17d_14ed_c2f8" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/stfx/marine_ecology_lab/</fileDir>
@@ -4497,146 +4497,146 @@
         <att name="subsetVariables">station_id, longitude, latitude</att>
     -->
     <addAttributes>
-        <att name="cdm_data_type">Point</att>
-        <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
-        <att name="creator_name">St. Francis Xavier University</att>
-        <att name="creator_type">institution</att>
-        <att name="creator_url">https://www.coinatlantic.ca/post/multiannual-study-of-nova-scotia-coastline-describes-thermal-conditions-of-intertidal-environments</att>
-        <att name="infoUrl">https://www.coinatlantic.ca/post/multiannual-study-of-nova-scotia-coastline-describes-thermal-conditions-of-intertidal-environments</att>
-        <att name="institution">St. Francis Xavier University</att>
-        <att name="keywords">air, air_or_sea_water_temperature, amplitude, coastal, data, due, earth, Earth Science &gt; Oceans &gt; Coastal Processes &gt; Tidal Height, Earth Science &gt; Oceans &gt; Sea Surface Topography &gt; Sea Surface Height, Earth Science &gt; Oceans &gt; Tides &gt; Tidal Height, ecology, environment, francis, height, intertidal, lab, latitude, level, longitude, marine, name, ocean, oceans, processes, science, sea, sea level, sea_surface_height_amplitude_due_to_earth_tide, seawater, station, study, study_name, surface, temperature, temperatures, tidal, tide, tide_station_latitude, tide_station_longitude, tide_station_name, tides, time, topography, university, water, xavier</att>
-        <att name="keywords_vocabulary">GCMD Science Keywords</att>
-        <att name="license">[standard]</att>
-        <att name="sourceUrl">(local files)</att>
-        <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-        <att name="subsetVariables">latitude, longitude, study_name, tide_station_latitude, tide_station_longitude, tide_station_name</att>
-        <att name="summary">Marine Ecology Lab - Coastal intertidal environment temperatures. Multiannual Study of Nova Scotia Coastline Describes Thermal Conditions of Intertidal Environments</att>
-        <att name="title">Marine Ecology Lab, Coastal intertidal environment temperatures</att>
+      <att name="cdm_data_type">Point</att>
+      <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
+      <att name="creator_name">St. Francis Xavier University</att>
+      <att name="creator_type">institution</att>
+      <att name="creator_url">https://www.coinatlantic.ca/post/multiannual-study-of-nova-scotia-coastline-describes-thermal-conditions-of-intertidal-environments</att>
+      <att name="infoUrl">https://www.coinatlantic.ca/post/multiannual-study-of-nova-scotia-coastline-describes-thermal-conditions-of-intertidal-environments</att>
+      <att name="institution">St. Francis Xavier University</att>
+      <att name="keywords">air, air_or_sea_water_temperature, amplitude, coastal, data, due, earth, Earth Science &gt; Oceans &gt; Coastal Processes &gt; Tidal Height, Earth Science &gt; Oceans &gt; Sea Surface Topography &gt; Sea Surface Height, Earth Science &gt; Oceans &gt; Tides &gt; Tidal Height, ecology, environment, francis, height, intertidal, lab, latitude, level, longitude, marine, name, ocean, oceans, processes, science, sea, sea level, sea_surface_height_amplitude_due_to_earth_tide, seawater, station, study, study_name, surface, temperature, temperatures, tidal, tide, tide_station_latitude, tide_station_longitude, tide_station_name, tides, time, topography, university, water, xavier</att>
+      <att name="keywords_vocabulary">GCMD Science Keywords</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">latitude, longitude, study_name, tide_station_latitude, tide_station_longitude, tide_station_name</att>
+      <att name="summary">Marine Ecology Lab - Coastal intertidal environment temperatures. Multiannual Study of Nova Scotia Coastline Describes Thermal Conditions of Intertidal Environments</att>
+      <att name="title">Marine Ecology Lab, Coastal intertidal environment temperatures</att>
     </addAttributes>
     <dataVariable>
-        <sourceName>time</sourceName>
-        <destinationName>time</destinationName>
-        <dataType>String</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Time</att>
-            <att name="long_name">Time</att>
-            <att name="standard_name">time</att>
-            <att name="time_precision">1970-01-01T00:00:00Z</att>
-            <att name="units">yyyy-MM-dd&#39;T&#39;HH:mm:ssxx</att>
-        </addAttributes>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <!-- sourceAttributes>
+      </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+        <att name="long_name">Time</att>
+        <att name="standard_name">time</att>
+        <att name="time_precision">1970-01-01T00:00:00Z</att>
+        <att name="units">yyyy-MM-dd&#39;T&#39;HH:mm:ssxx</att>
+      </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>air_or_sea_water_temperature</sourceName>
-        <destinationName>air_or_sea_water_temperature</destinationName>
-        <dataType>float</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="_FillValue" type="float">NaN</att>
-            <att name="ioos_category">Temperature</att>
-            <att name="long_name">Air Or Sea Water Temperature</att>
-            <att name="units">degree_Celsius</att>
-        </addAttributes>
+      <sourceName>air_or_sea_water_temperature</sourceName>
+      <destinationName>air_or_sea_water_temperature</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+      </sourceAttributes -->
+      <addAttributes>
+        <att name="_FillValue" type="float">NaN</att>
+        <att name="ioos_category">Temperature</att>
+        <att name="long_name">Air Or Sea Water Temperature</att>
+        <att name="units">degree_Celsius</att>
+      </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>sea_surface_height_amplitude_due_to_earth_tide</sourceName>
-        <destinationName>sea_surface_height_amplitude_due_to_earth_tide</destinationName>
-        <dataType>float</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Sea Level</att>
-            <att name="long_name">Sea Surface Height Amplitude Due To Earth Tide</att>
-            <att name="standard_name">sea_surface_height_amplitude_due_to_earth_tide</att>
-            <att name="units">m</att>
-        </addAttributes>
+      <sourceName>sea_surface_height_amplitude_due_to_earth_tide</sourceName>
+      <destinationName>sea_surface_height_amplitude_due_to_earth_tide</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+      </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Sea Level</att>
+        <att name="long_name">Sea Surface Height Amplitude Due To Earth Tide</att>
+        <att name="standard_name">sea_surface_height_amplitude_due_to_earth_tide</att>
+        <att name="units">m</att>
+      </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>latitude</sourceName>
-        <destinationName>latitude</destinationName>
-        <dataType>float</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">90.0</att>
-            <att name="colorBarMinimum" type="double">-90.0</att>
-            <att name="ioos_category">Location</att>
-            <att name="long_name">Latitude</att>
-            <att name="standard_name">latitude</att>
-            <att name="units">degrees_north</att>
-        </addAttributes>
+      <sourceName>latitude</sourceName>
+      <destinationName>latitude</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+      </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">90.0</att>
+        <att name="colorBarMinimum" type="double">-90.0</att>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Latitude</att>
+        <att name="standard_name">latitude</att>
+        <att name="units">degrees_north</att>
+      </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>longitude</sourceName>
-        <destinationName>longitude</destinationName>
-        <dataType>float</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">180.0</att>
-            <att name="colorBarMinimum" type="double">-180.0</att>
-            <att name="ioos_category">Location</att>
-            <att name="long_name">Longitude</att>
-            <att name="standard_name">longitude</att>
-            <att name="units">degrees_east</att>
-        </addAttributes>
+      <sourceName>longitude</sourceName>
+      <destinationName>longitude</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+      </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">180.0</att>
+        <att name="colorBarMinimum" type="double">-180.0</att>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Longitude</att>
+        <att name="standard_name">longitude</att>
+        <att name="units">degrees_east</att>
+      </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>study_name</sourceName>
-        <destinationName>study_name</destinationName>
-        <dataType>String</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">Study Name</att>
-        </addAttributes>
+      <sourceName>study_name</sourceName>
+      <destinationName>study_name</destinationName>
+      <dataType>String</dataType>
+      <!-- sourceAttributes>
+      </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Study Name</att>
+      </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>tide_station_latitude</sourceName>
-        <destinationName>tide_station_latitude</destinationName>
-        <dataType>float</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">90.0</att>
-            <att name="colorBarMinimum" type="double">-90.0</att>
-            <att name="ioos_category">Location</att>
-            <att name="long_name">Latitude</att>
-            <att name="standard_name">latitude</att>
-            <att name="units">degrees_north</att>
-        </addAttributes>
+      <sourceName>tide_station_latitude</sourceName>
+      <destinationName>tide_station_latitude</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+      </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">90.0</att>
+        <att name="colorBarMinimum" type="double">-90.0</att>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Latitude</att>
+        <att name="standard_name">latitude</att>
+        <att name="units">degrees_north</att>
+      </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>tide_station_longitude</sourceName>
-        <destinationName>tide_station_longitude</destinationName>
-        <dataType>float</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">180.0</att>
-            <att name="colorBarMinimum" type="double">-180.0</att>
-            <att name="ioos_category">Location</att>
-            <att name="long_name">Longitude</att>
-            <att name="standard_name">longitude</att>
-            <att name="units">degrees_east</att>
-        </addAttributes>
+      <sourceName>tide_station_longitude</sourceName>
+      <destinationName>tide_station_longitude</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+      </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">180.0</att>
+        <att name="colorBarMinimum" type="double">-180.0</att>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Longitude</att>
+        <att name="standard_name">longitude</att>
+        <att name="units">degrees_east</att>
+      </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>tide_station_name</sourceName>
-        <destinationName>tide_station_name</destinationName>
-        <dataType>String</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Sea Level</att>
-            <att name="long_name">Tide Station Name</att>
-        </addAttributes>
+      <sourceName>tide_station_name</sourceName>
+      <destinationName>tide_station_name</destinationName>
+      <dataType>String</dataType>
+      <!-- sourceAttributes>
+      </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Sea Level</att>
+        <att name="long_name">Tide Station Name</att>
+      </addAttributes>
     </dataVariable>
-</dataset>
-<!-- St. FX Marine Ecology Lab HOBO logger: END -->
+  </dataset>
+  <!-- St. FX Marine Ecology Lab HOBO logger: END -->
 
 </erddapDatasets>
 

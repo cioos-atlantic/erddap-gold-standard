@@ -1,0 +1,6 @@
+<dataset type="EDDTableFromErddap" datasetID="bb1_bop_level1" active="true">
+    
+    <sourceUrl>https://data.ceotr.ca/erddap/tabledap/bb1_bop_level1</sourceUrl>
+  </dataset>
+
+  

@@ -1,0 +1,5 @@
+<dataset type="EDDTableFromErddap" datasetID="SMA_MouthofPlacentiaBayBuoy" active="true">
+    
+    <sourceUrl>https://www.smartatlantic.ca/erddap/tabledap/SMA_MouthofPlacentiaBayBuoy</sourceUrl>
+  </dataset>
+  

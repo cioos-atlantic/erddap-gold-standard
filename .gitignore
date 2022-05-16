@@ -21,4 +21,4 @@ logs
 /dataSources/
 /dataSources.local.xml
 
-erddap/content/datasets
+erddap/content/datasets.xml

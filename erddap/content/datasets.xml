@@ -213,13 +213,14 @@
     </dataVariable>
     <dataVariable>
       <sourceName>Temperature(oC)</sourceName>
-      <destinationName>Temperature_oC</destinationName>
+      <destinationName>sea_water_temperature</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
       </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Temperature</att>
-        <att name="long_name">Temperature(o C)</att>
+        <att name="long_name">Sea Water Temperature</att>
+        <att name="standard_name">sea_water_temperature</att>
         <att name="units">degree_Celsius</att>
       </addAttributes>
     </dataVariable>
@@ -586,13 +587,13 @@
     </dataVariable>
     <dataVariable>
       <sourceName>device_temp_c (C)</sourceName>
-      <destinationName>temp_c</destinationName>
+      <destinationName>device_temperature</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
       </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Temperature</att>
-        <att name="long_name">Device Temp</att>
+        <att name="long_name">Device Temperature</att>
         <att name="units">degree_Celsius</att>
       </addAttributes>
     </dataVariable>
@@ -935,13 +936,13 @@
     </dataVariable>
     <dataVariable>
       <sourceName>device_temp_c (C)</sourceName>
-      <destinationName>temp_c</destinationName>
+      <destinationName>device_temperature</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
       </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Temperature</att>
-        <att name="long_name">Device Temp</att>
+        <att name="long_name">Device Temperature</att>
         <att name="units">degree_Celsius</att>
       </addAttributes>
     </dataVariable>
@@ -1284,13 +1285,13 @@
     </dataVariable>
     <dataVariable>
       <sourceName>device_temp_c (C)</sourceName>
-      <destinationName>temp_c</destinationName>
+      <destinationName>device_temperature</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
       </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Temperature</att>
-        <att name="long_name">Device Temp</att>
+        <att name="long_name">Device Temperature</att>
         <att name="units">degree_Celsius</att>
       </addAttributes>
     </dataVariable>
@@ -1384,6 +1385,7 @@
       </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Temperature</att>
+        <att name="long_name">Sea Water Temperature</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="units">degree_Celsius</att>
       </addAttributes>
@@ -2100,13 +2102,15 @@
     </dataVariable>
     <dataVariable>
       <sourceName>Air Temp</sourceName>
-      <destinationName>Air_Temp</destinationName>
+      <destinationName>air_temperature</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
       </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Temperature</att>
-        <att name="long_name">Air Temp</att>
+        <att name="long_name">Air Temperature</att>
+        <att name="standard_name">air_temperature</att>
+        <att name="units">degree_Celsius</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -2134,7 +2138,7 @@
     </dataVariable>
     <dataVariable>
       <sourceName>SST</sourceName>
-      <destinationName>SST</destinationName>
+      <destinationName>sea_surface_temperature</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
       </sourceAttributes -->
@@ -2142,6 +2146,8 @@
         <att name="_FillValue" type="float">NaN</att>
         <att name="ioos_category">Temperature</att>
         <att name="long_name">Sea Surface Temperature</att>
+        <att name="standard_name">sea_surface_temperature</att>
+        <att name="units">degree_Celsius</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -2152,8 +2158,10 @@
       </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="float">NaN</att>
-        <att name="ioos_category">Unknown</att>
-        <att name="long_name">S27 Temp</att>
+        <att name="ioos_category">Temperature</att>
+        <att name="long_name">S27 Vertically Averaged Sea Water Temperature</att>
+        <att name="standard_name">integral_wrt_depth_of_sea_water_temperature</att>
+        <att name="units">degree_Celsius</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -2284,13 +2292,15 @@
     </dataVariable>
     <dataVariable>
       <sourceName>Air Temp</sourceName>
-      <destinationName>Air_Temp</destinationName>
+      <destinationName>air_temperature</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
       </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Temperature</att>
-        <att name="long_name">Air Temp</att>
+        <att name="long_name">Air Temperature</att>
+        <att name="standard_name">air_temperature</att>
+        <att name="units">degree_Celsius</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -2318,7 +2328,7 @@
     </dataVariable>
     <dataVariable>
       <sourceName>SST</sourceName>
-      <destinationName>SST</destinationName>
+      <destinationName>sea_surface_temperature</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
       </sourceAttributes -->
@@ -2326,6 +2336,8 @@
         <att name="_FillValue" type="float">NaN</att>
         <att name="ioos_category">Temperature</att>
         <att name="long_name">Sea Surface Temperature</att>
+        <att name="standard_name">sea_surface_temperature</att>
+        <att name="units">degree_Celsius</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -2336,8 +2348,10 @@
       </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="float">NaN</att>
-        <att name="ioos_category">Unknown</att>
-        <att name="long_name">S27 Temp</att>
+        <att name="ioos_category">Temperature</att>
+        <att name="long_name">S27 Vertically Averaged Sea Water Temperature</att>
+        <att name="standard_name">integral_wrt_depth_of_sea_water_temperature</att>
+        <att name="units">degree_Celsius</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -5541,7 +5555,7 @@
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature (IPTS-68) of the water body</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">IPTS-68</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature (IPTS-68) of the water body</att>
@@ -5564,7 +5578,7 @@
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature (ITS-90) of the water body</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">ITS-90</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature (ITS-90) of the water body</att>
@@ -5587,7 +5601,7 @@
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature (IPTS-68) of the water body by CTD or STD</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">IPTS-68</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature (IPTS-68) of the water body by CTD or STD</att>
@@ -5610,7 +5624,7 @@
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature (ITS-90) of the water body by CTD or STD</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">ITS-90</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature (ITS-90) of the water body by CTD or STD</att>
@@ -5633,7 +5647,7 @@
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature of the water body</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">IPTS-68</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature of the water body</att>
@@ -5673,7 +5687,7 @@
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature (IPTS-68) of the water body, 2</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">IPTS-68</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature (IPTS-68) of the water body</att>
@@ -5696,7 +5710,7 @@
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature (ITS-90) of the water body, 2</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">ITS-90</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature (ITS-90) of the water body</att>
@@ -5719,7 +5733,7 @@
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature (IPTS-68) of the water body by CTD or STD, 2</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">IPTS-68</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature (IPTS-68) of the water body by CTD or STD</att>
@@ -5742,7 +5756,7 @@
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature (ITS-90) of the water body by CTD or STD, 2</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">ITS-90</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature (ITS-90) of the water body by CTD or STD</att>
@@ -5765,7 +5779,7 @@
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature of the water body, 2</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">IPTS-68</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature of the water body</att>
@@ -6984,7 +6998,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature (IPTS-68) of the water body</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">IPTS-68</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature (IPTS-68) of the water body</att>
@@ -7007,7 +7021,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature (ITS-90) of the water body</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">ITS-90</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature (ITS-90) of the water body</att>
@@ -7030,7 +7044,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature (IPTS-68) of the water body by CTD or STD</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">IPTS-68</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature (IPTS-68) of the water body by CTD or STD</att>
@@ -7053,7 +7067,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature (ITS-90) of the water body by CTD or STD</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">ITS-90</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature (ITS-90) of the water body by CTD or STD</att>
@@ -7076,7 +7090,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature of the water body</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">IPTS-68</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature of the water body</att>
@@ -7116,7 +7130,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature (IPTS-68) of the water body, 2</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">IPTS-68</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature (IPTS-68) of the water body</att>
@@ -7139,7 +7153,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature (ITS-90) of the water body, 2</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">ITS-90</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature (ITS-90) of the water body</att>
@@ -7162,7 +7176,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature (IPTS-68) of the water body by CTD or STD, 2</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">IPTS-68</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature (IPTS-68) of the water body by CTD or STD</att>
@@ -7185,7 +7199,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature (ITS-90) of the water body by CTD or STD, 2</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">ITS-90</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature (ITS-90) of the water body by CTD or STD</att>
@@ -7208,7 +7222,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature of the water body, 2</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">IPTS-68</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature of the water body</att>
@@ -8423,7 +8437,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature (IPTS-68) of the water body</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">IPTS-68</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature (IPTS-68) of the water body</att>
@@ -8446,7 +8460,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature (ITS-90) of the water body</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">ITS-90</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature (ITS-90) of the water body</att>
@@ -8469,7 +8483,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature (IPTS-68) of the water body by CTD or STD</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">IPTS-68</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature (IPTS-68) of the water body by CTD or STD</att>
@@ -8492,7 +8506,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature (ITS-90) of the water body by CTD or STD</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">ITS-90</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature (ITS-90) of the water body by CTD or STD</att>
@@ -8515,7 +8529,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature of the water body</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">IPTS-68</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature of the water body</att>
@@ -8555,7 +8569,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature (IPTS-68) of the water body, 2</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">IPTS-68</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature (IPTS-68) of the water body</att>
@@ -8578,7 +8592,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature (ITS-90) of the water body, 2</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">ITS-90</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature (ITS-90) of the water body</att>
@@ -8601,7 +8615,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature (IPTS-68) of the water body by CTD or STD, 2</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">IPTS-68</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature (IPTS-68) of the water body by CTD or STD</att>
@@ -8624,7 +8638,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature (ITS-90) of the water body by CTD or STD, 2</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">ITS-90</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature (ITS-90) of the water body by CTD or STD</att>
@@ -8647,7 +8661,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Temperature of the water body, 2</att>
-        <att name="units">degree Celsius</att>
+        <att name="units">degree_Celsius</att>
         <att name="scale">IPTS-68</att>
         <att name="standard_name">sea_water_temperature</att>
         <att name="sdn_parameter_name">Temperature of the water body</att>

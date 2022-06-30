@@ -1737,6 +1737,7 @@
       <addAttributes>
         <att name="ioos_category">Currents</att>
         <att name="long_name">Trawl Speed</att>
+        <att name="standard_name">platform_speed_wrt_sea_water</att>
         <att name="units">knots</att>
       </addAttributes>
     </dataVariable>
@@ -1902,6 +1903,7 @@
         <att name="_FillValue" type="double">NaN</att>
         <att name="ioos_category">Currents</att>
         <att name="long_name">Speed</att>
+        <att name="standard_name">sea_water_speed</att>
         <att name="units">cm s-1</att>
       </addAttributes>
     </dataVariable>
@@ -4312,15 +4314,14 @@
       <destinationName>eastward_sea_water_velocity</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-          <att name="force_name">Vel_East</att>
-          <att name="standard_name">eastward_sea_water_velocity</att>
-          <att name="units">m/s</att>
       </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">0.5</att>
         <att name="colorBarMinimum" type="double">-0.5</att>
         <att name="ioos_category">Currents</att>
         <att name="long_name">Eastward Sea Water Velocity</att>
+        <att name="standard_name">eastward_sea_water_velocity</att>
+        <att name="units">m/s</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -4328,15 +4329,14 @@
       <destinationName>northward_sea_water_velocity</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-          <att name="force_name">Vel_North</att>
-          <att name="standard_name">northward_sea_water_velocity</att>
-          <att name="units">m/s</att>
       </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">0.5</att>
         <att name="colorBarMinimum" type="double">-0.5</att>
         <att name="ioos_category">Currents</att>
         <att name="long_name">Northward Sea Water Velocity</att>
+        <att name="standard_name">northward_sea_water_velocity</att>
+        <att name="units">m/s</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -4344,15 +4344,14 @@
       <destinationName>upward_sea_water_velocity</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-          <att name="force_name">Vel_Up1</att>
-          <att name="standard_name">upward_sea_water_velocity</att>
-          <att name="units">m/s</att>
       </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">0.5</att>
         <att name="colorBarMinimum" type="double">-0.5</att>
         <att name="ioos_category">Currents</att>
         <att name="long_name">Upward Sea Water Velocity</att>
+        <att name="standard_name">upward_sea_water_velocity</att>
+        <att name="units">m/s</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -4360,13 +4359,12 @@
       <destinationName>speed_of_sound_in_sea_water</destinationName>
       <dataType>float</dataType>
       <!-- sourceAttributes>
-          <att name="force_name">SpeedOfSound</att>
-          <att name="standard_name">speed_of_sound_in_sea_water</att>
-          <att name="units">m/s</att>
       </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Currents</att>
         <att name="long_name">Speed Of Sound In Sea Water</att>
+        <att name="standard_name">speed_of_sound_in_sea_water</att>
+        <att name="units">m/s</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>

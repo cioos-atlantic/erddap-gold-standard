@@ -291,6 +291,7 @@
       <addAttributes>
         <att name="ioos_category">Dissolved O2</att>
         <att name="long_name">Oxygen(m L/L)</att>
+        <att name="standard_name">volume_fraction_of_oxygen_in_sea_water</att>
         <att name="units">mL L-1</att>
       </addAttributes>
     </dataVariable>
@@ -303,19 +304,21 @@
       <addAttributes>
         <att name="ioos_category">Dissolved O2</att>
         <att name="long_name">Oxygen(mg/L)</att>
+        <att name="standard_name">mass_concentration_of_oxygen_in_sea_water</att>
         <att name="units">mg L-1</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
       <sourceName>Oxygen(%)</sourceName>
-      <destinationName>Oxygen</destinationName>
+      <destinationName>Dissolved_Oxygen</destinationName>
       <dataType>double</dataType>
       <!-- sourceAttributes>
       </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Dissolved O2</att>
         <att name="long_name">Oxygen(&#37;)</att>
-        <att name="units">percent</att>
+        <att name="standard_name">volume_fraction_of_oxygen_in_sea_water</att>
+        <att name="units">% saturation</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>

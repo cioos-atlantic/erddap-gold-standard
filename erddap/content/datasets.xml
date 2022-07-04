@@ -282,7 +282,8 @@
         <att name="ioos_category">Salinity</att>
         <att name="long_name">Sea Water Practical Salinity</att>
         <att name="standard_name">sea_water_practical_salinity</att>
-        <att name="units">PSU</att>
+        <att name="units">1e-3</att>
+        <att name="scale">PSS-78</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -2600,7 +2601,9 @@
       <addAttributes>
         <att name="ioos_category">Salinity</att>
         <att name="long_name">Volume Fraction Of Salinity In Sea Water</att>
-        <att name="units">PSU</att>
+        <att name="standard_name">sea_water_practical_salinity</att>
+        <att name="units">1e-3</att>
+        <att name="scale">PSS-78</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -3144,7 +3147,9 @@
       <addAttributes>
         <att name="ioos_category">Salinity</att>
         <att name="long_name">Volume Fraction Of Salinity In Sea Water</att>
-        <att name="units">PSU</att>
+        <att name="standard_name">sea_water_practical_salinity</att>
+        <att name="units">1e-3</att>
+        <att name="scale">PSS-78</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -3334,7 +3339,9 @@
       <addAttributes>
         <att name="ioos_category">Salinity</att>
         <att name="long_name">Volume Fraction Of Salinity In Sea Water</att>
-        <att name="units">PSU</att>
+        <att name="standard_name">sea_water_practical_salinity</att>
+        <att name="units">1e-3</att>
+        <att name="scale">PSS-78</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -5837,13 +5844,13 @@
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Electrical Conductivity</att>
-        <att name="units">S/m</att>
+        <att name="units">S m-1</att>
         <att name="standard_name">sea_water_electrical_conductivity</att>
         <att name="sdn_parameter_name">Electrical conductivity of the water body by CTD</att>
         <att name="sdn_parameter_urn">SDN:P01::CNDCST01</att>
         <att name="sdn_uom_urn">SDN:P06::UECA</att>
         <att name="sdn_uom_name">Siemens per metre</att>
-        <att name="ioos_category">Other</att>
+        <att name="ioos_category">Salinity</att>
         <att name="ancillary_variables">QCNDC_01</att>
         <att name="cell_method">null</att>
         <att name="legacy_gf3_code">CRAT_01</att>
@@ -5876,13 +5883,13 @@
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Electrical Conductivity, 2</att>
-        <att name="units">S/m</att>
+        <att name="units">S m-1</att>
         <att name="standard_name">sea_water_electrical_conductivity</att>
         <att name="sdn_parameter_name">Electrical conductivity of the water body by CTD</att>
         <att name="sdn_parameter_urn">SDN:P01::CNDCST02</att>
         <att name="sdn_uom_urn">SDN:P06::UECA</att>
         <att name="sdn_uom_name">Siemens per metre</att>
-        <att name="ioos_category">Other</att>
+        <att name="ioos_category">Salinity</att>
         <att name="ancillary_variables">QCNDC_02</att>
         <att name="cell_method">null</att>
         <att name="legacy_gf3_code">CRAT_02</att>
@@ -7283,13 +7290,13 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Electrical Conductivity</att>
-        <att name="units">S/m</att>
+        <att name="units">S m-1</att>
         <att name="standard_name">sea_water_electrical_conductivity</att>
         <att name="sdn_parameter_name">Electrical conductivity of the water body by CTD</att>
         <att name="sdn_parameter_urn">SDN:P01::CNDCST01</att>
         <att name="sdn_uom_urn">SDN:P06::UECA</att>
         <att name="sdn_uom_name">Siemens per metre</att>
-        <att name="ioos_category">Other</att>
+        <att name="ioos_category">Salinity</att>
         <att name="ancillary_variables">QCNDC_01</att>
         <att name="cell_method">null</att>
         <att name="legacy_gf3_code">CRAT_01</att>
@@ -7322,13 +7329,13 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Electrical Conductivity, 2</att>
-        <att name="units">S/m</att>
+        <att name="units">S m-1</att>
         <att name="standard_name">sea_water_electrical_conductivity</att>
         <att name="sdn_parameter_name">Electrical conductivity of the water body by CTD</att>
         <att name="sdn_parameter_urn">SDN:P01::CNDCST02</att>
         <att name="sdn_uom_urn">SDN:P06::UECA</att>
         <att name="sdn_uom_name">Siemens per metre</att>
-        <att name="ioos_category">Other</att>
+        <att name="ioos_category">Salinity</att>
         <att name="ancillary_variables">QCNDC_02</att>
         <att name="cell_method">null</att>
         <att name="legacy_gf3_code">CRAT_02</att>
@@ -8725,13 +8732,13 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Electrical Conductivity</att>
-        <att name="units">S/m</att>
+        <att name="units">S m-1</att>
         <att name="standard_name">sea_water_electrical_conductivity</att>
         <att name="sdn_parameter_name">Electrical conductivity of the water body by CTD</att>
         <att name="sdn_parameter_urn">SDN:P01::CNDCST01</att>
         <att name="sdn_uom_urn">SDN:P06::UECA</att>
         <att name="sdn_uom_name">Siemens per metre</att>
-        <att name="ioos_category">Other</att>
+        <att name="ioos_category">Salinity</att>
         <att name="ancillary_variables">QCNDC_01</att>
         <att name="cell_method">null</att>
         <att name="legacy_gf3_code">CRAT_01</att>
@@ -8764,13 +8771,13 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Electrical Conductivity, 2</att>
-        <att name="units">S/m</att>
+        <att name="units">S m-1</att>
         <att name="standard_name">sea_water_electrical_conductivity</att>
         <att name="sdn_parameter_name">Electrical conductivity of the water body by CTD</att>
         <att name="sdn_parameter_urn">SDN:P01::CNDCST02</att>
         <att name="sdn_uom_urn">SDN:P06::UECA</att>
         <att name="sdn_uom_name">Siemens per metre</att>
-        <att name="ioos_category">Other</att>
+        <att name="ioos_category">Salinity</att>
         <att name="ancillary_variables">QCNDC_02</att>
         <att name="cell_method">null</att>
         <att name="legacy_gf3_code">CRAT_02</att>

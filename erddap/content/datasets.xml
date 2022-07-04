@@ -753,6 +753,7 @@
         <att name="colorBarMinimum" type="double">0.0</att>
         <att name="ioos_category">Meteorology</att>
         <att name="long_name">Humidity Percent (&#37;)</att>
+        <att name="standard_name">relative_humidity</att>
         <att name="units">1</att>
       </addAttributes>
     </dataVariable>
@@ -778,6 +779,7 @@
       <addAttributes>
         <att name="ioos_category">Meteorology</att>
         <att name="long_name">Precip Rain Int (mm/hr)</att>
+        <att name="standard_name">rainfall_rate</att>
         <att name="units">mm h-1</att>
       </addAttributes>
     </dataVariable>
@@ -790,6 +792,7 @@
       <addAttributes>
         <att name="ioos_category">Meteorology</att>
         <att name="long_name">Precip Hail Int (hits/(cm^2 * Hr))</att>
+        <att name="standard_name">graupel_and_hail_fall_flux</att>
         <att name="units">hits/(cm^2 * hr)</att>
       </addAttributes>
     </dataVariable>
@@ -1101,6 +1104,7 @@
         <att name="colorBarMinimum" type="double">0.0</att>
         <att name="ioos_category">Meteorology</att>
         <att name="long_name">Humidity Percent (&#37;)</att>
+        <att name="standard_name">relative_humidity</att>
         <att name="units">1</att>
       </addAttributes>
     </dataVariable>
@@ -1126,6 +1130,7 @@
       <addAttributes>
         <att name="ioos_category">Meteorology</att>
         <att name="long_name">Precip Rain Int (mm/hr)</att>
+        <att name="standard_name">rainfall_rate</att>
         <att name="units">mm h-1</att>
       </addAttributes>
     </dataVariable>
@@ -1138,6 +1143,7 @@
       <addAttributes>
         <att name="ioos_category">Meteorology</att>
         <att name="long_name">Precip Hail Int (hits/(cm^2 * Hr))</att>
+        <att name="standard_name">graupel_and_hail_fall_flux</att>
         <att name="units">hits/(cm^2 * hr)</att>
       </addAttributes>
     </dataVariable>
@@ -1450,6 +1456,7 @@
         <att name="colorBarMinimum" type="double">0.0</att>
         <att name="ioos_category">Meteorology</att>
         <att name="long_name">Humidity Percent (&#37;)</att>
+        <att name="standard_name">relative_humidity</att>
         <att name="units">1</att>
       </addAttributes>
     </dataVariable>
@@ -1475,6 +1482,7 @@
       <addAttributes>
         <att name="ioos_category">Meteorology</att>
         <att name="long_name">Precip Rain Int (mm/hr)</att>
+        <att name="standard_name">rainfall_rate</att>
         <att name="units">mm hr-1</att>
       </addAttributes>
     </dataVariable>
@@ -1487,6 +1495,7 @@
       <addAttributes>
         <att name="ioos_category">Meteorology</att>
         <att name="long_name">Precip Hail Int (hits/(cm^2 * Hr))</att>
+        <att name="standard_name">graupel_and_hail_fall_flux</att>
         <att name="units">hits/(cm^2 * hr)</att>
       </addAttributes>
     </dataVariable>
@@ -4719,7 +4728,7 @@
         <att name="colorBarMaximum" type="float">100.0</att>
         <att name="colorBarMinimum" type="float">0.0</att>
         <att name="standard_name">relative_humidity</att>
-        <att name="units">percent</att>
+        <att name="units">1</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>

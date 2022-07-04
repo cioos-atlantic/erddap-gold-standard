@@ -174,6 +174,7 @@
       <addAttributes>
         <att name="ioos_category">Location</att>
         <att name="long_name">Bot Depth(m)</att>
+        <att name="standard_name">height_above_sea_floor</att>
         <att name="units">m</att>
       </addAttributes>
     </dataVariable>
@@ -208,6 +209,7 @@
       <addAttributes>
         <att name="ioos_category">Pressure</att>
         <att name="long_name">Pressure(dbar)</att>
+        <att name="standard_name">sea_water_pressure</att>
         <att name="units">dbar</att>
       </addAttributes>
     </dataVariable>
@@ -328,8 +330,9 @@
       <!-- sourceAttributes>
       </sourceAttributes -->
       <addAttributes>
-        <att name="ioos_category">Location</att>
+        <att name="ioos_category">Currents</att>
         <att name="long_name">Descent Rate(m/s)</att>
+        <att name="standard_name">platform_speed_wrt_sea_water</att>
         <att name="units">m s-1</att>
       </addAttributes>
     </dataVariable>
@@ -1727,8 +1730,9 @@
       </sourceAttributes -->
       <addAttributes>
         <att name="_FillValue" type="byte">127</att>
-        <att name="ioos_category">Location</att>
+        <att name="ioos_category">Meteorology</att>
         <att name="long_name">Beaufort Sea State</att>
+        <att name="standard_name">beaufort_wind_force</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -4418,14 +4422,14 @@
       <dataType>double</dataType>
       <!-- sourceAttributes>
           <att name="force_name">Pressure</att>
-          <att name="standard_name">sea_water_pressure</att>
-          <att name="units">dbar</att>
       </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">5000.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
         <att name="ioos_category">Pressure</att>
         <att name="long_name">Sea Water Pressure</att>
+        <att name="standard_name">sea_water_pressure</att>
+        <att name="units">dbar</att>
       </addAttributes>
     </dataVariable>
   </dataset>
@@ -4495,14 +4499,14 @@
           <att name="_FillValue" type="float">-9.0</att>
           <att name="description">Mean pressure / distance during burst</att>
           <att name="force_name">Pressure</att>
-          <att name="standard_name">sea_water_pressure</att>
-          <att name="units">dbar</att>
       </sourceAttributes -->
       <addAttributes>
         <att name="colorBarMaximum" type="double">5000.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
         <att name="ioos_category">Pressure</att>
         <att name="long_name">Sea Water Pressure</att>
+        <att name="standard_name">sea_water_pressure</att>
+        <att name="units">dbar</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -5128,7 +5132,8 @@
       <destinationName>station</destinationName>
       <dataType>String</dataType>
       <addAttributes>
-        <att name="ioos_category">Location</att>
+        <att name="ioos_category">Other</att>
+        <att name="standard_name">platform_id</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -5327,7 +5332,7 @@
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Depth (spatial coordinate) relative to water surface in the water body</att>
-        <att name="units">meters</att>
+        <att name="units">m</att>
         <att name="standard_name">depth</att>
         <att name="sdn_parameter_name">Depth (spatial coordinate) relative to water surface in the water body</att>
         <att name="sdn_parameter_urn">SDN:P01::ADEPZZ01</att>
@@ -5388,13 +5393,13 @@
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Pressure (spatial coordinate) exerted by the water body by profiling pressure sensor and correction to read zero at sea level</att>
-        <att name="units">decibar</att>
+        <att name="units">dbar</att>
         <att name="standard_name">sea_water_pressure</att>
         <att name="sdn_parameter_name">Pressure (spatial coordinate) exerted by the water body by profiling pressure sensor and correction to read zero at sea level</att>
         <att name="sdn_parameter_urn">SDN:P01::PRESPR01</att>
         <att name="sdn_uom_urn">SDN:P06::UPDB</att>
         <att name="sdn_uom_name">Decibars</att>
-        <att name="ioos_category">Location</att>
+        <att name="ioos_category">Pressure</att>
         <att name="ancillary_variables">QPRES_01</att>
         <att name="cell_method">null</att>
         <att name="legacy_gf3_code">PRES_01</att>
@@ -6571,7 +6576,8 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <destinationName>station</destinationName>
       <dataType>String</dataType>
       <addAttributes>
-        <att name="ioos_category">Location</att>
+        <att name="ioos_category">Other</att>
+        <att name="standard_name">platform_id</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -6770,7 +6776,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Depth (spatial coordinate) relative to water surface in the water body</att>
-        <att name="units">meters</att>
+        <att name="units">m</att>
         <att name="standard_name">depth</att>
         <att name="sdn_parameter_name">Depth (spatial coordinate) relative to water surface in the water body</att>
         <att name="sdn_parameter_urn">SDN:P01::ADEPZZ01</att>
@@ -6831,13 +6837,13 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Pressure (spatial coordinate) exerted by the water body by profiling pressure sensor and correction to read zero at sea level</att>
-        <att name="units">decibar</att>
+        <att name="units">dbar</att>
         <att name="standard_name">sea_water_pressure</att>
         <att name="sdn_parameter_name">Pressure (spatial coordinate) exerted by the water body by profiling pressure sensor and correction to read zero at sea level</att>
         <att name="sdn_parameter_urn">SDN:P01::PRESPR01</att>
         <att name="sdn_uom_urn">SDN:P06::UPDB</att>
         <att name="sdn_uom_name">Decibars</att>
-        <att name="ioos_category">Location</att>
+        <att name="ioos_category">Pressure</att>
         <att name="ancillary_variables">QPRES_01</att>
         <att name="cell_method">null</att>
         <att name="legacy_gf3_code">PRES_01</att>
@@ -8010,7 +8016,8 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <destinationName>station</destinationName>
       <dataType>String</dataType>
       <addAttributes>
-        <att name="ioos_category">Location</att>
+        <att name="ioos_category">Other</att>
+        <att name="standard_name">platform_id</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -8209,7 +8216,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Depth (spatial coordinate) relative to water surface in the water body</att>
-        <att name="units">meters</att>
+        <att name="units">m</att>
         <att name="standard_name">depth</att>
         <att name="sdn_parameter_name">Depth (spatial coordinate) relative to water surface in the water body</att>
         <att name="sdn_parameter_urn">SDN:P01::ADEPZZ01</att>
@@ -8270,13 +8277,13 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="_FillValue">nan</att>
         <att name="long_name">Pressure (spatial coordinate) exerted by the water body by profiling pressure sensor and correction to read zero at sea level</att>
-        <att name="units">decibar</att>
+        <att name="units">dbar</att>
         <att name="standard_name">sea_water_pressure</att>
         <att name="sdn_parameter_name">Pressure (spatial coordinate) exerted by the water body by profiling pressure sensor and correction to read zero at sea level</att>
         <att name="sdn_parameter_urn">SDN:P01::PRESPR01</att>
         <att name="sdn_uom_urn">SDN:P06::UPDB</att>
         <att name="sdn_uom_name">Decibars</att>
-        <att name="ioos_category">Location</att>
+        <att name="ioos_category">Pressure</att>
         <att name="ancillary_variables">QPRES_01</att>
         <att name="cell_method">null</att>
         <att name="legacy_gf3_code">PRES_01</att>

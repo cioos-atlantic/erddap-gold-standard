@@ -174,7 +174,7 @@
       <addAttributes>
         <att name="ioos_category">Location</att>
         <att name="long_name">Bot Depth(m)</att>
-        <att name="standard_name">height_above_sea_floor</att>
+        <att name="standard_name">depth</att>
         <att name="units">m</att>
       </addAttributes>
     </dataVariable>
@@ -332,7 +332,7 @@
       <!-- sourceAttributes>
       </sourceAttributes -->
       <addAttributes>
-        <att name="ioos_category">Currents</att>
+        <att name="ioos_category">Other</att>
         <att name="long_name">Descent Rate(m/s)</att>
         <att name="standard_name">platform_speed_wrt_sea_water</att>
         <att name="units">m s-1</att>
@@ -1620,6 +1620,7 @@
       <addAttributes>
         <att name="ioos_category">Location</att>
         <att name="long_name">Study Area</att>
+        <att name="standard_name">platform_name</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -1753,7 +1754,7 @@
       <!-- sourceAttributes>
       </sourceAttributes -->
       <addAttributes>
-        <att name="ioos_category">Currents</att>
+        <att name="ioos_category">Other</att>
         <att name="long_name">Trawl Speed</att>
         <att name="standard_name">platform_speed_wrt_sea_water</att>
         <att name="units">knots</att>
@@ -9470,8 +9471,9 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <!-- sourceAttributes>
       </sourceAttributes -->
       <addAttributes>
-        <att name="ioos_category">Sea Level</att>
+        <att name="ioos_category">Location</att>
         <att name="long_name">Tide Station Name</att>
+        <att name="standard_name">platform_name</att>
       </addAttributes>
     </dataVariable>
   </dataset>

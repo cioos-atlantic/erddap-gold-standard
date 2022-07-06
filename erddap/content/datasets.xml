@@ -810,8 +810,9 @@
       <!-- sourceAttributes>
       </sourceAttributes -->
       <addAttributes>
-        <att name="ioos_category">Unknown</att>
-        <att name="long_name">Compass Deci Deg (degrees)</att>
+        <att name="ioos_category">Other</att>
+        <att name="long_name">Compass Direction</att>
+        <att name="standard_name">platform_orientation</att>
         <att name="units">degree</att>
       </addAttributes>
     </dataVariable>
@@ -823,7 +824,8 @@
       </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Wind</att>
-        <att name="long_name">Wind Bearing (degrees)</att>
+        <att name="long_name">Wind To Direction</att>
+        <att name="standard_name">wind_to_direction</att>
         <att name="units">degree</att>
       </addAttributes>
     </dataVariable>
@@ -1166,8 +1168,9 @@
       <!-- sourceAttributes>
       </sourceAttributes -->
       <addAttributes>
-        <att name="ioos_category">Unknown</att>
-        <att name="long_name">Compass Deci Deg (degrees)</att>
+        <att name="ioos_category">Other</att>
+        <att name="long_name">Compass Direction</att>
+        <att name="standard_name">platform_orientation</att>
         <att name="units">degree</att>
       </addAttributes>
     </dataVariable>
@@ -1179,7 +1182,8 @@
       </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Wind</att>
-        <att name="long_name">Wind Bearing (degrees)</att>
+        <att name="long_name">Wind To Direction</att>
+        <att name="standard_name">wind_to_direction</att>
         <att name="units">degree</att>
       </addAttributes>
     </dataVariable>
@@ -1523,8 +1527,9 @@
       <!-- sourceAttributes>
       </sourceAttributes -->
       <addAttributes>
-        <att name="ioos_category">Unknown</att>
-        <att name="long_name">Compass Deci Deg (degrees)</att>
+        <att name="ioos_category">Other</att>
+        <att name="long_name">Compass Direction</att>
+        <att name="standard_name">platform_orientation</att>
         <att name="units">degree</att>
       </addAttributes>
     </dataVariable>
@@ -1536,7 +1541,8 @@
       </sourceAttributes -->
       <addAttributes>
         <att name="ioos_category">Wind</att>
-        <att name="long_name">Wind Bearing (degrees)</att>
+        <att name="long_name">Wind To Direction</att>
+        <att name="standard_name">wind_to_direction</att>
         <att name="units">degree</att>
       </addAttributes>
     </dataVariable>
@@ -4366,7 +4372,7 @@
         <att name="ioos_category">Currents</att>
         <att name="long_name">Eastward Sea Water Velocity</att>
         <att name="standard_name">eastward_sea_water_velocity</att>
-        <att name="units">m/s</att>
+        <att name="units">m s-1</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -4381,7 +4387,7 @@
         <att name="ioos_category">Currents</att>
         <att name="long_name">Northward Sea Water Velocity</att>
         <att name="standard_name">northward_sea_water_velocity</att>
-        <att name="units">m/s</att>
+        <att name="units">m s-1</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -4396,7 +4402,7 @@
         <att name="ioos_category">Currents</att>
         <att name="long_name">Upward Sea Water Velocity</att>
         <att name="standard_name">upward_sea_water_velocity</att>
-        <att name="units">m/s</att>
+        <att name="units">m s-1</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -4409,7 +4415,7 @@
         <att name="ioos_category">Currents</att>
         <att name="long_name">Speed Of Sound In Sea Water</att>
         <att name="standard_name">speed_of_sound_in_sea_water</att>
-        <att name="units">m/s</att>
+        <att name="units">m s-1</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -4778,7 +4784,7 @@
         <att name="long_name">Wind Speed</att>
         <att name="standard_name">wind_speed</att>
         <att name="valid_range" type="floatList">0.0 51.444</att>
-        <att name="units">m/s</att>
+        <att name="units">m s-1</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -4805,7 +4811,7 @@
         <att name="long_name">Wind Speed 15min Max</att>
         <att name="standard_name">wind_speed_of_gust</att>
         <att name="valid_range" type="floatList">0.0 51.444</att>
-        <att name="units">m/s</att>
+        <att name="units">m s-1</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -4856,7 +4862,7 @@
         <att name="long_name">Wind Speed 2min Max</att>
         <att name="standard_name">wind_speed_of_gust</att>
         <att name="valid_range" type="floatList">0.0 51.444</att>
-        <att name="units">m/s</att>
+        <att name="units">m s-1</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -4939,7 +4945,7 @@
         <att name="long_name">Wind Speed 15min Median</att>
         <att name="standard_name">wind_speed</att>
         <att name="valid_range" type="floatList">0.0 51.444</att>
-        <att name="units">m/s</att>
+        <att name="units">m s-1</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -4953,7 +4959,7 @@
         <att name="long_name">Wind Speed 15min Average</att>
         <att name="standard_name">wind_speed</att>
         <att name="valid_range" type="floatList">0.0 51.444</att>
-        <att name="units">m/s</att>
+        <att name="units">m s-1</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>

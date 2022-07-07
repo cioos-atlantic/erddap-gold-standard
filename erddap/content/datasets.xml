@@ -5161,7 +5161,7 @@
       <destinationName>geographic_area</destinationName>
       <dataType>String</dataType>
       <addAttributes>
-        <att name="ioos_category">Other</att>
+        <att name="ioos_category">Location</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -5201,6 +5201,7 @@
       <addAttributes>
         <att name="long_name">Profile Direction</att>
         <att name="ioos_category">Other</att>
+        <att name="standard_name">platform_orientation</att>
         <att name="coverage_content_type">auxiliaryInformation</att>
       </addAttributes>
     </dataVariable>
@@ -6099,7 +6100,7 @@
         <att name="sdn_parameter_urn">SDN:P01::CPHLPR01</att>
         <att name="sdn_uom_urn">SDN:P06::UMMC</att>
         <att name="sdn_uom_name">Milligrams per cubic metre</att>
-        <att name="ioos_category">Other</att>
+        <att name="ioos_category">Ocean Color</att>
         <att name="ancillary_variables">QCPHLPR01</att>
         <att name="cell_method">null</att>
         <att name="legacy_gf3_code">FLOR_01</att>
@@ -6138,7 +6139,7 @@
         <att name="sdn_parameter_urn">SDN:P01::CPHLPR01</att>
         <att name="sdn_uom_urn">SDN:P06::UMMC</att>
         <att name="sdn_uom_name">Milligrams per cubic metre</att>
-        <att name="ioos_category">Other</att>
+        <att name="ioos_category">Ocean Color</att>
         <att name="ancillary_variables">QCPHLPR02</att>
         <att name="cell_method">null</att>
         <att name="legacy_gf3_code">FLOR_02</att>
@@ -6605,7 +6606,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <destinationName>geographic_area</destinationName>
       <dataType>String</dataType>
       <addAttributes>
-        <att name="ioos_category">Other</att>
+        <att name="ioos_category">Location</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -6645,6 +6646,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="long_name">Profile Direction</att>
         <att name="ioos_category">Other</att>
+        <att name="standard_name">platform_orientation</att>
         <att name="coverage_content_type">auxiliaryInformation</att>
       </addAttributes>
     </dataVariable>
@@ -7543,7 +7545,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
         <att name="sdn_parameter_urn">SDN:P01::CPHLPR01</att>
         <att name="sdn_uom_urn">SDN:P06::UMMC</att>
         <att name="sdn_uom_name">Milligrams per cubic metre</att>
-        <att name="ioos_category">Other</att>
+        <att name="ioos_category">Ocean Color</att>
         <att name="ancillary_variables">QCPHLPR01</att>
         <att name="cell_method">null</att>
         <att name="legacy_gf3_code">FLOR_01</att>
@@ -7582,7 +7584,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
         <att name="sdn_parameter_urn">SDN:P01::CPHLPR01</att>
         <att name="sdn_uom_urn">SDN:P06::UMMC</att>
         <att name="sdn_uom_name">Milligrams per cubic metre</att>
-        <att name="ioos_category">Other</att>
+        <att name="ioos_category">Ocean Color</att>
         <att name="ancillary_variables">QCPHLPR02</att>
         <att name="cell_method">null</att>
         <att name="legacy_gf3_code">FLOR_02</att>
@@ -8045,7 +8047,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <destinationName>geographic_area</destinationName>
       <dataType>String</dataType>
       <addAttributes>
-        <att name="ioos_category">Other</att>
+        <att name="ioos_category">Location</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -8085,6 +8087,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <addAttributes>
         <att name="long_name">Profile Direction</att>
         <att name="ioos_category">Other</att>
+        <att name="standard_name">platform_orientation</att>
         <att name="coverage_content_type">auxiliaryInformation</att>
       </addAttributes>
     </dataVariable>
@@ -8983,7 +8986,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
         <att name="sdn_parameter_urn">SDN:P01::CPHLPR01</att>
         <att name="sdn_uom_urn">SDN:P06::UMMC</att>
         <att name="sdn_uom_name">Milligrams per cubic metre</att>
-        <att name="ioos_category">Other</att>
+        <att name="ioos_category">Ocean Color</att>
         <att name="ancillary_variables">QCPHLPR01</att>
         <att name="cell_method">null</att>
         <att name="legacy_gf3_code">FLOR_01</att>
@@ -9022,7 +9025,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
         <att name="sdn_parameter_urn">SDN:P01::CPHLPR01</att>
         <att name="sdn_uom_urn">SDN:P06::UMMC</att>
         <att name="sdn_uom_name">Milligrams per cubic metre</att>
-        <att name="ioos_category">Other</att>
+        <att name="ioos_category">Ocean Color</att>
         <att name="ancillary_variables">QCPHLPR02</att>
         <att name="cell_method">null</att>
         <att name="legacy_gf3_code">FLOR_02</att>

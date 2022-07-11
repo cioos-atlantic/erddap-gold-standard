@@ -2253,7 +2253,7 @@
       <!-- sourceAttributes>
       </sourceAttributes -->
       <addAttributes>
-        <att name="ioos_category">Other</att>
+        <att name="ioos_category">Location</att>
         <att name="long_name">CIL Area</att>
         <att name="units">1</att>
       </addAttributes>

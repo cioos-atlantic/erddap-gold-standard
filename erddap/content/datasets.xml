@@ -2478,8 +2478,8 @@
 
     <!-- CMAR Sensor Strings: START -->
 
-    <!-- CMAR sensor string 9qw2-yb2f START -->
-    <dataset active="false" datasetID="9qw2-yb2f" type="EDDTableFromAsciiFiles">
+    <!-- CMAR sensor string 9qw2-yb2f_unsplit START -->
+    <dataset active="false" datasetID="9qw2-yb2f_unsplit" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/cmar/nsodp-sensor-strings/9qw2-yb2f</fileDir>
@@ -2668,11 +2668,11 @@
       </addAttributes>
     </dataVariable>
   </dataset>
-  <!-- CMAR sensor string 9qw2-yb2f END -->
+  <!-- CMAR sensor string 9qw2-yb2f_unsplit END -->
 
 
   <!-- CMAR sensor string 9qw2-yb2f_split START -->
-  <dataset active="true" datasetID="9qw2-yb2f_split" type="EDDTableFromAsciiFiles">
+  <dataset active="true" datasetID="9qw2-yb2f" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/cmar/nsodp-sensor-strings/9qw2-yb2f/final_output</fileDir>
@@ -2863,8 +2863,8 @@
   </dataset>
   <!-- CMAR sensor string 9qw2-yb2f_split END -->
 
-  <!-- CMAR sensor string a9za-3t63 START -->
-  <dataset active="false" datasetID="a9za-3t63" type="EDDTableFromAsciiFiles">
+  <!-- CMAR sensor string a9za-3t63_unsplit START -->
+  <dataset active="false" datasetID="a9za-3t63_unsplit" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/cmar/nsodp-sensor-strings/a9za-3t63</fileDir>
@@ -3041,10 +3041,10 @@
       </addAttributes>
     </dataVariable>
   </dataset>
-  <!-- CMAR sensor string a9za-3t63: END -->
+  <!-- CMAR sensor string a9za-3t63_unsplit: END -->
 
   <!-- CMAR sensor string a9za-3t63_split START -->
-  <dataset active="true" datasetID="a9za-3t63_split" type="EDDTableFromAsciiFiles">
+  <dataset active="true" datasetID="a9za-3t63" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/cmar/nsodp-sensor-strings/a9za-3t63</fileDir>
@@ -3223,8 +3223,8 @@
   </dataset>
   <!-- CMAR sensor string a9za-3t63_split: END -->
 
-  <!-- CMAR sensor string adpu-nyt8: START -->
-  <dataset active="false" datasetID="adpu-nyt8" type="EDDTableFromAsciiFiles">
+  <!-- CMAR sensor string adpu-nyt8_unsplit: START -->
+  <dataset active="false" datasetID="adpu-nyt8_unsplit" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/cmar/nsodp-sensor-strings/adpu-nyt8</fileDir>
@@ -3401,10 +3401,10 @@
       </addAttributes>
     </dataVariable>
   </dataset>
-  <!-- CMAR sensor string adpu-nyt8: END -->
+  <!-- CMAR sensor string adpu-nyt8_unsplit: END -->
 
   <!-- CMAR sensor string adpu-nyt8_split: START -->
-  <dataset active="true" datasetID="adpu-nyt8_split" type="EDDTableFromAsciiFiles">
+  <dataset active="true" datasetID="adpu-nyt8" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/cmar/nsodp-sensor-strings/adpu-nyt8</fileDir>
@@ -3595,8 +3595,8 @@
   </dataset>
   <!-- CMAR sensor string adpu-nyt8_split: END -->
 
-  <!-- CMAR sensor string eb3n-uxcb: START -->
-  <dataset active="false" datasetID="eb3n-uxcb" type="EDDTableFromAsciiFiles">
+  <!-- CMAR sensor string eb3n-uxcb_unsplit: START -->
+  <dataset active="false" datasetID="eb3n-uxcb_unsplit" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/cmar/nsodp-sensor-strings/eb3n-uxcb</fileDir>
@@ -3785,10 +3785,10 @@
       </addAttributes>
     </dataVariable>
   </dataset>
-  <!-- CMAR sensor string eb3n-uxcb: END -->
+  <!-- CMAR sensor string eb3n-uxcb_unsplit: END -->
 
   <!-- CMAR sensor string eb3n-uxcb_split: START -->
-  <dataset active="true" datasetID="eb3n-uxcb_split" type="EDDTableFromAsciiFiles">
+  <dataset active="true" datasetID="eb3n-uxcb" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/cmar/nsodp-sensor-strings/eb3n-uxcb/final_output/</fileDir>
@@ -3979,8 +3979,8 @@
   </dataset>
   <!-- CMAR sensor string eb3n-uxcb_split: END -->
 
-  <!-- CMAR sensor string eda5-aubu: START -->
-  <dataset active="false" datasetID="eda5-aubu" type="EDDTableFromAsciiFiles">
+  <!-- CMAR sensor string eda5-aubu_unsplit: START -->
+  <dataset active="false" datasetID="eda5-aubu_unsplit" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/cmar/nsodp-sensor-strings/eda5-aubu</fileDir>
@@ -4169,11 +4169,11 @@
       </addAttributes>
     </dataVariable>
   </dataset>
-  <!-- CMAR sensor string eda5-aubu: END -->
+  <!-- CMAR sensor string eda5-aubu_unsplit: END -->
 
   
   <!-- CMAR sensor string eda5-aubu_split: START -->
-  <dataset active="true" datasetID="eda5-aubu_split" type="EDDTableFromAsciiFiles">
+  <dataset active="true" datasetID="eda5-aubu" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/cmar/nsodp-sensor-strings/eda5-aubu/final_output/</fileDir>
@@ -4365,8 +4365,8 @@
   <!-- CMAR sensor string eda5-aubu_split: END -->
 
 
-  <!-- CMAR sensor string knwz-4bap: START -->
-  <dataset active="false" datasetID="knwz-4bap" type="EDDTableFromAsciiFiles">
+  <!-- CMAR sensor string knwz-4bap_unsplit: START -->
+  <dataset active="false" datasetID="knwz-4bap_unsplit" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/cmar/nsodp-sensor-strings/knwz-4bap</fileDir>
@@ -4543,10 +4543,10 @@
       </addAttributes>
     </dataVariable>
   </dataset>
-  <!-- CMAR sensor string knwz-4bap: END -->
+  <!-- CMAR sensor string knwz-4bap_unsplit: END -->
 
   <!-- CMAR sensor string knwz-4bap_split: START -->
-  <dataset active="true" datasetID="knwz-4bap_split" type="EDDTableFromAsciiFiles">
+  <dataset active="true" datasetID="knwz-4bap" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/cmar/nsodp-sensor-strings/knwz-4bap/final_output/</fileDir>
@@ -4737,8 +4737,8 @@
   </dataset>
   <!-- CMAR sensor string knwz-4bap_split: END -->
 
-  <!-- CMAR sensor string mq2k-54s4: START -->
-  <dataset active="false" datasetID="mq2k-54s4" type="EDDTableFromAsciiFiles">
+  <!-- CMAR sensor string mq2k-54s4_unsplit: START -->
+  <dataset active="false" datasetID="mq2k-54s4_unsplit" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/cmar/nsodp-sensor-strings/mq2k-54s4</fileDir>
@@ -4915,10 +4915,10 @@
       </addAttributes>
     </dataVariable>
   </dataset>
-  <!-- CMAR sensor string mq2k-54s4: END -->
+  <!-- CMAR sensor string mq2k-54s4_unsplit: END -->
 
   <!-- CMAR sensor string mq2k-54s4_split: START -->
-  <dataset active="true" datasetID="mq2k-54s4_split" type="EDDTableFromAsciiFiles">
+  <dataset active="true" datasetID="mq2k-54s4" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/cmar/nsodp-sensor-strings/mq2k-54s4/final_output/</fileDir>
@@ -5109,8 +5109,8 @@
   </dataset>
   <!-- CMAR sensor string mq2k-54s4_split: END -->
 
-  <!-- CMAR sensor string v6sa-tiit: START -->
-  <dataset active="false" datasetID="v6sa-tiit" type="EDDTableFromAsciiFiles">
+  <!-- CMAR sensor string v6sa-tiit_unsplit: START -->
+  <dataset active="false" datasetID="v6sa-tiit_unsplit" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/cmar/nsodp-sensor-strings/v6sa-tiit</fileDir>
@@ -5287,10 +5287,10 @@
       </addAttributes>
     </dataVariable>
   </dataset>
-  <!-- CMAR sensor string v6sa-tiit: END -->
+  <!-- CMAR sensor string v6sa-tiit_unsplit: END -->
 
   <!-- CMAR sensor string v6sa-tiit_split: START -->
-  <dataset active="true" datasetID="v6sa-tiit_split" type="EDDTableFromAsciiFiles">
+  <dataset active="true" datasetID="v6sa-tiit" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/cmar/nsodp-sensor-strings/v6sa-tiit/final_output/</fileDir>
@@ -5481,8 +5481,8 @@
   </dataset>
   <!-- CMAR sensor string v6sa-tiit_split: END -->
 
-  <!-- CMAR sensor string wpsu-7fer: START -->
-  <dataset active="false" datasetID="wpsu-7fer" type="EDDTableFromAsciiFiles">
+  <!-- CMAR sensor string wpsu-7fer_unsplit: START -->
+  <dataset active="false" datasetID="wpsu-7fer_unsplit" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/cmar/nsodp-sensor-strings/wpsu-7fer</fileDir>
@@ -5659,10 +5659,10 @@
       </addAttributes>
     </dataVariable>
   </dataset>
-  <!-- CMAR sensor string wpsu-7fer: END -->
+  <!-- CMAR sensor string wpsu-7fer_unsplit: END -->
 
   <!-- CMAR sensor string wpsu-7fer_split: START -->
-  <dataset active="true" datasetID="wpsu-7fer_split" type="EDDTableFromAsciiFiles">
+  <dataset active="true" datasetID="wpsu-7fer" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/cmar/nsodp-sensor-strings/wpsu-7fer/final_output/</fileDir>
@@ -5853,8 +5853,8 @@
   </dataset>
   <!-- CMAR sensor string wpsu-7fer_split: END -->
 
-  <!-- CMAR sensor string x9dy-aai9: START -->
-  <dataset active="false" datasetID="x9dy-aai9" type="EDDTableFromAsciiFiles">
+  <!-- CMAR sensor string x9dy-aai9_unsplit: START -->
+  <dataset active="false" datasetID="x9dy-aai9_unsplit" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/cmar/nsodp-sensor-strings/x9dy-aai9</fileDir>
@@ -6031,10 +6031,10 @@
       </addAttributes>
     </dataVariable>
   </dataset>
-  <!-- CMAR sensor string x9dy-aai9: END -->
+  <!-- CMAR sensor string x9dy-aai9_unsplit: END -->
 
   <!-- CMAR sensor string x9dy-aai9_split: START -->
-  <dataset active="true" datasetID="x9dy-aai9_split" type="EDDTableFromAsciiFiles">
+  <dataset active="true" datasetID="x9dy-aai9" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/cmar/nsodp-sensor-strings/x9dy-aai9/final_output/</fileDir>

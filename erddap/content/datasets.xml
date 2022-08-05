@@ -2392,8 +2392,10 @@
   <dataset active="true" datasetID="eb3n-uxcb" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/datasets/cmar/nsodp-sensor-strings/eb3n-uxcb</fileDir>
-    <fileNameRegex>.*merged\.csv</fileNameRegex>
+    <!-- <fileDir>/datasets/cmar/nsodp-sensor-strings/eb3n-uxcb</fileDir>
+    <fileNameRegex>.*merged\.csv</fileNameRegex> -->
+    <fileDir>/datasets/cmar/nsodp-sensor-strings/eb3n-uxcb/final_output/</fileDir>
+    <fileNameRegex>eb3n-uxcb_\d+-\d+-\d+\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -2577,8 +2579,10 @@
   <dataset active="true" datasetID="adpu-nyt8" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/datasets/cmar/nsodp-sensor-strings/adpu-nyt8</fileDir>
-    <fileNameRegex>.*merged\.csv</fileNameRegex>
+    <!-- <fileDir>/datasets/cmar/nsodp-sensor-strings/adpu-nyt8</fileDir>
+    <fileNameRegex>.*merged\.csv</fileNameRegex> -->
+    <fileDir>/datasets/cmar/nsodp-sensor-strings/adpu-nyt8/final_output/</fileDir>
+    <fileNameRegex>adpu-nyt8_\d+-\d+-\d+\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -2752,8 +2756,10 @@
   <dataset active="true" datasetID="eda5-aubu" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/datasets/cmar/nsodp-sensor-strings/eda5-aubu</fileDir>
-    <fileNameRegex>.*merged\.csv</fileNameRegex>
+    <!-- <fileDir>/datasets/cmar/nsodp-sensor-strings/eda5-aubu</fileDir>
+    <fileNameRegex>.*merged\.csv</fileNameRegex> -->
+    <fileDir>/datasets/cmar/nsodp-sensor-strings/eda5-aubu/final_output/</fileDir>
+    <fileNameRegex>eda5-aubu_\d+-\d+-\d+\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -2937,8 +2943,10 @@
   <dataset active="true" datasetID="knwz-4bap" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/datasets/cmar/nsodp-sensor-strings/knwz-4bap</fileDir>
-    <fileNameRegex>.*merged\.csv</fileNameRegex>
+    <!-- <fileDir>/datasets/cmar/nsodp-sensor-strings/knwz-4bap</fileDir>
+    <fileNameRegex>.*merged\.csv</fileNameRegex> -->
+    <fileDir>/datasets/cmar/nsodp-sensor-strings/knwz-4bap/final_output/</fileDir>
+    <fileNameRegex>knwz-4bap_\d+-\d+-\d+\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -3112,8 +3120,10 @@
   <dataset active="true" datasetID="9qw2-yb2f" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/datasets/cmar/nsodp-sensor-strings/9qw2-yb2f</fileDir>
-    <fileNameRegex>.*merged\.csv</fileNameRegex>
+    <!-- <fileDir>/datasets/cmar/nsodp-sensor-strings/9qw2-yb2f</fileDir>
+    <fileNameRegex>.*merged\.csv</fileNameRegex> -->
+    <fileDir>/datasets/cmar/nsodp-sensor-strings/9qw2-yb2f/final_output/</fileDir>
+    <fileNameRegex>9qw2-yb2f_\d+-\d+-\d+\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -3297,8 +3307,10 @@
   <dataset active="true" datasetID="v6sa-tiit" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/datasets/cmar/nsodp-sensor-strings/v6sa-tiit</fileDir>
-    <fileNameRegex>.*merged\.csv</fileNameRegex>
+    <!-- <fileDir>/datasets/cmar/nsodp-sensor-strings/v6sa-tiit</fileDir>
+    <fileNameRegex>.*merged\.csv</fileNameRegex> -->
+    <fileDir>/datasets/cmar/nsodp-sensor-strings/v6sa-tiit/final_output/</fileDir>
+    <fileNameRegex>v6sa-tiit_\d+-\d+-\d+\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -3472,8 +3484,10 @@
   <dataset active="true" datasetID="wpsu-7fer" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/datasets/cmar/nsodp-sensor-strings/wpsu-7fer</fileDir>
-    <fileNameRegex>.*merged\.csv</fileNameRegex>
+    <!-- <fileDir>/datasets/cmar/nsodp-sensor-strings/wpsu-7fer</fileDir>
+    <fileNameRegex>.*merged\.csv</fileNameRegex> -->
+    <fileDir>/datasets/cmar/nsodp-sensor-strings/wpsu-7fer/final_output/</fileDir>
+    <fileNameRegex>wpsu-7fer_\d+-\d+-\d+\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -3648,8 +3662,10 @@
   <dataset active="true" datasetID="a9za-3t63" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/datasets/cmar/nsodp-sensor-strings/a9za-3t63</fileDir>
-    <fileNameRegex>.*merged\.csv</fileNameRegex>
+    <!-- <fileDir>/datasets/cmar/nsodp-sensor-strings/a9za-3t63</fileDir>
+    <fileNameRegex>.*merged\.csv</fileNameRegex> -->
+    <fileDir>/datasets/cmar/nsodp-sensor-strings/a9za-3t63/final_output/</fileDir>
+    <fileNameRegex>a9za-3t63_\d+-\d+-\d+\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -3823,8 +3839,10 @@
   <dataset active="true" datasetID="x9dy-aai9" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/datasets/cmar/nsodp-sensor-strings/x9dy-aai9</fileDir>
-    <fileNameRegex>.*merged\.csv</fileNameRegex>
+    <!-- <fileDir>/datasets/cmar/nsodp-sensor-strings/x9dy-aai9</fileDir>
+    <fileNameRegex>.*merged\.csv</fileNameRegex> -->
+    <fileDir>/datasets/cmar/nsodp-sensor-strings/x9dy-aai9/final_output/</fileDir>
+    <fileNameRegex>x9dy-aai9_\d+-\d+-\d+\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -3998,8 +4016,10 @@
   <dataset active="true" datasetID="mq2k-54s4" type="EDDTableFromAsciiFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/datasets/cmar/nsodp-sensor-strings/mq2k-54s4</fileDir>
-    <fileNameRegex>.*merged\.csv</fileNameRegex>
+    <!-- <fileDir>/datasets/cmar/nsodp-sensor-strings/mq2k-54s4</fileDir>
+    <fileNameRegex>.*merged\.csv</fileNameRegex> -->
+    <fileDir>/datasets/cmar/nsodp-sensor-strings/mq2k-54s4/final_output/</fileDir>
+    <fileNameRegex>mq2k-54s4_\d+-\d+-\d+\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -5072,8 +5092,8 @@
   </dataset>
   <!-- St. FX Marine Ecology Lab HOBO logger: END -->
 
-  <!-- Maritimes Region Atlantic Zone Monitoring Program (AZMP): START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="maritimes_region_atlantic_zone_monitoring_program" active="true">
+  <!-- Maritimes Region Atlantic Zone Monitoring Program (AZMP) Rosette Vertical Profiles: START -->
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="maritimes_region_atlantic_zone_monitoring_program_rosette_vertical_profiles" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/ctd/Atlantic Zone Monitoring Program/</fileDir>
@@ -5123,8 +5143,8 @@
       <att name="project">SCOTIAN SHELF</att>
       <att name="summary">The Atlantic Zone Monitoring Program (AZMP) was implemented in 1998 with the aim of detecting and tracking climate change and variability in the northwest Atlantic, evaluating changes in the physical, chemical and biological ocean properties and predator-prey dynamics of marine resources, thereby enhancing Canada's ability to understand, describe, and forecast the state of the marine ecosystem. AZMP's sampling scheme in the Maritimes Region involves oceanographic sampling at two high-frequency (biweekly to monthly) fixed coastal stations, biannual sampling at stratified-random locations during DFO-led Ecosystem Trawl Surveys, biannual sampling along fixed cross-shelf sections (Cabot Strait Line, Louisbourg Line, Halifax Line, Browns Bank Line, and the Northeast Channel); the latter of which may also include opportunistic sampling at stations in the Laurentian Channel, Gulf of Maine, and various Marine Protected Areas (MPAs) in support of ancillary research programs and initiatives. AZMP sampling is conducted according to standard procedures (see https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) and includes the collection of CTD profiles and water samples for the determination of physical (e.g., T, S), chemical (e.g., nutrients, oxygen, pH), and biological (chl a) variables and vertical ring net tows. The data collected are synthesized into two annual reports on the physical and chemical/biological changes in the Maritimes Region, and are also used to evaluate changes across the Atlantic zone.</att>
       <att name="summary_fra">Le Programme de surveillance de la zone atlantique (PMZA) a été mis en œuvre en 1998 dans le but de détecter et de suivre les changements climatiques et la variabilité dans l'Atlantique Nord-Ouest, d'évaluer les changements dans les propriétés physiques, chimiques et biologiques de l'océan et la dynamique prédateur-proie des ressources marines, améliorant ainsi le Canada. de comprendre, de décrire et de prévoir l'état de l'écosystème marin. Le schéma d'échantillonnage de l'AZMP dans la région des Maritimes comprend un échantillonnage océanographique à deux stations côtières fixes à haute fréquence (bihebdomadaire à mensuelle), un échantillonnage semestriel à des emplacements stratifiés aléatoires pendant les relevés au chalut écosystémique dirigés par le MPO, un échantillonnage biannuel le long de sections transversales fixes (Cabot Strait Line, Louisbourg Line, Halifax Line, Browns Bank Line et Northeast Channel) ; ces derniers peuvent également inclure un échantillonnage opportuniste dans les stations du chenal Laurentien, du golfe du Maine et de diverses aires marines protégées (AMP) à l'appui de programmes et d'initiatives de recherche auxiliaire. L'échantillonnage AZMP est effectué conformément aux procédures normalisées (voir https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) et comprend la collecte de profils CTD et d'échantillons d'eau pour la détermination des variables physiques (p. ex. T, S), chimiques (nutriments, oxygène, pH) et biologiques (chl a) et verticales remorquage de filet d'anneau. Les données recueillies sont synthétisées dans deux rapports annuels sur les changements physiques et chimiques et biologiques dans la région des Maritimes, et sont également utilisées pour évaluer les changements dans la zone atlantique.</att>
-      <att name="title">Maritimes Region Atlantic Zone Monitoring Program (AZMP)</att>
-      <att name="title_fra">Programme de surveillance de la zone atlantique (MPZA)</att>
+      <att name="title">Maritimes Region Atlantic Zone Monitoring Program (AZMP) Rosette Vertical Profiles</att>
+      <att name="title_fra">Programme de surveillance de la zone atlantique de la région des Maritimes (PMZA) profils verticaux des rosettes</att>
       <att name="creator_type">institution</att>
       <att name="sourceUrl">(local files)</att>
       <att name="platform">research vessel</att>
@@ -6509,10 +6529,10 @@
       </addAttributes>
     </dataVariable>
   </dataset>
-  <!-- Maritimes Region Atlantic Zone Monitoring Program (AZMP): END -->
+  <!-- Maritimes Region Atlantic Zone Monitoring Program (AZMP) Rosette Vertical Profiles: END -->
 
-  <!-- Maritimes Region Atlantic Zone Off-shelf Monitoring Program (AZOMP): START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="maritimes_region_atlantic_zone_off_shelf_monitoring_program" active="true">
+  <!-- Maritimes Region Atlantic Zone Off-shelf Monitoring Program (AZOMP) Rosette Vertical Profiles: START -->
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="maritimes_region_atlantic_zone_off_shelf_monitoring_program_rosette_vertical_profiles" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/ctd/Atlantic Zone Off-Shelf Monitoring Program/</fileDir>
@@ -6565,7 +6585,7 @@ Annual measurements in the Labrador Sea began in 1990 as a contribution to the W
 
 AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual sampling of both the extended Halifax Line, deep-water stations over the Scotian Slope and Rise located at the end of AZMP’s Halifax Line, and the Atlantic Repeat 7-West (AR7W) line, a 880 km-line running from Misery Point, Labrador to Cape Desolation, Greenland. Opportunistic sampling may also occur at stations in the Strait of Belle Ilse, station 27, Labrador Shelf, and OSNAP West line in support of ancillary research programs and initiatives. AZOMP sampling is conducted according to standard procedures (https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) and includes: 1- the collection of CTD and Lowered-ADCP profiles and water samples for the determination of physical (e.g., T, S, currents), chemical (e.g., nutrients, pH, transient gases for water mass determination and tracers for ventilation and carbon sequestration studies), and biological (e.g., chl a) variables; 2-  multi net tows for zooplankton;  and 3- vertical ring net tows for plankton. In addition XBTs and Argo floats are commonly deployed and vessel-mounted ADCP is used to determine current profiles. The data collected are synthesized into annual reports on the physical,  chemical and biological changes in Atlantic Canada and the Labrador Sea.”  One primary focus is on changes in the intensity of winter overturning of surface and intermediate-depth waters resulting in water mass formation and is part of the thermohaline circulation that affects the global climate. Convection also transfers atmospheric gases from the surface to intermediate depths, reducing the rate of increase of carbon dioxide in the atmosphere but increasing the acidity of the ocean</att>
       <att name="summary_fra"></att>
-      <att name="title">Maritimes Region Atlantic Zone Off-Shelf Monitoring Program (AZOMP)</att>
+      <att name="title">Maritimes Region Atlantic Zone Off-Shelf Monitoring Program (AZOMP) Rosette Vertical Profiles</att>
       <att name="title_fra"></att>
       <att name="creator_type">institution</att>
       <att name="sourceUrl">(local files)</att>
@@ -7951,10 +7971,10 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       </addAttributes>
     </dataVariable>
   </dataset>
-  <!-- Maritimes Region Atlantic Zone Off-shelf Monitoring Program (AZOMP): END -->
+  <!-- Maritimes Region Atlantic Zone Off-shelf Monitoring Program (AZOMP) Rosette Vertical Profiles: END -->
 
-  <!-- Maritimes Region Ecosystem Survey: START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="maritimes_region_ecosystem_survey" active="true">
+  <!-- Maritimes Region Ecosystem Survey Rosette Vertical Profiles: START -->
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="maritimes_region_ecosystem_survey_rosette_vertical_profiles" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/ctd/Maritime Region Ecosystem Survey/</fileDir>
@@ -8003,7 +8023,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <att name="project">SCOTIAN SHELF</att>
       <att name="summary">Maritimes Region Ecosystem Survey</att>
       <att name="summary_fra"></att>
-      <att name="title">Maritimes Region Ecosystem Survey</att>
+      <att name="title">Maritimes Region Ecosystem Survey Rosette Vertical Profiles</att>
       <att name="title_fra"></att>
       <att name="creator_type">institution</att>
       <att name="sourceUrl">(local files)</att>

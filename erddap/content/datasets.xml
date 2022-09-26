@@ -9460,6 +9460,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <att name="creator_type">institution</att>
       <att name="sourceUrl">(local files)</att>
       <att name="platform">research vessel</att>
+      <att name="platform_vocabulary">http://vocab.nerc.ac.uk/collection/L06/current/</att>
       <att name="contributor_name">Clark Richards,BIO Data Services,Marine Environmental Data Section (MEDS)</att>
       <att name="contributor_role">custodian,distributor,owner</att>
       <att name="creator_name">Marine Environmental Data Section (MEDS)</att>

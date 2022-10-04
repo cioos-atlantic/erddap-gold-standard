@@ -12722,7 +12722,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
   <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_historical_coastal_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/datasets/dfo/bio/ctd/BIO Historic Coastal CTD/</fileDir>
+    <fileDir>/datasets/dfo/bio/ctd/BIO Historical Coastal CTD/</fileDir>
     <fileNameRegex>.*\.ODF\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>

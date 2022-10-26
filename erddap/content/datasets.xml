@@ -11595,7 +11595,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
     </dataVariable>
   </dataset>
   <!-- BIO Historical Coastal CTD: END -->  <!-- BIO Historical Projects CTD: START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_historical_offhshore_international_ctd" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_historical_offshore_international_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/ctd/BIO Historical Offshore and International Missions/</fileDir>

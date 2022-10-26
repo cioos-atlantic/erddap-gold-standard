@@ -10761,28 +10761,6 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>PSLTZZ02</sourceName>
-      <destinationName>PSLTZZ02</destinationName>
-      <dataType>float</dataType>
-      <addAttributes>
-        <att name="_FillValue">nan</att>
-        <att name="long_name">Practical salinity of the water body, 2</att>
-        <att name="units">1e-3</att>
-        <att name="scale">PSS-78</att>
-        <att name="standard_name">sea_water_practical_salinity</att>
-        <att name="sdn_parameter_name">Practical salinity of the water body</att>
-        <att name="sdn_parameter_urn">SDN:P01::PSLTZZ02</att>
-        <att name="sdn_uom_urn">SDN:P06::UUUU</att>
-        <att name="sdn_uom_name">Dimensionless</att>
-        <att name="ioos_category">Salinity</att>
-        <att name="ancillary_variables">QPSAL_02</att>
-        <att name="cell_method">null</att>
-        <att name="legacy_gf3_code">PSAL_02</att>
-        <att name="resolution">0.0001</att>
-        <att name="coverage_content_type">physicalMeasurement</att>
-      </addAttributes>
-    </dataVariable>
-    <dataVariable>
       <sourceName>TEMPP681</sourceName>
       <destinationName>TEMPP681</destinationName>
       <dataType>float</dataType>

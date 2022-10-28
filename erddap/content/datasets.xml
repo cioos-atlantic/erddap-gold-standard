@@ -6426,7 +6426,7 @@ Annual measurements in the Labrador Sea began in 1990 as a contribution to the W
 
 AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual sampling of both the extended Halifax Line, deep-water stations over the Scotian Slope and Rise located at the end of AZMP’s Halifax Line, and the Atlantic Repeat 7-West (AR7W) line, a 880 km-line running from Misery Point, Labrador to Cape Desolation, Greenland. Opportunistic sampling may also occur at stations in the Strait of Belle Ilse, station 27, Labrador Shelf, and OSNAP West line in support of ancillary research programs and initiatives. AZOMP sampling is conducted according to standard procedures (https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) and includes: 1- the collection of CTD and Lowered-ADCP profiles and water samples for the determination of physical (e.g., T, S, currents), chemical (e.g., nutrients, pH, transient gases for water mass determination and tracers for ventilation and carbon sequestration studies), and biological (e.g., chl a) variables; 2-  multi net tows for zooplankton;  and 3- vertical ring net tows for plankton. In addition XBTs and Argo floats are commonly deployed and vessel-mounted ADCP is used to determine current profiles. The data collected are synthesized into annual reports on the physical,  chemical and biological changes in Atlantic Canada and the Labrador Sea.”  One primary focus is on changes in the intensity of winter overturning of surface and intermediate-depth waters resulting in water mass formation and is part of the thermohaline circulation that affects the global climate. Convection also transfers atmospheric gases from the surface to intermediate depths, reducing the rate of increase of carbon dioxide in the atmosphere but increasing the acidity of the ocean</att>
       <att name="summary_fra"></att>
-      <att name="title">Maritime Region Atlantic Zone Off-Shelf Monitoring Program (AZOMP) Rosette Vertical Profiles</att>
+      <att name="title">Maritimes Region Atlantic Zone Off-Shelf Monitoring Program (AZOMP) Rosette Vertical Profiles</att>
       <att name="title_fra">Profils verticaux de rosette du programme de monitorage de la zone Atlantique au large du plateau continental (PMZAO) de la région des maritimes</att>
       <att name="creator_type">institution</att>
       <att name="sourceUrl">(local files)</att>
@@ -7774,11 +7774,11 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
   </dataset>
   <!-- DFO BIO Atlantic Zone Off-shelf Monitoring Program (AZOMP): END -->
 
-  <!-- DFO BIO Maritime Region Ecosystem Survey (MRES): START -->
+  <!-- DFO BIO Maritimes Region Ecosystem Survey (MRES): START -->
   <dataset type="EDDTableFromMultidimNcFiles" datasetID="maritime_region_ecosystem_survey" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/datasets/dfo/bio/ctd/Maritime Region Ecosystem Survey/</fileDir>
+    <fileDir>/datasets/dfo/bio/ctd/Maritimes Region Ecosystem Survey/</fileDir>
     <fileNameRegex>.*\.ODF\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -7807,7 +7807,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <att name="publisher_institution">Fisheries and Oceans Canada</att>
       <att name="publisher_name">Null</att>
       <att name="publisher_url">https://www.dfo-mpo.gc.ca/index-eng.html</att>
-      <att name="description">Maritime Region Ecosystem Survey (MRES)</att>
+      <att name="description">Maritimes Region Ecosystem Survey (MRES)</att>
       <att name="description_fra">MRES</att>
       <att name="geospatial_lat_units">degrees_north</att>
       <att name="geospatial_lon_units">degrees_north</att>
@@ -7826,7 +7826,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <att name="summary_fra">Pêches et Océans Canada (MPO) a mis en œuvre pour la première fois des relevés annuels normalisés du poisson de fond (maintenant appelés relevés des écosystèmes) au cours de l'été 1970. Ces relevés consistent en des données recueillies par des navires de recherche afin de surveiller la répartition et l'abondance des poissons et des invertébrés sur le plateau néo-écossais, la baie de Fundy et le banc Georges. Les relevés suivent un plan d'échantillonnage aléatoire stratifié et comprennent l'échantillonnage de poissons et d'invertébrés à l'aide d'un chalut de fond. Ces données d'enquête constituent la principale source de données pour le suivi des tendances de la distribution, de l'abondance et des conditions biologiques des espèces de poissons dans la région. Les croisières « printanières » ont lieu en janvier, février, mars et avril et se concentrent sur le banc Georges. Les croisières « estivales » ont lieu en mai, juin, juillet et août et se concentrent sur le plateau néo-écossais et la baie de Fundy. Un changement de navire s'est produit en 1982 lorsque l'A.T. Cameron a été remplacé par le Lady Hammond et en 1983 lorsque l'Alfred Needler est devenu le principal navire de prospection. Aujourd'hui, le Captain Jacques Cartier, construit en 2019 et livré en 2020, sera le principal navire hauturier de sciences halieutiques dans la région des Maritimes. 
 
         Dans le cadre de ces relevés, des observations océanographiques physiques, chimiques et biologiques sont recueillies dans le cadre du Programme de surveillance de la zone atlantique (PMZA). L'échantillonnage du PMZA est effectué selon des procédures standard (voir https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) et comprend la collecte de profils CTD et d'échantillons d'eau pour la détermination des variables physiques (par exemple, T, S), chimiques (par exemple, nutriments, oxygène, pH) et biologiques (chl a) et verticales tractions de filet à anneaux. Les données recueillies sont synthétisées dans deux rapports annuels sur les changements physiques et chimiques/biologiques dans la région des Maritimes. Le PMZA vise à détecter et à suivre le changement et la variabilité climatiques dans l'Atlantique Nord-Ouest, en évaluant les changements dans les propriétés physiques, chimiques et biologiques de l'océan et dans la dynamique prédateur-proie des ressources marines, améliorant ainsi la capacité du Canada à comprendre, décrire et prévoir l'état de la mer écosystème ». Ce dossier comprend uniquement les données hydrographiques/CTD recueillies au cours des relevés écosystémiques du printemps et de l'été, réalisés entre 1998 et aujourd'hui.</att>
-      <att name="title">Maritime Region Ecosystem Survey Rosette Vertical Profiles</att>
+      <att name="title">Maritimes Region Ecosystem Survey Rosette Vertical Profiles</att>
       <att name="title_fra">Profils verticaux de rosette du programme de monitorage de l'écosystème des maritimes (PMEM)</att>
       <att name="creator_type">institution</att>
       <att name="sourceUrl">(local files)</att>
@@ -9211,7 +9211,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       </addAttributes>
     </dataVariable>
   </dataset>
-  <!-- DFO BIO Maritime Region Ecosystem Survey (MRES): END -->
+  <!-- DFO BIO Maritimes Region Ecosystem Survey (MRES): END -->
 
   <!-- DFO BIO Barrow Strait Program: START -->
   <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_barrow_strait_program_rosette" active="true">

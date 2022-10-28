@@ -7429,45 +7429,6 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>CDOMZZ02</sourceName>
-      <destinationName>CDOMZZ02</destinationName>
-      <dataType>float</dataType>
-      <addAttributes>
-        <att name="_FillValue">nan</att>
-        <att name="long_name">Concentration of coloured dissolved organic matter {CDOM Gelbstoff} per unit volume of the water body [dissolved plus reactive particulate phase] by fluorometry</att>
-        <att name="units">mg/m^3</att>
-        <att name="standard_name">concentration_of_colored_dissolved_organic_matter_in_sea_water_expressed_as_equivalent_mass_fraction_of_quinine_sulfate_dihydrate</att>
-        <att name="sdn_parameter_name">Concentration of coloured dissolved organic matter {CDOM Gelbstoff} per unit volume of the water body [dissolved plus reactive particulate phase] by fluorometry</att>
-        <att name="sdn_parameter_urn">SDN:P01::CDOMZZ01</att>
-        <att name="sdn_uom_urn">SDN:P06::UMMC</att>
-        <att name="sdn_uom_name">Milligrams per cubic metre</att>
-        <att name="ioos_category">Colored Dissolved Organic Matter</att>
-        <att name="ancillary_variables">QCDOMZZ02</att>
-        <att name="cell_method">null</att>
-        <att name="legacy_gf3_code">FLOR_02</att>
-        <att name="resolution">0.0001</att>
-        <att name="instrument">null</att>
-        <att name="coverage_content_type">physicalMeasurement</att>
-      </addAttributes>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>QCDOMZZ02</sourceName>
-      <destinationName>QCDOMZZ02</destinationName>
-      <dataType>int</dataType>
-      <addAttributes>
-        <att name="long_name">Quality Flag for Parameter: CDOM Concentration by Fluorometer 2</att>
-        <att name="standard_name">status_flag</att>
-        <att name="ioos_category">Quality</att>
-        <att name="cell_method">null</att>
-        <att name="legacy_gf3_code">QFLOR_02</att>
-        <att name="resolution">1</att>
-        <att name="coverage_content_type">qualityInformation</att>
-        <att name="flag_values" type="intList">0 1 2 3 4 5 9</att>
-        <att name="flag_meanings">not_evaluated correct inconsistent_with_other_values doubtful erroneous modified missing</att>
-        <att name="_FillValue" type="int">9</att>
-      </addAttributes>
-    </dataVariable>
-    <dataVariable>
       <sourceName>CPHLPR01</sourceName>
       <destinationName>CPHLPR01</destinationName>
       <dataType>float</dataType>
@@ -9980,14 +9941,6 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <att name="title">Maritimes Region Annual Ice Forecast Hydrographic Survey Gulf Of St. Lawrence Rosette Vertical Profiles</att>
     </addAttributes>
     <dataVariable>
-      <sourceName>global:project</sourceName>
-      <destinationName>project</destinationName>
-      <dataType>String</dataType>
-      <addAttributes>
-        <att name="ioos_category">Other</att>
-      </addAttributes>
-    </dataVariable>
-    <dataVariable>
       <sourceName>global:platform_name</sourceName>
       <destinationName>platform_name</destinationName>
       <dataType>String</dataType>
@@ -11493,28 +11446,6 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>IRRDSV01</sourceName>
-      <destinationName>IRRDSV01</destinationName>
-      <dataType>float</dataType>
-      <addAttributes>
-        <att name="_FillValue">nan</att>
-        <att name="long_name">Surface Photosynthetically Active Radiation</att>
-        <att name="units">uEinsteins/s/m^2</att>
-        <att name="standard_name">surface_downwelling_photosynthetic_photon_spherical_irradiance_in_sea_water</att>
-        <att name="sdn_parameter_name">Downwelling vector irradiance as photons of electromagnetic radiation (PAR wavelengths) in the atmosphere by cosine-collector radiometer</att>
-        <att name="sdn_parameter_urn">SDN:P01::IRRDSV01</att>
-        <att name="sdn_uom_urn">SDN:P06::UMES</att>
-        <att name="sdn_uom_name">MicroEinsteins per square metre per second</att>
-        <att name="ioos_category">Optical Properties</att>
-        <att name="ancillary_variables">QSPAR_01</att>
-        <att name="cell_method">null</att>
-        <att name="legacy_gf3_code">SPAR_01</att>
-        <att name="resolution">1e-08</att>
-        <att name="coverage_content_type">physicalMeasurement</att>
-        <att name="instrument">null</att>
-      </addAttributes>
-    </dataVariable>
-    <dataVariable>
       <sourceName>OPTCPS01</sourceName>
       <destinationName>OPTCPS01</destinationName>
       <dataType>float</dataType>
@@ -11551,24 +11482,6 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
         <att name="resolution">1</att>
         <att name="coverage_content_type">auxiliaryInformation</att>
         <att name="_FillValue" type="long">9223372036854775807</att>
-      </addAttributes>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>RecPerBin</sourceName>
-      <destinationName>RecPerBin</destinationName>
-      <dataType>int</dataType>
-      <addAttributes>
-        <att name="long_name">Number of scans per bin</att>
-        <att name="units">1</att>
-        <att name="sdn_uom_urn">SDN:P06::UUUU</att>
-        <att name="sdn_uom_name">Dimensionless</att>
-        <att name="ioos_category">Other</att>
-        <att name="ancillary_variables">QCNTR_02</att>
-        <att name="cell_method">null</att>
-        <att name="legacy_gf3_code">CNTR_02</att>
-        <att name="resolution">1</att>
-        <att name="coverage_content_type">auxiliaryInformation</att>
-        <att name="_FillValue" type="int">2147483647</att>
       </addAttributes>
     </dataVariable>
   </dataset>
@@ -11864,40 +11777,6 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
         <att name="legacy_gf3_code">LOND_01</att>
         <att name="resolution">1e-05</att>
         <att name="coverage_content_type">coordinate</att>
-      </addAttributes>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>QLATD_01</sourceName>
-      <destinationName>QLATD_01</destinationName>
-      <dataType>int</dataType>
-      <addAttributes>
-        <att name="long_name">Quality Flag for Parameter: Precise Latitude</att>
-        <att name="standard_name">status_flag</att>
-        <att name="ioos_category">Quality</att>
-        <att name="cell_method">null</att>
-        <att name="legacy_gf3_code">QLATD_01</att>
-        <att name="resolution">1</att>
-        <att name="coverage_content_type">qualityInformation</att>
-        <att name="flag_values" type="intList">0 1 2 3 4 5 9</att>
-        <att name="flag_meanings">not_evaluated correct inconsistent_with_other_values doubtful erroneous modified missing</att>
-        <att name="_FillValue" type="int">9</att>
-      </addAttributes>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>QLOND_01</sourceName>
-      <destinationName>QLOND_01</destinationName>
-      <dataType>int</dataType>
-      <addAttributes>
-        <att name="long_name">Quality Flag for Parameter: Precise Longitude</att>
-        <att name="standard_name">status_flag</att>
-        <att name="ioos_category">Quality</att>
-        <att name="cell_method">null</att>
-        <att name="legacy_gf3_code">QLOND_01</att>
-        <att name="resolution">1</att>
-        <att name="coverage_content_type">qualityInformation</att>
-        <att name="flag_values" type="intList">0 1 2 3 4 5 9</att>
-        <att name="flag_meanings">not_evaluated correct inconsistent_with_other_values doubtful erroneous modified missing</att>
-        <att name="_FillValue" type="int">9</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -12369,45 +12248,6 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>CDOMZZ02</sourceName>
-      <destinationName>CDOMZZ02</destinationName>
-      <dataType>float</dataType>
-      <addAttributes>
-        <att name="_FillValue">nan</att>
-        <att name="long_name">Concentration of coloured dissolved organic matter {CDOM Gelbstoff} per unit volume of the water body [dissolved plus reactive particulate phase] by fluorometry</att>
-        <att name="units">mg/m^3</att>
-        <att name="standard_name">concentration_of_colored_dissolved_organic_matter_in_sea_water_expressed_as_equivalent_mass_fraction_of_quinine_sulfate_dihydrate</att>
-        <att name="sdn_parameter_name">Concentration of coloured dissolved organic matter {CDOM Gelbstoff} per unit volume of the water body [dissolved plus reactive particulate phase] by fluorometry</att>
-        <att name="sdn_parameter_urn">SDN:P01::CDOMZZ01</att>
-        <att name="sdn_uom_urn">SDN:P06::UMMC</att>
-        <att name="sdn_uom_name">Milligrams per cubic metre</att>
-        <att name="ioos_category">Colored Dissolved Organic Matter</att>
-        <att name="ancillary_variables">QCDOMZZ02</att>
-        <att name="cell_method">null</att>
-        <att name="legacy_gf3_code">FLOR_02</att>
-        <att name="resolution">0.0001</att>
-        <att name="instrument">null</att>
-        <att name="coverage_content_type">physicalMeasurement</att>
-      </addAttributes>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>QCDOMZZ02</sourceName>
-      <destinationName>QCDOMZZ02</destinationName>
-      <dataType>int</dataType>
-      <addAttributes>
-        <att name="long_name">Quality Flag for Parameter: CDOM Concentration by Fluorometer 2</att>
-        <att name="standard_name">status_flag</att>
-        <att name="ioos_category">Quality</att>
-        <att name="cell_method">null</att>
-        <att name="legacy_gf3_code">QFLOR_02</att>
-        <att name="resolution">1</att>
-        <att name="coverage_content_type">qualityInformation</att>
-        <att name="flag_values" type="intList">0 1 2 3 4 5 9</att>
-        <att name="flag_meanings">not_evaluated correct inconsistent_with_other_values doubtful erroneous modified missing</att>
-        <att name="_FillValue" type="int">9</att>
-      </addAttributes>
-    </dataVariable>
-    <dataVariable>
       <sourceName>CPHLPR01</sourceName>
       <destinationName>CPHLPR01</destinationName>
       <dataType>float</dataType>
@@ -12726,29 +12566,11 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <att name="title">Maritimes Region Historical West Greenland monitoring program  Rosette Vertical Profiles</att>
     </addAttributes>
     <dataVariable>
-      <sourceName>global:project</sourceName>
-      <destinationName>project</destinationName>
-      <dataType>String</dataType>
-      <addAttributes>
-        <att name="ioos_category">Other</att>
-      </addAttributes>
-    </dataVariable>
-    <dataVariable>
       <sourceName>global:platform_name</sourceName>
       <destinationName>platform_name</destinationName>
       <dataType>String</dataType>
       <addAttributes>
         <att name="standard_name">platform_name</att>
-        <att name="ioos_category">Other</att>
-      </addAttributes>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>global:wmo_platform_code</sourceName>
-      <destinationName>platform_id</destinationName>
-      <dataType>String</dataType>
-      <addAttributes>
-        <att name="long_name">WMO Platform Code</att>
-        <att name="standard_name">platform_id</att>
         <att name="ioos_category">Other</att>
       </addAttributes>
     </dataVariable>

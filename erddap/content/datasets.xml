@@ -1961,6 +1961,7 @@
     <sortedColumnSourceName></sortedColumnSourceName>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <!-- sourceAttributes>
     </sourceAttributes -->
     <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
@@ -2038,6 +2039,7 @@
     <sortedColumnSourceName>Year</sortedColumnSourceName>
     <sortFilesBySourceNames>Year</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <!-- sourceAttributes>
     </sourceAttributes -->
     <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
@@ -2220,6 +2222,7 @@
     <sortedColumnSourceName>Year</sortedColumnSourceName>
     <sortFilesBySourceNames>Year</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <!-- sourceAttributes>
     </sourceAttributes -->
     <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
@@ -2705,6 +2708,19 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
+      <sourceName>timestamp</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+        <att name="long_name">Timestamp</att>
+        <att name="source_name">timestamp</att>
+        <att name="standard_name">time</att>
+        <att name="time_precision">1970-01-01T00:00:00Z</att>
+        <att name="units">yyyy-MM-dd'T'HH:mm:ss.SSS</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
       <sourceName>depth</sourceName>
       <destinationName>depth</destinationName>
       <dataType>byte</dataType>
@@ -2883,6 +2899,19 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
+      <sourceName>timestamp</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+        <att name="long_name">Timestamp</att>
+        <att name="source_name">timestamp</att>
+        <att name="standard_name">time</att>
+        <att name="time_precision">1970-01-01T00:00:00Z</att>
+        <att name="units">yyyy-MM-dd'T'HH:mm:ss.SSS</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
       <sourceName>depth</sourceName>
       <destinationName>depth</destinationName>
       <dataType>byte</dataType>
@@ -3058,6 +3087,19 @@
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">Deployment End Date</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timestamp</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+        <att name="long_name">Timestamp</att>
+        <att name="source_name">timestamp</att>
+        <att name="standard_name">time</att>
+        <att name="time_precision">1970-01-01T00:00:00Z</att>
+        <att name="units">yyyy-MM-dd'T'HH:mm:ss.SSS</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -3249,6 +3291,19 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
+      <sourceName>timestamp</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+        <att name="long_name">Timestamp</att>
+        <att name="source_name">timestamp</att>
+        <att name="standard_name">time</att>
+        <att name="time_precision">1970-01-01T00:00:00Z</att>
+        <att name="units">yyyy-MM-dd'T'HH:mm:ss.SSS</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
       <sourceName>depth</sourceName>
       <destinationName>depth</destinationName>
       <dataType>byte</dataType>
@@ -3436,6 +3491,19 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
+      <sourceName>timestamp</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+        <att name="long_name">Timestamp</att>
+        <att name="source_name">timestamp</att>
+        <att name="standard_name">time</att>
+        <att name="time_precision">1970-01-01T00:00:00Z</att>
+        <att name="units">yyyy-MM-dd'T'HH:mm:ss.SSS</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
       <sourceName>depth</sourceName>
       <destinationName>depth</destinationName>
       <dataType>byte</dataType>
@@ -3611,6 +3679,19 @@
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">Deployment End Date</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timestamp</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+        <att name="long_name">Timestamp</att>
+        <att name="source_name">timestamp</att>
+        <att name="standard_name">time</att>
+        <att name="time_precision">1970-01-01T00:00:00Z</att>
+        <att name="units">yyyy-MM-dd'T'HH:mm:ss.SSS</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -3793,6 +3874,19 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
+      <sourceName>timestamp</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+        <att name="long_name">Timestamp</att>
+        <att name="source_name">timestamp</att>
+        <att name="standard_name">time</att>
+        <att name="time_precision">1970-01-01T00:00:00Z</att>
+        <att name="units">yyyy-MM-dd'T'HH:mm:ss.SSS</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
       <sourceName>depth</sourceName>
       <destinationName>depth</destinationName>
       <dataType>byte</dataType>
@@ -3967,6 +4061,19 @@
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">Deployment End Date</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timestamp</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+        <att name="long_name">Timestamp</att>
+        <att name="source_name">timestamp</att>
+        <att name="standard_name">time</att>
+        <att name="time_precision">1970-01-01T00:00:00Z</att>
+        <att name="units">yyyy-MM-dd'T'HH:mm:ss.SSS</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -4146,6 +4253,19 @@
       <addAttributes>
         <att name="ioos_category">Unknown</att>
         <att name="long_name">Deployment End Date</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timestamp</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+        <att name="long_name">Timestamp</att>
+        <att name="source_name">timestamp</att>
+        <att name="standard_name">time</att>
+        <att name="time_precision">1970-01-01T00:00:00Z</att>
+        <att name="units">yyyy-MM-dd'T'HH:mm:ss.SSS</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -4551,10 +4671,10 @@
 
   <!-- FORCE Met Tower: START -->
   <dataset type="EDDTableFromAsciiFiles" datasetID="force_meteorological_tower" active="true">
-    <iso19115File>https://cioosatlantic.ca/metadata/force/met_tower/force_meteorological_tower_a36e4.xml</iso19115File>
+    <iso19115File>https://dev.cioosatlantic.ca/metadata/force/met_tower/force_meteorological_tower_a36e4.xml</iso19115File>
     <reloadEveryNMinutes>15</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/datasets/force/</fileDir>
+    <fileDir>/datasets/force/MetData</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>

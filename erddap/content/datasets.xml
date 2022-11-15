@@ -9806,11 +9806,6 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
   </dataset>
   <!-- DFO BIO Barrow Strait Program: END -->
 
-  <dataset type="EDDTableFromErddap" datasetID="otn200_20110513_1_delayed" active="true">
-    <!-- Glider deployment #1 - otn200 2011-05-13 (delayed) -->
-    <sourceUrl>https://data.ceotr.ca/erddap/tabledap/otn200_20110513_1_delayed</sourceUrl>
-  </dataset>
-
   <!-- BIO Annual Ice Forecast Hydrographic Survey CTD: START -->
   <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_annual_ice_forecast_hydrographic_survey_st_lawrence_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>

@@ -10561,18 +10561,17 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <att name="creator_name">Marine Environmental Data Section (MEDS)</att>
       <att name="creator_url">https://meds-sdmm.dfo-mpo.gc.ca/isdm-gdsi/request-commande/form-eng.asp</att>
       <att name="creator_institution">Fisheries and Oceans Canada</att>
-      <att name="publisher_email">Clark.Richards@dfo-mpo.gc.ca</att>
-      <att name="publisher_institution">Fisheries and Oceans Canada</att>
+      <att name="publisher_email">Diana.Cardoso@dfo-mpo.gc.ca</att>
+      <att name="publisher_institution">DFO BIO</att>
       <att name="publisher_url">https://www.dfo-mpo.gc.ca/index-eng.html</att>
       <att name="publisher_name">Clark Richards</att>
-      <att name="date_created">2022-10-20</att>
-      <att name="institution">DFO BIO</att>
+      <att name="date_created">2022-11-15</att>
+      <att name="institution"
       <att name="license">https://open.canada.ca/en/open-government-licence-canada</att>
       <att name="id">57d45e01-c759-45bb-a6a2-584312838734</att>
       <att name="naming_authority">ca.cioos</att>
-      <att name="references">https://doi.org/</att>
-      <att name="keywords">climate change,salinity,water temperature,water density,oceanographic missions,physical-chemical,pressure,potential temperature,potential density,seawater density,sea currents,sea ice</att>
-      <att name="summary">The Barrow Strait flow observational program started in 1998 and continued for 13 years to 2012. Barrow Strait is the widest of the 4 passages through the Canadian Archipelago making it an important monitoring location.  The program explores the magnitude and variability of freshwater, heat and volume transports through the eastern Northwest Passage. The data measured included: profile CTD and time series temperature, salinity, density, currents, ice draft and ice drift velocity. The time series data collected was used to quantify the freshwater discharge from the Arctic Ocean through Barrow Strait into the northwest Atlantic, and link variability in this freshwater outflow to large scale weather patterns. Annual analysis performed on the collected data include: low-pass filtering, power spectra, progressive vector diagram, tidal analyses, seasonal and monthly averaged stats, mean flow, and ice velocities.  Data from the program, along with a description of the methods used, have been published annually in the Canadian Data Report of Hydrography and Ocean Sciences report number 190 to 195, 173, 167, 166, 165, 161, and 157.</att>
+      <att name="keywords">climate change,salinity,water temperature,water density,oceanographic missions,physical-chemical,pressure,potential temperature,potential density,seawater density,fluorescence</att>
+      <att name="summary">Historical missions to the Arctic region in which DFO Bedford Institute of Oceanography participated in between 1975 and 1990 and one mission in 2013. These missions were part of various projects and visited several areas within the Arctic such as;  Hudson Bay, James Bay, Baffin Bay, Baffin Island Fjords,  Lancaster Sound, Davis Strait, Hudson Strait,  Labrador Sea, Northwest Passage, Greenland and the Norwegian Sea.</att>
       <att name="title">Maritimes Region Historical Arctic  Rosette Vertical Profiles</att>
     </addAttributes>
     <dataVariable>

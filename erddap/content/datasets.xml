@@ -5105,7 +5105,7 @@
   <!-- St. FX Marine Ecology Lab HOBO logger: END -->
 
   <!-- DFO BIO Atlantic Zone Monitoring Program (AZMP): START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="atlantic_zone_monitoring_program" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="maritimes_region_atlantic_zone_monitoring_program_rosette_vertical_profiles" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/ctd/Atlantic Zone Monitoring Program/</fileDir>

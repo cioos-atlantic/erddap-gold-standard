@@ -7941,7 +7941,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
   <!-- DFO BIO Atlantic Zone Off-shelf Monitoring Program (AZOMP): END -->
 
   <!-- DFO BIO Maritimes Region Ecosystem Survey (MRES): START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="maritime_region_ecosystem_survey" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="maritimes_region_ecosystem_survey" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/ctd/Maritimes Region Ecosystem Survey/</fileDir>

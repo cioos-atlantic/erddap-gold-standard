@@ -4281,6 +4281,32 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
+      <sourceName>=45.3631</sourceName>
+      <destinationName>latitude</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+      </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Latitude</att>
+        <att name="standard_name">latitude</att>
+        <att name="units">degrees_north</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>=-64.4275</sourceName>
+      <destinationName>longitude</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+      </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Longitude</att>
+        <att name="standard_name">longitude</att>
+        <att name="units">degrees_east</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
       <sourceName>cell_range</sourceName>
       <destinationName>cell_range</destinationName>
       <dataType>double</dataType>
@@ -4510,6 +4536,32 @@
         <att name="ioos_category">Time</att>
         <att name="long_name">Time</att>
         <att name="units">seconds since 1970-01-01T00:00:00Z</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>=45.3631</sourceName>
+      <destinationName>latitude</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+      </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Latitude</att>
+        <att name="standard_name">latitude</att>
+        <att name="units">degrees_north</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>=-64.4275</sourceName>
+      <destinationName>longitude</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+      </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Longitude</att>
+        <att name="standard_name">longitude</att>
+        <att name="units">degrees_east</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>

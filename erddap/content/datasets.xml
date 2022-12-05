@@ -13049,8 +13049,8 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
             <att name="long_name">Mean Spread (deg)</att>
         </addAttributes>
     </dataVariable>
-</dataset>
-
+  </dataset>
+  <!-- WSP Grand Banks Wave Buoy Data: END -->
   <!-- CANDHIS Saint Pierre et Miquelon Wave buoy - TIMESERIES START-->
   <dataset type="EDDTableFromAsciiFiles" datasetID="candhis_spm_97501_timeseries" active="true">
       <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -13451,5 +13451,4 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       </dataVariable>
   </dataset>
   <!-- CANDHIS Saint Pierre et Miquelon Wave buoy - WAVE_SPECTRA END-->
-
 </erddapDatasets>

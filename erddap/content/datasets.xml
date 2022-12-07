@@ -12795,8 +12795,8 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
     <columnSeparator>,</columnSeparator>
     <columnNamesRow>1</columnNamesRow>
     <firstDataRow>2</firstDataRow>
-    <sortedColumnSourceName></sortedColumnSourceName>
-    <sortFilesBySourceNames></sortFilesBySourceNames>
+    <sortedColumnSourceName>timestamp</sortedColumnSourceName>
+    <sortFilesBySourceNames>timestamp</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     <!-- sourceAttributes>
     </sourceAttributes -->
@@ -12817,69 +12817,24 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-        <att name="subsetVariables">Year</att>
+        <!--att name="subsetVariables">Year</att-->
         <att name="summary">Wave height metrics (mean/max/significant wave height/period) at Waypoint 3 for the months March and April 2022.</att>
         <att name="title">Grand Banks Wave Buoy</att>
     </addAttributes>
     <dataVariable>
-        <sourceName>Year</sourceName>
-        <destinationName>Year</destinationName>
-        <dataType>short</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="_FillValue" type="short">32767</att>
-            <att name="ioos_category">Time</att>
-            <att name="long_name">Year</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>Month</sourceName>
-        <destinationName>Month</destinationName>
-        <dataType>byte</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="_FillValue" type="byte">127</att>
-            <att name="ioos_category">Time</att>
-            <att name="long_name">Month</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>Day</sourceName>
-        <destinationName>Day</destinationName>
-        <dataType>byte</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="_FillValue" type="byte">127</att>
-            <att name="ioos_category">Time</att>
-            <att name="long_name">Day</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>Hour</sourceName>
-        <destinationName>Hour</destinationName>
-        <dataType>byte</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="_FillValue" type="byte">127</att>
-            <att name="ioos_category">Time</att>
-            <att name="long_name">Hour</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>Minute</sourceName>
-        <destinationName>Minute</destinationName>
-        <dataType>byte</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="_FillValue" type="byte">127</att>
-            <att name="ioos_category">Time</att>
-            <att name="long_name">Minute</att>
-        </addAttributes>
+      <sourceName>timestamp</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <!-- sourceAttributes>
+      </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+        <att name="long_name">Timestamp</att>
+        <att name="source_name">timestamp</att>
+        <att name="standard_name">time</att>
+        <att name="time_precision">1970-01-01T00:00:00Z</att>
+        <att name="units">yyyy-MM-dd&#39;T&#39;HH:mm:ss&#39;Z&#39;</att>
+      </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>Number of Zero Crossings</sourceName>
@@ -12891,8 +12846,9 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
             <att name="_FillValue" type="short">32767</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="ioos_category">Statistics</att>
+            <att name="ioos_category">Other</att>
             <att name="long_name">Number Of Zero Crossings</att>
+            <att name="units">1</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -12907,6 +12863,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
             <att name="ioos_category">Surface Waves</att>
             <att name="long_name">Sea Surface Wave Significant Height</att>
             <att name="standard_name">sea_surface_wave_significant_height</att>
+            <att name="units">m</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -12959,7 +12916,8 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Unknown</att>
-            <att name="long_name">H10 (M)</att>
+            <att name="long_name">Mean height of the highest 10% of waves in the period</att>
+            <att name="units">m</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -12970,7 +12928,8 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Unknown</att>
-            <att name="long_name">T10 (S)</att>
+            <att name="long_name">Average period of the H10 waves (s)</att>
+            <att name="units">s</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -13009,7 +12968,8 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Unknown</att>
-            <att name="long_name">Tp5, Tp READ Method, (s)</att>
+            <att name="long_name">Peak wave period computed by the READ method (s)</att>
+            <att name="units">s</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -13020,7 +12980,8 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Unknown</att>
-            <att name="long_name">HM0 (M)</att>
+            <att name="long_name">Significant Wave height approximated from four times the square root of the area under the energy spectrum of a FFT analysis</att>
+            <att name="units">m</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>

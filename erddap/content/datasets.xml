@@ -12846,7 +12846,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
             <att name="_FillValue" type="short">32767</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="ioos_category">Other</att>
+            <att name="ioos_category">Surface Waves</att>
             <att name="long_name">Number Of Zero Crossings</att>
             <att name="units">1</att>
         </addAttributes>
@@ -12861,8 +12861,8 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Surface Waves</att>
-            <att name="long_name">Average Wave Height</att>
-            <!--att name="standard_name">sea_surface_wave_significant_height</att-->
+            <att name="long_name">Average Zero-Down Crossing Wave Height</att>
+            <att name="standard_name">sea_surface_wave_mean_height</att>
             <att name="units">m</att>
         </addAttributes>
     </dataVariable>
@@ -12877,7 +12877,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Surface Waves</att>
             <att name="long_name">Max Wave Height</att>
-            <!--att name="standard_name">sea_surface_wave_significant_height</att-->
+            <att name="standard_name">sea_surface_wave_maximum_height</att>
             <att name="units">m</att>
         </addAttributes>
     </dataVariable>
@@ -12892,7 +12892,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Surface Waves</att>
             <att name="long_name">Significant Wave Height</att>
-            <!--att name="standard_name">sea_surface_wave_significant_height</att-->
+            <att name="standard_name">sea_surface_wave_significant_height</att>
             <att name="units">m</att>
         </addAttributes>
     </dataVariable>
@@ -12906,8 +12906,8 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
             <att name="colorBarMaximum" type="double">20.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Surface Waves</att>
-            <att name="long_name">Sea Surface Swell Wave Period</att>
-            <att name="standard_name">sea_surface_swell_wave_period</att>
+            <att name="long_name">Significant Wave Period</att>
+            <att name="standard_name">sea_surface_wave_significant_period</att>
             <att name="units">s</att>
         </addAttributes>
     </dataVariable>
@@ -12918,8 +12918,9 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">Mean height of the highest 10% of waves in the period</att>
+            <att name="ioos_category">Surface Waves</att>
+            <att name="long_name">Mean height of highest tenth of waves</att>
+            <att name="standard_name">sea_surface_wave_mean_height_of_highest_tenth</att>
             <att name="units">m</att>
         </addAttributes>
     </dataVariable>
@@ -12931,7 +12932,8 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Surface Waves</att>
-            <att name="long_name">Average period of the H10 waves</att>
+            <att name="long_name">Mean period of highest tenth of waves</att>
+            <att name="standard_name">sea_surface_wave_mean_period_of_highest_tenth</att>
             <att name="units">s</att>
         </addAttributes>
     </dataVariable>
@@ -12945,8 +12947,8 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
             <att name="colorBarMaximum" type="double">20.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Surface Waves</att>
-            <att name="long_name">Sea Surface Swell Wave Period</att>
-            <att name="standard_name">sea_surface_swell_wave_period</att>
+            <att name="long_name">Average zero down-crossing wave period</att>
+            <att name="standard_name">sea_surface_wave_mean_period</att>
             <att name="units">s</att>
         </addAttributes>
     </dataVariable>
@@ -12960,8 +12962,8 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
             <att name="colorBarMaximum" type="double">20.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Surface Waves</att>
-            <att name="long_name">Sea Surface Swell Wave Period</att>
-            <att name="standard_name">sea_surface_swell_wave_period</att>
+            <att name="long_name">Period of the most energetic waves</att>
+            <att name="standard_name">sea_surface_wave_period_at_variance_spectral_density_maximum</att>
             <att name="units">s</att>
         </addAttributes>
     </dataVariable>
@@ -12973,7 +12975,8 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Surface Waves</att>
-            <att name="long_name">Peak wave period computed by the READ method (s)</att>
+            <att name="long_name">Period of the most energetic waves determined by spectral moments</att>
+            <att name="standard_name">sea_surface_wave_period_at_variance_spectral_density_maximum</att>
             <att name="units">s</att>
         </addAttributes>
     </dataVariable>
@@ -12985,7 +12988,8 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Surface Waves</att>
-            <att name="long_name">Significant Wave height approximated from four times the square root of the area under the energy spectrum of a FFT analysis</att>
+            <att name="long_name">Significant Wave Height</att>
+            <att name="standard_name">sea_surface_wave_significant_height</att>
             <att name="units">m</att>
         </addAttributes>
     </dataVariable>
@@ -13000,7 +13004,8 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
             <att name="colorBarMaximum" type="double">360.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Surface Waves</att>
-            <att name="long_name">Mean Magnetic Direction</att>
+            <att name="long_name">Sea Surface Wave To Direction</att>
+            <att name="standard_name">sea_surface_wave_to_direction</att>
             <att name="units">degree</att>
         </addAttributes>
     </dataVariable>
@@ -13014,6 +13019,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
             <att name="_FillValue" type="byte">127</att>
             <att name="ioos_category">Surface Waves</att>
             <att name="long_name">Mean Spread</att>
+            <att name="standard_name">sea_surface_wave_directional_spread</att>
             <att name="units">degree</att>
         </addAttributes>
     </dataVariable>

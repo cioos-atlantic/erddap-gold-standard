@@ -12820,6 +12820,10 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
         <!--att name="subsetVariables">Year</att-->
         <att name="summary">Wave height metrics (mean/max/significant wave height/period) at Waypoint 3 for the months March and April 2022.</att>
         <att name="title">Grand Banks Wave Buoy</att>
+        <att name="platform">moored surface buoy</att>
+        <att name="platform_description">TRIAXYS™ g3 Wave Sensor</att>
+        <att name="platform_id">TAS0XXXX</att>
+        <att name="platform_vocabulary">http://vocab.nerc.ac.uk/collection/L06/current/</att>
     </addAttributes>
     <dataVariable>
       <sourceName>timestamp</sourceName>
@@ -12986,7 +12990,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
             <att name="colorBarMaximum" type="double">20.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Surface Waves</att>
-            <att name="long_name">Period of the most energetic waves</att>
+            <att name="long_name">Peak Wave Period</att>
             <att name="standard_name">sea_surface_wave_period_at_variance_spectral_density_maximum</att>
             <att name="units">s</att>
         </addAttributes>
@@ -12999,7 +13003,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Surface Waves</att>
-            <att name="long_name">Period of the most energetic waves determined by spectral moments</att>
+            <att name="long_name">Peak Wave Period based on spectral moments</att>
             <att name="standard_name">sea_surface_wave_period_at_variance_spectral_density_maximum</att>
             <att name="units">s</att>
         </addAttributes>

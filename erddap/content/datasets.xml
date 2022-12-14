@@ -12837,6 +12837,30 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       </addAttributes>
     </dataVariable>
     <dataVariable>
+        <sourceName>=47.24</sourceName>
+        <destinationName>latitude</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+          <att name="long_name">Latitude</att>
+          <att name="units">degrees_north</att>
+          <att name="standard_name">latitude</att>
+          <att name="ioos_category">Location</att>
+          <att name="coverage_content_type">coordinate</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>=-50.95</sourceName>
+        <destinationName>longitude</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+          <att name="long_name">Longitude</att>
+          <att name="units">degrees_east</att>
+          <att name="standard_name">longitude</att>
+          <att name="ioos_category">Location</att>
+          <att name="coverage_content_type">coordinate</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
         <sourceName>Number of Zero Crossings</sourceName>
         <destinationName>Number_of_Zero_Crossings</destinationName>
         <dataType>short</dataType>

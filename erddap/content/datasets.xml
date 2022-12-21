@@ -12805,7 +12805,9 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
         <att name="subsetVariables">station_id, longitude, latitude</att>
     -->
     <addAttributes>
-        <att name="cdm_data_type">Other</att>
+        <att name="cdm_data_type">TimeSeries</att>
+        <att name="cdm_timeseries_variables">station_id, longitude, latitude</att>
+        <att name="subsetVariables">station_id, longitude, latitude</att>
         <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
         <att name="creator_name">WSP Global Inc.</att>
         <att name="creator_type">institution</att>
@@ -12825,6 +12827,17 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
         <att name="platform_id">TAS0XXXX</att>
         <att name="platform_vocabulary">http://vocab.nerc.ac.uk/collection/L06/current/</att>
     </addAttributes>
+    <dataVariable>
+      <sourceName>=WP3</sourceName>
+      <destinationName>station_id</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Station ID</att>
+        <att name="long_name_fr">Code campagne</att>
+        <att name="cf_role">timeseries_id</att>
+      </addAttributes>
+    </dataVariable>
     <dataVariable>
       <sourceName>timestamp</sourceName>
       <destinationName>time</destinationName>

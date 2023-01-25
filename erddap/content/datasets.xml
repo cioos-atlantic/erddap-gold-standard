@@ -12828,7 +12828,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <att name="platform_vocabulary">http://vocab.nerc.ac.uk/collection/L06/current/</att>
     </addAttributes>
     <dataVariable>
-      <sourceName>=WP3</sourceName>
+      <sourceName>="WP3"</sourceName>
       <destinationName>station_id</destinationName>
       <dataType>String</dataType>
       <addAttributes>

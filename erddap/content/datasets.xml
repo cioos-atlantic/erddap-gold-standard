@@ -13487,7 +13487,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
   <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_adcp" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/datasets/bio/moored</fileDir>
+    <fileDir>/datasets/dfo/bio/moored</fileDir>
     <fileNameRegex>MADCP.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -14494,7 +14494,7 @@ Converted to netCDF via MATLAB by rdi2cdf.m 2.2c 10/22/99</att>
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/datasets/bio/moored/</fileDir>
+    <fileDir>/datasets/dfo/bio/moored/</fileDir>
     <fileNameRegex>MCTD.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -15094,7 +15094,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_mtr" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/datasets/bio/moored</fileDir>
+    <fileDir>/datasets/dfo/bio/moored</fileDir>
     <fileNameRegex>MTR.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>

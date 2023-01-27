@@ -15451,6 +15451,21 @@ Wed Aug 22 15:19:39 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       </addAttributes>
     </dataVariable>
     <dataVariable>
+      <sourceName>variable:TEMP_01:sensor_depth</sourceName>
+      <destinationName>depth</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+        <att name="calendar">gregorian</att>
+        <att name="long_name">time</att>
+        <att name="units">seconds since 1970-01-01T00:00:00Z</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">depth</att>
+        <att name="standard_name">depth</att>
+        <att name="units">m</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
       <sourceName>TEMP_01</sourceName>
       <destinationName>TEMPPR01</destinationName>
       <dataType>double</dataType>

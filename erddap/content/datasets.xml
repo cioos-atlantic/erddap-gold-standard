@@ -13786,8 +13786,38 @@ Converted to netCDF via MATLAB by rdi2cdf.m 2.2c 10/22/99</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
+      <sourceName>hght</sourceName>
+      <destinationName>depth</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+      <att name="_FillValue" type="float">1.0E35</att>
+      <att name="axis">Z</att>
+      <att name="data_max" type="double">100.09319305419922</att>
+      <att name="data_min" type="double">12.093192100524902</att>
+      <att name="generic_name">height</att>
+      <att name="long_name">average height of sea surface above each bin</att>
+      <att name="positive">down</att>
+      <att name="sdn_uom_name">Metres</att>
+      <att name="sdn_uom_urn">SDN:P06::ULAA</att>
+      <att name="sensor_depth" type="double">106.2431923492677</att>
+      <att name="sensor_type">RD Instruments ADCP</att>
+      <att name="serial_number" type="int">2935</att>
+      <att name="units">m</att>
+  </sourceAttributes -->
+      <addAttributes>
+          <att name="colorBarMaximum" type="double">8000.0</att>
+          <att name="colorBarMinimum" type="double">-8000.0</att>
+          <att name="colorBarPalette">TopographyDepth</att>
+          <att name="ioos_category">Location</att>
+          <att name="standard_name">depth</att>
+          <att name="sensor_depth">null</att>
+          <att name="sensor_type">null</att>
+          <att name="serial_number">null</att>
+      </addAttributes>
+  </dataVariable>
+    <dataVariable>
         <sourceName>DEPH</sourceName>
-        <destinationName>depth</destinationName>
+        <destinationName>instrument_depth</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
         <att name="_FillValue" type="float">1.0E35</att>
@@ -13819,6 +13849,105 @@ Converted to netCDF via MATLAB by rdi2cdf.m 2.2c 10/22/99</att>
             <att name="serial_number">null</att>
         </addAttributes>
     </dataVariable>
+    <dataVariable>
+      <sourceName>NSCT</sourceName>
+      <destinationName>LCNSAP01</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+      <att name="_FillValue" type="float">1.0E35</att>
+      <att name="data_max" type="double">0.6423</att>
+      <att name="data_min" type="double">-1.521</att>
+      <att name="generic_name">v</att>
+      <att name="long_name">northward_sea_water_velocity</att>
+      <att name="sdn_parameter_name">Northward current velocity (Eulerian) in the water body by moored acoustic doppler current profiler (ADCP)</att>
+      <att name="sdn_parameter_urn">SDN:P01::LCNSAP01</att>
+      <att name="sdn_uom_name">Metres per second</att>
+      <att name="sdn_uom_urn">SDN:P06::UVAA</att>
+      <att name="sensor_depth" type="double">106.2431923492677</att>
+      <att name="sensor_type">RD Instruments ADCP</att>
+      <att name="serial_number" type="int">2935</att>
+      <att name="standard_name">northward_sea_water_velocity</att>
+      <att name="units">m/sec</att>
+      <att name="valid_max" type="double">1000.0</att>
+      <att name="valid_min" type="double">-1000.0</att>
+  </sourceAttributes -->
+      <addAttributes>
+          <att name="colorBarMaximum" type="double">0.5</att>
+          <att name="colorBarMinimum" type="double">-0.5</att>
+          <att name="ioos_category">Currents</att>
+          <att name="long_name">Northward Sea Water Velocity</att>
+          <att name="sdn_P02_urn">SDN:P02::RFVL</att>
+          <att name="sensor_depth">null</att>
+          <att name="sensor_type">null</att>
+          <att name="serial_number">null</att>
+      </addAttributes>
+  </dataVariable>
+    <dataVariable>
+      <sourceName>EWCT</sourceName>
+      <destinationName>LCEWAP01</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+      <att name="_FillValue" type="float">1.0E35</att>
+      <att name="data_max" type="double">0.6537</att>
+      <att name="data_min" type="double">-0.9338</att>
+      <att name="generic_name">u</att>
+      <att name="long_name">eastward_sea_water_velocity</att>
+      <att name="sdn_parameter_name">Eastward current velocity (Eulerian) in the water body by moored acoustic doppler current profiler (ADCP)</att>
+      <att name="sdn_parameter_urn">SDN:P01::LCEWAP01</att>
+      <att name="sdn_uom_name">Metres per second</att>
+      <att name="sdn_uom_urn">SDN:P06::UVAA</att>
+      <att name="sensor_depth" type="double">106.2431923492677</att>
+      <att name="sensor_type">RD Instruments ADCP</att>
+      <att name="serial_number" type="int">2935</att>
+      <att name="standard_name">eastward_sea_water_velocity</att>
+      <att name="units">m/sec</att>
+      <att name="valid_max" type="double">1000.0</att>
+      <att name="valid_min" type="double">-1000.0</att>
+  </sourceAttributes -->
+      <addAttributes>
+          <att name="colorBarMaximum" type="double">0.5</att>
+          <att name="colorBarMinimum" type="double">-0.5</att>
+          <att name="ioos_category">Currents</att>
+          <att name="long_name">Eastward Sea Water Velocity</att>
+          <att name="sdn_P02_urn">SDN:P02::RFVL</att>
+          <att name="sensor_depth">null</att>
+          <att name="sensor_type">null</att>
+          <att name="serial_number">null</att>
+      </addAttributes>
+  </dataVariable>
+  <dataVariable>
+      <sourceName>VCSP</sourceName>
+      <destinationName>LRZAAP01</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+      <att name="_FillValue" type="float">1.0E35</att>
+      <att name="data_max" type="double">0.142</att>
+      <att name="data_min" type="double">-0.275</att>
+      <att name="generic_name">w</att>
+      <att name="long_name">upward_sea_water_velocity</att>
+      <att name="sdn_parameter_name">Upward current velocity in the water body by moored acoustic doppler current profiler (ADCP)</att>
+      <att name="sdn_parameter_urn">SDN:P01::LRZAAP01</att>
+      <att name="sdn_uom_name">Metres per second</att>
+      <att name="sdn_uom_urn">SDN:P06::UVAA</att>
+      <att name="sensor_depth" type="double">106.2431923492677</att>
+      <att name="sensor_type">RD Instruments ADCP</att>
+      <att name="serial_number" type="int">2935</att>
+      <att name="standard_name">upward_sea_water_velocity</att>
+      <att name="units">m/sec</att>
+      <att name="valid_max" type="double">1000.0</att>
+      <att name="valid_min" type="double">-1000.0</att>
+  </sourceAttributes -->
+      <addAttributes>
+          <att name="colorBarMaximum" type="double">0.5</att>
+          <att name="colorBarMinimum" type="double">-0.5</att>
+          <att name="ioos_category">Currents</att>
+          <att name="long_name">Upward Sea Water Velocity</att>
+          <att name="sdn_P02_urn">SDN:P02::LRZA</att>
+          <att name="sensor_depth">null</att>
+          <att name="sensor_type">null</att>
+          <att name="serial_number">null</att>
+      </addAttributes>
+  </dataVariable>
     <dataVariable>
         <sourceName>ERRV</sourceName>
         <destinationName>ERRV</destinationName>
@@ -13852,41 +13981,8 @@ Converted to netCDF via MATLAB by rdi2cdf.m 2.2c 10/22/99</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>EWCT</sourceName>
-        <destinationName>EWCT</destinationName>
-        <dataType>float</dataType>
-        <!-- sourceAttributes>
-        <att name="_FillValue" type="float">1.0E35</att>
-        <att name="data_max" type="double">0.6537</att>
-        <att name="data_min" type="double">-0.9338</att>
-        <att name="generic_name">u</att>
-        <att name="long_name">eastward_sea_water_velocity</att>
-        <att name="sdn_parameter_name">Eastward current velocity (Eulerian) in the water body by moored acoustic doppler current profiler (ADCP)</att>
-        <att name="sdn_parameter_urn">SDN:P01::LCEWAP01</att>
-        <att name="sdn_uom_name">Metres per second</att>
-        <att name="sdn_uom_urn">SDN:P06::UVAA</att>
-        <att name="sensor_depth" type="double">106.2431923492677</att>
-        <att name="sensor_type">RD Instruments ADCP</att>
-        <att name="serial_number" type="int">2935</att>
-        <att name="standard_name">eastward_sea_water_velocity</att>
-        <att name="units">m/sec</att>
-        <att name="valid_max" type="double">1000.0</att>
-        <att name="valid_min" type="double">-1000.0</att>
-    </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">0.5</att>
-            <att name="colorBarMinimum" type="double">-0.5</att>
-            <att name="ioos_category">Currents</att>
-            <att name="long_name">Eastward Sea Water Velocity</att>
-            <att name="sdn_P02_urn">SDN:P02::RFVL</att>
-            <att name="sensor_depth">null</att>
-            <att name="sensor_type">null</att>
-            <att name="serial_number">null</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
         <sourceName>HEAD</sourceName>
-        <destinationName>HEAD</destinationName>
+        <destinationName>HEADCM01</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
         <att name="_FillValue" type="float">1.0E35</att>
@@ -13912,41 +14008,8 @@ Converted to netCDF via MATLAB by rdi2cdf.m 2.2c 10/22/99</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>NSCT</sourceName>
-        <destinationName>NSCT</destinationName>
-        <dataType>float</dataType>
-        <!-- sourceAttributes>
-        <att name="_FillValue" type="float">1.0E35</att>
-        <att name="data_max" type="double">0.6423</att>
-        <att name="data_min" type="double">-1.521</att>
-        <att name="generic_name">v</att>
-        <att name="long_name">northward_sea_water_velocity</att>
-        <att name="sdn_parameter_name">Northward current velocity (Eulerian) in the water body by moored acoustic doppler current profiler (ADCP)</att>
-        <att name="sdn_parameter_urn">SDN:P01::LCNSAP01</att>
-        <att name="sdn_uom_name">Metres per second</att>
-        <att name="sdn_uom_urn">SDN:P06::UVAA</att>
-        <att name="sensor_depth" type="double">106.2431923492677</att>
-        <att name="sensor_type">RD Instruments ADCP</att>
-        <att name="serial_number" type="int">2935</att>
-        <att name="standard_name">northward_sea_water_velocity</att>
-        <att name="units">m/sec</att>
-        <att name="valid_max" type="double">1000.0</att>
-        <att name="valid_min" type="double">-1000.0</att>
-    </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">0.5</att>
-            <att name="colorBarMinimum" type="double">-0.5</att>
-            <att name="ioos_category">Currents</att>
-            <att name="long_name">Northward Sea Water Velocity</att>
-            <att name="sdn_P02_urn">SDN:P02::RFVL</att>
-            <att name="sensor_depth">null</att>
-            <att name="sensor_type">null</att>
-            <att name="serial_number">null</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
         <sourceName>PGDP_01</sourceName>
-        <destinationName>PGDP_01</destinationName>
+        <destinationName>PCGDAP00</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
         <att name="_FillValue" type="float">1.0E35</att>
@@ -13976,7 +14039,7 @@ Converted to netCDF via MATLAB by rdi2cdf.m 2.2c 10/22/99</att>
     </dataVariable>
     <dataVariable>
         <sourceName>PGDP_02</sourceName>
-        <destinationName>PGDP_02</destinationName>
+        <destinationName>PCGDAP02</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
         <att name="_FillValue" type="float">1.0E35</att>
@@ -14006,7 +14069,7 @@ Converted to netCDF via MATLAB by rdi2cdf.m 2.2c 10/22/99</att>
     </dataVariable>
     <dataVariable>
         <sourceName>PGDP_03</sourceName>
-        <destinationName>PGDP_03</destinationName>
+        <destinationName>PCGDAP03</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
         <att name="_FillValue" type="float">1.0E35</att>
@@ -14036,7 +14099,7 @@ Converted to netCDF via MATLAB by rdi2cdf.m 2.2c 10/22/99</att>
     </dataVariable>
     <dataVariable>
         <sourceName>PGDP_04</sourceName>
-        <destinationName>PGDP_04</destinationName>
+        <destinationName>PCGDAP04</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
         <att name="_FillValue" type="float">1.0E35</att>
@@ -14063,7 +14126,7 @@ Converted to netCDF via MATLAB by rdi2cdf.m 2.2c 10/22/99</att>
     </dataVariable>
     <dataVariable>
         <sourceName>PRES</sourceName>
-        <destinationName>PRES</destinationName>
+        <destinationName>PRESPR01</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
         <att name="_FillValue" type="float">1.0E35</att>
@@ -14093,7 +14156,7 @@ Converted to netCDF via MATLAB by rdi2cdf.m 2.2c 10/22/99</att>
     </dataVariable>
     <dataVariable>
         <sourceName>PTCH</sourceName>
-        <destinationName>PTCH</destinationName>
+        <destinationName>PTCHEI01</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
         <att name="_FillValue" type="float">1.0E35</att>
@@ -14117,7 +14180,7 @@ Converted to netCDF via MATLAB by rdi2cdf.m 2.2c 10/22/99</att>
     </dataVariable>
     <dataVariable>
         <sourceName>ROLL</sourceName>
-        <destinationName>ROLL</destinationName>
+        <destinationName>ROLLEI01</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
         <att name="_FillValue" type="float">1.0E35</att>
@@ -14141,7 +14204,7 @@ Converted to netCDF via MATLAB by rdi2cdf.m 2.2c 10/22/99</att>
     </dataVariable>
     <dataVariable>
         <sourceName>SVEL</sourceName>
-        <destinationName>SVEL</destinationName>
+        <destinationName>SVELCV01</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
         <att name="_FillValue" type="float">1.0E35</att>
@@ -14168,39 +14231,6 @@ Converted to netCDF via MATLAB by rdi2cdf.m 2.2c 10/22/99</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>VCSP</sourceName>
-        <destinationName>VCSP</destinationName>
-        <dataType>float</dataType>
-        <!-- sourceAttributes>
-        <att name="_FillValue" type="float">1.0E35</att>
-        <att name="data_max" type="double">0.142</att>
-        <att name="data_min" type="double">-0.275</att>
-        <att name="generic_name">w</att>
-        <att name="long_name">upward_sea_water_velocity</att>
-        <att name="sdn_parameter_name">Upward current velocity in the water body by moored acoustic doppler current profiler (ADCP)</att>
-        <att name="sdn_parameter_urn">SDN:P01::LRZAAP01</att>
-        <att name="sdn_uom_name">Metres per second</att>
-        <att name="sdn_uom_urn">SDN:P06::UVAA</att>
-        <att name="sensor_depth" type="double">106.2431923492677</att>
-        <att name="sensor_type">RD Instruments ADCP</att>
-        <att name="serial_number" type="int">2935</att>
-        <att name="standard_name">upward_sea_water_velocity</att>
-        <att name="units">m/sec</att>
-        <att name="valid_max" type="double">1000.0</att>
-        <att name="valid_min" type="double">-1000.0</att>
-    </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">0.5</att>
-            <att name="colorBarMinimum" type="double">-0.5</att>
-            <att name="ioos_category">Currents</att>
-            <att name="long_name">Upward Sea Water Velocity</att>
-            <att name="sdn_P02_urn">SDN:P02::LRZA</att>
-            <att name="sensor_depth">null</att>
-            <att name="sensor_type">null</att>
-            <att name="serial_number">null</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
         <sourceName>distance</sourceName>
         <destinationName>distance</destinationName>
         <dataType>double</dataType>
@@ -14214,38 +14244,8 @@ Converted to netCDF via MATLAB by rdi2cdf.m 2.2c 10/22/99</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>hght</sourceName>
-        <destinationName>hght</destinationName>
-        <dataType>float</dataType>
-        <!-- sourceAttributes>
-        <att name="_FillValue" type="float">1.0E35</att>
-        <att name="axis">Z</att>
-        <att name="data_max" type="double">100.09319305419922</att>
-        <att name="data_min" type="double">12.093192100524902</att>
-        <att name="generic_name">height</att>
-        <att name="long_name">average height of sea surface above each bin</att>
-        <att name="positive">down</att>
-        <att name="sdn_uom_name">Metres</att>
-        <att name="sdn_uom_urn">SDN:P06::ULAA</att>
-        <att name="sensor_depth" type="double">106.2431923492677</att>
-        <att name="sensor_type">RD Instruments ADCP</att>
-        <att name="serial_number" type="int">2935</att>
-        <att name="units">m</att>
-    </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">8000.0</att>
-            <att name="colorBarMinimum" type="double">-8000.0</att>
-            <att name="colorBarPalette">TopographyDepth</att>
-            <att name="ioos_category">Location</att>
-            <att name="standard_name">depth</att>
-            <att name="sensor_depth">null</att>
-            <att name="sensor_type">null</att>
-            <att name="serial_number">null</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
         <sourceName>BEAM_01</sourceName>
-        <destinationName>BEAM_01</destinationName>
+        <destinationName>TNIHCE01</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
         <att name="_FillValue" type="float">1.0E35</att>
@@ -14275,7 +14275,7 @@ Converted to netCDF via MATLAB by rdi2cdf.m 2.2c 10/22/99</att>
     </dataVariable>
     <dataVariable>
         <sourceName>BEAM_02</sourceName>
-        <destinationName>BEAM_02</destinationName>
+        <destinationName>TNIHCE02</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
         <att name="_FillValue" type="float">1.0E35</att>
@@ -14305,7 +14305,7 @@ Converted to netCDF via MATLAB by rdi2cdf.m 2.2c 10/22/99</att>
     </dataVariable>
     <dataVariable>
         <sourceName>BEAM_03</sourceName>
-        <destinationName>BEAM_03</destinationName>
+        <destinationName>TNIHCE03</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
         <att name="_FillValue" type="float">1.0E35</att>
@@ -14335,7 +14335,7 @@ Converted to netCDF via MATLAB by rdi2cdf.m 2.2c 10/22/99</att>
     </dataVariable>
     <dataVariable>
         <sourceName>BEAM_04</sourceName>
-        <destinationName>BEAM_04</destinationName>
+        <destinationName>TNIHCE04</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
         <att name="_FillValue" type="float">1.0E35</att>

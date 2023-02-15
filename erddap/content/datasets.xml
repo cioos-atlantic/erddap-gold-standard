@@ -12877,6 +12877,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
         <att name="coverage_content_type">coordinate</att>
       </addAttributes>
     </dataVariable>
+    <dataVariable>
       <sourceName>Number of Zero Crossings</sourceName>
       <destinationName>Number_of_Zero_Crossings</destinationName>
       <dataType>short</dataType>
@@ -15497,3 +15498,4 @@ Wed Aug 22 15:19:39 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       </addAttributes>
     </dataVariable>
   </dataset>
+</erddapDatasets>

@@ -13066,4 +13066,17 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
     </dataVariable>
 </dataset>
   <!-- WSP Grand Banks Wave Buoy Data: END -->
+
+  <!-- CEOTR SPOT-1431 Sable Island Wave Buoy START -->
+  <dataset type="EDDTableFromErddap" datasetID="SPOT-1431_202204" active="true">
+    <sourceUrl> https://data.ceotr.ca/erddap/tabledap/SPOT-1431_202204</sourceUrl>
+  </dataset>
+  <!-- CEOTR SPOT-1431 Sable Island Wave Buoy END -->
+
+  <!-- CEOTR SPOT-1461 Sable Island Wave Buoy START -->
+  <dataset type="EDDTableFromErddap" datasetID="SPOT-1461_202204" active="true">
+    <sourceUrl> https://data.ceotr.ca/erddap/tabledap/SPOT-1461_202204</sourceUrl>
+  </dataset>
+  <!-- CEOTR SPOT-1461 Sable Island Wave Buoy END -->
+
 </erddapDatasets>

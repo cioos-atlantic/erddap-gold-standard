@@ -13479,11 +13479,6 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
   </dataset>
   <!-- CEOTR SPOT-1461 Sable Island Wave Buoy END -->
 
-  <!-- CEOTR DMON Glider delayed START -->
-  <dataset type="EDDTableFromErddap" datasetID="scotia_20221004_163_delayed" active="true">
-    <sourceUrl> https://data.ceotr.ca/erddap/tabledap/scotia_20221004_163_delayed</sourceUrl>
-  </dataset>
-  <!-- CEOTR DMON Glider delayed END -->
   <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_adcp" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>

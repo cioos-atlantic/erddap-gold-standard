@@ -21,4 +21,8 @@ logs
 /dataSources/
 /dataSources.local.xml
 
+# Mac-created folder
 .DS_Store
+
+# In erddap/content, copy setup_(dev|prod).xml to setup.xml based on environment
+erddap/content/setup.xml

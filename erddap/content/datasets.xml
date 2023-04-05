@@ -1678,7 +1678,7 @@
     </dataset>
 
     <dataset type="EDDTableFromAsciiFiles" datasetID="candhis_97501_spm_timeseries" active="true">
-        <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+        <reloadEveryNMinutes>60</reloadEveryNMinutes>
         <updateEveryNMillis>10000</updateEveryNMillis>
         <fileDir>/datasets/candhis_spm/timeseries/</fileDir>
         <fileNameRegex>97501_timeseries_\d+\.csv</fileNameRegex>
@@ -1934,7 +1934,7 @@
     </dataset>
 
     <dataset type="EDDTableFromAsciiFiles" datasetID="candhis_97501_spm_wave_spectra" active="true">
-        <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+        <reloadEveryNMinutes>60</reloadEveryNMinutes>
         <updateEveryNMillis>10000</updateEveryNMillis>
         <fileDir>/datasets/candhis_spm/wave_spectra/</fileDir>
         <fileNameRegex>97501_wave_spectra_\d+\.csv</fileNameRegex>

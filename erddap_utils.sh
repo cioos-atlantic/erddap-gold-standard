@@ -20,33 +20,15 @@ erddap_generate_datasets_xml() {
     popd
 }
 
-erddap_gendata_mv() {
-    # Move the latest output from GenerateDatasetXml.sh to $ERDDAP_GENDATA_DIR
-    dataset_id=$1
-    if [ -z $dataset_id ]; then
-        echo "Usage: erddap_copy_gendata <dataset id>"
-    else
-        pushd $ERDDAP_DIR
-        mkdir -p $ERDDAP_GENDATA_DIR
-        mv $ERDDAP_DIR/erddap/data/GenerateDatasetsXml.out $ERDDAP_GENDATA_DIR/${dataset_id}.xml
-        echo "The latest generated XML has been copied to $ERDDAP_GENDATA_DIR/${dataset_id}.xml"
-    fi
+erddap_dasdds() {
+    # Once a dataset's XML is present in datasets.xml, use DasDds.sh on 
+    # the dataset's id to test data loading with modified file/path regexes.
+    pushd $ERDDAP_DIR
+    sudo bash DasDds.sh
+    popd
 }
 
-erddap_xml_concat() {
-    # Concatenate all generated XML files together to create datasets.xml
-    mv $ERDDAP_DATASETS_XML $ERDDAP_DATASETS_XML.bak
-    cat > $ERDDAP_DATASETS_XML << EOF
-<?xml version="1.0" encoding="UTF-8" ?>
-<erddapDatasets>
-EOF
-    for xml_file in $ERDDAP_GENDATA_DIR/*.xml; do
-        cat $xml_file >>  $ERDDAP_DATASETS_XML
-    done
-    echo "</erddapDatasets>" >> $ERDDAP_DATASETS_XML
-}
-
-erddap_dir() {
+erddap_cd() {
     cd $ERDDAP_DIR
 }
 
@@ -89,7 +71,8 @@ erddap_log_docker() {
 }
 
 erddap_log_data() {
-    sudo docker exec erddap_gold_standard tail -n 300 /erddapData/logs/log.txt 2>&1 | less
+    # sudo docker exec erddap_gold_standard tail -n 300 /erddapData/logs/log.txt 2>&1 | less
+    sudo less ${ERDDAP_DIR}/erddap/data/logs/log.txt
 }
 
 erddap_restart() {

@@ -14663,118 +14663,11 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="title">Maritimes region Moored CTD </att>
       <!-- Null global attributes -->
       <att name="data_type">null</att>
-      <att name="EVENT_COMMENTS_1">null</att>
-      <att name="EVENT_COMMENTS_2">null</att>
       <att name="history">null</att>
       <att name="latitude">null</att>
       <att name="longitude">null</att>
       <att name="NCO">null</att>
-      <att name="ODF_HISTORY_1">null</att>
-      <att name="ODF_HISTORY_10">null</att>
-      <att name="ODF_HISTORY_100">null</att>
-      <att name="ODF_HISTORY_101">null</att>
-      <att name="ODF_HISTORY_102">null</att>
-      <att name="ODF_HISTORY_103">null</att>
-      <att name="ODF_HISTORY_104">null</att>
-      <att name="ODF_HISTORY_105">null</att>
-      <att name="ODF_HISTORY_106">null</att>
-      <att name="ODF_HISTORY_11">null</att>
-      <att name="ODF_HISTORY_12">null</att>
-      <att name="ODF_HISTORY_13">null</att>
-      <att name="ODF_HISTORY_14">null</att>
-      <att name="ODF_HISTORY_15">null</att>
-      <att name="ODF_HISTORY_16">null</att>
-      <att name="ODF_HISTORY_17">null</att>
-      <att name="ODF_HISTORY_18">null</att>
-      <att name="ODF_HISTORY_19">null</att>
-      <att name="ODF_HISTORY_2">null</att>
-      <att name="ODF_HISTORY_20">null</att>
-      <att name="ODF_HISTORY_21">null</att>
-      <att name="ODF_HISTORY_22">null</att>
-      <att name="ODF_HISTORY_23">null</att>
-      <att name="ODF_HISTORY_24">null</att>
-      <att name="ODF_HISTORY_25">null</att>
-      <att name="ODF_HISTORY_26">null</att>
-      <att name="ODF_HISTORY_27">null</att>
-      <att name="ODF_HISTORY_28">null</att>
-      <att name="ODF_HISTORY_29">null</att>
-      <att name="ODF_HISTORY_3">null</att>
-      <att name="ODF_HISTORY_30">null</att>
-      <att name="ODF_HISTORY_31">null</att>
-      <att name="ODF_HISTORY_32">null</att>
-      <att name="ODF_HISTORY_33">null</att>
-      <att name="ODF_HISTORY_34">null</att>
-      <att name="ODF_HISTORY_35">null</att>
-      <att name="ODF_HISTORY_36">null</att>
-      <att name="ODF_HISTORY_37">null</att>
-      <att name="ODF_HISTORY_38">null</att>
-      <att name="ODF_HISTORY_39">null</att>
-      <att name="ODF_HISTORY_4">null</att>
-      <att name="ODF_HISTORY_40">null</att>
-      <att name="ODF_HISTORY_41">null</att>
-      <att name="ODF_HISTORY_42">null</att>
-      <att name="ODF_HISTORY_43">null</att>
-      <att name="ODF_HISTORY_44">null</att>
-      <att name="ODF_HISTORY_45">null</att>
-      <att name="ODF_HISTORY_46">null</att>
-      <att name="ODF_HISTORY_47">null</att>
-      <att name="ODF_HISTORY_48">null</att>
-      <att name="ODF_HISTORY_49">null</att>
-      <att name="ODF_HISTORY_5">null</att>
-      <att name="ODF_HISTORY_50">null</att>
-      <att name="ODF_HISTORY_51">null</att>
-      <att name="ODF_HISTORY_52">null</att>
-      <att name="ODF_HISTORY_53">null</att>
-      <att name="ODF_HISTORY_54">null</att>
-      <att name="ODF_HISTORY_55">null</att>
-      <att name="ODF_HISTORY_56">null</att>
-      <att name="ODF_HISTORY_57">null</att>
-      <att name="ODF_HISTORY_58">null</att>
-      <att name="ODF_HISTORY_59">null</att>
-      <att name="ODF_HISTORY_6">null</att>
-      <att name="ODF_HISTORY_60">null</att>
-      <att name="ODF_HISTORY_61">null</att>
-      <att name="ODF_HISTORY_62">null</att>
-      <att name="ODF_HISTORY_63">null</att>
-      <att name="ODF_HISTORY_64">null</att>
-      <att name="ODF_HISTORY_65">null</att>
-      <att name="ODF_HISTORY_66">null</att>
-      <att name="ODF_HISTORY_67">null</att>
-      <att name="ODF_HISTORY_68">null</att>
-      <att name="ODF_HISTORY_69">null</att>
-      <att name="ODF_HISTORY_7">null</att>
-      <att name="ODF_HISTORY_70">null</att>
-      <att name="ODF_HISTORY_71">null</att>
-      <att name="ODF_HISTORY_72">null</att>
-      <att name="ODF_HISTORY_73">null</att>
-      <att name="ODF_HISTORY_74">null</att>
-      <att name="ODF_HISTORY_75">null</att>
-      <att name="ODF_HISTORY_76">null</att>
-      <att name="ODF_HISTORY_77">null</att>
-      <att name="ODF_HISTORY_78">null</att>
-      <att name="ODF_HISTORY_79">null</att>
-      <att name="ODF_HISTORY_8">null</att>
-      <att name="ODF_HISTORY_80">null</att>
-      <att name="ODF_HISTORY_81">null</att>
-      <att name="ODF_HISTORY_82">null</att>
-      <att name="ODF_HISTORY_83">null</att>
-      <att name="ODF_HISTORY_84">null</att>
-      <att name="ODF_HISTORY_85">null</att>
-      <att name="ODF_HISTORY_86">null</att>
-      <att name="ODF_HISTORY_87">null</att>
-      <att name="ODF_HISTORY_88">null</att>
-      <att name="ODF_HISTORY_89">null</att>
-      <att name="ODF_HISTORY_9">null</att>
-      <att name="ODF_HISTORY_90">null</att>
-      <att name="ODF_HISTORY_91">null</att>
-      <att name="ODF_HISTORY_92">null</att>
-      <att name="ODF_HISTORY_93">null</att>
-      <att name="ODF_HISTORY_94">null</att>
-      <att name="ODF_HISTORY_95">null</att>
-      <att name="ODF_HISTORY_96">null</att>
-      <att name="ODF_HISTORY_97">null</att>
-      <att name="ODF_HISTORY_98">null</att>
-      <att name="ODF_HISTORY_99">null</att>
+      <att name="sounding">null</att>
       <att name="platform">null</att>
       <att name="sampling_interval">null</att>
       <att name="sounding" type="double">null</att>
@@ -14805,8 +14698,40 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       </addAttributes>
     </dataVariable>
     <dataVariable>
+      <sourceName>global:mission_description</sourceName>
+      <destinationName>mission_description</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:location_description</sourceName>
+      <destinationName>location_description</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
       <sourceName>global:chief_scientist</sourceName>
       <destinationName>chief_scientist</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:deployment_platform_name</sourceName>
+      <destinationName>:deployment_platform_name</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument</sourceName>
+      <destinationName>instrument</destinationName>
       <dataType>String</dataType>
       <addAttributes>
         <att name="ioos_category">Identifier</att>
@@ -14835,6 +14760,30 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <addAttributes>
         <att name="ioos_category">Identifier</att>
         <att name="units">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:water_depth</sourceName>
+      <destinationName>water_depth</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument_offbottom_depth</sourceName>
+      <destinationName>instrument_offbottom_depth</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument_depth</sourceName>
+      <destinationName>instrument_depth</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -14896,7 +14845,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>variable:TE90_01:sensor_depth</sourceName>
+      <sourceName>depth</sourceName>
       <destinationName>depth</destinationName>
       <dataType>double</dataType>
       <!-- sourceAttributes>

@@ -5155,7 +5155,7 @@
   <!-- St. FX Marine Ecology Lab HOBO logger: END -->
 
   <!-- DFO BIO Atlantic Zone Monitoring Program (AZMP): START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="maritimes_region_atlantic_zone_monitoring_program_rosette_vertical_profiles" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_atlantic_zone_monitoring_program_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/ctd/Atlantic Zone Monitoring Program/</fileDir>
@@ -6591,7 +6591,7 @@
   <!-- DFO BIO Atlantic Zone Monitoring Program (AZMP): END -->
 
   <!-- DFO BIO Atlantic Zone Off-shelf Monitoring Program (AZOMP): START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="atlantic_zone_off_shelf_monitoring_program" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_atlantic_zone_off_shelf_monitoring_program_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/ctd/Atlantic Zone Off-Shelf Monitoring Program/</fileDir>
@@ -7991,7 +7991,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
   <!-- DFO BIO Atlantic Zone Off-shelf Monitoring Program (AZOMP): END -->
 
   <!-- DFO BIO Maritimes Region Ecosystem Survey (MRES): START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="maritimes_region_ecosystem_survey" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_maritimes_region_ecosystem_survey_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/ctd/Maritimes Region Ecosystem Survey/</fileDir>
@@ -9435,7 +9435,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
   <!-- DFO BIO Maritimes Region Ecosystem Survey (MRES): END -->
 
   <!-- DFO BIO Barrow Strait Program: START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_barrow_strait_program_rosette" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_barrow_strait_program_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/ctd/Barrow Strait Monitoring Program/</fileDir>
@@ -14661,6 +14661,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station</att>
       <att name="summary">Bedford Institute of Oceanography, Department of Fisheries and Oceans (DFO) data from a local source.</att>
       <att name="title">Maritimes region Moored CTD </att>
+      <att name="institution">DFO BIO</att>
       <!-- Null global attributes -->
       <att name="data_type">null</att>
       <att name="EVENT_COMMENTS_1">null</att>

@@ -14911,67 +14911,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="units">m</att>
       </addAttributes>
     </dataVariable>
-
-    <dataVariable>
-      <sourceName>CRAT_01</sourceName>
-      <destinationName>CRAT01</destinationName>
-      <dataType>double</dataType>
-      <!-- sourceAttributes>
-        <att name="_FillValue" type="double">1.0E35</att>
-        <att name="data_max" type="double">1.0E35</att>
-        <att name="data_min" type="double">0.586273</att>
-        <att name="generic_name">conductivity</att>
-        <att name="long_name">conductivity</att>
-        <att name="sdn_parameter_urn">SDN:P01::</att>
-        <att name="sensor_depth" type="double">7.0</att>
-        <att name="sensor_type">SBE37-SM V2.6 b</att>
-        <att name="serial_number">5345</att>
-        <att name="units">1</att>
-        <att name="valid_max" type="double">-10000.0</att>
-        <att name="valid_min" type="double">10000.0</att>
-    </sourceAttributes -->
-      <addAttributes>
-        <att name="colorBarMaximum" type="double">40.0</att>
-        <att name="colorBarMinimum" type="double">30.0</att>
-        <att name="ioos_category">Salinity</att>
-        <att name="sdn_P02_urn">SDN:P02::SAGE</att>
-        <att name="standard_name">sea_water_electrical_conductivity</att>
-        <att name="sensor_depth">null</att>
-        <att name="sensor_type">null</att>
-        <att name="serial_number">null</att>
-      </addAttributes>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>POTM_01</sourceName>
-      <destinationName>POTM_01</destinationName>
-      <dataType>double</dataType>
-      <!-- sourceAttributes>
-        <att name="_FillValue" type="double">1.0E35</att>
-        <att name="data_max" type="double">19.8374</att>
-        <att name="data_min" type="double">-0.7475</att>
-        <att name="generic_name">theta</att>
-        <att name="long_name">theta</att>
-        <att name="sdn_parameter_urn">SDN:P01::</att>
-        <att name="sdn_uom_name">Degrees Celsius</att>
-        <att name="sdn_uom_urn">UPAA</att>
-        <att name="sensor_depth" type="double">7.0</att>
-        <att name="sensor_type">SBE37-SM V2.6 b</att>
-        <att name="serial_number">5345</att>
-        <att name="units">degrees C</att>
-        <att name="valid_max" type="double">-10000.0</att>
-        <att name="valid_min" type="double">10000.0</att>
-    </sourceAttributes -->
-      <addAttributes>
-        <att name="colorBarMaximum" type="double">40.0</att>
-        <att name="colorBarMinimum" type="double">-10.0</att>
-        <att name="ioos_category">Temperature</att>
-        <att name="sdn_P02_urn">SDN:P02::SAGE</att>
-        <att name="units">degree_C</att>
-        <att name="sensor_depth">null</att>
-        <att name="sensor_type">null</att>
-        <att name="serial_number">null</att>
-      </addAttributes>
-    </dataVariable>
     <dataVariable>
       <sourceName>PRES_01</sourceName>
       <destinationName>PRESPR01</destinationName>
@@ -15000,6 +14939,35 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="colorBarMinimum" type="double">0.0</att>
         <att name="ioos_category">Pressure</att>
         <att name="sdn_P02_urn">SDN:P02::AHGT</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>CRAT_01</sourceName>
+      <destinationName>CRAT01</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="double">1.0E35</att>
+        <att name="data_max" type="double">1.0E35</att>
+        <att name="data_min" type="double">0.586273</att>
+        <att name="generic_name">conductivity</att>
+        <att name="long_name">conductivity</att>
+        <att name="sdn_parameter_urn">SDN:P01::</att>
+        <att name="sensor_depth" type="double">7.0</att>
+        <att name="sensor_type">SBE37-SM V2.6 b</att>
+        <att name="serial_number">5345</att>
+        <att name="units">1</att>
+        <att name="valid_max" type="double">-10000.0</att>
+        <att name="valid_min" type="double">10000.0</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">40.0</att>
+        <att name="colorBarMinimum" type="double">30.0</att>
+        <att name="ioos_category">Salinity</att>
+        <att name="sdn_P02_urn">SDN:P02::SAGE</att>
+        <att name="standard_name">sea_water_electrical_conductivity</att>
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
@@ -15039,6 +15007,53 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       </addAttributes>
     </dataVariable>
     <dataVariable>
+      <sourceName>TEMP_01</sourceName>
+      <destinationName>TEMPPR01</destinationName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">40.0</att>
+        <att name="colorBarMinimum" type="double">-10.0</att>
+        <att name="ioos_category">Temperature</att>
+        <att name="sdn_P02_urn">SDN:P02::TEMP</att>
+        <att name="units">degree_C</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>TE90_01</sourceName>
+      <destinationName>TEMPP901</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="double">1.0E35</att>
+        <att name="data_max" type="double">19.8337</att>
+        <att name="data_min" type="double">-0.7472</att>
+        <att name="generic_name">temperature</att>
+        <att name="long_name">temperature</att>
+        <att name="sdn_parameter_name">Temperature (ITS-90) of the water body</att>
+        <att name="sdn_parameter_urn">SDN:P01::TEMPP901</att>
+        <att name="sdn_uom_name">Degrees Celsius</att>
+        <att name="sdn_uom_urn">UPAA</att>
+        <att name="sensor_depth" type="double">7.0</att>
+        <att name="sensor_type">SBE37-SM V2.6 b</att>
+        <att name="serial_number">5345</att>
+        <att name="units">degrees C</att>
+        <att name="valid_max" type="double">-10000.0</att>
+        <att name="valid_min" type="double">10000.0</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">40.0</att>
+        <att name="colorBarMinimum" type="double">-10.0</att>
+        <att name="ioos_category">Temperature</att>
+        <att name="sdn_P02_urn">SDN:P02::TEMP</att>
+        <att name="units">degree_C</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
       <sourceName>SIGP_01</sourceName>
       <destinationName>SIGTEQ01</destinationName>
       <dataType>double</dataType>
@@ -15071,17 +15086,16 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>TE90_01</sourceName>
-      <destinationName>TEMPP901</destinationName>
+      <sourceName>POTM_01</sourceName>
+      <destinationName>POTM_01</destinationName>
       <dataType>double</dataType>
       <!-- sourceAttributes>
         <att name="_FillValue" type="double">1.0E35</att>
-        <att name="data_max" type="double">19.8337</att>
-        <att name="data_min" type="double">-0.7472</att>
-        <att name="generic_name">temperature</att>
-        <att name="long_name">temperature</att>
-        <att name="sdn_parameter_name">Temperature (ITS-90) of the water body</att>
-        <att name="sdn_parameter_urn">SDN:P01::TEMPP901</att>
+        <att name="data_max" type="double">19.8374</att>
+        <att name="data_min" type="double">-0.7475</att>
+        <att name="generic_name">theta</att>
+        <att name="long_name">theta</att>
+        <att name="sdn_parameter_urn">SDN:P01::</att>
         <att name="sdn_uom_name">Degrees Celsius</att>
         <att name="sdn_uom_urn">UPAA</att>
         <att name="sensor_depth" type="double">7.0</att>
@@ -15095,7 +15109,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="colorBarMaximum" type="double">40.0</att>
         <att name="colorBarMinimum" type="double">-10.0</att>
         <att name="ioos_category">Temperature</att>
-        <att name="sdn_P02_urn">SDN:P02::TEMP</att>
+        <att name="sdn_P02_urn">SDN:P02::SAGE</att>
         <att name="units">degree_C</att>
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>

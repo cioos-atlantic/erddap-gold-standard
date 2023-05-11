@@ -69,9 +69,9 @@
       <att name="cdm_timeseries_variables">Cruise, Type, Instrument</att>
       <att name="subsetVariables">Cruise, Type, Instrument</att>
       <att name="summary">Upon a recent rapid increase of the finfish aquaculture industry in the Coast of Bays, an area of the South Coast of Newfoundland (9 fold production growth from 2003 to 2013), Fisheries and Oceans Canada (DFO) carried out a research project to better understand the physical oceanography of the area. This report is the second of a series aiming to provide an oceanographic knowledge baseline of the Coast of Bays (i.e., data and analyses) to help manage and ensure the sustainable growth of the aquaculture industry. This report presents the analysis of 790 water profiles of temperature, salinity and dissolved oxygen concentration sampled at 276 stations over the course of a 5-year oceanographic program (2009 13). The profiles were analyzed using along-channel vertical sections plots (i.e., transects), surface property maps and water masses statistics.</att>
-      <att name="summary_fra">À la suite d'une récente augmentation rapide de l'industrie de l'aquaculture de poissons dans la côte des baies, une région de la côte sud de Terre-Neuve (production multiplié par 9 de 2003 à 2013), Pêches et Océans Canada a mené un projet de recherche pour mieux comprendre l'océanographie physique de la région. Ce rapport est le deuxième d'une série visant à fournir une base de connaissances océanographiques sur le littoral des baies (données et analyses) afin d’aider à gérer et assurer la croissance durable de l'industrie aquacole. Ce rapport présente l'analyse de 790 profils de température, salinité et concentration en oxygène dissous échantillonnés à 276 stations au cours d'un programme océanographique de cinq ans (2009 2013). Les profils ont été analysés à l'aide de tracés de sections verticales (transects), de cartes de propriétés de surface et de statistiques des masses d'eau.</att>
+      <att name="summary_fr">À la suite d'une récente augmentation rapide de l'industrie de l'aquaculture de poissons dans la côte des baies, une région de la côte sud de Terre-Neuve (production multiplié par 9 de 2003 à 2013), Pêches et Océans Canada a mené un projet de recherche pour mieux comprendre l'océanographie physique de la région. Ce rapport est le deuxième d'une série visant à fournir une base de connaissances océanographiques sur le littoral des baies (données et analyses) afin d’aider à gérer et assurer la croissance durable de l'industrie aquacole. Ce rapport présente l'analyse de 790 profils de température, salinité et concentration en oxygène dissous échantillonnés à 276 stations au cours d'un programme océanographique de cinq ans (2009 2013). Les profils ont été analysés à l'aide de tracés de sections verticales (transects), de cartes de propriétés de surface et de statistiques des masses d'eau.</att>
       <att name="title">Coast of Bays seawater vertical and horizontal structure: Hydrographic structure, spatial variability and seasonality, 2009-2013</att>
-      <att name="title_fra">Structure verticale et horizontale de l'eau de mer de la Coast of Bays: Structure hydrographique, variabilité spatiale et saisonnalité basée sur les levés océanographiques du PRRA, 2009-2013</att>
+      <att name="title_fr">Structure verticale et horizontale de l'eau de mer de la Coast of Bays: Structure hydrographique, variabilité spatiale et saisonnalité basée sur les levés océanographiques du PRRA, 2009-2013</att>
     </addAttributes>
     <dataVariable>
       <sourceName>Cruise</sourceName>
@@ -5156,7 +5156,7 @@
   <!-- St. FX Marine Ecology Lab HOBO logger: END -->
 
   <!-- DFO BIO Atlantic Zone Monitoring Program (AZMP): START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="maritimes_region_atlantic_zone_monitoring_program_rosette_vertical_profiles" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_atlantic_zone_monitoring_program_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/ctd/Atlantic Zone Monitoring Program/</fileDir>
@@ -5190,7 +5190,7 @@
       <att name="publisher_name">Lindsay Beazley</att>
       <att name="publisher_url">https://www.dfo-mpo.gc.ca/index-eng.html</att>
       <att name="description">The Atlantic Zone Monitoring Program (AZMP) was implemented in 1998 with the aim of detecting and tracking climate change and variability in the northwest Atlantic, evaluating changes in the physical, chemical and biological ocean properties and predator-prey dynamics of marine resources, thereby enhancing Canada's ability to understand, describe, and forecast the state of the marine ecosystem. AZMP's sampling scheme in the Maritimes Region involves oceanographic sampling at two high-frequency (biweekly to monthly) fixed coastal stations, biannual sampling at stratified-random locations during DFO-led Ecosystem Trawl Surveys, biannual sampling along fixed cross-shelf sections (Cabot Strait Line, Louisbourg Line, Halifax Line, Browns Bank Line, and the Northeast Channel); the latter of which may also include opportunistic sampling at stations in the Laurentian Channel, Gulf of Maine, and various Marine Protected Areas (MPAs) in support of ancillary research programs and initiatives. AZMP sampling is conducted according to standard procedures (see https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) and includes the collection of CTD profiles and water samples for the determination of physical (e.g., T, S), chemical (e.g., nutrients, oxygen, pH), and biological (chl a) variables and vertical ring net tows. The data collected are synthesized into two annual reports on the physical and chemical/biological changes in the Maritimes Region, and are also used to evaluate changes across the Atlantic zone.</att>
-      <att name="description_fra">Le Programme de surveillance de la zone atlantique (PMZA) a été mis en œuvre en 1998 dans le but de détecter et de suivre les changements climatiques et la variabilité dans l'Atlantique Nord-Ouest, d'évaluer les changements dans les propriétés physiques, chimiques et biologiques de l'océan et la dynamique prédateur-proie des ressources marines, améliorant ainsi le Canada. de comprendre, de décrire et de prévoir l'état de l'écosystème marin. Le schéma d'échantillonnage de l'AZMP dans la région des Maritimes comprend un échantillonnage océanographique à deux stations côtières fixes à haute fréquence (bihebdomadaire à mensuelle), un échantillonnage semestriel à des emplacements stratifiés aléatoires pendant les relevés au chalut écosystémique dirigés par le MPO, un échantillonnage biannuel le long de sections transversales fixes (Cabot Strait Line, Louisbourg Line, Halifax Line, Browns Bank Line et Northeast Channel) ; ces derniers peuvent également inclure un échantillonnage opportuniste dans les stations du chenal Laurentien, du golfe du Maine et de diverses aires marines protégées (AMP) à l'appui de programmes et d'initiatives de recherche auxiliaire. L'échantillonnage AZMP est effectué conformément aux procédures normalisées (voir https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) et comprend la collecte de profils CTD et d'échantillons d'eau pour la détermination des variables physiques (p. ex. T, S), chimiques (nutriments, oxygène, pH) et biologiques (chl a) et verticales remorquage de filet d'anneau. Les données recueillies sont synthétisées dans deux rapports annuels sur les changements physiques et chimiques et biologiques dans la région des Maritimes, et sont également utilisées pour évaluer les changements dans la zone atlantique.</att>
+      <att name="description_fr">Le Programme de surveillance de la zone atlantique (PMZA) a été mis en œuvre en 1998 dans le but de détecter et de suivre les changements climatiques et la variabilité dans l'Atlantique Nord-Ouest, d'évaluer les changements dans les propriétés physiques, chimiques et biologiques de l'océan et la dynamique prédateur-proie des ressources marines, améliorant ainsi le Canada. de comprendre, de décrire et de prévoir l'état de l'écosystème marin. Le schéma d'échantillonnage de l'AZMP dans la région des Maritimes comprend un échantillonnage océanographique à deux stations côtières fixes à haute fréquence (bihebdomadaire à mensuelle), un échantillonnage semestriel à des emplacements stratifiés aléatoires pendant les relevés au chalut écosystémique dirigés par le MPO, un échantillonnage biannuel le long de sections transversales fixes (Cabot Strait Line, Louisbourg Line, Halifax Line, Browns Bank Line et Northeast Channel) ; ces derniers peuvent également inclure un échantillonnage opportuniste dans les stations du chenal Laurentien, du golfe du Maine et de diverses aires marines protégées (AMP) à l'appui de programmes et d'initiatives de recherche auxiliaire. L'échantillonnage AZMP est effectué conformément aux procédures normalisées (voir https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) et comprend la collecte de profils CTD et d'échantillons d'eau pour la détermination des variables physiques (p. ex. T, S), chimiques (nutriments, oxygène, pH) et biologiques (chl a) et verticales remorquage de filet d'anneau. Les données recueillies sont synthétisées dans deux rapports annuels sur les changements physiques et chimiques et biologiques dans la région des Maritimes, et sont également utilisées pour évaluer les changements dans la zone atlantique.</att>
       <att name="geospatial_lat_units">degrees_north</att>
       <att name="geospatial_lon_units">degrees_north</att>
       <att name="geospatial_vertical_positive">down</att>
@@ -5198,14 +5198,14 @@
       <att name="header"></att>
       <att name="infoUrl">https://www.dfo-mpo.gc.ca/science/data-donnees/azmp-pmza/index-eng.html</att>
       <att name="keywords">chlorophyll a,climate change,phosphate,oxygen,water density,seaSurfaceSalinity,subSurfaceTemperature,remote sensing,salinity,seaSurfaceTemperature,oceanographic missions,physical-chemical,other,nutrients,inorganicCarbon,sampling,water temperature,dissolvedOrganicCarbon,potential temperature,fluorescence,potential density,nitrate,pressure,seawater density,subSurfaceSalinity,silicate</att>
-      <att name="keywords_fra">changement climatique, salinit&#xe9;, chlorophylle a, temp&#xe9;rature de l&#39;eau, t&#xe9;l&#xe9;d&#xe9;tection, fluorescence, densit&#xe9; eau, &#xe9;chantillonnage, missions oc&#xe9;anographique, physico-chimie, Oxyg&#xe8;ne, Pression, Salinit&#xe9; de surface, Temp&#xe9;rature de surface, Densit&#xe9; d&#39;eau de mer, Temp&#xe9;rature potentielle, Densit&#xe9; potentielle, Autre, Salinit&#xe9; sous la surface, Temp&#xe9;rature sous la surface</att>
+      <att name="keywords_fr">changement climatique, salinit&#xe9;, chlorophylle a, temp&#xe9;rature de l&#39;eau, t&#xe9;l&#xe9;d&#xe9;tection, fluorescence, densit&#xe9; eau, &#xe9;chantillonnage, missions oc&#xe9;anographique, physico-chimie, Oxyg&#xe8;ne, Pression, Salinit&#xe9; de surface, Temp&#xe9;rature de surface, Densit&#xe9; d&#39;eau de mer, Temp&#xe9;rature potentielle, Densit&#xe9; potentielle, Autre, Salinit&#xe9; sous la surface, Temp&#xe9;rature sous la surface</att>
       <att name="keywords_vocabulary">CIOOS Keywords</att>
       <att name="license">Open Government Licence - Canada</att>
       <att name="naming_authority">CF Standard Name Table v29</att>
       <att name="summary">The Atlantic Zone Monitoring Program (AZMP) was implemented in 1998 with the aim of detecting and tracking climate change and variability in the northwest Atlantic, evaluating changes in the physical, chemical and biological ocean properties and predator-prey dynamics of marine resources, thereby enhancing Canada's ability to understand, describe, and forecast the state of the marine ecosystem. AZMP's sampling scheme in the Maritimes Region involves oceanographic sampling at two high-frequency (biweekly to monthly) fixed coastal stations, biannual sampling at stratified-random locations during DFO-led Ecosystem Trawl Surveys, biannual sampling along fixed cross-shelf sections (Cabot Strait Line, Louisbourg Line, Halifax Line, Browns Bank Line, and the Northeast Channel); the latter of which may also include opportunistic sampling at stations in the Laurentian Channel, Gulf of Maine, and various Marine Protected Areas (MPAs) in support of ancillary research programs and initiatives. AZMP sampling is conducted according to standard procedures (see https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) and includes the collection of CTD profiles and water samples for the determination of physical (e.g., T, S), chemical (e.g., nutrients, oxygen, pH), and biological (chl a) variables and vertical ring net tows. The data collected are synthesized into two annual reports on the physical and chemical/biological changes in the Maritimes Region, and are also used to evaluate changes across the Atlantic zone.</att>
-      <att name="summary_fra">Le Programme de surveillance de la zone atlantique (PMZA) a été mis en œuvre en 1998 dans le but de détecter et de suivre les changements climatiques et la variabilité dans l'Atlantique Nord-Ouest, d'évaluer les changements dans les propriétés physiques, chimiques et biologiques de l'océan et la dynamique prédateur-proie des ressources marines, améliorant ainsi le Canada. de comprendre, de décrire et de prévoir l'état de l'écosystème marin. Le schéma d'échantillonnage de l'AZMP dans la région des Maritimes comprend un échantillonnage océanographique à deux stations côtières fixes à haute fréquence (bihebdomadaire à mensuelle), un échantillonnage semestriel à des emplacements stratifiés aléatoires pendant les relevés au chalut écosystémique dirigés par le MPO, un échantillonnage biannuel le long de sections transversales fixes (Cabot Strait Line, Louisbourg Line, Halifax Line, Browns Bank Line et Northeast Channel) ; ces derniers peuvent également inclure un échantillonnage opportuniste dans les stations du chenal Laurentien, du golfe du Maine et de diverses aires marines protégées (AMP) à l'appui de programmes et d'initiatives de recherche auxiliaire. L'échantillonnage AZMP est effectué conformément aux procédures normalisées (voir https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) et comprend la collecte de profils CTD et d'échantillons d'eau pour la détermination des variables physiques (p. ex. T, S), chimiques (nutriments, oxygène, pH) et biologiques (chl a) et verticales remorquage de filet d'anneau. Les données recueillies sont synthétisées dans deux rapports annuels sur les changements physiques et chimiques et biologiques dans la région des Maritimes, et sont également utilisées pour évaluer les changements dans la zone atlantique.</att>
+      <att name="summary_fr">Le Programme de surveillance de la zone atlantique (PMZA) a été mis en œuvre en 1998 dans le but de détecter et de suivre les changements climatiques et la variabilité dans l'Atlantique Nord-Ouest, d'évaluer les changements dans les propriétés physiques, chimiques et biologiques de l'océan et la dynamique prédateur-proie des ressources marines, améliorant ainsi le Canada. de comprendre, de décrire et de prévoir l'état de l'écosystème marin. Le schéma d'échantillonnage de l'AZMP dans la région des Maritimes comprend un échantillonnage océanographique à deux stations côtières fixes à haute fréquence (bihebdomadaire à mensuelle), un échantillonnage semestriel à des emplacements stratifiés aléatoires pendant les relevés au chalut écosystémique dirigés par le MPO, un échantillonnage biannuel le long de sections transversales fixes (Cabot Strait Line, Louisbourg Line, Halifax Line, Browns Bank Line et Northeast Channel) ; ces derniers peuvent également inclure un échantillonnage opportuniste dans les stations du chenal Laurentien, du golfe du Maine et de diverses aires marines protégées (AMP) à l'appui de programmes et d'initiatives de recherche auxiliaire. L'échantillonnage AZMP est effectué conformément aux procédures normalisées (voir https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) et comprend la collecte de profils CTD et d'échantillons d'eau pour la détermination des variables physiques (p. ex. T, S), chimiques (nutriments, oxygène, pH) et biologiques (chl a) et verticales remorquage de filet d'anneau. Les données recueillies sont synthétisées dans deux rapports annuels sur les changements physiques et chimiques et biologiques dans la région des Maritimes, et sont également utilisées pour évaluer les changements dans la zone atlantique.</att>
       <att name="title">Maritimes Region Atlantic Zone Monitoring Program (AZMP) Rosette Vertical Profiles</att>
-      <att name="title_fra">Profils verticaux de rosette du programme de monitorage de la zone Atlantique (PMZA) de la région des maritimes</att>
+      <att name="title_fr">Profils verticaux de rosette du programme de monitorage de la zone Atlantique (PMZA) de la région des maritimes</att>
       <att name="creator_type">institution</att>
       <att name="sourceUrl">(local files)</att>
       <att name="platform">research vessel</att>
@@ -6592,7 +6592,7 @@
   <!-- DFO BIO Atlantic Zone Monitoring Program (AZMP): END -->
 
   <!-- DFO BIO Atlantic Zone Off-shelf Monitoring Program (AZOMP): START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="atlantic_zone_off_shelf_monitoring_program" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_atlantic_zone_off_shelf_monitoring_program_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/ctd/Atlantic Zone Off-Shelf Monitoring Program/</fileDir>
@@ -6625,7 +6625,7 @@
       <att name="publisher_name">Marc Ringuette</att>
       <att name="publisher_url">https://www.dfo-mpo.gc.ca/index-eng.html</att>
       <att name="description">The Atlantic Zone Monitoring Program (AZMP) was implemented in 1998 with the aim of detecting and tracking climate change and variability in the northwest Atlantic, evaluating changes in the physical, chemical and biological ocean properties and predator-prey dynamics of marine resources, thereby enhancing Canada's ability to understand, describe, and forecast the state of the marine ecosystem. AZMP's sampling scheme in the Maritimes Region involves oceanographic sampling at two high-frequency (biweekly to monthly) fixed coastal stations, biannual sampling at stratified-random locations during DFO-led Ecosystem Trawl Surveys, biannual sampling along fixed cross-shelf sections (Cabot Strait Line, Louisbourg Line, Halifax Line, Browns Bank Line, and the Northeast Channel); the latter of which may also include opportunistic sampling at stations in the Laurentian Channel, Gulf of Maine, and various Marine Protected Areas (MPAs) in support of ancillary research programs and initiatives. AZMP sampling is conducted according to standard procedures (see https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) and includes the collection of CTD profiles and water samples for the determination of physical (e.g., T, S), chemical (e.g., nutrients, oxygen, pH), and biological (chl a) variables and vertical ring net tows. The data collected are synthesized into two annual reports on the physical and chemical/biological changes in the Maritimes Region, and are also used to evaluate changes across the Atlantic zone.</att>
-      <att name="description_fra">Le Programme de surveillance de la zone atlantique (PMZA) a été mis en œuvre en 1998 dans le but de détecter et de suivre les changements climatiques et la variabilité dans l'Atlantique Nord-Ouest, d'évaluer les changements dans les propriétés physiques, chimiques et biologiques de l'océan et la dynamique prédateur-proie des ressources marines, améliorant ainsi le Canada. de comprendre, de décrire et de prévoir l'état de l'écosystème marin. Le schéma d'échantillonnage de l'AZMP dans la région des Maritimes comprend un échantillonnage océanographique à deux stations côtières fixes à haute fréquence (bihebdomadaire à mensuelle), un échantillonnage semestriel à des emplacements stratifiés aléatoires pendant les relevés au chalut écosystémique dirigés par le MPO, un échantillonnage biannuel le long de sections transversales fixes (Cabot Strait Line, Louisbourg Line, Halifax Line, Browns Bank Line et Northeast Channel) ; ces derniers peuvent également inclure un échantillonnage opportuniste dans les stations du chenal Laurentien, du golfe du Maine et de diverses aires marines protégées (AMP) à l'appui de programmes et d'initiatives de recherche auxiliaire. L'échantillonnage AZMP est effectué conformément aux procédures normalisées (voir https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) et comprend la collecte de profils CTD et d'échantillons d'eau pour la détermination des variables physiques (p. ex. T, S), chimiques (nutriments, oxygène, pH) et biologiques (chl a) et verticales remorquage de filet d'anneau. Les données recueillies sont synthétisées dans deux rapports annuels sur les changements physiques et chimiques et biologiques dans la région des Maritimes, et sont également utilisées pour évaluer les changements dans la zone atlantique.</att>
+      <att name="description_fr">Le Programme de surveillance de la zone atlantique (PMZA) a été mis en œuvre en 1998 dans le but de détecter et de suivre les changements climatiques et la variabilité dans l'Atlantique Nord-Ouest, d'évaluer les changements dans les propriétés physiques, chimiques et biologiques de l'océan et la dynamique prédateur-proie des ressources marines, améliorant ainsi le Canada. de comprendre, de décrire et de prévoir l'état de l'écosystème marin. Le schéma d'échantillonnage de l'AZMP dans la région des Maritimes comprend un échantillonnage océanographique à deux stations côtières fixes à haute fréquence (bihebdomadaire à mensuelle), un échantillonnage semestriel à des emplacements stratifiés aléatoires pendant les relevés au chalut écosystémique dirigés par le MPO, un échantillonnage biannuel le long de sections transversales fixes (Cabot Strait Line, Louisbourg Line, Halifax Line, Browns Bank Line et Northeast Channel) ; ces derniers peuvent également inclure un échantillonnage opportuniste dans les stations du chenal Laurentien, du golfe du Maine et de diverses aires marines protégées (AMP) à l'appui de programmes et d'initiatives de recherche auxiliaire. L'échantillonnage AZMP est effectué conformément aux procédures normalisées (voir https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) et comprend la collecte de profils CTD et d'échantillons d'eau pour la détermination des variables physiques (p. ex. T, S), chimiques (nutriments, oxygène, pH) et biologiques (chl a) et verticales remorquage de filet d'anneau. Les données recueillies sont synthétisées dans deux rapports annuels sur les changements physiques et chimiques et biologiques dans la région des Maritimes, et sont également utilisées pour évaluer les changements dans la zone atlantique.</att>
       <att name="geospatial_lat_units">degrees_north</att>
       <att name="geospatial_lon_units">degrees_north</att>
       <att name="geospatial_vertical_positive">down</att>
@@ -6633,7 +6633,7 @@
       <att name="header"></att>
       <att name="infoUrl">https://www.bio.gc.ca/science/monitoring-monitorage/azomp-pmzao/azomp-pmzao-en.php</att>
       <att name="keywords">CTD,tracers,chlorophyll a,climate change,phosphate,oceanColour,zooplanktonBiomassAndDiversity,oxygen,water density,phytoplankton,seaSurfaceSalinity,subSurfaceTemperature,particulateMatter,remote sensing,salinity,ADCP,seaSurfaceTemperature,PCO2,phytoplanktonBiomassAndDiversity,sea currents,oceanographic missions,transientTracers,physical-chemical,other,surfaceCurrents,nutrients,inorganicCarbon,sampling,subSurfaceCurrents,water temperature,carbon dioxide,dissolvedOrganicCarbon,potential temperature,fluorescence,potential density,nitrate,pressure,seawater density,subSurfaceSalinity,silicate</att>
-      <att name="keywords_fra">changement climatique, salinit&#xe9;, chlorophylle a, temp&#xe9;rature de l&#39;eau, t&#xe9;l&#xe9;d&#xe9;tection, fluorescence, densit&#xe9; eau, &#xe9;chantillonnage, missions oc&#xe9;anographique, physico-chimie, Oxyg&#xe8;ne, Pression, Salinit&#xe9; de surface, Temp&#xe9;rature de surface, Densit&#xe9; d&#39;eau de mer, Temp&#xe9;rature potentielle, Densit&#xe9; potentielle, Autre, Salinit&#xe9; sous la surface, Temp&#xe9;rature sous la surface</att>
+      <att name="keywords_fr">changement climatique, salinit&#xe9;, chlorophylle a, temp&#xe9;rature de l&#39;eau, t&#xe9;l&#xe9;d&#xe9;tection, fluorescence, densit&#xe9; eau, &#xe9;chantillonnage, missions oc&#xe9;anographique, physico-chimie, Oxyg&#xe8;ne, Pression, Salinit&#xe9; de surface, Temp&#xe9;rature de surface, Densit&#xe9; d&#39;eau de mer, Temp&#xe9;rature potentielle, Densit&#xe9; potentielle, Autre, Salinit&#xe9; sous la surface, Temp&#xe9;rature sous la surface</att>
       <att name="keywords_vocabulary">CIOOS Keywords</att>
       <att name="license">Open Government Licence - Canada</att>
       <att name="naming_authority">CF Standard Name Table v29</att>
@@ -6642,9 +6642,9 @@
 Annual measurements in the Labrador Sea began in 1990 as a contribution to the World Climate Research Program and have evolved into a multidisciplinary regional monitoring effort and part of the Global Ocean Ship-based Hydrographic Investigations Program (GO-SHIP).
 
 AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual sampling of both the extended Halifax Line, deep-water stations over the Scotian Slope and Rise located at the end of AZMP’s Halifax Line, and the Atlantic Repeat 7-West (AR7W) line, a 880 km-line running from Misery Point, Labrador to Cape Desolation, Greenland. Opportunistic sampling may also occur at stations in the Strait of Belle Ilse, station 27, Labrador Shelf, and OSNAP West line in support of ancillary research programs and initiatives. AZOMP sampling is conducted according to standard procedures (https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) and includes: 1- the collection of CTD and Lowered-ADCP profiles and water samples for the determination of physical (e.g., T, S, currents), chemical (e.g., nutrients, pH, transient gases for water mass determination and tracers for ventilation and carbon sequestration studies), and biological (e.g., chl a) variables; 2-  multi net tows for zooplankton;  and 3- vertical ring net tows for plankton. In addition XBTs and Argo floats are commonly deployed and vessel-mounted ADCP is used to determine current profiles. The data collected are synthesized into annual reports on the physical,  chemical and biological changes in Atlantic Canada and the Labrador Sea.”  One primary focus is on changes in the intensity of winter overturning of surface and intermediate-depth waters resulting in water mass formation and is part of the thermohaline circulation that affects the global climate. Convection also transfers atmospheric gases from the surface to intermediate depths, reducing the rate of increase of carbon dioxide in the atmosphere but increasing the acidity of the ocean</att>
-      <att name="summary_fra"></att>
+      <att name="summary_fr"></att>
       <att name="title">Maritimes Region Atlantic Zone Off-Shelf Monitoring Program (AZOMP) Rosette Vertical Profiles</att>
-      <att name="title_fra">Profils verticaux de rosette du programme de monitorage de la zone Atlantique au large du plateau continental (PMZAO) de la région des maritimes</att>
+      <att name="title_fr">Profils verticaux de rosette du programme de monitorage de la zone Atlantique au large du plateau continental (PMZAO) de la région des maritimes</att>
       <att name="creator_type">institution</att>
       <att name="sourceUrl">(local files)</att>
       <att name="platform">research vessel</att>
@@ -7992,7 +7992,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
   <!-- DFO BIO Atlantic Zone Off-shelf Monitoring Program (AZOMP): END -->
 
   <!-- DFO BIO Maritimes Region Ecosystem Survey (MRES): START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="maritimes_region_ecosystem_survey" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_maritimes_region_ecosystem_survey_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/ctd/Maritimes Region Ecosystem Survey/</fileDir>
@@ -8022,18 +8022,18 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <att name="geospatial_vertical_units">m</att>
       <att name="infoUrl">https://www.dfo-mpo.gc.ca/science/data-donnees/azmp-pmza/index-eng.html</att>
       <att name="keywords">CTD</att>
-      <att name="keywords_fra">CTD</att>
+      <att name="keywords_fr">CTD</att>
       <att name="keywords_vocabulary">CIOOS Keywords</att>
       <att name="license">Open Government Licence - Canada</att>
       <att name="naming_authority">CF Standard Name Table v29</att>
       <att name="summary">The Fisheries and Oceans Canada (DFO) first implemented annual, standardized groundfish surveys (now referred to as ecosystem surveys) in the summer of 1970. These surveys consist of research vessel survey data collected to monitor the distribution and abundance of fish and invertebrates throughout the Scotian Shelf, Bay of Fundy and Georges Bank. The surveys follow a stratified random sampling design, and includes sampling of fish and invertebrates using a bottom trawl. These survey data are the primary data source for monitoring trends in fish species distribution, abundance, and biological conditions within the region. “Spring” cruises occur in January, February, March and April, and focus on Georges Bank. “Summer” cruises occur in May, June, July and August and these focus on the Scotian Shelf and Bay of Fundy. A vessel change occurred in 1982 when the A.T. Cameron was replaced by the Lady Hammond and in 1983 when the Alfred Needler became the principal survey vessel.  Now the Captain Jacques Cartier, built in 2019 and delivered in 2020, will serve as the primary offshore fishery science vessels in the Maritimes Region.  
 
         Also as part of these surveys, physical, chemical, and biological oceanographic observations are collected as part of the Atlantic Zonal Monitoring Program (AZMP).  AZMP sampling is conducted according to standard procedures (see https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) and includes the collection of CTD profiles and water samples for the determination of physical (e.g., T, S), chemical (e.g., nutrients, oxygen, pH), and biological (chl a) variables and vertical ring net tows. The data collected are synthesized into two annual reports on the physical and chemical/biological changes in the Maritimes Region.  AZMP aims to detect and track climate change and variability in the northwest Atlantic, evaluating changes in the physical, chemical and biological ocean properties and predator-prey dynamics of marine resources, thereby enhancing Canada's ability to understand, describe, and forecast the state of the marine ecosystem”. This record includes only hydrographic/CTD data collected during the spring and summer ecosystem surveys, conducted between 1998 to present.</att>
-      <att name="summary_fra">Pêches et Océans Canada (MPO) a mis en œuvre pour la première fois des relevés annuels normalisés du poisson de fond (maintenant appelés relevés des écosystèmes) au cours de l'été 1970. Ces relevés consistent en des données recueillies par des navires de recherche afin de surveiller la répartition et l'abondance des poissons et des invertébrés sur le plateau néo-écossais, la baie de Fundy et le banc Georges. Les relevés suivent un plan d'échantillonnage aléatoire stratifié et comprennent l'échantillonnage de poissons et d'invertébrés à l'aide d'un chalut de fond. Ces données d'enquête constituent la principale source de données pour le suivi des tendances de la distribution, de l'abondance et des conditions biologiques des espèces de poissons dans la région. Les croisières « printanières » ont lieu en janvier, février, mars et avril et se concentrent sur le banc Georges. Les croisières « estivales » ont lieu en mai, juin, juillet et août et se concentrent sur le plateau néo-écossais et la baie de Fundy. Un changement de navire s'est produit en 1982 lorsque l'A.T. Cameron a été remplacé par le Lady Hammond et en 1983 lorsque l'Alfred Needler est devenu le principal navire de prospection. Aujourd'hui, le Captain Jacques Cartier, construit en 2019 et livré en 2020, sera le principal navire hauturier de sciences halieutiques dans la région des Maritimes. 
+      <att name="summary_fr">Pêches et Océans Canada (MPO) a mis en œuvre pour la première fois des relevés annuels normalisés du poisson de fond (maintenant appelés relevés des écosystèmes) au cours de l'été 1970. Ces relevés consistent en des données recueillies par des navires de recherche afin de surveiller la répartition et l'abondance des poissons et des invertébrés sur le plateau néo-écossais, la baie de Fundy et le banc Georges. Les relevés suivent un plan d'échantillonnage aléatoire stratifié et comprennent l'échantillonnage de poissons et d'invertébrés à l'aide d'un chalut de fond. Ces données d'enquête constituent la principale source de données pour le suivi des tendances de la distribution, de l'abondance et des conditions biologiques des espèces de poissons dans la région. Les croisières « printanières » ont lieu en janvier, février, mars et avril et se concentrent sur le banc Georges. Les croisières « estivales » ont lieu en mai, juin, juillet et août et se concentrent sur le plateau néo-écossais et la baie de Fundy. Un changement de navire s'est produit en 1982 lorsque l'A.T. Cameron a été remplacé par le Lady Hammond et en 1983 lorsque l'Alfred Needler est devenu le principal navire de prospection. Aujourd'hui, le Captain Jacques Cartier, construit en 2019 et livré en 2020, sera le principal navire hauturier de sciences halieutiques dans la région des Maritimes. 
 
         Dans le cadre de ces relevés, des observations océanographiques physiques, chimiques et biologiques sont recueillies dans le cadre du Programme de surveillance de la zone atlantique (PMZA). L'échantillonnage du PMZA est effectué selon des procédures standard (voir https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) et comprend la collecte de profils CTD et d'échantillons d'eau pour la détermination des variables physiques (par exemple, T, S), chimiques (par exemple, nutriments, oxygène, pH) et biologiques (chl a) et verticales tractions de filet à anneaux. Les données recueillies sont synthétisées dans deux rapports annuels sur les changements physiques et chimiques/biologiques dans la région des Maritimes. Le PMZA vise à détecter et à suivre le changement et la variabilité climatiques dans l'Atlantique Nord-Ouest, en évaluant les changements dans les propriétés physiques, chimiques et biologiques de l'océan et dans la dynamique prédateur-proie des ressources marines, améliorant ainsi la capacité du Canada à comprendre, décrire et prévoir l'état de la mer écosystème ». Ce dossier comprend uniquement les données hydrographiques/CTD recueillies au cours des relevés écosystémiques du printemps et de l'été, réalisés entre 1998 et aujourd'hui.</att>
       <att name="title">Maritimes Region Ecosystem Survey Rosette Vertical Profiles</att>
-      <att name="title_fra">Profils verticaux de rosette du programme de monitorage de l'écosystème des maritimes (PMEM)</att>
+      <att name="title_fr">Profils verticaux de rosette du programme de monitorage de l'écosystème des maritimes (PMEM)</att>
       <att name="creator_type">institution</att>
       <att name="sourceUrl">(local files)</att>
       <att name="platform">research vessel</att>
@@ -9436,7 +9436,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
   <!-- DFO BIO Maritimes Region Ecosystem Survey (MRES): END -->
 
   <!-- DFO BIO Barrow Strait Program: START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_barrow_strait_program_rosette" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_barrow_strait_program_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/ctd/Barrow Strait Monitoring Program/</fileDir>
@@ -9467,7 +9467,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <att name="geospatial_vertical_units">m</att>
       <att name="infoUrl">https://www.dfo-mpo.gc.ca/science/data-donnees/azmp-pmza/index-eng.html</att>
       <att name="keywords">CTD</att>
-      <att name="keywords_fra">CTD</att>
+      <att name="keywords_fr">CTD</att>
       <att name="keywords_vocabulary">CIOOS Keywords</att>
       <att name="license">Open Government Licence - Canada</att>
       <att name="naming_authority">CF Standard Name Table v29</att>
@@ -9888,13 +9888,13 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <att name="header"></att>
       <att name="infoUrl">https://www.dfo-mpo.gc.ca/science/data-donnees/azmp-pmza/index-eng.html</att>
       <att name="keywords">CTD</att>
-      <att name="keywords_fra">CTD</att>
+      <att name="keywords_fr">CTD</att>
       <att name="keywords_vocabulary">CIOOS Keywords</att>
       <att name="license">Open Government Licence - Canada</att>
       <att name="summary">summary</att>
-      <att name="summary_fra"></att>
+      <att name="summary_fr"></att>
       <att name="title">BIO Annual Ice Forecast Hydrographic Survey CTD</att>
-      <att name="title_fra"></att>
+      <att name="title_fr"></att>
       <att name="creator_type">institution</att>
       <att name="sourceUrl">(local files)</att>
       <att name="platform">research vessel</att>
@@ -10351,7 +10351,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <att name="geospatial_vertical_units">m</att>
       <att name="infoUrl">https://www.dfo-mpo.gc.ca/science/data-donnees/azmp-pmza/index-eng.html</att>
       <att name="keywords">CTD</att>
-      <att name="keywords_fra">CTD</att>
+      <att name="keywords_fr">CTD</att>
       <att name="keywords_vocabulary">CIOOS Keywords</att>
       <att name="license">Open Government Licence - Canada</att>
       <att name="creator_type">institution</att>
@@ -10999,7 +10999,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <att name="header"></att>
       <att name="infoUrl">https://www.dfo-mpo.gc.ca/science/data-donnees/azmp-pmza/index-eng.html</att>
       <att name="keywords">CTD</att>
-      <att name="keywords_fra">CTD</att>
+      <att name="keywords_fr">CTD</att>
       <att name="keywords_vocabulary">CIOOS Keywords</att>
       <att name="license">Open Government Licence - Canada</att>
       <att name="creator_type">institution</att>
@@ -11531,11 +11531,11 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <att name="geospatial_vertical_units">m</att>
       <att name="infoUrl">https://www.dfo-mpo.gc.ca/science/data-donnees/azmp-pmza/index-eng.html</att>
       <att name="keywords">CTD</att>
-      <att name="keywords_fra">CTD</att>
+      <att name="keywords_fr">CTD</att>
       <att name="keywords_vocabulary">CIOOS Keywords</att>
       <att name="license">Open Government Licence - Canada</att>
       <att name="summary">summary</att>
-      <att name="summary_fra"></att>
+      <att name="summary_fr"></att>
       <att name="creator_type">institution</att>
       <att name="sourceUrl">(local files)</att>
       <att name="platform">research vessel</att>
@@ -12473,13 +12473,13 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <att name="header"></att>
       <att name="infoUrl">https://www.dfo-mpo.gc.ca/science/data-donnees/azmp-pmza/index-eng.html</att>
       <att name="keywords">CTD</att>
-      <att name="keywords_fra">CTD</att>
+      <att name="keywords_fr">CTD</att>
       <att name="keywords_vocabulary">CIOOS Keywords</att>
       <att name="license">Open Government Licence - Canada</att>
       <att name="summary">summary</att>
-      <att name="summary_fra"></att>
+      <att name="summary_fr"></att>
       <att name="title">BIO Historical Projects CTD</att>
-      <att name="title_fra"></att>
+      <att name="title_fr"></att>
       <att name="creator_type">institution</att>
       <att name="sourceUrl">(local files)</att>
       <att name="platform">research vessel</att>
@@ -14662,6 +14662,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station</att>
       <att name="summary">Bedford Institute of Oceanography, Department of Fisheries and Oceans (DFO) data from a local source.</att>
       <att name="title">Maritimes region Moored CTD </att>
+      <att name="institution">DFO BIO</att>
       <!-- Null global attributes -->
       <att name="data_type">null</att>
       <att name="EVENT_COMMENTS_1">null</att>
@@ -14911,67 +14912,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="units">m</att>
       </addAttributes>
     </dataVariable>
-
-    <dataVariable>
-      <sourceName>CRAT_01</sourceName>
-      <destinationName>CRAT01</destinationName>
-      <dataType>double</dataType>
-      <!-- sourceAttributes>
-        <att name="_FillValue" type="double">1.0E35</att>
-        <att name="data_max" type="double">1.0E35</att>
-        <att name="data_min" type="double">0.586273</att>
-        <att name="generic_name">conductivity</att>
-        <att name="long_name">conductivity</att>
-        <att name="sdn_parameter_urn">SDN:P01::</att>
-        <att name="sensor_depth" type="double">7.0</att>
-        <att name="sensor_type">SBE37-SM V2.6 b</att>
-        <att name="serial_number">5345</att>
-        <att name="units">1</att>
-        <att name="valid_max" type="double">-10000.0</att>
-        <att name="valid_min" type="double">10000.0</att>
-    </sourceAttributes -->
-      <addAttributes>
-        <att name="colorBarMaximum" type="double">40.0</att>
-        <att name="colorBarMinimum" type="double">30.0</att>
-        <att name="ioos_category">Salinity</att>
-        <att name="sdn_P02_urn">SDN:P02::SAGE</att>
-        <att name="standard_name">sea_water_electrical_conductivity</att>
-        <att name="sensor_depth">null</att>
-        <att name="sensor_type">null</att>
-        <att name="serial_number">null</att>
-      </addAttributes>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>POTM_01</sourceName>
-      <destinationName>POTM_01</destinationName>
-      <dataType>double</dataType>
-      <!-- sourceAttributes>
-        <att name="_FillValue" type="double">1.0E35</att>
-        <att name="data_max" type="double">19.8374</att>
-        <att name="data_min" type="double">-0.7475</att>
-        <att name="generic_name">theta</att>
-        <att name="long_name">theta</att>
-        <att name="sdn_parameter_urn">SDN:P01::</att>
-        <att name="sdn_uom_name">Degrees Celsius</att>
-        <att name="sdn_uom_urn">UPAA</att>
-        <att name="sensor_depth" type="double">7.0</att>
-        <att name="sensor_type">SBE37-SM V2.6 b</att>
-        <att name="serial_number">5345</att>
-        <att name="units">degrees C</att>
-        <att name="valid_max" type="double">-10000.0</att>
-        <att name="valid_min" type="double">10000.0</att>
-    </sourceAttributes -->
-      <addAttributes>
-        <att name="colorBarMaximum" type="double">40.0</att>
-        <att name="colorBarMinimum" type="double">-10.0</att>
-        <att name="ioos_category">Temperature</att>
-        <att name="sdn_P02_urn">SDN:P02::SAGE</att>
-        <att name="units">degree_C</att>
-        <att name="sensor_depth">null</att>
-        <att name="sensor_type">null</att>
-        <att name="serial_number">null</att>
-      </addAttributes>
-    </dataVariable>
     <dataVariable>
       <sourceName>PRES_01</sourceName>
       <destinationName>PRESPR01</destinationName>
@@ -15000,6 +14940,35 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="colorBarMinimum" type="double">0.0</att>
         <att name="ioos_category">Pressure</att>
         <att name="sdn_P02_urn">SDN:P02::AHGT</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>CRAT_01</sourceName>
+      <destinationName>CRAT01</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="double">1.0E35</att>
+        <att name="data_max" type="double">1.0E35</att>
+        <att name="data_min" type="double">0.586273</att>
+        <att name="generic_name">conductivity</att>
+        <att name="long_name">conductivity</att>
+        <att name="sdn_parameter_urn">SDN:P01::</att>
+        <att name="sensor_depth" type="double">7.0</att>
+        <att name="sensor_type">SBE37-SM V2.6 b</att>
+        <att name="serial_number">5345</att>
+        <att name="units">1</att>
+        <att name="valid_max" type="double">-10000.0</att>
+        <att name="valid_min" type="double">10000.0</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">40.0</att>
+        <att name="colorBarMinimum" type="double">30.0</att>
+        <att name="ioos_category">Salinity</att>
+        <att name="sdn_P02_urn">SDN:P02::SAGE</att>
+        <att name="standard_name">sea_water_electrical_conductivity</att>
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
@@ -15039,6 +15008,53 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       </addAttributes>
     </dataVariable>
     <dataVariable>
+      <sourceName>TEMP_01</sourceName>
+      <destinationName>TEMPPR01</destinationName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">40.0</att>
+        <att name="colorBarMinimum" type="double">-10.0</att>
+        <att name="ioos_category">Temperature</att>
+        <att name="sdn_P02_urn">SDN:P02::TEMP</att>
+        <att name="units">degree_C</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>TE90_01</sourceName>
+      <destinationName>TEMPP901</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="double">1.0E35</att>
+        <att name="data_max" type="double">19.8337</att>
+        <att name="data_min" type="double">-0.7472</att>
+        <att name="generic_name">temperature</att>
+        <att name="long_name">temperature</att>
+        <att name="sdn_parameter_name">Temperature (ITS-90) of the water body</att>
+        <att name="sdn_parameter_urn">SDN:P01::TEMPP901</att>
+        <att name="sdn_uom_name">Degrees Celsius</att>
+        <att name="sdn_uom_urn">UPAA</att>
+        <att name="sensor_depth" type="double">7.0</att>
+        <att name="sensor_type">SBE37-SM V2.6 b</att>
+        <att name="serial_number">5345</att>
+        <att name="units">degrees C</att>
+        <att name="valid_max" type="double">-10000.0</att>
+        <att name="valid_min" type="double">10000.0</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">40.0</att>
+        <att name="colorBarMinimum" type="double">-10.0</att>
+        <att name="ioos_category">Temperature</att>
+        <att name="sdn_P02_urn">SDN:P02::TEMP</att>
+        <att name="units">degree_C</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
       <sourceName>SIGP_01</sourceName>
       <destinationName>SIGTEQ01</destinationName>
       <dataType>double</dataType>
@@ -15071,17 +15087,16 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>TE90_01</sourceName>
-      <destinationName>TEMPP901</destinationName>
+      <sourceName>POTM_01</sourceName>
+      <destinationName>POTM_01</destinationName>
       <dataType>double</dataType>
       <!-- sourceAttributes>
         <att name="_FillValue" type="double">1.0E35</att>
-        <att name="data_max" type="double">19.8337</att>
-        <att name="data_min" type="double">-0.7472</att>
-        <att name="generic_name">temperature</att>
-        <att name="long_name">temperature</att>
-        <att name="sdn_parameter_name">Temperature (ITS-90) of the water body</att>
-        <att name="sdn_parameter_urn">SDN:P01::TEMPP901</att>
+        <att name="data_max" type="double">19.8374</att>
+        <att name="data_min" type="double">-0.7475</att>
+        <att name="generic_name">theta</att>
+        <att name="long_name">theta</att>
+        <att name="sdn_parameter_urn">SDN:P01::</att>
         <att name="sdn_uom_name">Degrees Celsius</att>
         <att name="sdn_uom_urn">UPAA</att>
         <att name="sensor_depth" type="double">7.0</att>
@@ -15095,7 +15110,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="colorBarMaximum" type="double">40.0</att>
         <att name="colorBarMinimum" type="double">-10.0</att>
         <att name="ioos_category">Temperature</att>
-        <att name="sdn_P02_urn">SDN:P02::TEMP</att>
+        <att name="sdn_P02_urn">SDN:P02::SAGE</att>
         <att name="units">degree_C</att>
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>

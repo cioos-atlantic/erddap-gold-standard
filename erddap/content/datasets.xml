@@ -13500,7 +13500,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
   </dataset>
   <!-- CEOTR SPOT-1461 Sable Island Wave Buoy END -->
 
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_adcp" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_adcp" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/moored</fileDir>
@@ -14509,7 +14509,7 @@ Converted to netCDF via MATLAB by rdi2cdf.m 2.2c 10/22/99</att>
       </addAttributes>
     </dataVariable>
   </dataset>
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_ctd" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_ctd" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/moored/</fileDir>
@@ -15140,7 +15140,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       </addAttributes>
     </dataVariable>
   </dataset>
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_mtr" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_mtr" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/moored</fileDir>

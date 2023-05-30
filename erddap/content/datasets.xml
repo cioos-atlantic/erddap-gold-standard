@@ -69,9 +69,9 @@
       <att name="cdm_timeseries_variables">Cruise, Type, Instrument</att>
       <att name="subsetVariables">Cruise, Type, Instrument</att>
       <att name="summary">Upon a recent rapid increase of the finfish aquaculture industry in the Coast of Bays, an area of the South Coast of Newfoundland (9 fold production growth from 2003 to 2013), Fisheries and Oceans Canada (DFO) carried out a research project to better understand the physical oceanography of the area. This report is the second of a series aiming to provide an oceanographic knowledge baseline of the Coast of Bays (i.e., data and analyses) to help manage and ensure the sustainable growth of the aquaculture industry. This report presents the analysis of 790 water profiles of temperature, salinity and dissolved oxygen concentration sampled at 276 stations over the course of a 5-year oceanographic program (2009 13). The profiles were analyzed using along-channel vertical sections plots (i.e., transects), surface property maps and water masses statistics.</att>
-      <att name="summary_fra">À la suite d'une récente augmentation rapide de l'industrie de l'aquaculture de poissons dans la côte des baies, une région de la côte sud de Terre-Neuve (production multiplié par 9 de 2003 à 2013), Pêches et Océans Canada a mené un projet de recherche pour mieux comprendre l'océanographie physique de la région. Ce rapport est le deuxième d'une série visant à fournir une base de connaissances océanographiques sur le littoral des baies (données et analyses) afin d’aider à gérer et assurer la croissance durable de l'industrie aquacole. Ce rapport présente l'analyse de 790 profils de température, salinité et concentration en oxygène dissous échantillonnés à 276 stations au cours d'un programme océanographique de cinq ans (2009 2013). Les profils ont été analysés à l'aide de tracés de sections verticales (transects), de cartes de propriétés de surface et de statistiques des masses d'eau.</att>
+      <att name="summary_fr">À la suite d'une récente augmentation rapide de l'industrie de l'aquaculture de poissons dans la côte des baies, une région de la côte sud de Terre-Neuve (production multiplié par 9 de 2003 à 2013), Pêches et Océans Canada a mené un projet de recherche pour mieux comprendre l'océanographie physique de la région. Ce rapport est le deuxième d'une série visant à fournir une base de connaissances océanographiques sur le littoral des baies (données et analyses) afin d’aider à gérer et assurer la croissance durable de l'industrie aquacole. Ce rapport présente l'analyse de 790 profils de température, salinité et concentration en oxygène dissous échantillonnés à 276 stations au cours d'un programme océanographique de cinq ans (2009 2013). Les profils ont été analysés à l'aide de tracés de sections verticales (transects), de cartes de propriétés de surface et de statistiques des masses d'eau.</att>
       <att name="title">Coast of Bays seawater vertical and horizontal structure: Hydrographic structure, spatial variability and seasonality, 2009-2013</att>
-      <att name="title_fra">Structure verticale et horizontale de l'eau de mer de la Coast of Bays: Structure hydrographique, variabilité spatiale et saisonnalité basée sur les levés océanographiques du PRRA, 2009-2013</att>
+      <att name="title_fr">Structure verticale et horizontale de l'eau de mer de la Coast of Bays: Structure hydrographique, variabilité spatiale et saisonnalité basée sur les levés océanographiques du PRRA, 2009-2013</att>
     </addAttributes>
     <dataVariable>
       <sourceName>Cruise</sourceName>
@@ -5175,7 +5175,7 @@
   <!-- St. FX Marine Ecology Lab HOBO logger: END -->
 
   <!-- DFO BIO Atlantic Zone Monitoring Program (AZMP): START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="maritimes_region_atlantic_zone_monitoring_program_rosette_vertical_profiles" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_atlantic_zone_monitoring_program_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/ctd/Atlantic Zone Monitoring Program/</fileDir>
@@ -5209,7 +5209,7 @@
       <att name="publisher_name">Lindsay Beazley</att>
       <att name="publisher_url">https://www.dfo-mpo.gc.ca/index-eng.html</att>
       <att name="description">The Atlantic Zone Monitoring Program (AZMP) was implemented in 1998 with the aim of detecting and tracking climate change and variability in the northwest Atlantic, evaluating changes in the physical, chemical and biological ocean properties and predator-prey dynamics of marine resources, thereby enhancing Canada's ability to understand, describe, and forecast the state of the marine ecosystem. AZMP's sampling scheme in the Maritimes Region involves oceanographic sampling at two high-frequency (biweekly to monthly) fixed coastal stations, biannual sampling at stratified-random locations during DFO-led Ecosystem Trawl Surveys, biannual sampling along fixed cross-shelf sections (Cabot Strait Line, Louisbourg Line, Halifax Line, Browns Bank Line, and the Northeast Channel); the latter of which may also include opportunistic sampling at stations in the Laurentian Channel, Gulf of Maine, and various Marine Protected Areas (MPAs) in support of ancillary research programs and initiatives. AZMP sampling is conducted according to standard procedures (see https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) and includes the collection of CTD profiles and water samples for the determination of physical (e.g., T, S), chemical (e.g., nutrients, oxygen, pH), and biological (chl a) variables and vertical ring net tows. The data collected are synthesized into two annual reports on the physical and chemical/biological changes in the Maritimes Region, and are also used to evaluate changes across the Atlantic zone.</att>
-      <att name="description_fra">Le Programme de surveillance de la zone atlantique (PMZA) a été mis en œuvre en 1998 dans le but de détecter et de suivre les changements climatiques et la variabilité dans l'Atlantique Nord-Ouest, d'évaluer les changements dans les propriétés physiques, chimiques et biologiques de l'océan et la dynamique prédateur-proie des ressources marines, améliorant ainsi le Canada. de comprendre, de décrire et de prévoir l'état de l'écosystème marin. Le schéma d'échantillonnage de l'AZMP dans la région des Maritimes comprend un échantillonnage océanographique à deux stations côtières fixes à haute fréquence (bihebdomadaire à mensuelle), un échantillonnage semestriel à des emplacements stratifiés aléatoires pendant les relevés au chalut écosystémique dirigés par le MPO, un échantillonnage biannuel le long de sections transversales fixes (Cabot Strait Line, Louisbourg Line, Halifax Line, Browns Bank Line et Northeast Channel) ; ces derniers peuvent également inclure un échantillonnage opportuniste dans les stations du chenal Laurentien, du golfe du Maine et de diverses aires marines protégées (AMP) à l'appui de programmes et d'initiatives de recherche auxiliaire. L'échantillonnage AZMP est effectué conformément aux procédures normalisées (voir https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) et comprend la collecte de profils CTD et d'échantillons d'eau pour la détermination des variables physiques (p. ex. T, S), chimiques (nutriments, oxygène, pH) et biologiques (chl a) et verticales remorquage de filet d'anneau. Les données recueillies sont synthétisées dans deux rapports annuels sur les changements physiques et chimiques et biologiques dans la région des Maritimes, et sont également utilisées pour évaluer les changements dans la zone atlantique.</att>
+      <att name="description_fr">Le Programme de surveillance de la zone atlantique (PMZA) a été mis en œuvre en 1998 dans le but de détecter et de suivre les changements climatiques et la variabilité dans l'Atlantique Nord-Ouest, d'évaluer les changements dans les propriétés physiques, chimiques et biologiques de l'océan et la dynamique prédateur-proie des ressources marines, améliorant ainsi le Canada. de comprendre, de décrire et de prévoir l'état de l'écosystème marin. Le schéma d'échantillonnage de l'AZMP dans la région des Maritimes comprend un échantillonnage océanographique à deux stations côtières fixes à haute fréquence (bihebdomadaire à mensuelle), un échantillonnage semestriel à des emplacements stratifiés aléatoires pendant les relevés au chalut écosystémique dirigés par le MPO, un échantillonnage biannuel le long de sections transversales fixes (Cabot Strait Line, Louisbourg Line, Halifax Line, Browns Bank Line et Northeast Channel) ; ces derniers peuvent également inclure un échantillonnage opportuniste dans les stations du chenal Laurentien, du golfe du Maine et de diverses aires marines protégées (AMP) à l'appui de programmes et d'initiatives de recherche auxiliaire. L'échantillonnage AZMP est effectué conformément aux procédures normalisées (voir https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) et comprend la collecte de profils CTD et d'échantillons d'eau pour la détermination des variables physiques (p. ex. T, S), chimiques (nutriments, oxygène, pH) et biologiques (chl a) et verticales remorquage de filet d'anneau. Les données recueillies sont synthétisées dans deux rapports annuels sur les changements physiques et chimiques et biologiques dans la région des Maritimes, et sont également utilisées pour évaluer les changements dans la zone atlantique.</att>
       <att name="geospatial_lat_units">degrees_north</att>
       <att name="geospatial_lon_units">degrees_north</att>
       <att name="geospatial_vertical_positive">down</att>
@@ -5217,14 +5217,14 @@
       <att name="header"></att>
       <att name="infoUrl">https://www.dfo-mpo.gc.ca/science/data-donnees/azmp-pmza/index-eng.html</att>
       <att name="keywords">chlorophyll a,climate change,phosphate,oxygen,water density,seaSurfaceSalinity,subSurfaceTemperature,remote sensing,salinity,seaSurfaceTemperature,oceanographic missions,physical-chemical,other,nutrients,inorganicCarbon,sampling,water temperature,dissolvedOrganicCarbon,potential temperature,fluorescence,potential density,nitrate,pressure,seawater density,subSurfaceSalinity,silicate</att>
-      <att name="keywords_fra">changement climatique, salinit&#xe9;, chlorophylle a, temp&#xe9;rature de l&#39;eau, t&#xe9;l&#xe9;d&#xe9;tection, fluorescence, densit&#xe9; eau, &#xe9;chantillonnage, missions oc&#xe9;anographique, physico-chimie, Oxyg&#xe8;ne, Pression, Salinit&#xe9; de surface, Temp&#xe9;rature de surface, Densit&#xe9; d&#39;eau de mer, Temp&#xe9;rature potentielle, Densit&#xe9; potentielle, Autre, Salinit&#xe9; sous la surface, Temp&#xe9;rature sous la surface</att>
+      <att name="keywords_fr">changement climatique, salinit&#xe9;, chlorophylle a, temp&#xe9;rature de l&#39;eau, t&#xe9;l&#xe9;d&#xe9;tection, fluorescence, densit&#xe9; eau, &#xe9;chantillonnage, missions oc&#xe9;anographique, physico-chimie, Oxyg&#xe8;ne, Pression, Salinit&#xe9; de surface, Temp&#xe9;rature de surface, Densit&#xe9; d&#39;eau de mer, Temp&#xe9;rature potentielle, Densit&#xe9; potentielle, Autre, Salinit&#xe9; sous la surface, Temp&#xe9;rature sous la surface</att>
       <att name="keywords_vocabulary">CIOOS Keywords</att>
       <att name="license">Open Government Licence - Canada</att>
       <att name="naming_authority">CF Standard Name Table v29</att>
       <att name="summary">The Atlantic Zone Monitoring Program (AZMP) was implemented in 1998 with the aim of detecting and tracking climate change and variability in the northwest Atlantic, evaluating changes in the physical, chemical and biological ocean properties and predator-prey dynamics of marine resources, thereby enhancing Canada's ability to understand, describe, and forecast the state of the marine ecosystem. AZMP's sampling scheme in the Maritimes Region involves oceanographic sampling at two high-frequency (biweekly to monthly) fixed coastal stations, biannual sampling at stratified-random locations during DFO-led Ecosystem Trawl Surveys, biannual sampling along fixed cross-shelf sections (Cabot Strait Line, Louisbourg Line, Halifax Line, Browns Bank Line, and the Northeast Channel); the latter of which may also include opportunistic sampling at stations in the Laurentian Channel, Gulf of Maine, and various Marine Protected Areas (MPAs) in support of ancillary research programs and initiatives. AZMP sampling is conducted according to standard procedures (see https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) and includes the collection of CTD profiles and water samples for the determination of physical (e.g., T, S), chemical (e.g., nutrients, oxygen, pH), and biological (chl a) variables and vertical ring net tows. The data collected are synthesized into two annual reports on the physical and chemical/biological changes in the Maritimes Region, and are also used to evaluate changes across the Atlantic zone.</att>
-      <att name="summary_fra">Le Programme de surveillance de la zone atlantique (PMZA) a été mis en œuvre en 1998 dans le but de détecter et de suivre les changements climatiques et la variabilité dans l'Atlantique Nord-Ouest, d'évaluer les changements dans les propriétés physiques, chimiques et biologiques de l'océan et la dynamique prédateur-proie des ressources marines, améliorant ainsi le Canada. de comprendre, de décrire et de prévoir l'état de l'écosystème marin. Le schéma d'échantillonnage de l'AZMP dans la région des Maritimes comprend un échantillonnage océanographique à deux stations côtières fixes à haute fréquence (bihebdomadaire à mensuelle), un échantillonnage semestriel à des emplacements stratifiés aléatoires pendant les relevés au chalut écosystémique dirigés par le MPO, un échantillonnage biannuel le long de sections transversales fixes (Cabot Strait Line, Louisbourg Line, Halifax Line, Browns Bank Line et Northeast Channel) ; ces derniers peuvent également inclure un échantillonnage opportuniste dans les stations du chenal Laurentien, du golfe du Maine et de diverses aires marines protégées (AMP) à l'appui de programmes et d'initiatives de recherche auxiliaire. L'échantillonnage AZMP est effectué conformément aux procédures normalisées (voir https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) et comprend la collecte de profils CTD et d'échantillons d'eau pour la détermination des variables physiques (p. ex. T, S), chimiques (nutriments, oxygène, pH) et biologiques (chl a) et verticales remorquage de filet d'anneau. Les données recueillies sont synthétisées dans deux rapports annuels sur les changements physiques et chimiques et biologiques dans la région des Maritimes, et sont également utilisées pour évaluer les changements dans la zone atlantique.</att>
+      <att name="summary_fr">Le Programme de surveillance de la zone atlantique (PMZA) a été mis en œuvre en 1998 dans le but de détecter et de suivre les changements climatiques et la variabilité dans l'Atlantique Nord-Ouest, d'évaluer les changements dans les propriétés physiques, chimiques et biologiques de l'océan et la dynamique prédateur-proie des ressources marines, améliorant ainsi le Canada. de comprendre, de décrire et de prévoir l'état de l'écosystème marin. Le schéma d'échantillonnage de l'AZMP dans la région des Maritimes comprend un échantillonnage océanographique à deux stations côtières fixes à haute fréquence (bihebdomadaire à mensuelle), un échantillonnage semestriel à des emplacements stratifiés aléatoires pendant les relevés au chalut écosystémique dirigés par le MPO, un échantillonnage biannuel le long de sections transversales fixes (Cabot Strait Line, Louisbourg Line, Halifax Line, Browns Bank Line et Northeast Channel) ; ces derniers peuvent également inclure un échantillonnage opportuniste dans les stations du chenal Laurentien, du golfe du Maine et de diverses aires marines protégées (AMP) à l'appui de programmes et d'initiatives de recherche auxiliaire. L'échantillonnage AZMP est effectué conformément aux procédures normalisées (voir https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) et comprend la collecte de profils CTD et d'échantillons d'eau pour la détermination des variables physiques (p. ex. T, S), chimiques (nutriments, oxygène, pH) et biologiques (chl a) et verticales remorquage de filet d'anneau. Les données recueillies sont synthétisées dans deux rapports annuels sur les changements physiques et chimiques et biologiques dans la région des Maritimes, et sont également utilisées pour évaluer les changements dans la zone atlantique.</att>
       <att name="title">Maritimes Region Atlantic Zone Monitoring Program (AZMP) Rosette Vertical Profiles</att>
-      <att name="title_fra">Profils verticaux de rosette du programme de monitorage de la zone Atlantique (PMZA) de la région des maritimes</att>
+      <att name="title_fr">Profils verticaux de rosette du programme de monitorage de la zone Atlantique (PMZA) de la région des maritimes</att>
       <att name="creator_type">institution</att>
       <att name="sourceUrl">(local files)</att>
       <att name="platform">research vessel</att>
@@ -6611,7 +6611,7 @@
   <!-- DFO BIO Atlantic Zone Monitoring Program (AZMP): END -->
 
   <!-- DFO BIO Atlantic Zone Off-shelf Monitoring Program (AZOMP): START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="atlantic_zone_off_shelf_monitoring_program" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_atlantic_zone_off_shelf_monitoring_program_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/ctd/Atlantic Zone Off-Shelf Monitoring Program/</fileDir>
@@ -6644,7 +6644,7 @@
       <att name="publisher_name">Marc Ringuette</att>
       <att name="publisher_url">https://www.dfo-mpo.gc.ca/index-eng.html</att>
       <att name="description">The Atlantic Zone Monitoring Program (AZMP) was implemented in 1998 with the aim of detecting and tracking climate change and variability in the northwest Atlantic, evaluating changes in the physical, chemical and biological ocean properties and predator-prey dynamics of marine resources, thereby enhancing Canada's ability to understand, describe, and forecast the state of the marine ecosystem. AZMP's sampling scheme in the Maritimes Region involves oceanographic sampling at two high-frequency (biweekly to monthly) fixed coastal stations, biannual sampling at stratified-random locations during DFO-led Ecosystem Trawl Surveys, biannual sampling along fixed cross-shelf sections (Cabot Strait Line, Louisbourg Line, Halifax Line, Browns Bank Line, and the Northeast Channel); the latter of which may also include opportunistic sampling at stations in the Laurentian Channel, Gulf of Maine, and various Marine Protected Areas (MPAs) in support of ancillary research programs and initiatives. AZMP sampling is conducted according to standard procedures (see https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) and includes the collection of CTD profiles and water samples for the determination of physical (e.g., T, S), chemical (e.g., nutrients, oxygen, pH), and biological (chl a) variables and vertical ring net tows. The data collected are synthesized into two annual reports on the physical and chemical/biological changes in the Maritimes Region, and are also used to evaluate changes across the Atlantic zone.</att>
-      <att name="description_fra">Le Programme de surveillance de la zone atlantique (PMZA) a été mis en œuvre en 1998 dans le but de détecter et de suivre les changements climatiques et la variabilité dans l'Atlantique Nord-Ouest, d'évaluer les changements dans les propriétés physiques, chimiques et biologiques de l'océan et la dynamique prédateur-proie des ressources marines, améliorant ainsi le Canada. de comprendre, de décrire et de prévoir l'état de l'écosystème marin. Le schéma d'échantillonnage de l'AZMP dans la région des Maritimes comprend un échantillonnage océanographique à deux stations côtières fixes à haute fréquence (bihebdomadaire à mensuelle), un échantillonnage semestriel à des emplacements stratifiés aléatoires pendant les relevés au chalut écosystémique dirigés par le MPO, un échantillonnage biannuel le long de sections transversales fixes (Cabot Strait Line, Louisbourg Line, Halifax Line, Browns Bank Line et Northeast Channel) ; ces derniers peuvent également inclure un échantillonnage opportuniste dans les stations du chenal Laurentien, du golfe du Maine et de diverses aires marines protégées (AMP) à l'appui de programmes et d'initiatives de recherche auxiliaire. L'échantillonnage AZMP est effectué conformément aux procédures normalisées (voir https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) et comprend la collecte de profils CTD et d'échantillons d'eau pour la détermination des variables physiques (p. ex. T, S), chimiques (nutriments, oxygène, pH) et biologiques (chl a) et verticales remorquage de filet d'anneau. Les données recueillies sont synthétisées dans deux rapports annuels sur les changements physiques et chimiques et biologiques dans la région des Maritimes, et sont également utilisées pour évaluer les changements dans la zone atlantique.</att>
+      <att name="description_fr">Le Programme de surveillance de la zone atlantique (PMZA) a été mis en œuvre en 1998 dans le but de détecter et de suivre les changements climatiques et la variabilité dans l'Atlantique Nord-Ouest, d'évaluer les changements dans les propriétés physiques, chimiques et biologiques de l'océan et la dynamique prédateur-proie des ressources marines, améliorant ainsi le Canada. de comprendre, de décrire et de prévoir l'état de l'écosystème marin. Le schéma d'échantillonnage de l'AZMP dans la région des Maritimes comprend un échantillonnage océanographique à deux stations côtières fixes à haute fréquence (bihebdomadaire à mensuelle), un échantillonnage semestriel à des emplacements stratifiés aléatoires pendant les relevés au chalut écosystémique dirigés par le MPO, un échantillonnage biannuel le long de sections transversales fixes (Cabot Strait Line, Louisbourg Line, Halifax Line, Browns Bank Line et Northeast Channel) ; ces derniers peuvent également inclure un échantillonnage opportuniste dans les stations du chenal Laurentien, du golfe du Maine et de diverses aires marines protégées (AMP) à l'appui de programmes et d'initiatives de recherche auxiliaire. L'échantillonnage AZMP est effectué conformément aux procédures normalisées (voir https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) et comprend la collecte de profils CTD et d'échantillons d'eau pour la détermination des variables physiques (p. ex. T, S), chimiques (nutriments, oxygène, pH) et biologiques (chl a) et verticales remorquage de filet d'anneau. Les données recueillies sont synthétisées dans deux rapports annuels sur les changements physiques et chimiques et biologiques dans la région des Maritimes, et sont également utilisées pour évaluer les changements dans la zone atlantique.</att>
       <att name="geospatial_lat_units">degrees_north</att>
       <att name="geospatial_lon_units">degrees_north</att>
       <att name="geospatial_vertical_positive">down</att>
@@ -6652,7 +6652,7 @@
       <att name="header"></att>
       <att name="infoUrl">https://www.bio.gc.ca/science/monitoring-monitorage/azomp-pmzao/azomp-pmzao-en.php</att>
       <att name="keywords">CTD,tracers,chlorophyll a,climate change,phosphate,oceanColour,zooplanktonBiomassAndDiversity,oxygen,water density,phytoplankton,seaSurfaceSalinity,subSurfaceTemperature,particulateMatter,remote sensing,salinity,ADCP,seaSurfaceTemperature,PCO2,phytoplanktonBiomassAndDiversity,sea currents,oceanographic missions,transientTracers,physical-chemical,other,surfaceCurrents,nutrients,inorganicCarbon,sampling,subSurfaceCurrents,water temperature,carbon dioxide,dissolvedOrganicCarbon,potential temperature,fluorescence,potential density,nitrate,pressure,seawater density,subSurfaceSalinity,silicate</att>
-      <att name="keywords_fra">changement climatique, salinit&#xe9;, chlorophylle a, temp&#xe9;rature de l&#39;eau, t&#xe9;l&#xe9;d&#xe9;tection, fluorescence, densit&#xe9; eau, &#xe9;chantillonnage, missions oc&#xe9;anographique, physico-chimie, Oxyg&#xe8;ne, Pression, Salinit&#xe9; de surface, Temp&#xe9;rature de surface, Densit&#xe9; d&#39;eau de mer, Temp&#xe9;rature potentielle, Densit&#xe9; potentielle, Autre, Salinit&#xe9; sous la surface, Temp&#xe9;rature sous la surface</att>
+      <att name="keywords_fr">changement climatique, salinit&#xe9;, chlorophylle a, temp&#xe9;rature de l&#39;eau, t&#xe9;l&#xe9;d&#xe9;tection, fluorescence, densit&#xe9; eau, &#xe9;chantillonnage, missions oc&#xe9;anographique, physico-chimie, Oxyg&#xe8;ne, Pression, Salinit&#xe9; de surface, Temp&#xe9;rature de surface, Densit&#xe9; d&#39;eau de mer, Temp&#xe9;rature potentielle, Densit&#xe9; potentielle, Autre, Salinit&#xe9; sous la surface, Temp&#xe9;rature sous la surface</att>
       <att name="keywords_vocabulary">CIOOS Keywords</att>
       <att name="license">Open Government Licence - Canada</att>
       <att name="naming_authority">CF Standard Name Table v29</att>
@@ -6661,9 +6661,9 @@
 Annual measurements in the Labrador Sea began in 1990 as a contribution to the World Climate Research Program and have evolved into a multidisciplinary regional monitoring effort and part of the Global Ocean Ship-based Hydrographic Investigations Program (GO-SHIP).
 
 AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual sampling of both the extended Halifax Line, deep-water stations over the Scotian Slope and Rise located at the end of AZMP’s Halifax Line, and the Atlantic Repeat 7-West (AR7W) line, a 880 km-line running from Misery Point, Labrador to Cape Desolation, Greenland. Opportunistic sampling may also occur at stations in the Strait of Belle Ilse, station 27, Labrador Shelf, and OSNAP West line in support of ancillary research programs and initiatives. AZOMP sampling is conducted according to standard procedures (https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) and includes: 1- the collection of CTD and Lowered-ADCP profiles and water samples for the determination of physical (e.g., T, S, currents), chemical (e.g., nutrients, pH, transient gases for water mass determination and tracers for ventilation and carbon sequestration studies), and biological (e.g., chl a) variables; 2-  multi net tows for zooplankton;  and 3- vertical ring net tows for plankton. In addition XBTs and Argo floats are commonly deployed and vessel-mounted ADCP is used to determine current profiles. The data collected are synthesized into annual reports on the physical,  chemical and biological changes in Atlantic Canada and the Labrador Sea.”  One primary focus is on changes in the intensity of winter overturning of surface and intermediate-depth waters resulting in water mass formation and is part of the thermohaline circulation that affects the global climate. Convection also transfers atmospheric gases from the surface to intermediate depths, reducing the rate of increase of carbon dioxide in the atmosphere but increasing the acidity of the ocean</att>
-      <att name="summary_fra"></att>
+      <att name="summary_fr"></att>
       <att name="title">Maritimes Region Atlantic Zone Off-Shelf Monitoring Program (AZOMP) Rosette Vertical Profiles</att>
-      <att name="title_fra">Profils verticaux de rosette du programme de monitorage de la zone Atlantique au large du plateau continental (PMZAO) de la région des maritimes</att>
+      <att name="title_fr">Profils verticaux de rosette du programme de monitorage de la zone Atlantique au large du plateau continental (PMZAO) de la région des maritimes</att>
       <att name="creator_type">institution</att>
       <att name="sourceUrl">(local files)</att>
       <att name="platform">research vessel</att>
@@ -8011,7 +8011,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
   <!-- DFO BIO Atlantic Zone Off-shelf Monitoring Program (AZOMP): END -->
 
   <!-- DFO BIO Maritimes Region Ecosystem Survey (MRES): START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="maritimes_region_ecosystem_survey" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_maritimes_region_ecosystem_survey_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/ctd/Maritimes Region Ecosystem Survey/</fileDir>
@@ -8041,18 +8041,18 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <att name="geospatial_vertical_units">m</att>
       <att name="infoUrl">https://www.dfo-mpo.gc.ca/science/data-donnees/azmp-pmza/index-eng.html</att>
       <att name="keywords">CTD</att>
-      <att name="keywords_fra">CTD</att>
+      <att name="keywords_fr">CTD</att>
       <att name="keywords_vocabulary">CIOOS Keywords</att>
       <att name="license">Open Government Licence - Canada</att>
       <att name="naming_authority">CF Standard Name Table v29</att>
       <att name="summary">The Fisheries and Oceans Canada (DFO) first implemented annual, standardized groundfish surveys (now referred to as ecosystem surveys) in the summer of 1970. These surveys consist of research vessel survey data collected to monitor the distribution and abundance of fish and invertebrates throughout the Scotian Shelf, Bay of Fundy and Georges Bank. The surveys follow a stratified random sampling design, and includes sampling of fish and invertebrates using a bottom trawl. These survey data are the primary data source for monitoring trends in fish species distribution, abundance, and biological conditions within the region. “Spring” cruises occur in January, February, March and April, and focus on Georges Bank. “Summer” cruises occur in May, June, July and August and these focus on the Scotian Shelf and Bay of Fundy. A vessel change occurred in 1982 when the A.T. Cameron was replaced by the Lady Hammond and in 1983 when the Alfred Needler became the principal survey vessel.  Now the Captain Jacques Cartier, built in 2019 and delivered in 2020, will serve as the primary offshore fishery science vessels in the Maritimes Region.  
 
         Also as part of these surveys, physical, chemical, and biological oceanographic observations are collected as part of the Atlantic Zonal Monitoring Program (AZMP).  AZMP sampling is conducted according to standard procedures (see https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) and includes the collection of CTD profiles and water samples for the determination of physical (e.g., T, S), chemical (e.g., nutrients, oxygen, pH), and biological (chl a) variables and vertical ring net tows. The data collected are synthesized into two annual reports on the physical and chemical/biological changes in the Maritimes Region.  AZMP aims to detect and track climate change and variability in the northwest Atlantic, evaluating changes in the physical, chemical and biological ocean properties and predator-prey dynamics of marine resources, thereby enhancing Canada's ability to understand, describe, and forecast the state of the marine ecosystem”. This record includes only hydrographic/CTD data collected during the spring and summer ecosystem surveys, conducted between 1998 to present.</att>
-      <att name="summary_fra">Pêches et Océans Canada (MPO) a mis en œuvre pour la première fois des relevés annuels normalisés du poisson de fond (maintenant appelés relevés des écosystèmes) au cours de l'été 1970. Ces relevés consistent en des données recueillies par des navires de recherche afin de surveiller la répartition et l'abondance des poissons et des invertébrés sur le plateau néo-écossais, la baie de Fundy et le banc Georges. Les relevés suivent un plan d'échantillonnage aléatoire stratifié et comprennent l'échantillonnage de poissons et d'invertébrés à l'aide d'un chalut de fond. Ces données d'enquête constituent la principale source de données pour le suivi des tendances de la distribution, de l'abondance et des conditions biologiques des espèces de poissons dans la région. Les croisières « printanières » ont lieu en janvier, février, mars et avril et se concentrent sur le banc Georges. Les croisières « estivales » ont lieu en mai, juin, juillet et août et se concentrent sur le plateau néo-écossais et la baie de Fundy. Un changement de navire s'est produit en 1982 lorsque l'A.T. Cameron a été remplacé par le Lady Hammond et en 1983 lorsque l'Alfred Needler est devenu le principal navire de prospection. Aujourd'hui, le Captain Jacques Cartier, construit en 2019 et livré en 2020, sera le principal navire hauturier de sciences halieutiques dans la région des Maritimes. 
+      <att name="summary_fr">Pêches et Océans Canada (MPO) a mis en œuvre pour la première fois des relevés annuels normalisés du poisson de fond (maintenant appelés relevés des écosystèmes) au cours de l'été 1970. Ces relevés consistent en des données recueillies par des navires de recherche afin de surveiller la répartition et l'abondance des poissons et des invertébrés sur le plateau néo-écossais, la baie de Fundy et le banc Georges. Les relevés suivent un plan d'échantillonnage aléatoire stratifié et comprennent l'échantillonnage de poissons et d'invertébrés à l'aide d'un chalut de fond. Ces données d'enquête constituent la principale source de données pour le suivi des tendances de la distribution, de l'abondance et des conditions biologiques des espèces de poissons dans la région. Les croisières « printanières » ont lieu en janvier, février, mars et avril et se concentrent sur le banc Georges. Les croisières « estivales » ont lieu en mai, juin, juillet et août et se concentrent sur le plateau néo-écossais et la baie de Fundy. Un changement de navire s'est produit en 1982 lorsque l'A.T. Cameron a été remplacé par le Lady Hammond et en 1983 lorsque l'Alfred Needler est devenu le principal navire de prospection. Aujourd'hui, le Captain Jacques Cartier, construit en 2019 et livré en 2020, sera le principal navire hauturier de sciences halieutiques dans la région des Maritimes. 
 
         Dans le cadre de ces relevés, des observations océanographiques physiques, chimiques et biologiques sont recueillies dans le cadre du Programme de surveillance de la zone atlantique (PMZA). L'échantillonnage du PMZA est effectué selon des procédures standard (voir https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) et comprend la collecte de profils CTD et d'échantillons d'eau pour la détermination des variables physiques (par exemple, T, S), chimiques (par exemple, nutriments, oxygène, pH) et biologiques (chl a) et verticales tractions de filet à anneaux. Les données recueillies sont synthétisées dans deux rapports annuels sur les changements physiques et chimiques/biologiques dans la région des Maritimes. Le PMZA vise à détecter et à suivre le changement et la variabilité climatiques dans l'Atlantique Nord-Ouest, en évaluant les changements dans les propriétés physiques, chimiques et biologiques de l'océan et dans la dynamique prédateur-proie des ressources marines, améliorant ainsi la capacité du Canada à comprendre, décrire et prévoir l'état de la mer écosystème ». Ce dossier comprend uniquement les données hydrographiques/CTD recueillies au cours des relevés écosystémiques du printemps et de l'été, réalisés entre 1998 et aujourd'hui.</att>
       <att name="title">Maritimes Region Ecosystem Survey Rosette Vertical Profiles</att>
-      <att name="title_fra">Profils verticaux de rosette du programme de monitorage de l'écosystème des maritimes (PMEM)</att>
+      <att name="title_fr">Profils verticaux de rosette du programme de monitorage de l'écosystème des maritimes (PMEM)</att>
       <att name="creator_type">institution</att>
       <att name="sourceUrl">(local files)</att>
       <att name="platform">research vessel</att>
@@ -9455,7 +9455,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
   <!-- DFO BIO Maritimes Region Ecosystem Survey (MRES): END -->
 
   <!-- DFO BIO Barrow Strait Program: START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_barrow_strait_program_rosette" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_barrow_strait_program_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/ctd/Barrow Strait Monitoring Program/</fileDir>
@@ -9486,7 +9486,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <att name="geospatial_vertical_units">m</att>
       <att name="infoUrl">https://www.dfo-mpo.gc.ca/science/data-donnees/azmp-pmza/index-eng.html</att>
       <att name="keywords">CTD</att>
-      <att name="keywords_fra">CTD</att>
+      <att name="keywords_fr">CTD</att>
       <att name="keywords_vocabulary">CIOOS Keywords</att>
       <att name="license">Open Government Licence - Canada</att>
       <att name="naming_authority">CF Standard Name Table v29</att>
@@ -9907,13 +9907,13 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <att name="header"></att>
       <att name="infoUrl">https://www.dfo-mpo.gc.ca/science/data-donnees/azmp-pmza/index-eng.html</att>
       <att name="keywords">CTD</att>
-      <att name="keywords_fra">CTD</att>
+      <att name="keywords_fr">CTD</att>
       <att name="keywords_vocabulary">CIOOS Keywords</att>
       <att name="license">Open Government Licence - Canada</att>
       <att name="summary">summary</att>
-      <att name="summary_fra"></att>
+      <att name="summary_fr"></att>
       <att name="title">BIO Annual Ice Forecast Hydrographic Survey CTD</att>
-      <att name="title_fra"></att>
+      <att name="title_fr"></att>
       <att name="creator_type">institution</att>
       <att name="sourceUrl">(local files)</att>
       <att name="platform">research vessel</att>
@@ -10370,7 +10370,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <att name="geospatial_vertical_units">m</att>
       <att name="infoUrl">https://www.dfo-mpo.gc.ca/science/data-donnees/azmp-pmza/index-eng.html</att>
       <att name="keywords">CTD</att>
-      <att name="keywords_fra">CTD</att>
+      <att name="keywords_fr">CTD</att>
       <att name="keywords_vocabulary">CIOOS Keywords</att>
       <att name="license">Open Government Licence - Canada</att>
       <att name="creator_type">institution</att>
@@ -11018,7 +11018,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <att name="header"></att>
       <att name="infoUrl">https://www.dfo-mpo.gc.ca/science/data-donnees/azmp-pmza/index-eng.html</att>
       <att name="keywords">CTD</att>
-      <att name="keywords_fra">CTD</att>
+      <att name="keywords_fr">CTD</att>
       <att name="keywords_vocabulary">CIOOS Keywords</att>
       <att name="license">Open Government Licence - Canada</att>
       <att name="creator_type">institution</att>
@@ -11550,11 +11550,11 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <att name="geospatial_vertical_units">m</att>
       <att name="infoUrl">https://www.dfo-mpo.gc.ca/science/data-donnees/azmp-pmza/index-eng.html</att>
       <att name="keywords">CTD</att>
-      <att name="keywords_fra">CTD</att>
+      <att name="keywords_fr">CTD</att>
       <att name="keywords_vocabulary">CIOOS Keywords</att>
       <att name="license">Open Government Licence - Canada</att>
       <att name="summary">summary</att>
-      <att name="summary_fra"></att>
+      <att name="summary_fr"></att>
       <att name="creator_type">institution</att>
       <att name="sourceUrl">(local files)</att>
       <att name="platform">research vessel</att>
@@ -12492,13 +12492,13 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       <att name="header"></att>
       <att name="infoUrl">https://www.dfo-mpo.gc.ca/science/data-donnees/azmp-pmza/index-eng.html</att>
       <att name="keywords">CTD</att>
-      <att name="keywords_fra">CTD</att>
+      <att name="keywords_fr">CTD</att>
       <att name="keywords_vocabulary">CIOOS Keywords</att>
       <att name="license">Open Government Licence - Canada</att>
       <att name="summary">summary</att>
-      <att name="summary_fra"></att>
+      <att name="summary_fr"></att>
       <att name="title">BIO Historical Projects CTD</att>
-      <att name="title_fra"></att>
+      <att name="title_fr"></att>
       <att name="creator_type">institution</att>
       <att name="sourceUrl">(local files)</att>
       <att name="platform">research vessel</att>
@@ -13085,6 +13085,409 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
   </dataset>
   <!-- WSP Grand Banks Wave Buoy Data: END -->
 
+  
+  <!-- CANDHIS Saint Pierre et Miquelon Wave buoy - TIMESERIES START-->
+  <dataset type="EDDTableFromAsciiFiles" datasetID="candhis_spm_97501_timeseries" active="true">
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <updateEveryNMillis>10000</updateEveryNMillis>
+    <fileDir>/datasets/candhis_spm/timeseries/</fileDir>
+    <fileNameRegex>97501_timeseries_\d+\.csv</fileNameRegex>
+    <recursive>true</recursive>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <standardizeWhat>0</standardizeWhat>
+    <charset>UTF-8</charset>
+    <columnSeparator></columnSeparator>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <sortedColumnSourceName>timestamp</sortedColumnSourceName>
+    <sortFilesBySourceNames>timestamp</sortFilesBySourceNames>
+    <fileTableInMemory>false</fileTableInMemory>
+    <!-- sourceAttributes>
+      </sourceAttributes -->
+    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
+          <att name="cdm_timeseries_variables">station_id, longitude, latitude</att>
+          <att name="subsetVariables">station_id, longitude, latitude</att>
+      -->
+    <addAttributes>
+      <att name="cdm_data_type">TimeSeries</att>
+      <att name="cdm_timeseries_variables">station_id,longitude,latitude</att>
+      <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
+      <att name="creator_name">Cerema</att>
+      <att name="creator_type">institution</att>
+      <att name="creator_url">https://candhis.cerema.fr/</att>
+      <att name="infoUrl">https://candhis.cerema.fr/_public_/campagne.php?Y2FtcD05NzUwMQ==</att>
+      <att name="institution">Cerema</att>
+      <att name="keywords">average, buoy, data, density, direction, earth, Earth Science &gt; Oceans &gt; Ocean Waves &gt; Swells, Earth Science &gt; Oceans &gt; Ocean Waves &gt; Wave Period, hm0, internal, max, miquelon, ocean, oceanography, oceans, peak, peak_power_spectral_density, period, physical, physical oceanography, pierre, power, science, sea, sea_surface_swell_wave_period, sea_surface_temp_avg, sig, spectral, spread, surface, surface waves, swell, swells, temperature, time, timestamp, timestamp_internal, wave, wave_direction_peak_spectral, wave_ht_max, wave_ht_sig, wave_ht_sig_Hm0, wave_period, wave_period_avg, wave_period_peak, wave_spread_peak, waves</att>
+      <att name="keywords_vocabulary">GCMD Science Keywords</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="summary">St. Pierre et Miquelon Wave Buoy</att>
+      <att name="title">St. Pierre et Miquelon Wave Buoy</att>
+      <att name="testOutOfDate">now-1hour</att>
+      <att name="instrument">Houlographe Datawell DWR MkIII 70</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>=97501</sourceName>
+      <destinationName>station_id</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Station ID</att>
+        <att name="long_name_fr">Code campagne</att>
+        <att name="cf_role">timeseries_id</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timestamp</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <!-- sourceAttributes>
+          </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+        <att name="long_name">Timestamp</att>
+        <att name="source_name">timestamp</att>
+        <att name="standard_name">time</att>
+        <att name="time_precision">1970-01-01T00:00:00Z</att>
+        <att name="units">yyyy-MM-dd&#39;T&#39;HH:mm:ss&#39;Z&#39;</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>=46.7000</sourceName>
+      <destinationName>latitude</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="long_name">Latitude</att>
+        <att name="units">degrees_north</att>
+        <att name="standard_name">latitude</att>
+        <att name="ioos_category">Location</att>
+        <att name="coverage_content_type">coordinate</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>=56.1833</sourceName>
+      <destinationName>longitude</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="long_name">Longitude</att>
+        <att name="units">degrees_east</att>
+        <att name="standard_name">longitude</att>
+        <att name="ioos_category">Location</att>
+        <att name="coverage_content_type">coordinate</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>wave_ht_sig</sourceName>
+      <destinationName>wave_ht_sig</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+          </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Surface Waves</att>
+        <att name="long_name">Wave Ht Sig</att>
+        <att name="units">m</att>
+        <att name="standard_name">sea_surface_wave_significant_height</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>wave_ht_max</sourceName>
+      <destinationName>wave_ht_max</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+          </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Surface Waves</att>
+        <att name="long_name">Wave Ht Max</att>
+        <att name="units">m</att>
+        <att name="standard_name">sea_surface_wave_maximum_height</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>wave_period_avg</sourceName>
+      <destinationName>wave_period_avg</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+          </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">20.0</att>
+        <att name="colorBarMinimum" type="double">0.0</att>
+        <att name="ioos_category">Surface Waves</att>
+        <att name="long_name">Sea Surface Swell Wave Period</att>
+        <att name="units">s</att>
+        <att name="standard_name">sea_surface_swell_wave_period</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>timestamp_internal</sourceName>
+      <destinationName>timestamp_internal</destinationName>
+      <dataType>String</dataType>
+      <!-- sourceAttributes>
+          </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+        <att name="long_name">Timestamp Internal</att>
+        <att name="standard_name">time</att>
+        <att name="time_precision">1970-01-01T00:00:00Z</att>
+        <att name="units">yyyy-MM-dd&#39;T&#39;HH:mm:ss&#39;Z&#39;</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>wave_ht_sig_Hm0</sourceName>
+      <destinationName>wave_ht_sig_Hm0</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+          </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Surface Waves</att>
+        <att name="long_name">Wave Ht Sig Hm0</att>
+        <att name="units">m</att>
+        <att name="standard_name">sea_surface_wave_significant_height</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>wave_period</sourceName>
+      <destinationName>wave_period</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+          </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">20.0</att>
+        <att name="colorBarMinimum" type="double">0.0</att>
+        <att name="ioos_category">Surface Waves</att>
+        <att name="long_name">Sea Surface Swell Wave Period</att>
+        <att name="units">s</att>
+        <att name="standard_name">sea_surface_swell_wave_period</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>wave_period_peak</sourceName>
+      <destinationName>wave_period_peak</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+          </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">20.0</att>
+        <att name="colorBarMinimum" type="double">0.0</att>
+        <att name="ioos_category">Surface Waves</att>
+        <att name="long_name">Sea Surface Swell Wave Period</att>
+        <att name="units">s</att>
+        <att name="standard_name">sea_surface_swell_wave_period</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>wave_direction_peak_spectral</sourceName>
+      <destinationName>wave_direction_peak_spectral</destinationName>
+      <dataType>short</dataType>
+      <!-- sourceAttributes>
+          </sourceAttributes -->
+      <addAttributes>
+        <att name="_FillValue" type="short">32767</att>
+        <att name="colorBarMaximum" type="double">360.0</att>
+        <att name="colorBarMinimum" type="double">0.0</att>
+        <att name="ioos_category">Surface Waves</att>
+        <att name="long_name">Wave Direction Peak Spectral</att>
+        <att name="units">spectral</att>
+        <att name="standard_name">sea_surface_wave_directional_spread_at_variance_spectral_density_maximum</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>wave_spread_peak</sourceName>
+      <destinationName>wave_spread_peak</destinationName>
+      <dataType>byte</dataType>
+      <!-- sourceAttributes>
+          </sourceAttributes -->
+      <addAttributes>
+        <att name="_FillValue" type="byte">127</att>
+        <att name="ioos_category">Surface Waves</att>
+        <att name="long_name">Wave Spread Peak</att>
+        <att name="units">degree</att>
+        <att name="standard_name">sea_surface_wave_directional_spread</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>sea_surface_temp_avg</sourceName>
+      <destinationName>sea_surface_temp_avg</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+          </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Surface Waves</att>
+        <att name="long_name">Sea Surface Temp Avg</att>
+        <att name="units">degree_C</att>
+        <att name="standard_name">sea_surface_temperature</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>peak_power_spectral_density</sourceName>
+      <destinationName>peak_power_spectral_density</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+          </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Physical Oceanography</att>
+        <att name="long_name">Peak Power Spectral Density</att>
+        <att name="standard_name">sea_surface_wave_energy_at_variance_spectral_density_maximum</att>
+        <att name="units">m2 Hz-1</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <!-- CANDHIS Saint Pierre et Miquelon Wave buoy - TIMESERIES END-->
+
+  <!-- CANDHIS Saint Pierre et Miquelon Wave buoy - WAVE_SPECTRA START-->
+  <dataset type="EDDTableFromAsciiFiles" datasetID="candhis_spm_97501_wave_spectra" active="true">
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <updateEveryNMillis>10000</updateEveryNMillis>
+    <fileDir>/datasets/candhis_spm/wave_spectra/</fileDir>
+    <fileNameRegex>97501_wave_spectra_\d+\.csv</fileNameRegex>
+    <recursive>true</recursive>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <standardizeWhat>0</standardizeWhat>
+    <charset>UTF-8</charset>
+    <columnSeparator></columnSeparator>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <sortedColumnSourceName></sortedColumnSourceName>
+    <sortFilesBySourceNames></sortFilesBySourceNames>
+    <fileTableInMemory>false</fileTableInMemory>
+    <!-- sourceAttributes>
+      </sourceAttributes -->
+    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
+          <att name="cdm_timeseries_variables">station_id, longitude, latitude</att>
+          <att name="subsetVariables">station_id, longitude, latitude</att>
+      -->
+    <addAttributes>
+      <att name="cdm_data_type">TimeSeries</att>
+      <att name="cdm_timeseries_variables">station_id,longitude,latitude</att>
+      <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
+      <att name="creator_name">Cerema</att>
+      <att name="creator_type">institution</att>
+      <att name="creator_url">https://candhis.cerema.fr/</att>
+      <att name="infoUrl">https://candhis.cerema.fr/_public_/campagne.php?Y2FtcD05NzUwMQ==</att>
+      <att name="institution">Cerema</att>
+      <att name="keywords">candhis, currents, data, direction, division, miquelon, period, physical, pierre, psd, relative, relative_PSD, sciences, spectra, spread, wave</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="summary">St. Pierre et Miquelon - Wave Spectra</att>
+      <att name="title">St. Pierre et Miquelon, Wave Spectra</att>
+      <att name="testOutOfDate">now-1hour</att>
+      <att name="instrument">Houlographe Datawell DWR MkIII 70</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>=97501</sourceName>
+      <destinationName>station_id</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Station ID</att>
+        <att name="long_name_fr">Code campagne</att>
+        <att name="cf_role">timeseries_id</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <!--  Example Filename: 97501_wave_spectra_20221130000000.csv , "yyyyMMddHHmmss"  -->
+      <sourceName>=Calendar2.tryToIsoString(String2.extractRegex(row.getFileName(), "\d+", 18))</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>String</dataType>
+      <!-- sourceAttributes>
+          </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+        <att name="long_name">Timestamp</att>
+        <att name="source_name">timestamp</att>
+        <att name="standard_name">time</att>
+        <att name="time_precision">1970-01-01T00:00:00Z</att>
+        <!-- <att name="units">seconds since 1970-01-01</att> -->
+        <att name="units">yyyy-MM-dd&#39;T&#39;HH:mm:ss&#39;Z&#39;</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>=46.7000</sourceName>
+      <destinationName>latitude</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="long_name">Latitude</att>
+        <att name="units">degrees_north</att>
+        <att name="standard_name">latitude</att>
+        <att name="ioos_category">Location</att>
+        <att name="coverage_content_type">coordinate</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>=56.1833</sourceName>
+      <destinationName>longitude</destinationName>
+      <dataType>float</dataType>
+      <addAttributes>
+        <att name="long_name">Longitude</att>
+        <att name="units">degrees_east</att>
+        <att name="standard_name">longitude</att>
+        <att name="ioos_category">Location</att>
+        <att name="coverage_content_type">coordinate</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>period</sourceName>
+      <destinationName>period</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+          </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Surface Waves</att>
+        <att name="long_name">Period</att>
+        <att name="units">s</att>
+        <att name="standard_name">sea_surface_swell_wave_period</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>relative_PSD</sourceName>
+      <destinationName>relative_PSD</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+          </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Surface Waves</att>
+        <att name="long_name">Relative Power Spectral Density</att>
+        <att name="standard_name">sea_surface_wave_energy_at_variance_spectral_density_maximum</att>
+        <att name="units">m2 Hz-1</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>direction</sourceName>
+      <destinationName>direction</destinationName>
+      <dataType>short</dataType>
+      <!-- sourceAttributes>
+          </sourceAttributes -->
+      <addAttributes>
+        <att name="_FillValue" type="short">32767</att>
+        <att name="colorBarMaximum" type="double">360.0</att>
+        <att name="colorBarMinimum" type="double">0.0</att>
+        <att name="ioos_category">Surface Waves</att>
+        <att name="long_name">Direction</att>
+        <att name="units">degree</att>
+        <att name="standard_name">sea_surface_wave_from_direction</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>spread</sourceName>
+      <destinationName>spread</destinationName>
+      <dataType>byte</dataType>
+      <!-- sourceAttributes>
+          </sourceAttributes -->
+      <addAttributes>
+        <att name="_FillValue" type="byte">127</att>
+        <att name="ioos_category">Surface Waves</att>
+        <att name="long_name">Spread</att>
+        <att name="units">degree</att>
+        <att name="standard_name">sea_surface_wave_directional_spread</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <!-- CANDHIS Saint Pierre et Miquelon Wave buoy - WAVE_SPECTRA END-->
+
+
   <!-- CEOTR SPOT-1431 Sable Island Wave Buoy START -->
   <dataset type="EDDTableFromErddap" datasetID="SPOT-1431_202204" active="true">
     <sourceUrl> https://data.ceotr.ca/erddap/tabledap/SPOT-1431_202204</sourceUrl>
@@ -13097,4 +13500,2033 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
   </dataset>
   <!-- CEOTR SPOT-1461 Sable Island Wave Buoy END -->
 
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_adcp" active="true">
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <updateEveryNMillis>10000</updateEveryNMillis>
+    <fileDir>/datasets/dfo/bio/moored</fileDir>
+    <fileNameRegex>MADCP.*\.nc</fileNameRegex>
+    <recursive>true</recursive>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <standardizeWhat>0</standardizeWhat>
+    <removeMVRows>true</removeMVRows>
+    <sortFilesBySourceNames></sortFilesBySourceNames>
+    <fileTableInMemory>false</fileTableInMemory>
+    <!-- sourceAttributes>
+    <att name="beam_pattern">convex</att>
+    <att name="cdm_data_type">station</att>
+    <att name="chief_scientist">Dave Hebert</att>
+    <att name="comment">Data combined from archived files</att>
+    <att name="Conventions">CF-1.6</att>
+    <att name="coord_system">GEOGRAPHIC</att>
+    <att name="country_code">CA</att>
+    <att name="creator_institution">Bedford Institute of Oceanography</att>
+    <att name="creator_type">person</att>
+    <att name="cruise_name">St. Anns Bank</att>
+    <att name="cruise_number">HUD2015030</att>
+    <att name="data_subtype">MOORED</att>
+    <att name="data_type">adcp</att>
+    <att name="date_created" type="double">17731.0</att>
+    <att name="date_modified">2019-04-11 17:10:28</att>
+    <att name="delta_t_sec" type="double">3600.0</att>
+    <att name="error_velocity_threshold">2000  mm/s</att>
+    <att name="experiment">HUD2015030</att>
+    <att name="false_target_reject_values" type="int">50</att>
+    <att name="featureType">timeSeriesProfile</att>
+    <att name="firmware_version">51.40</att>
+    <att name="frequency">300  Khz</att>
+    <att name="geospataial_vertical_max" type="double">106.2431923492677</att>
+    <att name="geospatial_lat_max" type="double">46.250503</att>
+    <att name="geospatial_lat_min" type="double">46.250503</att>
+    <att name="geospatial_lat_units">degrees_north</att>
+    <att name="geospatial_lon_max" type="double">-59.140645</att>
+    <att name="geospatial_lon_min" type="double">-59.140645</att>
+    <att name="geospatial_lon_units">degrees_east</att>
+    <att name="geospatial_vertical_min" type="double">18.2431923492677</att>
+    <att name="geospatial_vertical_positive">down</att>
+    <att name="geospatial_vertical_units">metres</att>
+    <att name="history">Tue Apr 16 09:20:12 2019: C:\nco\ncrename.exe -v Tx,te90 MADCPS_HUD2015030_1899_2935_3600.nc
+Wed Oct 31 10:31:30 2018: C:\nco\ncrename.exe -v CMAG_01,CMAGZZ01 -v CMAG_02,CMAGZZ02 -v CMAG_03,CMAGZZ03 -v CMAG_04,CMAGZZ04 D:/madcp/MADCPS_HUD2015030_1899_2935_3600.nc
+Wed Aug 22 13:14:55 2018: C:\nco\ncks.exe -x -v ELTMEP01 - - overwrite C:/nco/MADCPS_HUD2015030_1899_2935_3600.nc C:/nco/MADCPS_HUD2015030_1899_2935_3600.nc
+Wed Aug 22 13:14:55 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/MADCPS_HUD2015030_1899_2935_3600.nc C:/nco/MADCPS_HUD2015030_1899_2935_3600.nc
+Written to an EPIC standard data file by adcp2ep.m
+Ensembles recorded pre and post deployment were trimmed by goodends.m.
+Converted to netCDF via MATLAB by rdi2cdf.m 2.2c 10/22/99</att>
+    <att name="institution">Bedford Institute of Oceanography, DFO</att>
+    <att name="janus" type="int">4</att>
+    <att name="keywords">Oceans &gt; Ocean Circulation &gt; Ocean Currents</att>
+    <att name="keywords_vocabulary">GCMD Science Keywords</att>
+    <att name="latitude" type="double">46.250503</att>
+    <att name="longitude" type="double">-59.140645</att>
+    <att name="magnetic_variation" type="double">-18.440000534057617</att>
+    <att name="minmax_percent_good">0  100</att>
+    <att name="model">RD Instruments</att>
+    <att name="mooring_number">1899</att>
+    <att name="naming_authority">NA</att>
+    <att name="NCO">20180822</att>
+    <att name="pings_per_ensemble" type="int">60</att>
+    <att name="platform">CCGS Hudson</att>
+    <att name="pred_accuracy" type="double">1.0</att>
+    <att name="program">St. Anns Bank</att>
+    <att name="project">NA</att>
+    <att name="publisher_email">BIO.Datashop@dfo-mpo.gc.ca</att>
+    <att name="publisher_name">E. Chisholm</att>
+    <att name="sampling_interval">3600.000000 seconds</att>
+    <att name="serial_number" type="int">2935</att>
+    <att name="sounding" type="double">114.0</att>
+    <att name="source">R code: adcpProcess, github:</att>
+    <att name="standard_name_vocabulary">CF v.52</att>
+    <att name="time_coverage_duration">P366.917D</att>
+    <att name="time_coverage_duration_units">NA</att>
+    <att name="time_coverage_end">2016-09-24T15:00:30+0000</att>
+    <att name="time_coverage_start">2015-09-23T17:00:30+0000</att>
+    <att name="title">Moored ADCP Data from Bedford Institute of Oceanography</att>
+    <att name="transmit_pulse_length_cm" type="double">430.0</att>
+    <att name="valid_correlation_range" type="int">64</att>
+    <att name="water_depth" type="double">114.0</att>
+</sourceAttributes -->
+    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
+    <att name="cdm_timeseries_variables">station_id, longitude, latitude</att>
+    <att name="subsetVariables">station_id, longitude, latitude</att>
+-->
+    <addAttributes>
+      <att name="cdm_data_type">TimeSeriesProfile</att>
+      <att name="cdm_timeseries_variables">station,latitude,longitude,serial_number,chief_scientist,serial_number,frequency</att>
+      <att name="cdm_profile_variables">time</att>
+      <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
+      <att name="creator_name">Bedford Institute of Oceanography, DFO</att>
+      <att name="date_modified">2019-04-11T17:10:28Z</att>
+      <att name="infoUrl">???</att>
+      <att name="keywords">above, acoustic, acoustics, adcp, angle, average, beam, BEAM_01, BEAM_02, BEAM_03, BEAM_04, bedford, bin, circulation, CMAGZZ01, CMAGZZ02, CMAGZZ03, CMAGZZ04, correlation, current, currents, data, department, depth, dfo, distance, doppler, dtut8601, each, earth, Earth Science &gt; Oceans &gt; Ocean Acoustics &gt; Acoustic Velocity, Earth Science &gt; Oceans &gt; Ocean Circulation &gt; Ocean Currents, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, eastward, eastward_sea_water_velocity, echo, error, ERRV, EWCT, fisheries, good, HEAD, heading, height, hght, identifier, institute, intensity, latitude, longitude, magnitude, moored, name, northward, northward_sea_water_velocity, NSCT, ocean, oceanography, oceans, percent, PGDP_01, PGDP_02, PGDP_03, PGDP_04, pitch, platform, platform_name, platform_pitch_angle, platform_roll_angle, PRES, pressure, profiler, PTCH, roll, science, sea, sea_water_pressure, seawater, sound, speed, speed_of_sound_in_sea_water, station, statistics, surface, SVEL, te90, temperature, time, time_string, transducer, upward, upward_sea_water_velocity, VCSP, velocity, water</att>
+      <att name="license">[standard]</att>
+      <att name="naming_authority">cioos.org</att>
+      <att name="project">null</att>
+      <att name="publisher_type">person</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">station,mooring_number,cruise_name,cruise_number,chief_scientist,model,serial_number,frequency</att>
+      <att name="summary">Data combined from archived files</att>
+      <att name="time_coverage_duration_units">null</att>
+      <att name="time_coverage_end">2016-09-24T15:00:30Z</att>
+      <att name="time_coverage_start">2015-09-23T17:00:30Z</att>
+      <att name="title">Maritimes Region Acoustic Doppler Current Profilers Timeseries</att>
+      <!-- Nulled attributes -->
+      <att name="beam_pattern">null</att>
+      <att name="comment">null</att>
+      <att name="data_subtype">null</att>
+      <att name="data_type">null</att>
+      <att name="delta_t_sec">null</att>
+      <att name="error_velocity_threshold">null</att>
+      <att name="experiment">null</att>
+      <att name="false_target_reject_values">null</att>
+      <att name="featureType">null</att>
+      <att name="firmware_version">null</att>
+      <att name="geospatial_vertical_positive">down</att>
+      <att name="geospatial_vertical_units">metres</att>
+      <att name="history">null</att>
+      <att name="janus">null</att>
+      <att name="magnetic_variation">null</att>
+      <att name="minmax_percent_good">null</att>
+      <att name="NCO">null</att>
+      <att name="pings_per_ensemble">null</att>
+      <att name="pred_accuracy">null</att>
+      <att name="sampling_interval">null</att>
+      <att name="sounding">null</att>
+      <att name="source">null</att>
+      <att name="transmit_pulse_length_cm">null</att>
+      <att name="valid_correlation_range">null</att>
+      <att name="water_depth">null</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>***fileName,(.*),1</sourceName>
+      <destinationName>filename</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:cruise_name</sourceName>
+      <destinationName>cruise_name</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:cruise_number</sourceName>
+      <destinationName>cruise_number</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:chief_scientist</sourceName>
+      <destinationName>chief_scientist</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:model</sourceName>
+      <destinationName>model</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:serial_number</sourceName>
+      <destinationName>serial_number</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:frequency</sourceName>
+      <destinationName>frequency</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:mooring_number</sourceName>
+      <destinationName>mooring_number</destinationName>
+      <dataType>int</dataType>
+      <addAttributes>
+        <att name="_FillValue" type="int">2147483647</att>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>station</sourceName>
+      <destinationName>station</destinationName>
+      <dataType>String</dataType>
+      <!-- sourceAttributes>
+        <att name="cf_role">timeseries_id</att>
+        <att name="latitiude" type="double">46.250503</att>
+        <att name="long_name">station</att>
+        <att name="longitude" type="double">-59.140645</att>
+        <att name="standard_name">platform_name</att>
+        <att name="units">counts</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">100.0</att>
+        <att name="colorBarMinimum" type="double">0.0</att>
+        <att name="ioos_category">Identifier</att>
+        <att name="units">null</att>
+        <att name="cf_role">timeseries_id</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lat</sourceName>
+      <destinationName>latitude</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+        <att name="axis">Y</att>
+        <att name="long_name">latitude</att>
+        <att name="sdn_parameter_name">Latitude north</att>
+        <att name="sdn_parameter_urn">SDN:P01::ALATZZ01</att>
+        <att name="sdn_uom_name">Degrees north</att>
+        <att name="sdn_uom_urn">SDN:P06:DEGN</att>
+        <att name="standard_name">latitude</att>
+        <att name="units">degrees_north</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">90.0</att>
+        <att name="colorBarMinimum" type="double">-90.0</att>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Latitude</att>
+        <att name="sdn_P02_urn">SDN:P02::ALAT</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lon</sourceName>
+      <destinationName>longitude</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+        <att name="axis">X</att>
+        <att name="long_name">longitude</att>
+        <att name="sdn_parameter_name">Longitude east</att>
+        <att name="sdn_parameter_urn">SDN:P01::ALONZZ01</att>
+        <att name="sdn_uom_name">Degrees east</att>
+        <att name="sdn_uom_urn">SDN:P06::DEGE</att>
+        <att name="standard_name">longitude</att>
+        <att name="units">degrees_east</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">180.0</att>
+        <att name="colorBarMinimum" type="double">-180.0</att>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Longitude</att>
+        <att name="sdn_P02_urn">SDN:P02::ALAT</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+        <att name="axis">T</att>
+        <att name="calendar">gregorian</att>
+        <att name="cf_role">profile_id</att>
+        <att name="long_name">time</att>
+        <att name="units">seconds since 1970-01-01T00:00:00Z</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="standard_name">time</att>
+        <att name="cf_role">profile_id</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_string</sourceName>
+      <destinationName>time_string</destinationName>
+      <dataType>String</dataType>
+      <!-- sourceAttributes>
+        <att name="long_name">DTUT8601</att>
+        <att name="note">time values as ISO8601 string, YY-MM-DD hh:mm:ss</att>
+        <att name="sdn_parameter_name">String corresponding to format &#39;YYYY-MM-DDThh:mm:ss.sssZ&#39; or other valid ISO8601 string</att>
+        <att name="sdn_parameter_urn">SDN:P01::DTUT8601</att>
+        <att name="sdn_uom_name">ISO8601</att>
+        <att name="sdn_uom_urn">SDN:P06::TISO</att>
+        <att name="time_zone">UTC</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+        <att name="sdn_P02_urn">SDN:P02::AYMD</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>hght</sourceName>
+      <destinationName>depth</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+      <att name="_FillValue" type="float">1.0E35</att>
+      <att name="axis">Z</att>
+      <att name="data_max" type="double">100.09319305419922</att>
+      <att name="data_min" type="double">12.093192100524902</att>
+      <att name="generic_name">height</att>
+      <att name="long_name">average height of sea surface above each bin</att>
+      <att name="positive">down</att>
+      <att name="sdn_uom_name">Metres</att>
+      <att name="sdn_uom_urn">SDN:P06::ULAA</att>
+      <att name="sensor_depth" type="double">106.2431923492677</att>
+      <att name="sensor_type">RD Instruments ADCP</att>
+      <att name="serial_number" type="int">2935</att>
+      <att name="units">m</att>
+  </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">8000.0</att>
+        <att name="colorBarMinimum" type="double">-8000.0</att>
+        <att name="colorBarPalette">TopographyDepth</att>
+        <att name="ioos_category">Location</att>
+        <att name="standard_name">depth</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>DEPH</sourceName>
+      <destinationName>instrument_depth</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="float">1.0E35</att>
+        <att name="bin_size" type="double">4.0</att>
+        <att name="data_max" type="double">107.27140137529175</att>
+        <att name="data_min" type="double">105.28393665311091</att>
+        <att name="generic_name">depth</att>
+        <att name="long_name">instrument depth</att>
+        <att name="sdn_parameter_name">Depth below surface of the water body</att>
+        <att name="sdn_parameter_urn">SDN:P01::ADEPZZ01</att>
+        <att name="sdn_uom_name">Metres</att>
+        <att name="sdn_uom_urn">SDN:P06:ULAA</att>
+        <att name="sensor_depth" type="double">106.2431923492677</att>
+        <att name="sensor_type">RD Instruments ADCP</att>
+        <att name="serial_number" type="int">2935</att>
+        <att name="standard_name">depth</att>
+        <att name="units">m</att>
+        <att name="xducer_offset_from_bottom" type="double">8.0</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">8000.0</att>
+        <att name="colorBarMinimum" type="double">-8000.0</att>
+        <att name="colorBarPalette">TopographyDepth</att>
+        <att name="ioos_category">Location</att>
+        <att name="sdn_P02_urn">SDN:P02::AHGT</att>
+        <att name="source_name">DEPH</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>NSCT</sourceName>
+      <destinationName>LCNSAP01</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+      <att name="_FillValue" type="float">1.0E35</att>
+      <att name="data_max" type="double">0.6423</att>
+      <att name="data_min" type="double">-1.521</att>
+      <att name="generic_name">v</att>
+      <att name="long_name">northward_sea_water_velocity</att>
+      <att name="sdn_parameter_name">Northward current velocity (Eulerian) in the water body by moored acoustic doppler current profiler (ADCP)</att>
+      <att name="sdn_parameter_urn">SDN:P01::LCNSAP01</att>
+      <att name="sdn_uom_name">Metres per second</att>
+      <att name="sdn_uom_urn">SDN:P06::UVAA</att>
+      <att name="sensor_depth" type="double">106.2431923492677</att>
+      <att name="sensor_type">RD Instruments ADCP</att>
+      <att name="serial_number" type="int">2935</att>
+      <att name="standard_name">northward_sea_water_velocity</att>
+      <att name="units">m/sec</att>
+      <att name="valid_max" type="double">1000.0</att>
+      <att name="valid_min" type="double">-1000.0</att>
+  </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">0.5</att>
+        <att name="colorBarMinimum" type="double">-0.5</att>
+        <att name="ioos_category">Currents</att>
+        <att name="long_name">Northward Sea Water Velocity</att>
+        <att name="sdn_P02_urn">SDN:P02::RFVL</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>EWCT</sourceName>
+      <destinationName>LCEWAP01</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+      <att name="_FillValue" type="float">1.0E35</att>
+      <att name="data_max" type="double">0.6537</att>
+      <att name="data_min" type="double">-0.9338</att>
+      <att name="generic_name">u</att>
+      <att name="long_name">eastward_sea_water_velocity</att>
+      <att name="sdn_parameter_name">Eastward current velocity (Eulerian) in the water body by moored acoustic doppler current profiler (ADCP)</att>
+      <att name="sdn_parameter_urn">SDN:P01::LCEWAP01</att>
+      <att name="sdn_uom_name">Metres per second</att>
+      <att name="sdn_uom_urn">SDN:P06::UVAA</att>
+      <att name="sensor_depth" type="double">106.2431923492677</att>
+      <att name="sensor_type">RD Instruments ADCP</att>
+      <att name="serial_number" type="int">2935</att>
+      <att name="standard_name">eastward_sea_water_velocity</att>
+      <att name="units">m/sec</att>
+      <att name="valid_max" type="double">1000.0</att>
+      <att name="valid_min" type="double">-1000.0</att>
+  </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">0.5</att>
+        <att name="colorBarMinimum" type="double">-0.5</att>
+        <att name="ioos_category">Currents</att>
+        <att name="long_name">Eastward Sea Water Velocity</att>
+        <att name="sdn_P02_urn">SDN:P02::RFVL</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>VCSP</sourceName>
+      <destinationName>LRZAAP01</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+      <att name="_FillValue" type="float">1.0E35</att>
+      <att name="data_max" type="double">0.142</att>
+      <att name="data_min" type="double">-0.275</att>
+      <att name="generic_name">w</att>
+      <att name="long_name">upward_sea_water_velocity</att>
+      <att name="sdn_parameter_name">Upward current velocity in the water body by moored acoustic doppler current profiler (ADCP)</att>
+      <att name="sdn_parameter_urn">SDN:P01::LRZAAP01</att>
+      <att name="sdn_uom_name">Metres per second</att>
+      <att name="sdn_uom_urn">SDN:P06::UVAA</att>
+      <att name="sensor_depth" type="double">106.2431923492677</att>
+      <att name="sensor_type">RD Instruments ADCP</att>
+      <att name="serial_number" type="int">2935</att>
+      <att name="standard_name">upward_sea_water_velocity</att>
+      <att name="units">m/sec</att>
+      <att name="valid_max" type="double">1000.0</att>
+      <att name="valid_min" type="double">-1000.0</att>
+  </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">0.5</att>
+        <att name="colorBarMinimum" type="double">-0.5</att>
+        <att name="ioos_category">Currents</att>
+        <att name="long_name">Upward Sea Water Velocity</att>
+        <att name="sdn_P02_urn">SDN:P02::LRZA</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>ERRV</sourceName>
+      <destinationName>LERRAP01</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="float">1.0E35</att>
+        <att name="data_max" type="double">0.865</att>
+        <att name="data_min" type="double">-1.63</att>
+        <att name="generic_name">w</att>
+        <att name="long_name">error_velocity_in_sea_water</att>
+        <att name="sdn_parameter_name">Current velocity error in the water body by moored acoustic doppler current profiler (ADCP)</att>
+        <att name="sdn_parameter_urn">SDN:P01::LERRAP01</att>
+        <att name="sdn_uom_name">Metres per second</att>
+        <att name="sdn_uom_urn">SDN:P06::UVAA</att>
+        <att name="sensor_depth" type="double">106.2431923492677</att>
+        <att name="sensor_type">RD Instruments ADCP</att>
+        <att name="serial_number" type="int">2935</att>
+        <att name="units">m/sec</att>
+        <att name="valid_max" type="double">2000.0</att>
+        <att name="valid_min" type="double">-2000.0</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">50.0</att>
+        <att name="colorBarMinimum" type="double">0.0</att>
+        <att name="ioos_category">Statistics</att>
+        <att name="long_name">Error Velocity In Sea Water</att>
+        <att name="sdn_P02_urn">SDN:P02::TMES</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>HEAD</sourceName>
+      <destinationName>HEADCM01</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="float">1.0E35</att>
+        <att name="data_max" type="double">359.99</att>
+        <att name="data_min" type="double">0.02</att>
+        <att name="generic_name">heading</att>
+        <att name="long_name">heading</att>
+        <att name="sdn_parameter_name">Orientation (horizontal relative to true north) of measurement device {heading}</att>
+        <att name="sdn_parameter_urn">SDN:P01::HEADCM01</att>
+        <att name="sdn_uom_name">Degrees</att>
+        <att name="sdn_uom_urn">SDN:P06:UAAA</att>
+        <att name="sensor_depth" type="double">106.2431923492677</att>
+        <att name="sensor_type">RD Instruments ADCP</att>
+        <att name="serial_number" type="int">2935</att>
+        <att name="units">degrees</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="sdn_P02_urn">SDN:P02::HEAD</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>PGDP_01</sourceName>
+      <destinationName>PCGDAP00</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="float">1.0E35</att>
+        <att name="data_max" type="double">100.0</att>
+        <att name="data_min" type="double">0.0</att>
+        <att name="generic_name">PGd</att>
+        <att name="long_name">percent_good_beam_1</att>
+        <att name="sdn_parameter_name">Acceptable proportion of signal returns by moored acoustic doppler current profiler (ADCP) beam 1</att>
+        <att name="sdn_parameter_urn">SDN:P01::PCGDAP00</att>
+        <att name="sdn_uom_name">Percent</att>
+        <att name="sdn_uom_urn">SDN:P06::UPCT</att>
+        <att name="sensor_depth" type="double">106.2431923492677</att>
+        <att name="sensor_type">RD Instruments ADCP</att>
+        <att name="serial_number" type="int">2935</att>
+        <att name="units">percent</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">100.0</att>
+        <att name="colorBarMinimum" type="double">0.0</att>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Percent Good Beam 1</att>
+        <att name="sdn_P02_urn">SDN:P02::TMES</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>PGDP_02</sourceName>
+      <destinationName>PCGDAP02</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="float">1.0E35</att>
+        <att name="data_max" type="double">20.0</att>
+        <att name="data_min" type="double">0.0</att>
+        <att name="generic_name">PGd</att>
+        <att name="long_name">percent_good_beam_2</att>
+        <att name="sdn_parameter_name">Acceptable proportion of signal returns by moored acoustic doppler current profiler (ADCP) beam 2</att>
+        <att name="sdn_parameter_urn">SDN:P01::PCGDAP02</att>
+        <att name="sdn_uom_name">Percent</att>
+        <att name="sdn_uom_urn">SDN:P06::UPCT</att>
+        <att name="sensor_depth" type="double">106.2431923492677</att>
+        <att name="sensor_type">RD Instruments ADCP</att>
+        <att name="serial_number" type="int">2935</att>
+        <att name="units">percent</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">100.0</att>
+        <att name="colorBarMinimum" type="double">0.0</att>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Percent Good Beam 2</att>
+        <att name="sdn_P02_urn">SDN:P02::TMES</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>PGDP_03</sourceName>
+      <destinationName>PCGDAP03</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="float">1.0E35</att>
+        <att name="data_max" type="double">100.0</att>
+        <att name="data_min" type="double">0.0</att>
+        <att name="generic_name">PGd</att>
+        <att name="long_name">percent_good_beam_3</att>
+        <att name="sdn_parameter_name">Acceptable proportion of signal returns by moored acoustic doppler current profiler (ADCP) beam 3</att>
+        <att name="sdn_parameter_urn">SDN:P01::PCGDAP03</att>
+        <att name="sdn_uom_name">Percent</att>
+        <att name="sdn_uom_urn">SDN:P06::UPCT</att>
+        <att name="sensor_depth" type="double">106.2431923492677</att>
+        <att name="sensor_type">RD Instruments ADCP</att>
+        <att name="serial_number" type="int">2935</att>
+        <att name="units">percent</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">100.0</att>
+        <att name="colorBarMinimum" type="double">0.0</att>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Percent Good Beam 3</att>
+        <att name="sdn_P02_urn">SDN:P02::TMES</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>PGDP_04</sourceName>
+      <destinationName>PCGDAP04</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="float">1.0E35</att>
+        <att name="data_max" type="double">100.0</att>
+        <att name="data_min" type="double">0.0</att>
+        <att name="generic_name">PGd</att>
+        <att name="long_name">percent_good_beam_4</att>
+        <att name="sdn_parameter_name">Acceptable proportion of signal returns by moored acoustic doppler current profiler (ADCP) beam 4</att>
+        <att name="sdn_parameter_urn">SDN:P01::PCGDAP04</att>
+        <att name="sdn_uom_name">Percent</att>
+        <att name="sdn_uom_urn">SDN:P06::UPCT</att>
+        <att name="sensor_depth" type="double">106.2431923492677</att>
+        <att name="sensor_type">RD Instruments ADCP</att>
+        <att name="serial_number" type="int">2935</att>
+        <att name="units">percent</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">100.0</att>
+        <att name="colorBarMinimum" type="double">0.0</att>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Percent Good Beam 4</att>
+        <att name="sdn_P02_urn">SDN:P02::TMES</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>PRES</sourceName>
+      <destinationName>PRESPR01</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="float">1.0E35</att>
+        <att name="data_max" type="double">108.19</att>
+        <att name="data_min" type="double">106.185</att>
+        <att name="generic_name">pressure</att>
+        <att name="long_name">pressure</att>
+        <att name="sdn_parameter_name">Pressure (spatial co-ordinate) exerted by the water body by profiling pressure sensor and corrected to read zero at sea level</att>
+        <att name="sdn_parameter_urn">SDN:P01::PRESPR01</att>
+        <att name="sdn_uom_name">Decibars</att>
+        <att name="sdn_uom_urn">SDN:P06:UPDB</att>
+        <att name="sensor_depth" type="double">106.2431923492677</att>
+        <att name="sensor_type">RD Instruments ADCP</att>
+        <att name="serial_number" type="int">2935</att>
+        <att name="standard_name">sea_water_pressure</att>
+        <att name="units">decibars</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">5000.0</att>
+        <att name="colorBarMinimum" type="double">0.0</att>
+        <att name="ioos_category">Pressure</att>
+        <att name="sdn_P02_urn">SDN:P02::AHGT</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>PTCH</sourceName>
+      <destinationName>PTCHEI01</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="float">1.0E35</att>
+        <att name="data_max" type="double">2.3211187994900855</att>
+        <att name="data_min" type="double">-1.5500124825441877</att>
+        <att name="long_name">pitch</att>
+        <att name="sdn_parameter_name">Orientation (pitch) of measurement platform by inclinometer</att>
+        <att name="sdn_parameter_urn">SDN:P01::PTCHEI01</att>
+        <att name="sdn_uom_name">Degrees</att>
+        <att name="sdn_uom_urn">SDN:P06:UAAA</att>
+        <att name="standard_name">platform_pitch_angle</att>
+        <att name="units">degrees</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="sdn_P02_urn">SDN:P02::HEAD</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>ROLL</sourceName>
+      <destinationName>ROLLEI01</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="float">1.0E35</att>
+        <att name="data_max" type="double">1.8</att>
+        <att name="data_min" type="double">-1.43</att>
+        <att name="long_name">roll</att>
+        <att name="sdn_parameter_name">Orientation (roll angle) of measurement platform by inclinometer (second sensor)</att>
+        <att name="sdn_parameter_urn">SDN:P01::ROLLEI01</att>
+        <att name="sdn_uom_name">Degrees</att>
+        <att name="sdn_uom_urn">SDN:P06:UAAA</att>
+        <att name="standard_name">platform_roll_angle</att>
+        <att name="units">degrees</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="sdn_P02_urn">SDN:P02::HEAD</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SVEL</sourceName>
+      <destinationName>SVELCV01</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="float">1.0E35</att>
+        <att name="data_max" type="int">1525</att>
+        <att name="data_min" type="int">1452</att>
+        <att name="generic_name">sound speed</att>
+        <att name="long_name">speed of sound</att>
+        <att name="sdn_parameter_name">Sound velocity in the water body by computation from temperature and salinity by unspecified algorithm</att>
+        <att name="sdn_parameter_urn">SDN:P01::SVELCV01</att>
+        <att name="sdn_uom_name">Metres per second</att>
+        <att name="sdn_uom_urn">SDN:P06:UVAA</att>
+        <att name="sensor_depth" type="double">106.2431923492677</att>
+        <att name="sensor_type">RD Instruments ADCP</att>
+        <att name="serial_number" type="int">2935</att>
+        <att name="standard_name">speed_of_sound_in_sea_water</att>
+        <att name="units">m/s</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Currents</att>
+        <att name="sdn_P02_urn">SDN:P02::SVEL</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>distance</sourceName>
+      <destinationName>distance</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+        <att name="axis">Z</att>
+        <att name="long_name">distance</att>
+        <att name="units">metres</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>BEAM_01</sourceName>
+      <destinationName>TNIHCE01</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="float">1.0E35</att>
+        <att name="data_max" type="double">220.0</att>
+        <att name="data_min" type="double">79.0</att>
+        <att name="generic_name">AGC</att>
+        <att name="long_name">ADCP_echo_intensity_beam_1</att>
+        <att name="sdn_parameter_name">Echo intensity from the water body by moored acoustic doppler current profiler (ADCP) beam 1</att>
+        <att name="sdn_parameter_urn">SDN:P01::TNIHCE01</att>
+        <att name="sdn_uom_name">Counts</att>
+        <att name="sdn_uom_urn">SDN:P06::UCNT</att>
+        <att name="sensor_depth" type="double">106.2431923492677</att>
+        <att name="sensor_type">RD Instruments ADCP</att>
+        <att name="serial_number" type="int">2935</att>
+        <att name="units">counts</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">100.0</att>
+        <att name="colorBarMinimum" type="double">0.0</att>
+        <att name="ioos_category">Statistics</att>
+        <att name="sdn_P02_urn">SDN:P02::TMES</att>
+        <att name="units">count</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>BEAM_02</sourceName>
+      <destinationName>TNIHCE02</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="float">1.0E35</att>
+        <att name="data_max" type="double">228.0</att>
+        <att name="data_min" type="double">78.0</att>
+        <att name="generic_name">AGC</att>
+        <att name="long_name">ADCP_echo_intensity_beam_2</att>
+        <att name="sdn_parameter_name">Echo intensity from the water body by moored acoustic doppler current profiler (ADCP) beam 2</att>
+        <att name="sdn_parameter_urn">SDN:P01::TNIHCE02</att>
+        <att name="sdn_uom_name">Counts</att>
+        <att name="sdn_uom_urn">SDN:P06::UCNT</att>
+        <att name="sensor_depth" type="double">106.2431923492677</att>
+        <att name="sensor_type">RD Instruments ADCP</att>
+        <att name="serial_number" type="int">2935</att>
+        <att name="units">counts</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">100.0</att>
+        <att name="colorBarMinimum" type="double">0.0</att>
+        <att name="ioos_category">Statistics</att>
+        <att name="sdn_P02_urn">SDN:P02::TMES</att>
+        <att name="units">count</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>BEAM_03</sourceName>
+      <destinationName>TNIHCE03</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="float">1.0E35</att>
+        <att name="data_max" type="double">218.0</att>
+        <att name="data_min" type="double">78.0</att>
+        <att name="generic_name">AGC</att>
+        <att name="long_name">ADCP_echo_intensity_beam_3</att>
+        <att name="sdn_parameter_name">Echo intensity from the water body by moored acoustic doppler current profiler (ADCP) beam 3</att>
+        <att name="sdn_parameter_urn">SDN:P01::TNIHCE03</att>
+        <att name="sdn_uom_name">Counts</att>
+        <att name="sdn_uom_urn">SDN:P06::UCNT</att>
+        <att name="sensor_depth" type="double">106.2431923492677</att>
+        <att name="sensor_type">RD Instruments ADCP</att>
+        <att name="serial_number" type="int">2935</att>
+        <att name="units">counts</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">100.0</att>
+        <att name="colorBarMinimum" type="double">0.0</att>
+        <att name="ioos_category">Statistics</att>
+        <att name="sdn_P02_urn">SDN:P02::TMES</att>
+        <att name="units">count</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>BEAM_04</sourceName>
+      <destinationName>TNIHCE04</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="float">1.0E35</att>
+        <att name="data_max" type="double">139.0</att>
+        <att name="data_min" type="double">13.0</att>
+        <att name="generic_name">AGC</att>
+        <att name="long_name">ADCP_echo_intensity_beam_4</att>
+        <att name="sdn_parameter_name">Echo intensity from the water body by moored acoustic doppler current profiler (ADCP) beam 4</att>
+        <att name="sdn_parameter_urn">SDN:P01::TNIHCE04</att>
+        <att name="sdn_uom_name">Counts</att>
+        <att name="sdn_uom_urn">SDN:P06::UCNT</att>
+        <att name="sensor_depth" type="double">106.2431923492677</att>
+        <att name="sensor_type">RD Instruments ADCP</att>
+        <att name="serial_number" type="int">2935</att>
+        <att name="units">counts</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">100.0</att>
+        <att name="colorBarMinimum" type="double">0.0</att>
+        <att name="ioos_category">Statistics</att>
+        <att name="sdn_P02_urn">SDN:P02::TMES</att>
+        <att name="units">count</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>CMAGZZ01</sourceName>
+      <destinationName>CMAGZZ01</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="float">1.0E35</att>
+        <att name="data_max" type="double">138.0</att>
+        <att name="data_min" type="double">12.0</att>
+        <att name="generic_name">CM</att>
+        <att name="long_name">ADCP_correlation_magnitude_beam_1</att>
+        <att name="sensor_depth" type="double">106.2431923492677</att>
+        <att name="sensor_type">RD Instruments ADCP</att>
+        <att name="serial_number">2935</att>
+        <att name="units">counts</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">100.0</att>
+        <att name="colorBarMinimum" type="double">0.0</att>
+        <att name="ioos_category">Statistics</att>
+        <att name="units">count</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>CMAGZZ02</sourceName>
+      <destinationName>CMAGZZ02</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="float">1.0E35</att>
+        <att name="data_max" type="double">140.0</att>
+        <att name="data_min" type="double">13.0</att>
+        <att name="generic_name">CM</att>
+        <att name="long_name">ADCP_correlation_magnitude_beam_2</att>
+        <att name="sensor_depth" type="double">106.2431923492677</att>
+        <att name="sensor_type">RD Instruments ADCP</att>
+        <att name="serial_number">2935</att>
+        <att name="units">counts</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">100.0</att>
+        <att name="colorBarMinimum" type="double">0.0</att>
+        <att name="ioos_category">Statistics</att>
+        <att name="units">count</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>CMAGZZ03</sourceName>
+      <destinationName>CMAGZZ03</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="float">1.0E35</att>
+        <att name="data_max" type="double">138.0</att>
+        <att name="data_min" type="double">13.0</att>
+        <att name="generic_name">CM</att>
+        <att name="long_name">ADCP_correlation_magnitude_beam_3</att>
+        <att name="sensor_depth" type="double">106.2431923492677</att>
+        <att name="sensor_type">RD Instruments ADCP</att>
+        <att name="serial_number">2935</att>
+        <att name="units">counts</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">100.0</att>
+        <att name="colorBarMinimum" type="double">0.0</att>
+        <att name="ioos_category">Statistics</att>
+        <att name="units">count</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>CMAGZZ04</sourceName>
+      <destinationName>CMAGZZ04</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="float">1.0E35</att>
+        <att name="data_max" type="double">139.0</att>
+        <att name="data_min" type="double">13.0</att>
+        <att name="generic_name">CM</att>
+        <att name="long_name">ADCP_correlation_magnitude_beam_4</att>
+        <att name="sensor_depth" type="double">106.2431923492677</att>
+        <att name="sensor_type">RD Instruments ADCP</att>
+        <att name="serial_number">2935</att>
+        <att name="units">counts</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">100.0</att>
+        <att name="colorBarMinimum" type="double">0.0</att>
+        <att name="ioos_category">Statistics</att>
+        <att name="units">count</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>te90</sourceName>
+      <destinationName>te90</destinationName>
+      <dataType>float</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="float">1.0E35</att>
+        <att name="data_max" type="double">5.78</att>
+        <att name="data_min" type="double">0.27</att>
+        <att name="generic_name">temp</att>
+        <att name="long_name">ADCP Transducer Temp.</att>
+        <att name="sdn_parameter_name">Temperature of the water body</att>
+        <att name="sdn_parameter_urn">SDN:P01::TEMPPR01</att>
+        <att name="sdn_uom_name">Celsius degree</att>
+        <att name="sdn_uom_urn">SDN:P06::UPAA</att>
+        <att name="sensor_depth" type="double">106.2431923492677</att>
+        <att name="sensor_type">RD Instruments ADCP</att>
+        <att name="serial_number" type="int">2935</att>
+        <att name="units">degrees</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Temperature</att>
+        <att name="sdn_P02_urn">SDN:P02::TEMP</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+        <att name="sdn_parameter_urn">null</att>
+        <att name="sdn_parameter_name">null</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_ctd" active="true">
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <updateEveryNMillis>10000</updateEveryNMillis>
+    <fileDir>/datasets/dfo/bio/moored/</fileDir>
+    <fileNameRegex>MCTD.*\.nc</fileNameRegex>
+    <recursive>true</recursive>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <standardizeWhat>0</standardizeWhat>
+    <removeMVRows>true</removeMVRows>
+    <sortFilesBySourceNames></sortFilesBySourceNames>
+    <fileTableInMemory>false</fileTableInMemory>
+    <!-- sourceAttributes>
+    <att name="cdm_data_type">station</att>
+    <att name="chief_scientist">Dave Hebert</att>
+    <att name="Conventions">CF-1.7</att>
+    <att name="country_code">1810</att>
+    <att name="creator_type">person</att>
+    <att name="cruise_name">St. Anns Bank</att>
+    <att name="cruise_number">HUD2015030</att>
+    <att name="data_type">MCTD</att>
+    <att name="date_modified">Mon Aug 20 13:07:17 2018</att>
+    <att name="EVENT_COMMENTS_1"> : </att>
+    <att name="EVENT_COMMENTS_2"> : 16-NOV-2016: Edits were required, see HISTORY_HEADER for details.</att>
+    <att name="geospatial_lat_max" type="double">46.255217</att>
+    <att name="geospatial_lat_min" type="double">46.255217</att>
+    <att name="geospatial_lat_units">degrees_north</att>
+    <att name="geospatial_lon_max" type="double">-59.141283</att>
+    <att name="geospatial_lon_min" type="double">-59.141283</att>
+    <att name="geospatial_lon_units">degrees_east</att>
+    <att name="geospatial_vertical_max" type="double">7.0</att>
+    <att name="geospatial_vertical_min" type="double">7.0</att>
+    <att name="geospatial_vertical_positive">down</att>
+    <att name="geospatial_vertical_units">metres</att>
+    <att name="history">Wed Aug 22 14:19:16 2018: C:\nco\ncks.exe -x -v ELTMEP01 - - overwrite C:/nco/MCTD_HUD2015030_1898_5345_600.nc C:/nco/MCTD_HUD2015030_1898_5345_600.nc
+Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/MCTD_HUD2015030_1898_5345_600.nc C:/nco/MCTD_HUD2015030_1898_5345_600.nc</att>
+    <att name="inst_type">MicroCat</att>
+    <att name="institution">Bedford Institute of Oceanography, DFO</att>
+    <att name="latitude" type="double">46.255217</att>
+    <att name="longitude" type="double">-59.141283</att>
+    <att name="model">SBE37-SM V2.6 b</att>
+    <att name="mooring_number">1898</att>
+    <att name="NCO">20180822</att>
+    <att name="ODF_HISTORY_1">CREATION_DATE : 16-NOV-2016 15:49:37.01</att>
+    <att name="ODF_HISTORY_10">PROCESS_009 : Edit Cruise: Field &quot;Organization&quot; has been changed from &quot; &quot; to &quot;DFO BIO&quot;.</att>
+    <att name="ODF_HISTORY_100">CREATION_DATE : 16-NOV-2016 15:56:14.33</att>
+    <att name="ODF_HISTORY_101">PROCESS_001 : Conductivity (CRAT_01), Salinity (PSAL_01) and Sigma-Theta (SIGP_01) were nulled for 91 records.</att>
+    <att name="ODF_HISTORY_102">PROCESS_002 : Edit Record: Field &quot;Num_Calibration&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_103">PROCESS_003 : Edit Record: Field &quot;Num_Swing&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_104">PROCESS_004 : Edit Record: Field &quot;Num_History&quot; has been changed from 1 to 3.</att>
+    <att name="ODF_HISTORY_105">PROCESS_005 : Edit Record: Field &quot;Num_Cycle&quot; has been changed from 52856 to 52856.</att>
+    <att name="ODF_HISTORY_106">PROCESS_006 : Edit Record: Field &quot;Num_Param&quot; has been changed from 7 to 7.</att>
+    <att name="ODF_HISTORY_11">PROCESS_010 : Edit Cruise: Field &quot;Start_Date&quot; has been changed from &quot; &quot; to &quot;20-SEP-2015&quot;.</att>
+    <att name="ODF_HISTORY_12">PROCESS_011 : Edit Cruise: Field &quot;End_Date&quot; has been changed from &quot; &quot; to &quot;11-OCT-2015&quot;.</att>
+    <att name="ODF_HISTORY_13">PROCESS_012 : Edit Cruise: Field &quot;Platform&quot; has been changed from &quot; &quot; to &quot;CCGS Hudson&quot;.</att>
+    <att name="ODF_HISTORY_14">PROCESS_013 : Edit Cruise: Field &quot;Chief_Scientist&quot; has been changed from &quot; &quot; to &quot;Dave Hebert&quot;.</att>
+    <att name="ODF_HISTORY_15">PROCESS_014 : Edit Cruise: Field &quot;Cruise_Name&quot; has been changed from &quot; &quot; to &quot;St. Anns Bank&quot;.</att>
+    <att name="ODF_HISTORY_16">PROCESS_015 : Edit Cruise: Field &quot;Cruise_Description&quot; has been changed from &quot; &quot; to &quot;Atlantic Zonal Monitoring Program (AZMP) Fall 2015&quot;.</att>
+    <att name="ODF_HISTORY_17">PROCESS_016 : Edit Event: Field &quot;Data_Type&quot; has been changed from &quot;&quot; to &quot;MCTD&quot;.</att>
+    <att name="ODF_HISTORY_18">PROCESS_017 : Edit Event: Field &quot;Event_Number&quot; has been changed from &quot;&quot; to &quot;1898&quot;.</att>
+    <att name="ODF_HISTORY_19">PROCESS_018 : Edit Event: Field &quot;Start_Date_Time&quot; has been changed from &quot;20-SEP-2015 12:00:00.00&quot; to &quot;20-SEP-2015 12:00:00&quot;.</att>
+    <att name="ODF_HISTORY_2">PROCESS_001 : Conversion</att>
+    <att name="ODF_HISTORY_20">PROCESS_019 : Edit Event: Field &quot;End_Date_Time&quot; has been changed from &quot;&quot; to &quot;14-OCT-2016 12:20:00&quot;.</att>
+    <att name="ODF_HISTORY_21">PROCESS_020 : Edit Event: Field &quot;Initial_Latitude&quot; has been changed from &quot;-99&quot; to &quot;46.255217&quot;.</att>
+    <att name="ODF_HISTORY_22">PROCESS_021 : Edit Event: Field &quot;End_Latitude&quot; has been changed from &quot;-99&quot; to &quot;46.255217&quot;.</att>
+    <att name="ODF_HISTORY_23">PROCESS_022 : Edit Event: Field &quot;Initial_Longitude&quot; has been changed from &quot;-99&quot; to &quot;-59.141283&quot;.</att>
+    <att name="ODF_HISTORY_24">PROCESS_023 : Edit Event: Field &quot;End_Longitude&quot; has been changed from &quot;-99&quot; to &quot;-59.141283&quot;.</att>
+    <att name="ODF_HISTORY_25">PROCESS_024 : Edit Event: Field &quot;Sampling_Interval&quot; has been changed from &quot;-99&quot; to &quot;600&quot;.</att>
+    <att name="ODF_HISTORY_26">PROCESS_025 : Edit Event: Field &quot;Sounding&quot; has been changed from &quot;-99&quot; to &quot;118&quot;.</att>
+    <att name="ODF_HISTORY_27">PROCESS_026 : Edit Event: Field &quot;Depth_Off_Bottom&quot; has been changed from &quot;-99&quot; to &quot;111&quot;.</att>
+    <att name="ODF_HISTORY_28">PROCESS_027 : Edit Event: Field &quot;Min_Depth&quot; has been changed from &quot;-99&quot; to &quot;7&quot;.</att>
+    <att name="ODF_HISTORY_29">PROCESS_028 : Edit Event: Field &quot;Max_Depth&quot; has been changed from &quot;-99&quot; to &quot;7&quot;.</att>
+    <att name="ODF_HISTORY_3">PROCESS_002 : Sea Temperature (IPTS-68)(TEMP_01) info: t090: temperature, ITS-90 [deg C]</att>
+    <att name="ODF_HISTORY_30">PROCESS_029 : Edit Event: Field &quot;Event_Qualifier1&quot; has been changed from &quot; &quot; to &quot;5345&quot;.</att>
+    <att name="ODF_HISTORY_31">PROCESS_030 : Edit Event: Field &quot;Event_Qualifier2&quot; has been changed from &quot;&quot; to &quot;600&quot;.</att>
+    <att name="ODF_HISTORY_32">PROCESS_031 : Edit Instrument: Field &quot;Inst_Type&quot; has been changed from &quot; &quot; to &quot;MicroCat&quot;.</att>
+    <att name="ODF_HISTORY_33">PROCESS_032 : Edit Instrument: Field &quot;Model&quot; has been changed from &quot; &quot; to &quot;SBE37-SM V2.6 b&quot;.</att>
+    <att name="ODF_HISTORY_34">PROCESS_033 : Edit Instrument: Field &quot;Serial_Number&quot; has been changed from &quot; &quot; to &quot;5345&quot;.</att>
+    <att name="ODF_HISTORY_35">PROCESS_034 : Edit Record: Field &quot;Num_Calibration&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_36">PROCESS_035 : Edit Record: Field &quot;Num_Swing&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_37">PROCESS_036 : Edit Record: Field &quot;Num_History&quot; has been changed from 1 to 1.</att>
+    <att name="ODF_HISTORY_38">PROCESS_037 : Edit Record: Field &quot;Num_Cycle&quot; has been changed from 56162 to 56162.</att>
+    <att name="ODF_HISTORY_39">PROCESS_038 : Edit Record: Field &quot;Num_Param&quot; has been changed from 6 to 6.</att>
+    <att name="ODF_HISTORY_4">PROCESS_003 : Electrical Conductivity(CNDC_01) info: c0S/m: conductivity [S/m]</att>
+    <att name="ODF_HISTORY_40">PROCESS_039 : Add_Parameter: A.Data.TE90_01 = evalin(&#39;caller&#39;,&#39;S.Data.TEMP_01&#39;);</att>
+    <att name="ODF_HISTORY_41">PROCESS_040 : Edit Record: Field &quot;Num_Calibration&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_42">PROCESS_041 : Edit Record: Field &quot;Num_Swing&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_43">PROCESS_042 : Edit Record: Field &quot;Num_History&quot; has been changed from 1 to 1.</att>
+    <att name="ODF_HISTORY_44">PROCESS_043 : Edit Record: Field &quot;Num_Cycle&quot; has been changed from 56162 to 56162.</att>
+    <att name="ODF_HISTORY_45">PROCESS_044 : Edit Record: Field &quot;Num_Param&quot; has been changed from 7 to 7.</att>
+    <att name="ODF_HISTORY_46">PROCESS_045 : Add_Parameter: A.Data.CRAT_01 = evalin(&#39;caller&#39;,&#39;(S.Data.CNDC_01*10.0)./sw_c3515&#39;);</att>
+    <att name="ODF_HISTORY_47">PROCESS_046 : Edit Record: Field &quot;Num_Calibration&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_48">PROCESS_047 : Edit Record: Field &quot;Num_Swing&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_49">PROCESS_048 : Edit Record: Field &quot;Num_History&quot; has been changed from 1 to 1.</att>
+    <att name="ODF_HISTORY_5">PROCESS_004 : Sea Pressure (sea surface - 0)(PRES_01) info: pr: pressure [db]</att>
+    <att name="ODF_HISTORY_50">PROCESS_049 : Edit Record: Field &quot;Num_Cycle&quot; has been changed from 56162 to 56162.</att>
+    <att name="ODF_HISTORY_51">PROCESS_050 : Edit Record: Field &quot;Num_Param&quot; has been changed from 8 to 8.</att>
+    <att name="ODF_HISTORY_52">PROCESS_051 : Add_Parameter: A.Data.PSAL_01 = evalin(&#39;caller&#39;,&#39;sw_salt(S.Data.CRAT_01,temp68,S.Data.PRES_01)&#39;);</att>
+    <att name="ODF_HISTORY_53">PROCESS_052 : Edit Record: Field &quot;Num_Calibration&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_54">PROCESS_053 : Edit Record: Field &quot;Num_Swing&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_55">PROCESS_054 : Edit Record: Field &quot;Num_History&quot; has been changed from 1 to 1.</att>
+    <att name="ODF_HISTORY_56">PROCESS_055 : Edit Record: Field &quot;Num_Cycle&quot; has been changed from 56162 to 56162.</att>
+    <att name="ODF_HISTORY_57">PROCESS_056 : Edit Record: Field &quot;Num_Param&quot; has been changed from 9 to 9.</att>
+    <att name="ODF_HISTORY_58">PROCESS_057 : Add_Parameter: A.Data.SIGP_01 = evalin(&#39;caller&#39;,&#39;sw_pden(S.Data.PSAL_01,temp68,S.Data.PRES_01,0)-1000&#39;);</att>
+    <att name="ODF_HISTORY_59">PROCESS_058 : Edit Record: Field &quot;Num_Calibration&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_6">PROCESS_005 : Unknown WMO Code(UNKN_01) info: timeJ: time [julian days]</att>
+    <att name="ODF_HISTORY_60">PROCESS_059 : Edit Record: Field &quot;Num_Swing&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_61">PROCESS_060 : Edit Record: Field &quot;Num_History&quot; has been changed from 1 to 1.</att>
+    <att name="ODF_HISTORY_62">PROCESS_061 : Edit Record: Field &quot;Num_Cycle&quot; has been changed from 56162 to 56162.</att>
+    <att name="ODF_HISTORY_63">PROCESS_062 : Edit Record: Field &quot;Num_Param&quot; has been changed from 10 to 10.</att>
+    <att name="ODF_HISTORY_64">PROCESS_063 : Add_Parameter: A.Data.POTM_01 = evalin(&#39;caller&#39;,&#39;sw_ptmp(S.Data.PSAL_01,temp68,S.Data.PRES_01,0)&#39;);</att>
+    <att name="ODF_HISTORY_65">PROCESS_064 : Edit Record: Field &quot;Num_Calibration&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_66">PROCESS_065 : Edit Record: Field &quot;Num_Swing&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_67">PROCESS_066 : Edit Record: Field &quot;Num_History&quot; has been changed from 1 to 1.</att>
+    <att name="ODF_HISTORY_68">PROCESS_067 : Edit Record: Field &quot;Num_Cycle&quot; has been changed from 56162 to 56162.</att>
+    <att name="ODF_HISTORY_69">PROCESS_068 : Edit Record: Field &quot;Num_Param&quot; has been changed from 10 to 10.</att>
+    <att name="ODF_HISTORY_7">PROCESS_006 : Quality Control Flag(FFFF_01) info: flag:  0.000e+00</att>
+    <att name="ODF_HISTORY_70">PROCESS_069 : Edit Record: Field &quot;Num_Calibration&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_71">PROCESS_070 : Edit Record: Field &quot;Num_Swing&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_72">PROCESS_071 : Edit Record: Field &quot;Num_History&quot; has been changed from 1 to 1.</att>
+    <att name="ODF_HISTORY_73">PROCESS_072 : Edit Record: Field &quot;Num_Cycle&quot; has been changed from 56162 to 56162.</att>
+    <att name="ODF_HISTORY_74">PROCESS_073 : Edit Record: Field &quot;Num_Param&quot; has been changed from 11 to 11.</att>
+    <att name="ODF_HISTORY_75">PROCESS_074 : Add_Parameter: A.Data.SYTM_01 = evalin(&#39;caller&#39;,&#39;t&#39;);</att>
+    <att name="ODF_HISTORY_76">PROCESS_075 : The following Parameter was removed from the ODF file: TEMP_01</att>
+    <att name="ODF_HISTORY_77">PROCESS_076 : The following Parameter was removed from the ODF file: CNDC_01</att>
+    <att name="ODF_HISTORY_78">PROCESS_077 : The following Parameter was removed from the ODF file: UNKN_01</att>
+    <att name="ODF_HISTORY_79">PROCESS_078 : The following Parameter was removed from the ODF file: FFFF_01</att>
+    <att name="ODF_HISTORY_8">PROCESS_007 : Edit Cruise: Field &quot;Country_Institute_Code&quot; has been changed from &quot; &quot; to &quot;1810&quot;.</att>
+    <att name="ODF_HISTORY_80">PROCESS_079 : Edit Record: Field &quot;Num_Cycle&quot; has been changed from 56162 to 53312.</att>
+    <att name="ODF_HISTORY_81">PROCESS_080 : Edit Record: Field &quot;Num_Calibration&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_82">PROCESS_081 : Edit Record: Field &quot;Num_Swing&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_83">PROCESS_082 : Edit Record: Field &quot;Num_History&quot; has been changed from 1 to 1.</att>
+    <att name="ODF_HISTORY_84">PROCESS_083 : Edit Record: Field &quot;Num_Cycle&quot; has been changed from 53312 to 53312.</att>
+    <att name="ODF_HISTORY_85">PROCESS_084 : Edit Record: Field &quot;Num_Param&quot; has been changed from 7 to 7.</att>
+    <att name="ODF_HISTORY_86">PROCESS_085 : Edit Record: Field &quot;Num_Cycle&quot; has been changed from 53312 to 52856.</att>
+    <att name="ODF_HISTORY_87">PROCESS_086 : Edit Record: Field &quot;Num_Calibration&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_88">PROCESS_087 : Edit Record: Field &quot;Num_Swing&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_89">PROCESS_088 : Edit Record: Field &quot;Num_History&quot; has been changed from 1 to 1.</att>
+    <att name="ODF_HISTORY_9">PROCESS_008 : Edit Cruise: Field &quot;Cruise_Number&quot; has been changed from &quot; &quot; to &quot;HUD2015030&quot;.</att>
+    <att name="ODF_HISTORY_90">PROCESS_089 : Edit Record: Field &quot;Num_Cycle&quot; has been changed from 52856 to 52856.</att>
+    <att name="ODF_HISTORY_91">PROCESS_090 : Edit Record: Field &quot;Num_Param&quot; has been changed from 7 to 7.</att>
+    <att name="ODF_HISTORY_92">PROCESS_091 : Edit Record: Field &quot;Num_Calibration&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_93">PROCESS_092 : Edit Record: Field &quot;Num_Swing&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_94">PROCESS_093 : Edit Record: Field &quot;Num_History&quot; has been changed from 1 to 1.</att>
+    <att name="ODF_HISTORY_95">PROCESS_094 : Edit Record: Field &quot;Num_Cycle&quot; has been changed from 52856 to 52856.</att>
+    <att name="ODF_HISTORY_96">PROCESS_095 : Edit Record: Field &quot;Num_Param&quot; has been changed from 7 to 7.</att>
+    <att name="ODF_HISTORY_97">CREATION_DATE : 16-NOV-2016 15:53:00.92</att>
+    <att name="ODF_HISTORY_98">PROCESS_001 : 31-OCT-2016: Data Processed by R.Pettipas of BIO-OESD.</att>
+    <att name="ODF_HISTORY_99">PROCESS_002 : 31-OCT-2016: Pre and Post deployment records removed.</att>
+    <att name="platform">St. Anns Bank</att>
+    <att name="sampling_interval">600.000000</att>
+    <att name="serial_number">5345</att>
+    <att name="sounding" type="double">118.0</att>
+    <att name="time_coverage_duration">P367.049D</att>
+    <att name="time_coverage_end">2016-09-24T17:10:00+0000</att>
+    <att name="time_coverage_start">2015-09-23T16:00:00+0000</att>
+    <att name="water_depth" type="double">118.0</att>
+</sourceAttributes -->
+    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
+    <att name="cdm_timeseries_variables">station_id, longitude, latitude</att>
+    <att name="subsetVariables">station_id, longitude, latitude</att>
+-->
+    <addAttributes>
+      <att name="cdm_data_type">TimeSeries</att>
+      <att name="cdm_timeseries_variables">station,latitude,longitude</att>
+      <att name="Conventions">CF-1.7, COARDS, ACDD-1.3</att>
+      <att name="infoUrl">???</att>
+      <att name="keywords">bedford, conductivity, CRAT_01, data, density, department, dfo, dtut8601, earth, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Density, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, fisheries, identifier, institute, latitude, local, longitude, name, ocean, oceanography, oceans, physical, physical oceanography, platform, platform_name, POTM_01, practical, PRES_01, pressure, PSAL_01, salinity, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_pressure, sea_water_sigma_theta, seawater, sigma, sigmatheta, SIGP_01, source, station, TE90_01, temperature, theta, time, time_string, water</att>
+      <att name="keywords_vocabulary">GCMD Science Keywords</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station</att>
+      <att name="summary">Bedford Institute of Oceanography, Department of Fisheries and Oceans (DFO) data from a local source.</att>
+      <att name="title">Maritimes region Moored CTD </att>
+      <att name="institution">DFO BIO</att>
+      <!-- Null global attributes -->
+      <att name="data_type">null</att>
+      <att name="EVENT_COMMENTS_1">null</att>
+      <att name="EVENT_COMMENTS_2">null</att>
+      <att name="history">null</att>
+      <att name="latitude">null</att>
+      <att name="longitude">null</att>
+      <att name="NCO">null</att>
+      <att name="ODF_HISTORY_1">null</att>
+      <att name="ODF_HISTORY_10">null</att>
+      <att name="ODF_HISTORY_100">null</att>
+      <att name="ODF_HISTORY_101">null</att>
+      <att name="ODF_HISTORY_102">null</att>
+      <att name="ODF_HISTORY_103">null</att>
+      <att name="ODF_HISTORY_104">null</att>
+      <att name="ODF_HISTORY_105">null</att>
+      <att name="ODF_HISTORY_106">null</att>
+      <att name="ODF_HISTORY_11">null</att>
+      <att name="ODF_HISTORY_12">null</att>
+      <att name="ODF_HISTORY_13">null</att>
+      <att name="ODF_HISTORY_14">null</att>
+      <att name="ODF_HISTORY_15">null</att>
+      <att name="ODF_HISTORY_16">null</att>
+      <att name="ODF_HISTORY_17">null</att>
+      <att name="ODF_HISTORY_18">null</att>
+      <att name="ODF_HISTORY_19">null</att>
+      <att name="ODF_HISTORY_2">null</att>
+      <att name="ODF_HISTORY_20">null</att>
+      <att name="ODF_HISTORY_21">null</att>
+      <att name="ODF_HISTORY_22">null</att>
+      <att name="ODF_HISTORY_23">null</att>
+      <att name="ODF_HISTORY_24">null</att>
+      <att name="ODF_HISTORY_25">null</att>
+      <att name="ODF_HISTORY_26">null</att>
+      <att name="ODF_HISTORY_27">null</att>
+      <att name="ODF_HISTORY_28">null</att>
+      <att name="ODF_HISTORY_29">null</att>
+      <att name="ODF_HISTORY_3">null</att>
+      <att name="ODF_HISTORY_30">null</att>
+      <att name="ODF_HISTORY_31">null</att>
+      <att name="ODF_HISTORY_32">null</att>
+      <att name="ODF_HISTORY_33">null</att>
+      <att name="ODF_HISTORY_34">null</att>
+      <att name="ODF_HISTORY_35">null</att>
+      <att name="ODF_HISTORY_36">null</att>
+      <att name="ODF_HISTORY_37">null</att>
+      <att name="ODF_HISTORY_38">null</att>
+      <att name="ODF_HISTORY_39">null</att>
+      <att name="ODF_HISTORY_4">null</att>
+      <att name="ODF_HISTORY_40">null</att>
+      <att name="ODF_HISTORY_41">null</att>
+      <att name="ODF_HISTORY_42">null</att>
+      <att name="ODF_HISTORY_43">null</att>
+      <att name="ODF_HISTORY_44">null</att>
+      <att name="ODF_HISTORY_45">null</att>
+      <att name="ODF_HISTORY_46">null</att>
+      <att name="ODF_HISTORY_47">null</att>
+      <att name="ODF_HISTORY_48">null</att>
+      <att name="ODF_HISTORY_49">null</att>
+      <att name="ODF_HISTORY_5">null</att>
+      <att name="ODF_HISTORY_50">null</att>
+      <att name="ODF_HISTORY_51">null</att>
+      <att name="ODF_HISTORY_52">null</att>
+      <att name="ODF_HISTORY_53">null</att>
+      <att name="ODF_HISTORY_54">null</att>
+      <att name="ODF_HISTORY_55">null</att>
+      <att name="ODF_HISTORY_56">null</att>
+      <att name="ODF_HISTORY_57">null</att>
+      <att name="ODF_HISTORY_58">null</att>
+      <att name="ODF_HISTORY_59">null</att>
+      <att name="ODF_HISTORY_6">null</att>
+      <att name="ODF_HISTORY_60">null</att>
+      <att name="ODF_HISTORY_61">null</att>
+      <att name="ODF_HISTORY_62">null</att>
+      <att name="ODF_HISTORY_63">null</att>
+      <att name="ODF_HISTORY_64">null</att>
+      <att name="ODF_HISTORY_65">null</att>
+      <att name="ODF_HISTORY_66">null</att>
+      <att name="ODF_HISTORY_67">null</att>
+      <att name="ODF_HISTORY_68">null</att>
+      <att name="ODF_HISTORY_69">null</att>
+      <att name="ODF_HISTORY_7">null</att>
+      <att name="ODF_HISTORY_70">null</att>
+      <att name="ODF_HISTORY_71">null</att>
+      <att name="ODF_HISTORY_72">null</att>
+      <att name="ODF_HISTORY_73">null</att>
+      <att name="ODF_HISTORY_74">null</att>
+      <att name="ODF_HISTORY_75">null</att>
+      <att name="ODF_HISTORY_76">null</att>
+      <att name="ODF_HISTORY_77">null</att>
+      <att name="ODF_HISTORY_78">null</att>
+      <att name="ODF_HISTORY_79">null</att>
+      <att name="ODF_HISTORY_8">null</att>
+      <att name="ODF_HISTORY_80">null</att>
+      <att name="ODF_HISTORY_81">null</att>
+      <att name="ODF_HISTORY_82">null</att>
+      <att name="ODF_HISTORY_83">null</att>
+      <att name="ODF_HISTORY_84">null</att>
+      <att name="ODF_HISTORY_85">null</att>
+      <att name="ODF_HISTORY_86">null</att>
+      <att name="ODF_HISTORY_87">null</att>
+      <att name="ODF_HISTORY_88">null</att>
+      <att name="ODF_HISTORY_89">null</att>
+      <att name="ODF_HISTORY_9">null</att>
+      <att name="ODF_HISTORY_90">null</att>
+      <att name="ODF_HISTORY_91">null</att>
+      <att name="ODF_HISTORY_92">null</att>
+      <att name="ODF_HISTORY_93">null</att>
+      <att name="ODF_HISTORY_94">null</att>
+      <att name="ODF_HISTORY_95">null</att>
+      <att name="ODF_HISTORY_96">null</att>
+      <att name="ODF_HISTORY_97">null</att>
+      <att name="ODF_HISTORY_98">null</att>
+      <att name="ODF_HISTORY_99">null</att>
+      <att name="platform">null</att>
+      <att name="sampling_interval">null</att>
+      <att name="sounding" type="double">null</att>
+      <att name="water_depth" type="double">null</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>***fileName,(.*),1</sourceName>
+      <destinationName>filename</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:cruise_name</sourceName>
+      <destinationName>cruise_name</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:cruise_number</sourceName>
+      <destinationName>cruise_number</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:chief_scientist</sourceName>
+      <destinationName>chief_scientist</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:serial_number</sourceName>
+      <destinationName>serial_number</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>station</sourceName>
+      <destinationName>station</destinationName>
+      <dataType>String</dataType>
+      <!-- sourceAttributes>
+        <att name="cf_role">timeseries_id</att>
+        <att name="latitiude" type="double">46.255217</att>
+        <att name="long_name">station</att>
+        <att name="longitude" type="double">-59.141283</att>
+        <att name="standard_name">platform_name</att>
+        <att name="units">counts</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="units">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lat</sourceName>
+      <destinationName>latitude</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+        <att name="axis">Y</att>
+        <att name="long_name">latitude</att>
+        <att name="sdn_parameter_name">Latitude north</att>
+        <att name="sdn_parameter_urn">SDN:P01::ALATZZ01</att>
+        <att name="sdn_uom_name">Degrees north</att>
+        <att name="sdn_uom_urn">SDN:P06:DEGN</att>
+        <att name="standard_name">latitude</att>
+        <att name="units">degrees_north</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">90.0</att>
+        <att name="colorBarMinimum" type="double">-90.0</att>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Latitude</att>
+        <att name="sdn_P02_urn">SDN:P02::ALAT</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lon</sourceName>
+      <destinationName>longitude</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+        <att name="axis">X</att>
+        <att name="long_name">longitude</att>
+        <att name="sdn_parameter_name">Longitude east</att>
+        <att name="sdn_parameter_urn">SDN:P01::ALONZZ01</att>
+        <att name="sdn_uom_name">Degrees east</att>
+        <att name="sdn_uom_urn">SDN:P06::DEGE</att>
+        <att name="standard_name">longitude</att>
+        <att name="units">degrees_east</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">180.0</att>
+        <att name="colorBarMinimum" type="double">-180.0</att>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Longitude</att>
+        <att name="sdn_P02_urn">SDN:P02::ALAT</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+        <att name="calendar">gregorian</att>
+        <att name="long_name">time</att>
+        <att name="units">seconds since 1970-01-01T00:00:00Z</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+        <att name="standard_name">time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>variable:TE90_01:sensor_depth</sourceName>
+      <destinationName>depth</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+        <att name="calendar">gregorian</att>
+        <att name="long_name">time</att>
+        <att name="units">seconds since 1970-01-01T00:00:00Z</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">depth</att>
+        <att name="standard_name">depth</att>
+        <att name="units">m</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>PRES_01</sourceName>
+      <destinationName>PRESPR01</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="double">1.0E35</att>
+        <att name="data_max" type="double">28.601</att>
+        <att name="data_min" type="double">4.38</att>
+        <att name="generic_name">pressure</att>
+        <att name="long_name">pressure</att>
+        <att name="reference_scale">IPTS-68</att>
+        <att name="sdn_parameter_name">Pressure (spatial co-ordinate) exerted by the water body by profiling pressure sensor and corrected to read zero at sea level</att>
+        <att name="sdn_parameter_urn">SDN:P01::PRESPR01</att>
+        <att name="sdn_uom_name">decibars</att>
+        <att name="sdn_uom_urn">UPDB</att>
+        <att name="sensor_depth" type="double">7.0</att>
+        <att name="sensor_type">SBE37-SM V2.6 b</att>
+        <att name="serial_number">5345</att>
+        <att name="standard_name">sea_water_pressure</att>
+        <att name="units">decibars</att>
+        <att name="valid_max" type="double">-10000.0</att>
+        <att name="valid_min" type="double">10000.0</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">5000.0</att>
+        <att name="colorBarMinimum" type="double">0.0</att>
+        <att name="ioos_category">Pressure</att>
+        <att name="sdn_P02_urn">SDN:P02::AHGT</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>CRAT_01</sourceName>
+      <destinationName>CRAT01</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="double">1.0E35</att>
+        <att name="data_max" type="double">1.0E35</att>
+        <att name="data_min" type="double">0.586273</att>
+        <att name="generic_name">conductivity</att>
+        <att name="long_name">conductivity</att>
+        <att name="sdn_parameter_urn">SDN:P01::</att>
+        <att name="sensor_depth" type="double">7.0</att>
+        <att name="sensor_type">SBE37-SM V2.6 b</att>
+        <att name="serial_number">5345</att>
+        <att name="units">1</att>
+        <att name="valid_max" type="double">-10000.0</att>
+        <att name="valid_min" type="double">10000.0</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">40.0</att>
+        <att name="colorBarMinimum" type="double">30.0</att>
+        <att name="ioos_category">Salinity</att>
+        <att name="sdn_P02_urn">SDN:P02::SAGE</att>
+        <att name="standard_name">sea_water_electrical_conductivity</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>PSAL_01</sourceName>
+      <destinationName>PSLTZZ01</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="double">1.0E35</att>
+        <att name="data_max" type="double">1.0E35</att>
+        <att name="data_min" type="double">29.0154</att>
+        <att name="generic_name">salinity</att>
+        <att name="long_name">salinity</att>
+        <att name="sdn_parameter_name">Practical salinity of the water body</att>
+        <att name="sdn_parameter_urn">SDN:P01::PSLTZZ01</att>
+        <att name="sdn_uom_name">dimensionless</att>
+        <att name="sdn_uom_urn">UUUU</att>
+        <att name="sensor_depth" type="double">7.0</att>
+        <att name="sensor_type">SBE37-SM V2.6 b</att>
+        <att name="serial_number">5345</att>
+        <att name="standard_name">sea_water_practical_salinity</att>
+        <att name="units"> psu</att>
+        <att name="valid_max" type="double">-10000.0</att>
+        <att name="valid_min" type="double">10000.0</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">37.0</att>
+        <att name="colorBarMinimum" type="double">32.0</att>
+        <att name="ioos_category">Salinity</att>
+        <att name="sdn_P02_urn">SDN:P02::PSAL</att>
+        <att name="units">1e-3</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>TEMP_01</sourceName>
+      <destinationName>TEMPPR01</destinationName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">40.0</att>
+        <att name="colorBarMinimum" type="double">-10.0</att>
+        <att name="ioos_category">Temperature</att>
+        <att name="sdn_P02_urn">SDN:P02::TEMP</att>
+        <att name="units">degree_C</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>TE90_01</sourceName>
+      <destinationName>TEMPP901</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="double">1.0E35</att>
+        <att name="data_max" type="double">19.8337</att>
+        <att name="data_min" type="double">-0.7472</att>
+        <att name="generic_name">temperature</att>
+        <att name="long_name">temperature</att>
+        <att name="sdn_parameter_name">Temperature (ITS-90) of the water body</att>
+        <att name="sdn_parameter_urn">SDN:P01::TEMPP901</att>
+        <att name="sdn_uom_name">Degrees Celsius</att>
+        <att name="sdn_uom_urn">UPAA</att>
+        <att name="sensor_depth" type="double">7.0</att>
+        <att name="sensor_type">SBE37-SM V2.6 b</att>
+        <att name="serial_number">5345</att>
+        <att name="units">degrees C</att>
+        <att name="valid_max" type="double">-10000.0</att>
+        <att name="valid_min" type="double">10000.0</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">40.0</att>
+        <att name="colorBarMinimum" type="double">-10.0</att>
+        <att name="ioos_category">Temperature</att>
+        <att name="sdn_P02_urn">SDN:P02::TEMP</att>
+        <att name="units">degree_C</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>SIGP_01</sourceName>
+      <destinationName>SIGTEQ01</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="double">1.0E35</att>
+        <att name="data_max" type="double">1.0E35</att>
+        <att name="data_min" type="double">20.3395</att>
+        <att name="generic_name">sigmaTheta</att>
+        <att name="long_name">sigmaTheta</att>
+        <att name="sdn_parameter_name">Sigma-theta of the water body by computation from salinity and potential temperature using UNESCO algorithm</att>
+        <att name="sdn_parameter_urn">SDN:P01::SIGTEQ01</att>
+        <att name="sdn_uom_name">kilograms per cubic metre</att>
+        <att name="sdn_uom_urn">UKMC</att>
+        <att name="sensor_depth" type="double">7.0</att>
+        <att name="sensor_type">SBE37-SM V2.6 b</att>
+        <att name="serial_number">5345</att>
+        <att name="standard_name">sea_water_sigma_theta</att>
+        <att name="units">kg/m**3</att>
+        <att name="valid_max" type="double">-10000.0</att>
+        <att name="valid_min" type="double">10000.0</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">200.0</att>
+        <att name="colorBarMinimum" type="double">0.0</att>
+        <att name="ioos_category">Physical Oceanography</att>
+        <att name="sdn_P02_urn">SDN:P02::SIGT</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>POTM_01</sourceName>
+      <destinationName>POTM_01</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="double">1.0E35</att>
+        <att name="data_max" type="double">19.8374</att>
+        <att name="data_min" type="double">-0.7475</att>
+        <att name="generic_name">theta</att>
+        <att name="long_name">theta</att>
+        <att name="sdn_parameter_urn">SDN:P01::</att>
+        <att name="sdn_uom_name">Degrees Celsius</att>
+        <att name="sdn_uom_urn">UPAA</att>
+        <att name="sensor_depth" type="double">7.0</att>
+        <att name="sensor_type">SBE37-SM V2.6 b</att>
+        <att name="serial_number">5345</att>
+        <att name="units">degrees C</att>
+        <att name="valid_max" type="double">-10000.0</att>
+        <att name="valid_min" type="double">10000.0</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">40.0</att>
+        <att name="colorBarMinimum" type="double">-10.0</att>
+        <att name="ioos_category">Temperature</att>
+        <att name="sdn_P02_urn">SDN:P02::SAGE</att>
+        <att name="units">degree_C</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_mtr" active="true">
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <updateEveryNMillis>10000</updateEveryNMillis>
+    <fileDir>/datasets/dfo/bio/moored</fileDir>
+    <fileNameRegex>MTR.*\.nc</fileNameRegex>
+    <recursive>true</recursive>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <standardizeWhat>0</standardizeWhat>
+    <removeMVRows>true</removeMVRows>
+    <sortFilesBySourceNames></sortFilesBySourceNames>
+    <fileTableInMemory>false</fileTableInMemory>
+    <!-- sourceAttributes>
+    <att name="cdm_data_type">station</att>
+    <att name="chief_scientist">Dave Hebert</att>
+    <att name="Conventions">CF-1.7</att>
+    <att name="country_code">1810</att>
+    <att name="creator_type">person</att>
+    <att name="cruise_name">St. Anns Bank</att>
+    <att name="cruise_number">HUD2015030</att>
+    <att name="data_type">MTR</att>
+    <att name="date_modified">Mon Aug 20 12:10:29 2018</att>
+    <att name="EVENT_COMMENTS_1"> : </att>
+    <att name="geospatial_lat_max" type="double">46.255217</att>
+    <att name="geospatial_lat_min" type="double">46.255217</att>
+    <att name="geospatial_lat_units">degrees_north</att>
+    <att name="geospatial_lon_max" type="double">-59.141283</att>
+    <att name="geospatial_lon_min" type="double">-59.141283</att>
+    <att name="geospatial_lon_units">degrees_east</att>
+    <att name="geospatial_vertical_max" type="double">75.0</att>
+    <att name="geospatial_vertical_min" type="double">75.0</att>
+    <att name="geospatial_vertical_positive">down</att>
+    <att name="geospatial_vertical_units">metres</att>
+    <att name="history">Wed Aug 22 15:19:39 2018: C:\nco\ncks.exe -x -v ELTMEP01 - - overwrite C:/nco/MTR_HUD2015030_1898_10588081_1800.nc C:/nco/MTR_HUD2015030_1898_10588081_1800.nc
+Wed Aug 22 15:19:39 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/MTR_HUD2015030_1898_10588081_1800.nc C:/nco/MTR_HUD2015030_1898_10588081_1800.nc</att>
+    <att name="inst_type">HOBO</att>
+    <att name="institution">Bedford Institute of Oceanography, DFO</att>
+    <att name="latitude" type="double">46.255217</att>
+    <att name="longitude" type="double">-59.141283</att>
+    <att name="model">U22-001</att>
+    <att name="mooring_number">1898</att>
+    <att name="NCO">20180822</att>
+    <att name="ODF_HISTORY_1">CREATION_DATE : 01-NOV-2016 14:21:01.78</att>
+    <att name="ODF_HISTORY_10">PROCESS_009 : Edit Cruise: Field &quot;Cruise_Name&quot; has been changed from &quot; &quot; to &quot;St. Anns Bank&quot;.</att>
+    <att name="ODF_HISTORY_11">PROCESS_010 : Edit Cruise: Field &quot;Cruise_Description&quot; has been changed from &quot; &quot; to &quot;Atlantic Zonal Monitoring Program (AZMP) Fall 2015&quot;.</att>
+    <att name="ODF_HISTORY_12">PROCESS_011 : Edit Event: Field &quot;Data_Type&quot; has been changed from &quot; &quot; to &quot;MTR&quot;.</att>
+    <att name="ODF_HISTORY_13">PROCESS_012 : Edit Event: Field &quot;Event_Number&quot; has been changed from &quot; &quot; to &quot;1898&quot;.</att>
+    <att name="ODF_HISTORY_14">PROCESS_013 : Edit Event: Field &quot;Start_Date_Time&quot; has been changed from &quot; &quot; to &quot;23-SEP-2015 12:00:00&quot;.</att>
+    <att name="ODF_HISTORY_15">PROCESS_014 : Edit Event: Field &quot;End_Date_Time&quot; has been changed from &quot; &quot; to &quot;17-OCT-2016 12:34:41&quot;.</att>
+    <att name="ODF_HISTORY_16">PROCESS_015 : Edit Event: Field &quot;Initial_Latitude&quot; has been changed from &quot;-99&quot; to &quot;46.255217&quot;.</att>
+    <att name="ODF_HISTORY_17">PROCESS_016 : Edit Event: Field &quot;End_Latitude&quot; has been changed from &quot;-99&quot; to &quot;46.255217&quot;.</att>
+    <att name="ODF_HISTORY_18">PROCESS_017 : Edit Event: Field &quot;Initial_Longitude&quot; has been changed from &quot;-99&quot; to &quot;-59.141283&quot;.</att>
+    <att name="ODF_HISTORY_19">PROCESS_018 : Edit Event: Field &quot;End_Longitude&quot; has been changed from &quot;-99&quot; to &quot;-59.141283&quot;.</att>
+    <att name="ODF_HISTORY_2">PROCESS_001 : Generation</att>
+    <att name="ODF_HISTORY_20">PROCESS_019 : Edit Event: Field &quot;Sampling_Interval&quot; has been changed from &quot;-99&quot; to &quot;1800&quot;.</att>
+    <att name="ODF_HISTORY_21">PROCESS_020 : Edit Event: Field &quot;Sounding&quot; has been changed from &quot;-99&quot; to &quot;118&quot;.</att>
+    <att name="ODF_HISTORY_22">PROCESS_021 : Edit Event: Field &quot;Depth_Off_Bottom&quot; has been changed from &quot;-99&quot; to &quot;43&quot;.</att>
+    <att name="ODF_HISTORY_23">PROCESS_022 : Edit Event: Field &quot;Min_Depth&quot; has been changed from &quot;-99&quot; to &quot;75&quot;.</att>
+    <att name="ODF_HISTORY_24">PROCESS_023 : Edit Event: Field &quot;Max_Depth&quot; has been changed from &quot;-99&quot; to &quot;75&quot;.</att>
+    <att name="ODF_HISTORY_25">PROCESS_024 : Edit Event: Field &quot;Event_Qualifier1&quot; has been changed from &quot; &quot; to &quot;10588081&quot;.</att>
+    <att name="ODF_HISTORY_26">PROCESS_025 : Edit Event: Field &quot;Event_Qualifier2&quot; has been changed from &quot; &quot; to &quot;1800&quot;.</att>
+    <att name="ODF_HISTORY_27">PROCESS_026 : Edit Instrument: Field &quot;Inst_Type&quot; has been changed from &quot; &quot; to &quot;HOBO&quot;.</att>
+    <att name="ODF_HISTORY_28">PROCESS_027 : Edit Instrument: Field &quot;Model&quot; has been changed from &quot; &quot; to &quot;U22-001&quot;.</att>
+    <att name="ODF_HISTORY_29">PROCESS_028 : Edit Instrument: Field &quot;Serial_Number&quot; has been changed from &quot; &quot; to &quot;10588081&quot;.</att>
+    <att name="ODF_HISTORY_3">PROCESS_002 : Edit Cruise: Field &quot;Country_Institute_Code&quot; has been changed from &quot; &quot; to &quot;1810&quot;.</att>
+    <att name="ODF_HISTORY_30">PROCESS_029 : Edit Record: Field &quot;Num_Calibration&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_31">PROCESS_030 : Edit Record: Field &quot;Num_Swing&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_32">PROCESS_031 : Edit Record: Field &quot;Num_History&quot; has been changed from 1 to 1.</att>
+    <att name="ODF_HISTORY_33">PROCESS_032 : Edit Record: Field &quot;Num_Cycle&quot; has been changed from 0 to 18725.</att>
+    <att name="ODF_HISTORY_34">PROCESS_033 : Edit Record: Field &quot;Num_Param&quot; has been changed from 1 to 1.</att>
+    <att name="ODF_HISTORY_35">PROCESS_034 : Add_Parameter: A.Data.SYTM_01 = evalin(&#39;caller&#39;,&#39;sytm&#39;);</att>
+    <att name="ODF_HISTORY_36">PROCESS_035 : Edit Record: Field &quot;Num_Calibration&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_37">PROCESS_036 : Edit Record: Field &quot;Num_Swing&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_38">PROCESS_037 : Edit Record: Field &quot;Num_History&quot; has been changed from 1 to 1.</att>
+    <att name="ODF_HISTORY_39">PROCESS_038 : Edit Record: Field &quot;Num_Cycle&quot; has been changed from 18725 to 18725.</att>
+    <att name="ODF_HISTORY_4">PROCESS_003 : Edit Cruise: Field &quot;Cruise_Number&quot; has been changed from &quot; &quot; to &quot;HUD2015030&quot;.</att>
+    <att name="ODF_HISTORY_40">PROCESS_039 : Edit Record: Field &quot;Num_Param&quot; has been changed from 2 to 2.</att>
+    <att name="ODF_HISTORY_41">PROCESS_040 : Add_Parameter: A.Data.TEMP_01 = evalin(&#39;caller&#39;,&#39;z{3}(:,1)&#39;);</att>
+    <att name="ODF_HISTORY_42">PROCESS_041 : Edit Parameter (TEMP_01): Field &quot;Depth&quot; has been changed from &quot;0&quot; to &quot;75&quot;.</att>
+    <att name="ODF_HISTORY_43">PROCESS_042 : Edit Parameter (SYTM_01): Field &quot;Depth&quot; has been changed from &quot;0&quot; to &quot;75&quot;.</att>
+    <att name="ODF_HISTORY_44">PROCESS_043 : Edit Record: Field &quot;Num_Cycle&quot; has been changed from 18725 to 17627.</att>
+    <att name="ODF_HISTORY_45">PROCESS_044 : Edit Record: Field &quot;Num_Calibration&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_46">PROCESS_045 : Edit Record: Field &quot;Num_Swing&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_47">PROCESS_046 : Edit Record: Field &quot;Num_History&quot; has been changed from 1 to 1.</att>
+    <att name="ODF_HISTORY_48">PROCESS_047 : Edit Record: Field &quot;Num_Cycle&quot; has been changed from 17627 to 17627.</att>
+    <att name="ODF_HISTORY_49">PROCESS_048 : Edit Record: Field &quot;Num_Param&quot; has been changed from 2 to 2.</att>
+    <att name="ODF_HISTORY_5">PROCESS_004 : Edit Cruise: Field &quot;Organization&quot; has been changed from &quot; &quot; to &quot;DFO BIO&quot;.</att>
+    <att name="ODF_HISTORY_50">PROCESS_049 : Edit Record: Field &quot;Num_Cycle&quot; has been changed from 17627 to 17618.</att>
+    <att name="ODF_HISTORY_51">PROCESS_050 : Edit Record: Field &quot;Num_Calibration&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_52">PROCESS_051 : Edit Record: Field &quot;Num_Swing&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_53">PROCESS_052 : Edit Record: Field &quot;Num_History&quot; has been changed from 1 to 1.</att>
+    <att name="ODF_HISTORY_54">PROCESS_053 : Edit Record: Field &quot;Num_Cycle&quot; has been changed from 17618 to 17618.</att>
+    <att name="ODF_HISTORY_55">PROCESS_054 : Edit Record: Field &quot;Num_Param&quot; has been changed from 2 to 2.</att>
+    <att name="ODF_HISTORY_56">PROCESS_055 : Edit Record: Field &quot;Num_Calibration&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_57">PROCESS_056 : Edit Record: Field &quot;Num_Swing&quot; has been changed from 0 to 0.</att>
+    <att name="ODF_HISTORY_58">PROCESS_057 : Edit Record: Field &quot;Num_History&quot; has been changed from 1 to 1.</att>
+    <att name="ODF_HISTORY_59">PROCESS_058 : Edit Record: Field &quot;Num_Cycle&quot; has been changed from 17618 to 17618.</att>
+    <att name="ODF_HISTORY_6">PROCESS_005 : Edit Cruise: Field &quot;Start_Date&quot; has been changed from &quot; &quot; to &quot;20-SEP-2014&quot;.</att>
+    <att name="ODF_HISTORY_60">PROCESS_059 : Edit Record: Field &quot;Num_Param&quot; has been changed from 2 to 2.</att>
+    <att name="ODF_HISTORY_61">CREATION_DATE : 01-NOV-2016 14:47:05.74</att>
+    <att name="ODF_HISTORY_62">PROCESS_001 : 01-NOV-2016: Data Processed by R.Pettipas of BIO-OESD.</att>
+    <att name="ODF_HISTORY_63">PROCESS_002 : 01-NOV-2016: Pre and Post deployment records removed.</att>
+    <att name="ODF_HISTORY_7">PROCESS_006 : Edit Cruise: Field &quot;End_Date&quot; has been changed from &quot; &quot; to &quot;11-OCT-2015&quot;.</att>
+    <att name="ODF_HISTORY_8">PROCESS_007 : Edit Cruise: Field &quot;Platform&quot; has been changed from &quot; &quot; to &quot;CCGS Hudson&quot;.</att>
+    <att name="ODF_HISTORY_9">PROCESS_008 : Edit Cruise: Field &quot;Chief_Scientist&quot; has been changed from &quot; &quot; to &quot;Dave Hebert&quot;.</att>
+    <att name="platform">St. Anns Bank</att>
+    <att name="sampling_interval">1800.000000</att>
+    <att name="serial_number">10588081</att>
+    <att name="sounding" type="double">118.0</att>
+    <att name="time_coverage_duration">P367.021D</att>
+    <att name="time_coverage_end">2016-09-24T17:00:00+0000</att>
+    <att name="time_coverage_start">2015-09-23T16:30:00+0000</att>
+    <att name="water_depth" type="double">118.0</att>
+</sourceAttributes -->
+    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
+    <att name="cdm_timeseries_variables">station_id, longitude, latitude</att>
+    <att name="subsetVariables">station_id, longitude, latitude</att>
+-->
+    <addAttributes>
+      <att name="cdm_data_type">TimeSeries</att>
+      <att name="cdm_timeseries_variables">station,latitude,longitude</att>
+      <att name="Conventions">CF-1.7, COARDS, ACDD-1.3</att>
+      <att name="creator_name">Bedford Institute of Oceanography, DFO</att>
+      <att name="date_modified">2018-08-20T12:10:29Z</att>
+      <att name="EVENT_COMMENTS_1">:</att>
+      <att name="infoUrl">???</att>
+      <att name="keywords">bedford, data, department, dfo, dtut8601, fisheries, identifier, institute, latitude, local, longitude, name, ocean, oceanography, oceans, platform, platform_name, source, station, TEMP_01, temperature, time, time_string</att>
+      <att name="license">[standard]</att>
+      <att name="sourceUrl">(local files)</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,inst_type,serial_number,model,station</att>
+      <att name="summary">Bedford Institute of Oceanography, Department of Fisheries and Oceans (DFO) data from a local source.</att>
+      <att name="time_coverage_end">2016-09-24T17:00:00Z</att>
+      <att name="time_coverage_start">2015-09-23T16:30:00Z</att>
+      <att name="title">Maritimes region MRT data</att>
+      <att name="country_code">1810</att>
+      <!-- Nulled global attributes -->
+      <att name="data_type">null</att>
+      <att name="EVENT_COMMENTS_1">null</att>
+      <att name="history">null</att>
+      <att name="latitude">null</att>
+      <att name="longitude">null</att>
+      <att name="NCO">null</att>
+      <att name="ODF_HISTORY_1">null</att>
+      <att name="ODF_HISTORY_10">null</att>
+      <att name="ODF_HISTORY_11">null</att>
+      <att name="ODF_HISTORY_12">null</att>
+      <att name="ODF_HISTORY_13">null</att>
+      <att name="ODF_HISTORY_14">null</att>
+      <att name="ODF_HISTORY_15">null</att>
+      <att name="ODF_HISTORY_16">null</att>
+      <att name="ODF_HISTORY_17">null</att>
+      <att name="ODF_HISTORY_18">null</att>
+      <att name="ODF_HISTORY_19">null</att>
+      <att name="ODF_HISTORY_2">null</att>
+      <att name="ODF_HISTORY_20">null</att>
+      <att name="ODF_HISTORY_21">null</att>
+      <att name="ODF_HISTORY_22">null</att>
+      <att name="ODF_HISTORY_23">null</att>
+      <att name="ODF_HISTORY_24">null</att>
+      <att name="ODF_HISTORY_25">null</att>
+      <att name="ODF_HISTORY_26">null</att>
+      <att name="ODF_HISTORY_27">null</att>
+      <att name="ODF_HISTORY_28">null</att>
+      <att name="ODF_HISTORY_29">null</att>
+      <att name="ODF_HISTORY_3">null</att>
+      <att name="ODF_HISTORY_30">null</att>
+      <att name="ODF_HISTORY_31">null</att>
+      <att name="ODF_HISTORY_32">null</att>
+      <att name="ODF_HISTORY_33">null</att>
+      <att name="ODF_HISTORY_34">null</att>
+      <att name="ODF_HISTORY_35">null</att>
+      <att name="ODF_HISTORY_36">null</att>
+      <att name="ODF_HISTORY_37">null</att>
+      <att name="ODF_HISTORY_38">null</att>
+      <att name="ODF_HISTORY_39">null</att>
+      <att name="ODF_HISTORY_4">null</att>
+      <att name="ODF_HISTORY_40">null</att>
+      <att name="ODF_HISTORY_41">null</att>
+      <att name="ODF_HISTORY_42">null</att>
+      <att name="ODF_HISTORY_43">null</att>
+      <att name="ODF_HISTORY_44">null</att>
+      <att name="ODF_HISTORY_45">null</att>
+      <att name="ODF_HISTORY_46">null</att>
+      <att name="ODF_HISTORY_47">null</att>
+      <att name="ODF_HISTORY_48">null</att>
+      <att name="ODF_HISTORY_49">null</att>
+      <att name="ODF_HISTORY_5">null</att>
+      <att name="ODF_HISTORY_50">null</att>
+      <att name="ODF_HISTORY_51">null</att>
+      <att name="ODF_HISTORY_52">null</att>
+      <att name="ODF_HISTORY_53">null</att>
+      <att name="ODF_HISTORY_54">null</att>
+      <att name="ODF_HISTORY_55">null</att>
+      <att name="ODF_HISTORY_56">null</att>
+      <att name="ODF_HISTORY_57">null</att>
+      <att name="ODF_HISTORY_58">null</att>
+      <att name="ODF_HISTORY_59">null</att>
+      <att name="ODF_HISTORY_6">null</att>
+      <att name="ODF_HISTORY_60">null</att>
+      <att name="ODF_HISTORY_61">null</att>
+      <att name="ODF_HISTORY_62">null</att>
+      <att name="ODF_HISTORY_63">null</att>
+      <att name="ODF_HISTORY_7">null</att>
+      <att name="ODF_HISTORY_8">null</att>
+      <att name="ODF_HISTORY_9">null</att>
+      <att name="sampling_interval">null</att>
+      <att name="sounding" type="double">null</att>
+      <att name="water_depth" type="double">null</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>***fileName,(.*),1</sourceName>
+      <destinationName>filename</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:cruise_name</sourceName>
+      <destinationName>cruise_name</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:cruise_number</sourceName>
+      <destinationName>cruise_number</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:chief_scientist</sourceName>
+      <destinationName>chief_scientist</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:inst_type</sourceName>
+      <destinationName>inst_type</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:model</sourceName>
+      <destinationName>model</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:serial_number</sourceName>
+      <destinationName>serial_number</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>station</sourceName>
+      <destinationName>station</destinationName>
+      <dataType>String</dataType>
+      <!-- sourceAttributes>
+        <att name="cf_role">timeseries_id</att>
+        <att name="latitiude" type="double">46.255217</att>
+        <att name="long_name">station</att>
+        <att name="longitude" type="double">-59.141283</att>
+        <att name="standard_name">platform_name</att>
+        <att name="units">counts</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="units">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lat</sourceName>
+      <destinationName>latitude</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+        <att name="axis">Y</att>
+        <att name="long_name">latitude</att>
+        <att name="sdn_parameter_name">Latitude north</att>
+        <att name="sdn_parameter_urn">SDN:P01::ALATZZ01</att>
+        <att name="sdn_uom_name">Degrees north</att>
+        <att name="sdn_uom_urn">SDN:P06:DEGN</att>
+        <att name="standard_name">latitude</att>
+        <att name="units">degrees_north</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">90.0</att>
+        <att name="colorBarMinimum" type="double">-90.0</att>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Latitude</att>
+        <att name="sdn_P02_urn">SDN:P02::ALAT</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lon</sourceName>
+      <destinationName>longitude</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+        <att name="axis">X</att>
+        <att name="long_name">longitude</att>
+        <att name="sdn_parameter_name">Longitude east</att>
+        <att name="sdn_parameter_urn">SDN:P01::ALONZZ01</att>
+        <att name="sdn_uom_name">Degrees east</att>
+        <att name="sdn_uom_urn">SDN:P06::DEGE</att>
+        <att name="standard_name">longitude</att>
+        <att name="units">degrees_east</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">180.0</att>
+        <att name="colorBarMinimum" type="double">-180.0</att>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Longitude</att>
+        <att name="sdn_P02_urn">SDN:P02::ALAT</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+        <att name="calendar">gregorian</att>
+        <att name="long_name">time</att>
+        <att name="units">seconds since 1970-01-01T00:00:00Z</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+        <att name="standard_name">time</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>variable:TEMP_01:sensor_depth</sourceName>
+      <destinationName>depth</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+        <att name="calendar">gregorian</att>
+        <att name="long_name">time</att>
+        <att name="units">seconds since 1970-01-01T00:00:00Z</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="ioos_category">depth</att>
+        <att name="standard_name">depth</att>
+        <att name="units">m</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>TEMP_01</sourceName>
+      <destinationName>TEMPPR01</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="double">1.0E35</att>
+        <att name="data_max" type="double">5.205</att>
+        <att name="data_min" type="double">-0.339</att>
+        <att name="generic_name">temperature</att>
+        <att name="long_name">temperature</att>
+        <att name="sdn_parameter_name">Temperature of the water body</att>
+        <att name="sdn_parameter_urn">SDN:P01::TEMPPR01</att>
+        <att name="sdn_uom_name">Degrees Celsius</att>
+        <att name="sdn_uom_urn">UPAA</att>
+        <att name="sensor_depth" type="double">75.0</att>
+        <att name="sensor_type">U22-001</att>
+        <att name="serial_number">10588081</att>
+        <att name="units">degrees C</att>
+        <att name="valid_max" type="double">-10000.0</att>
+        <att name="valid_min" type="double">10000.0</att>
+    </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">40.0</att>
+        <att name="colorBarMinimum" type="double">-10.0</att>
+        <att name="ioos_category">Temperature</att>
+        <att name="sdn_P02_urn">SDN:P02::TEMP</att>
+        <att name="units">degree_C</att>
+        <att name="sensor_depth">null</att>
+        <att name="sensor_type">null</att>
+        <att name="serial_number">null</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
 </erddapDatasets>

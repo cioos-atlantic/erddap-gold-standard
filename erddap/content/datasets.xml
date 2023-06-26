@@ -18244,7 +18244,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
       <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station</att>
       <att name="summary">Bedford Institute of Oceanography, Department of Fisheries and Oceans (DFO) data from a local source.</att>
-      <att name="title">Maritimes Region Moored Atlantic Zone Monitoring Program (AMZP) CTD</att>
+      <att name="title">Maritimes Region Moored Atlantic Zone Monitoring Program (AZMP) CTD</att>
       <att name="institution">DFO BIO</att>
       <!-- Null global attributes -->
       <att name="data_type">null</att>
@@ -18879,7 +18879,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
       <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station</att>
       <att name="summary">Bedford Institute of Oceanography, Department of Fisheries and Oceans (DFO) data from a local source.</att>
-      <att name="title">Maritimes Region Moored Atlantic Zone Off-Shelf Monitoring Program (AMOZP) CTD</att>
+      <att name="title">Maritimes Region Moored Atlantic Zone Off-Shelf Monitoring Program (AZOMP) CTD</att>
       <att name="institution">DFO BIO</att>
       <!-- Null global attributes -->
       <att name="data_type">null</att>

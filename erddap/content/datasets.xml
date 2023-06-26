@@ -15529,6 +15529,7 @@ Wed Aug 22 15:19:39 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     </dataVariable>
   </dataset>
 
+  <!-- BIO Moored Barrow CTD: START -->
   <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_barrow_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
@@ -16161,7 +16162,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       </addAttributes>
     </dataVariable>
   </dataset>
+  <!-- BIO Moored Barrow CTD: END -->
 
+  <!-- BIO Moored Rapid CTD: START -->
   <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_rapid_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
@@ -16794,7 +16797,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       </addAttributes>
     </dataVariable>
   </dataset>
+  <!-- BIO Moored Rapid CTD: END -->
 
+  <!-- BIO Moored OTN CTD: START -->
   <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_otn_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
@@ -17427,7 +17432,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       </addAttributes>
     </dataVariable>
   </dataset>
+  <!-- BIO Moored OTN CTD: END -->
 
+  <!-- BIO Moored Historical Offshore CTD: START -->
   <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_historical_offshore_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
@@ -18060,7 +18067,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       </addAttributes>
     </dataVariable>
   </dataset>
+  <!-- BIO Moored Historical Offshore CTD: END -->
 
+  <!-- BIO Moored AZMP CTD: START -->
   <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_atlantic_zone_monitoring_program_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
@@ -18693,7 +18702,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       </addAttributes>
     </dataVariable>
   </dataset>
+  <!-- BIO Moored AZMP CTD: END -->
 
+  <!-- BIO Moored AZOMP CTD: START -->
   <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_atlantic_zone_off_shelf_monitoring_program_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
@@ -19326,7 +19337,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       </addAttributes>
     </dataVariable>
   </dataset>
+  <!-- BIO Moored AZOMP CTD: END -->
 
+  <!-- BIO Moored Cetacean CTD: START -->
   <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_cetacean_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
@@ -19959,6 +19972,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       </addAttributes>
     </dataVariable>
   </dataset>
+  <!-- BIO Moored Cetacean CTD: END -->
+
+  <!-- BIO Moored Canso CTD: START -->
   <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_canso_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
@@ -20591,5 +20607,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       </addAttributes>
     </dataVariable>
   </dataset>
+  <!-- BIO Moored Canso CTD: START -->
   <!-- BIO Moored CTDs: END -->
 </erddapDatasets>

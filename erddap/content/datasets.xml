@@ -20702,7 +20702,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="original_header">null</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-        <att name="subsetVariables">time, latitude, longitude</att>
+        <att name="subsetVariables">wmo_platform_code,platform_name,platform_call_sign,platform_nafc_code,station,fish_set,trip</att>
         <att name="summary">DFO Newfoundland AZMP dataset.</att>
         <att name="title">DFO Newfoundland CTD AZMP dataset</att>
     </addAttributes>

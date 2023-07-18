@@ -20837,7 +20837,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="units">degrees_celsius</att>
         </addAttributes>
     </dataVariable>
-    </dataVariable>
         <dataVariable>
         <sourceName>global:air_wet_temp_celsius</sourceName>
         <destinationName>air_wet_temp_celsius</destinationName>
@@ -20847,7 +20846,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="ioos_category">Identifier</att>
         <att name="units">degrees_celsius</att>
         </addAttributes>
-    </dataVariable>
      </dataVariable>
         <dataVariable>
         <sourceName>global:cloud</sourceName>
@@ -20857,7 +20855,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="long_name">Cloud Coverage</att>
         <att name="ioos_category">Identifier</att>
         </addAttributes>
-    </dataVariable>
     </dataVariable>
         <dataVariable>
         <sourceName>global:swell_dir</sourceName>
@@ -20869,7 +20866,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="units">degrees_true_north</att>
         </addAttributes>
     </dataVariable>
-    </dataVariable>
         <dataVariable>
         <sourceName>global:swell_height</sourceName>
         <destinationName>swell_height</destinationName>
@@ -20879,7 +20875,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="ioos_category">Identifier</att>
         <att name="units">m</att>
         </addAttributes>
-    </dataVariable>
     </dataVariable>
         <dataVariable>
         <sourceName>global:swell_period</sourceName>
@@ -20891,7 +20886,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="units">s</att>
         </addAttributes>
     </dataVariable>
-    </dataVariable>
         <dataVariable>
         <sourceName>global:waves_height</sourceName>
         <destinationName>waves_height</destinationName>
@@ -20901,7 +20895,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="ioos_category">Identifier</att>
         <att name="units">m</att>
         </addAttributes>
-    </dataVariable>
     </dataVariable>
         <dataVariable>
         <sourceName>global:waves_period</sourceName>
@@ -20913,7 +20906,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="units">s</att>
         </addAttributes>
     </dataVariable>
-    </dataVariable>
         <dataVariable>
         <sourceName>global:probe</sourceName>
         <destinationName>probe</destinationName>
@@ -20922,7 +20914,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="long_name">Probe ID</att>
         <att name="ioos_category">Identifier</att>
         </addAttributes>
-    </dataVariable>
     </dataVariable>
         <dataVariable>
         <sourceName>global:wind_dir</sourceName>
@@ -20933,7 +20924,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="ioos_category">Identifier</att>
         <att name="units">degrees_true_north</att>
         </addAttributes>
-    </dataVariable>
     </dataVariable>
         <dataVariable>
         <sourceName>global:wind_speed_knots</sourceName>

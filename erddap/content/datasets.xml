@@ -20686,9 +20686,10 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     -->
     <addAttributes>
         <att name="_NCProperties">null</att>
-        <att name="cdm_data_type">Profile</att>
-        <att name="cdm_profile_variables">time,source_file,latitude,longitude</att>
-        <att name="comment">C SEGB-FC 01</att>
+        <att name="cdm_data_type">TimeseriesProfile</att>
+        <att name="cdm_profile_variables">time,source_file,ship_code,platform_name,wmo_platform_code,platform_call_sign,platform_nafc_code,strata_number,sub_interval,station_depth,trip,air_pressure,air_dry_temp_celsius,air_wet_temp_celsius,cloud_coverage,swell_dir,swell_height,swell_period,waves_height,waves_period,probe,wind_dir,wind_speed_knots</att>
+        <att name="cdm_timeseries_variables">station,latitude,longitude</att>
+        <att name="comment">null</att>
         <att name="Conventions">CF-1.6,ACDD-1.3, COARDS</att>
         <att name="format">null</att>
         <att name="history">null</att>
@@ -20702,8 +20703,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
         <att name="subsetVariables">time, latitude, longitude</att>
         <att name="summary">DFO Newfoundland AZMP dataset.</att>
-        <att name="time_coverage_end">2000-11-03T16:00:00Z</att>
-        <att name="time_coverage_start">2000-11-03T16:00:00Z</att>
         <att name="title">DFO Newfoundland CTD AZMP dataset</att>
     </addAttributes>
     <dataVariable>
@@ -20768,6 +20767,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <addAttributes>
         <att name="long_name">Station</att>
         <att name="ioos_category">Identifier</att>
+        <att name="cf_role">timeseries_id</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>

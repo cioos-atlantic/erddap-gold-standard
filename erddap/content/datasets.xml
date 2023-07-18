@@ -21020,6 +21020,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="variable_name">scan</att>
         <att name="seabird_name">scan</att>
         <att name="ioos_category">Unknown</att>
+        <att name="_FillValue" type="int">2147483647</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>

@@ -20760,6 +20760,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="long_name">Station</att>
         <att name="ioos_category">Identifier</att>
         <att name="cf_role">timeseries_id</att>
+        <att name="_FillValue" type="int">2147483647</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -20769,6 +20770,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <addAttributes>
         <att name="long_name">Strata Number</att>
         <att name="ioos_category">Identifier</att>
+        <att name="_FillValue" type="int">2147483647</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -20778,6 +20780,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <addAttributes>
         <att name="long_name">Sub Interval</att>
         <att name="ioos_category">Identifier</att>
+        <att name="_FillValue" type="int">2147483647</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -20788,6 +20791,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="long_name">Station Depth</att>
         <att name="ioos_category">Identifier</att>
         <att name="units">m</att>
+        <att name="_FillValue" type="int">2147483647</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -20797,6 +20801,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <addAttributes>
         <att name="long_name">Fish Set</att>
         <att name="ioos_category">Identifier</att>
+        <att name="_FillValue" type="int">2147483647</att>
         </addAttributes>
     </dataVariable>
         <dataVariable>
@@ -20806,6 +20811,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <addAttributes>
         <att name="long_name">Trip</att>
         <att name="ioos_category">Identifier</att>
+        <att name="_FillValue" type="int">2147483647</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -20816,6 +20822,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="long_name">Air Pressure</att>
         <att name="ioos_category">Identifier</att>
         <att name="units">bars</att>
+        <att name="standard_name">air_pressure_at_mean_sea_level</att>
         </addAttributes>
     </dataVariable>
         <dataVariable>
@@ -20845,6 +20852,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <addAttributes>
         <att name="long_name">Cloud Coverage</att>
         <att name="ioos_category">Identifier</att>
+        <att name="_FillValue" type="int">2147483647</att>
         </addAttributes>
     </dataVariable>
         <dataVariable>
@@ -20855,6 +20863,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="long_name">Swell Direction</att>
         <att name="ioos_category">Identifier</att>
         <att name="units">degrees_true_north</att>
+        <att name="_FillValue" type="int">2147483647</att>
         </addAttributes>
     </dataVariable>
         <dataVariable>
@@ -20865,6 +20874,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="long_name">Swell Height</att>
         <att name="ioos_category">Identifier</att>
         <att name="units">m</att>
+        <att name="_FillValue" type="int">2147483647</att>
         </addAttributes>
     </dataVariable>
         <dataVariable>
@@ -20875,6 +20885,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="long_name">Swell Period</att>
         <att name="ioos_category">Identifier</att>
         <att name="units">s</att>
+        <att name="_FillValue" type="int">2147483647</att>
         </addAttributes>
     </dataVariable>
         <dataVariable>
@@ -20885,6 +20896,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="long_name">Wave Height</att>
         <att name="ioos_category">Identifier</att>
         <att name="units">m</att>
+        <att name="_FillValue" type="int">2147483647</att>
         </addAttributes>
     </dataVariable>
         <dataVariable>
@@ -20895,6 +20907,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="long_name">Wave Period</att>
         <att name="ioos_category">Identifier</att>
         <att name="units">s</att>
+        <att name="_FillValue" type="int">2147483647</att>
         </addAttributes>
     </dataVariable>
         <dataVariable>
@@ -20914,6 +20927,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="long_name">Wind Direction</att>
         <att name="ioos_category">Identifier</att>
         <att name="units">degrees_true_north</att>
+        <att name="_FillValue" type="int">2147483647</att>
         </addAttributes>
     </dataVariable>
         <dataVariable>
@@ -20924,6 +20938,25 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="long_name">Wind Speed</att>
         <att name="ioos_category">Identifier</att>
         <att name="units">knots</att>
+        <att name="_FillValue" type="int">2147483647</att>
+        </addAttributes>
+    </dataVariable>
+        <dataVariable>
+        <sourceName>global:format</sourceName>
+        <destinationName>deployment_format</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+        <att name="long_name">Deployment Format</att>
+        <att name="ioos_category">Identifier</att>
+        </addAttributes>
+    </dataVariable>
+        <dataVariable>
+        <sourceName>global:direction</sourceName>
+        <destinationName>cast_direction</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+        <att name="long_name">Cast Direction</att>
+        <att name="ioos_category">Identifier</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>

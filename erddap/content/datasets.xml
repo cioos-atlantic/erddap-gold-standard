@@ -21321,8 +21321,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>trp</sourceName>
-        <destinationName>trp</destinationName>
+        <sourceName>OPTCPS01</sourceName>
+        <destinationName>OPTCPS01</destinationName>
         <dataType>float</dataType>
         <addAttributes>
         <att name="long_name">Beam Transmission, Wet Labs C-Star</att>
@@ -21333,6 +21333,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="sdn_uom_urn">SDN:P06::UPCT</att>
         <att name="sdn_uom_name">Percent</att>
         <att name="seabird_name">CStarTr0</att>
+        <att name="sdn_parameter_name">Transmittance (red light wavelength) per unit length of the water body</att>
+        <att name="sdn_parameter_urn">SDN:P01::OPTCPS01</att>
         <att name="comments">1st sensor</att>
         <att name="instrument">WET Labs C-Star</att>
         <att name="ioos_category">Optical Properties</att>

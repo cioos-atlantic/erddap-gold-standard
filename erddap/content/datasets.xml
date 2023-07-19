@@ -20661,7 +20661,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
   <!-- BIO Moored CTDs: END -->
   
   <!-- NAFC AZMP CTDs: START-->
-  <dataset type="EDDTableFromNcFiles" datasetID="dfo_nafc_azmp_ctd" active="true">
+  <dataset type="EDDTableFromNcFiles" datasetID="nafc_azmp_ctd_profiles" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/nafc/ctd/azmp</fileDir>

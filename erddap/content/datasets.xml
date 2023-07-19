@@ -15067,6 +15067,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <addAttributes>
         <att name="colorBarMaximum" type="double">40.0</att>
         <att name="colorBarMinimum" type="double">-10.0</att>
+        <att name="long_name">Temperature (ITS-90) of the water body</att>
+        <att name="standard_name">sea_water_temperature</att>
         <att name="ioos_category">Temperature</att>
         <att name="sdn_P02_urn">SDN:P02::TEMP</att>
         <att name="units">degree_C</att>
@@ -15084,7 +15086,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="data_max" type="double">1.0E35</att>
         <att name="data_min" type="double">20.3395</att>
         <att name="generic_name">sigmaTheta</att>
-        <att name="long_name">sigmaTheta</att>
         <att name="sdn_parameter_name">Sigma-theta of the water body by computation from salinity and potential temperature using UNESCO algorithm</att>
         <att name="sdn_parameter_urn">SDN:P01::SIGTEQ01</att>
         <att name="sdn_uom_name">kilograms per cubic metre</att>
@@ -15092,8 +15093,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="sensor_depth" type="double">7.0</att>
         <att name="sensor_type">SBE37-SM V2.6 b</att>
         <att name="serial_number">5345</att>
-        <att name="standard_name">sea_water_sigma_theta</att>
-        <att name="units">kg/m**3</att>
         <att name="valid_max" type="double">-10000.0</att>
         <att name="valid_min" type="double">10000.0</att>
     </sourceAttributes -->
@@ -15105,6 +15104,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
+        <att name="long_name">sigmaTheta</att>
+        <att name="standard_name">sea_water_sigma_theta</att>
+        <att name="units">kg/m**3</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -15704,7 +15706,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
       <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station</att>
       <att name="summary">Bedford Institute of Oceanography, Department of Fisheries and Oceans (DFO) data from a local source.</att>
-      <att name="title">Maritimes Region Moored Barrow CTD</att>
+      <att name="title">Maritimes Region Barrow Strait Monitoring Program Moored Time Series Data</att>
       <att name="institution">DFO BIO</att>
       <!-- Null global attributes -->
       <att name="data_type">null</att>
@@ -16090,6 +16092,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <addAttributes>
         <att name="colorBarMaximum" type="double">40.0</att>
         <att name="colorBarMinimum" type="double">-10.0</att>
+        <att name="long_name">Temperature (ITS-90) of the water body</att>
+        <att name="standard_name">sea_water_temperature</att>
         <att name="ioos_category">Temperature</att>
         <att name="sdn_P02_urn">SDN:P02::TEMP</att>
         <att name="units">degree_C</att>
@@ -16128,6 +16132,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
+        <att name="long_name">sigmaTheta</att>
+        <att name="standard_name">sea_water_sigma_theta</att>
+        <att name="units">kg/m**3</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -16159,6 +16166,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
+        <att name="standard_name">sea_water_potential_temperature</att>
       </addAttributes>
     </dataVariable>
   </dataset>
@@ -16725,6 +16733,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <addAttributes>
         <att name="colorBarMaximum" type="double">40.0</att>
         <att name="colorBarMinimum" type="double">-10.0</att>
+        <att name="long_name">Temperature (ITS-90) of the water body</att>
+        <att name="standard_name">sea_water_temperature</att>
         <att name="ioos_category">Temperature</att>
         <att name="sdn_P02_urn">SDN:P02::TEMP</att>
         <att name="units">degree_C</att>
@@ -16763,6 +16773,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
+        <att name="long_name">sigmaTheta</att>
+        <att name="standard_name">sea_water_sigma_theta</att>
+        <att name="units">kg/m**3</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -16794,6 +16807,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
+        <att name="standard_name">sea_water_potential_temperature</att>
       </addAttributes>
     </dataVariable>
   </dataset>
@@ -17360,6 +17374,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <addAttributes>
         <att name="colorBarMaximum" type="double">40.0</att>
         <att name="colorBarMinimum" type="double">-10.0</att>
+        <att name="long_name">Temperature (ITS-90) of the water body</att>
+        <att name="standard_name">sea_water_temperature</att>
         <att name="ioos_category">Temperature</att>
         <att name="sdn_P02_urn">SDN:P02::TEMP</att>
         <att name="units">degree_C</att>
@@ -17398,6 +17414,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
+        <att name="long_name">sigmaTheta</att>
+        <att name="standard_name">sea_water_sigma_theta</att>
+        <att name="units">kg/m**3</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -17429,6 +17448,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
+        <att name="standard_name">sea_water_potential_temperature</att>
       </addAttributes>
     </dataVariable>
   </dataset>
@@ -17995,6 +18015,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <addAttributes>
         <att name="colorBarMaximum" type="double">40.0</att>
         <att name="colorBarMinimum" type="double">-10.0</att>
+        <att name="long_name">Temperature (ITS-90) of the water body</att>
+        <att name="standard_name">sea_water_temperature</att>
         <att name="ioos_category">Temperature</att>
         <att name="sdn_P02_urn">SDN:P02::TEMP</att>
         <att name="units">degree_C</att>
@@ -18033,6 +18055,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
+        <att name="long_name">sigmaTheta</att>
+        <att name="standard_name">sea_water_sigma_theta</att>
+        <att name="units">kg/m**3</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -18064,6 +18089,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
+        <att name="standard_name">sea_water_potential_temperature</att>
       </addAttributes>
     </dataVariable>
   </dataset>
@@ -18630,6 +18656,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <addAttributes>
         <att name="colorBarMaximum" type="double">40.0</att>
         <att name="colorBarMinimum" type="double">-10.0</att>
+        <att name="long_name">Temperature (ITS-90) of the water body</att>
+        <att name="standard_name">sea_water_temperature</att>
         <att name="ioos_category">Temperature</att>
         <att name="sdn_P02_urn">SDN:P02::TEMP</att>
         <att name="units">degree_C</att>
@@ -18668,6 +18696,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
+        <att name="long_name">sigmaTheta</att>
+        <att name="standard_name">sea_water_sigma_theta</att>
+        <att name="units">kg/m**3</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -18699,6 +18730,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
+        <att name="standard_name">sea_water_potential_temperature</att>
       </addAttributes>
     </dataVariable>
   </dataset>
@@ -19265,6 +19297,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <addAttributes>
         <att name="colorBarMaximum" type="double">40.0</att>
         <att name="colorBarMinimum" type="double">-10.0</att>
+        <att name="long_name">Temperature (ITS-90) of the water body</att>
+        <att name="standard_name">sea_water_temperature</att>
         <att name="ioos_category">Temperature</att>
         <att name="sdn_P02_urn">SDN:P02::TEMP</att>
         <att name="units">degree_C</att>
@@ -19303,6 +19337,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
+        <att name="long_name">sigmaTheta</att>
+        <att name="standard_name">sea_water_sigma_theta</att>
+        <att name="units">kg/m**3</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -19334,6 +19371,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
+        <att name="standard_name">sea_water_potential_temperature</att>
       </addAttributes>
     </dataVariable>
   </dataset>
@@ -19900,6 +19938,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <addAttributes>
         <att name="colorBarMaximum" type="double">40.0</att>
         <att name="colorBarMinimum" type="double">-10.0</att>
+        <att name="long_name">Temperature (ITS-90) of the water body</att>
+        <att name="standard_name">sea_water_temperature</att>
         <att name="ioos_category">Temperature</att>
         <att name="sdn_P02_urn">SDN:P02::TEMP</att>
         <att name="units">degree_C</att>
@@ -19938,6 +19978,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
+        <att name="long_name">sigmaTheta</att>
+        <att name="standard_name">sea_water_sigma_theta</att>
+        <att name="units">kg/m**3</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -19969,6 +20012,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
+        <att name="standard_name">sea_water_potential_temperature</att>
       </addAttributes>
     </dataVariable>
   </dataset>
@@ -20535,6 +20579,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <addAttributes>
         <att name="colorBarMaximum" type="double">40.0</att>
         <att name="colorBarMinimum" type="double">-10.0</att>
+        <att name="long_name">Temperature (ITS-90) of the water body</att>
+        <att name="standard_name">sea_water_temperature</att>
         <att name="ioos_category">Temperature</att>
         <att name="sdn_P02_urn">SDN:P02::TEMP</att>
         <att name="units">degree_C</att>
@@ -20573,6 +20619,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
+        <att name="long_name">sigmaTheta</att>
+        <att name="standard_name">sea_water_sigma_theta</att>
+        <att name="units">kg/m**3</att>
       </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -20604,6 +20653,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
+        <att name="standard_name">sea_water_potential_temperature</att>
       </addAttributes>
     </dataVariable>
   </dataset>
@@ -20695,7 +20745,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="format">null</att>
         <att name="history">null</att>
         <att name="infoUrl">???</att>
-        <att name="institution">???</att>
+        <att name="institution">DFO NAFC</att>
         <att name="keywords">count, data, depth, digiquartz, earth, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, Earth Science &gt; Oceans &gt; Ocean Temperature &gt; Water Temperature, file, index, its, its-90, latitude, local, longitude, ocean, oceans, p-file, PRESPR01, pressure, row, scan, science, sea, sea_water_pressure, sea_water_temperature, seawater, segb, segb-fc, source, statistics, temperature, TEMPS901, time, water</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
@@ -20705,6 +20755,21 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="subsetVariables">wmo_platform_code,platform_name,platform_call_sign,platform_nafc_code,station,fish_set,trip</att>
         <att name="summary">DFO Newfoundland AZMP dataset.</att>
         <att name="title">DFO Newfoundland CTD AZMP dataset</att>
+        <att name="card_1_id">null</att>
+        <att name="card_4_id">null</att>
+        <att name="card_8_id">null</att>
+        <att name="chan_cnt">null</att>
+        <att name="chan_ids">null</att>
+        <att name="country_of_origin">null</att>
+        <att name="data_format">null</att>
+        <att name="ices_platform_code">null</att>
+        <att name="latitude">null</att>
+        <att name="longitude">null</att>
+        <att name="max_depth">null</att>
+        <att name="min_depth">null</att>
+        <att name="scan_cnt">null</att>
+        <att name="scan_rate">null</att>
+        <att name="ww_code">null</att>
     </addAttributes>
     <dataVariable>
         <sourceName>***fileName,(.*),1</sourceName>
@@ -20844,7 +20909,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="ioos_category">Identifier</att>
         <att name="units">degrees_celsius</att>
         </addAttributes>
-     </dataVariable>
+    </dataVariable>
         <dataVariable>
         <sourceName>global:cloud</sourceName>
         <destinationName>cloud_coverage</destinationName>

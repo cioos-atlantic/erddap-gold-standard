@@ -20829,11 +20829,11 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>global:strata_number</sourceName>
-        <destinationName>strata_number</destinationName>
+        <sourceName>global:fishing_strata</sourceName>
+        <destinationName>fishing_strata</destinationName>
         <dataType>int</dataType>
         <addAttributes>
-        <att name="long_name">Strata Number</att>
+        <att name="long_name">Fising Strata</att>
         <att name="ioos_category">Identifier</att>
         <att name="_FillValue" type="int">2147483647</att>
         </addAttributes>
@@ -20849,8 +20849,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>global:depth</sourceName>
-        <destinationName>station_depth</destinationName>
+        <sourceName>global:sounder_depth</sourceName>
+        <destinationName>sounder_depth</destinationName>
         <dataType>int</dataType>
         <addAttributes>
         <att name="long_name">Station Depth</att>
@@ -20860,11 +20860,11 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>global:fish_set</sourceName>
-        <destinationName>fish_set</destinationName>
+        <sourceName>global:set_number</sourceName>
+        <destinationName>set_number</destinationName>
         <dataType>int</dataType>
         <addAttributes>
-        <att name="long_name">Fish Set</att>
+        <att name="long_name">Set Number</att>
         <att name="ioos_category">Identifier</att>
         <att name="_FillValue" type="int">2147483647</att>
         </addAttributes>
@@ -20976,11 +20976,11 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         </addAttributes>
     </dataVariable>
         <dataVariable>
-        <sourceName>global:probe</sourceName>
-        <destinationName>probe</destinationName>
+        <sourceName>global:instrument</sourceName>
+        <destinationName>instrument</destinationName>
         <dataType>String</dataType>
         <addAttributes>
-        <att name="long_name">Probe ID</att>
+        <att name="long_name">Instrument</att>
         <att name="ioos_category">Identifier</att>
         </addAttributes>
     </dataVariable>
@@ -21007,21 +21007,25 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         </addAttributes>
     </dataVariable>
         <dataVariable>
-        <sourceName>global:format</sourceName>
-        <destinationName>deployment_format</destinationName>
+        <sourceName>global:cast_type</sourceName>
+        <destinationName>cast_type</destinationName>
         <dataType>String</dataType>
         <addAttributes>
-        <att name="long_name">Deployment Format</att>
+        <att name="long_name">Cast Type</att>
         <att name="ioos_category">Identifier</att>
+        <att name="flag_values">V T</att>
+        <att name="flag_meaning">vertical tow</att>
         </addAttributes>
     </dataVariable>
         <dataVariable>
-        <sourceName>global:direction</sourceName>
+        <sourceName>global:cast_direction</sourceName>
         <destinationName>cast_direction</destinationName>
         <dataType>String</dataType>
         <addAttributes>
         <att name="long_name">Cast Direction</att>
         <att name="ioos_category">Identifier</att>
+        <att name="flag_values">U D B</att>
+        <att name="flag_meaning">up down both</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>

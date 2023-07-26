@@ -15696,7 +15696,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
 -->
     <addAttributes>
       <att name="cdm_data_type">TimeSeries</att>
-      <att name="cdm_timeseries_variables">station,latitude,longitude</att>
+      <att name="cdm_timeseries_variables">station,latitude,longitude,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, cruise_name,cruise_number,chief_scientist</att>
       <att name="Conventions">CF-1.7, COARDS, ACDD-1.3</att>
       <att name="infoUrl">???</att>
       <att name="keywords">bedford, conductivity, CRAT_01, data, density, department, dfo, dtut8601, earth, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Density, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, fisheries, identifier, institute, latitude, local, longitude, name, ocean, oceanography, oceans, physical, physical oceanography, platform, platform_name, POTM_01, practical, PRES_01, pressure, PSAL_01, salinity, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_pressure, sea_water_sigma_theta, seawater, sigma, sigmatheta, SIGP_01, source, station, TE90_01, temperature, theta, time, time_string, water</att>
@@ -15704,7 +15704,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="license">[standard]</att>
       <att name="sourceUrl">(local files)</att>
       <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station</att>
+      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename</att>
       <att name="summary">Bedford Institute of Oceanography, Department of Fisheries and Oceans (DFO) data from a local source.</att>
       <att name="title">Maritimes Region Barrow Strait Monitoring Program Moored Time Series Data</att>
       <att name="institution">DFO BIO</att>
@@ -15826,6 +15826,13 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="sampling_interval">null</att>
       <att name="sounding" type="double">null</att>
       <att name="water_depth" type="double">null</att>
+      <att name="_NCProperties">null</att>
+      <att name="geospatial_bounds">null</att>
+      <att name="id">null</att>
+      <att name="location_description">null</att>
+      <att name="mission_description">null</att>
+      <att name="ODF_EVENT_header">null</att>
+      <att name="ODF_INSTRUMENT_header">null</att>
     </addAttributes>
     <dataVariable>
       <sourceName>***fileName,(.*),1</sourceName>
@@ -15862,6 +15869,70 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataVariable>
       <sourceName>global:serial_number</sourceName>
       <destinationName>serial_number</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:deployment_platform_name</sourceName>
+      <destinationName>deployment_platform_name</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:inst_type</sourceName>
+      <destinationName>inst_type</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument</sourceName>
+      <destinationName>instrument</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument_model</sourceName>
+      <destinationName>instrument_model</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument_offbottom_depth</sourceName>
+      <destinationName>instrument_offbottom_depth</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:mooring_number</sourceName>
+      <destinationName>mooring_number</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:program</sourceName>
+      <destinationName>program</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:sdn_instrument_id</sourceName>
+      <destinationName>sdn_instrument_id</destinationName>
       <dataType>String</dataType>
       <addAttributes>
         <att name="ioos_category">Identifier</att>
@@ -15986,35 +16057,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="colorBarMinimum" type="double">0.0</att>
         <att name="ioos_category">Pressure</att>
         <att name="sdn_P02_urn">SDN:P02::AHGT</att>
-        <att name="sensor_depth">null</att>
-        <att name="sensor_type">null</att>
-        <att name="serial_number">null</att>
-      </addAttributes>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>CRAT_01</sourceName>
-      <destinationName>CRAT01</destinationName>
-      <dataType>double</dataType>
-      <!-- sourceAttributes>
-        <att name="_FillValue" type="double">1.0E35</att>
-        <att name="data_max" type="double">1.0E35</att>
-        <att name="data_min" type="double">0.586273</att>
-        <att name="generic_name">conductivity</att>
-        <att name="long_name">conductivity</att>
-        <att name="sdn_parameter_urn">SDN:P01::</att>
-        <att name="sensor_depth" type="double">7.0</att>
-        <att name="sensor_type">SBE37-SM V2.6 b</att>
-        <att name="serial_number">5345</att>
-        <att name="units">1</att>
-        <att name="valid_max" type="double">-10000.0</att>
-        <att name="valid_min" type="double">10000.0</att>
-    </sourceAttributes -->
-      <addAttributes>
-        <att name="colorBarMaximum" type="double">40.0</att>
-        <att name="colorBarMinimum" type="double">30.0</att>
-        <att name="ioos_category">Salinity</att>
-        <att name="sdn_P02_urn">SDN:P02::SAGE</att>
-        <att name="standard_name">sea_water_electrical_conductivity</att>
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
@@ -16337,7 +16379,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
 -->
     <addAttributes>
       <att name="cdm_data_type">TimeSeries</att>
-      <att name="cdm_timeseries_variables">station,latitude,longitude</att>
+      <att name="cdm_timeseries_variables">station,latitude,longitude,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, cruise_name,cruise_number,chief_scientist</att>
       <att name="Conventions">CF-1.7, COARDS, ACDD-1.3</att>
       <att name="infoUrl">???</att>
       <att name="keywords">bedford, conductivity, CRAT_01, data, density, department, dfo, dtut8601, earth, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Density, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, fisheries, identifier, institute, latitude, local, longitude, name, ocean, oceanography, oceans, physical, physical oceanography, platform, platform_name, POTM_01, practical, PRES_01, pressure, PSAL_01, salinity, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_pressure, sea_water_sigma_theta, seawater, sigma, sigmatheta, SIGP_01, source, station, TE90_01, temperature, theta, time, time_string, water</att>
@@ -16345,9 +16387,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="license">[standard]</att>
       <att name="sourceUrl">(local files)</att>
       <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station</att>
+      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename</att>
       <att name="summary">Bedford Institute of Oceanography, Department of Fisheries and Oceans (DFO) data from a local source.</att>
-      <att name="title">Maritimes Region Moored Rapid CTD</att>
+      <att name="title">Maritimes Region Historical RAPID Climate Change Program Moored Time Series Data</att>
       <att name="institution">DFO BIO</att>
       <!-- Null global attributes -->
       <att name="data_type">null</att>
@@ -16467,6 +16509,13 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="sampling_interval">null</att>
       <att name="sounding" type="double">null</att>
       <att name="water_depth" type="double">null</att>
+      <att name="_NCProperties">null</att>
+      <att name="geospatial_bounds">null</att>
+      <att name="id">null</att>
+      <att name="location_description">null</att>
+      <att name="mission_description">null</att>
+      <att name="ODF_EVENT_header">null</att>
+      <att name="ODF_INSTRUMENT_header">null</att>
     </addAttributes>
     <dataVariable>
       <sourceName>***fileName,(.*),1</sourceName>
@@ -16503,6 +16552,70 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataVariable>
       <sourceName>global:serial_number</sourceName>
       <destinationName>serial_number</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:deployment_platform_name</sourceName>
+      <destinationName>deployment_platform_name</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:inst_type</sourceName>
+      <destinationName>inst_type</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument</sourceName>
+      <destinationName>instrument</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument_model</sourceName>
+      <destinationName>instrument_model</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument_offbottom_depth</sourceName>
+      <destinationName>instrument_offbottom_depth</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:mooring_number</sourceName>
+      <destinationName>mooring_number</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:program</sourceName>
+      <destinationName>program</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:sdn_instrument_id</sourceName>
+      <destinationName>sdn_instrument_id</destinationName>
       <dataType>String</dataType>
       <addAttributes>
         <att name="ioos_category">Identifier</att>
@@ -16627,35 +16740,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="colorBarMinimum" type="double">0.0</att>
         <att name="ioos_category">Pressure</att>
         <att name="sdn_P02_urn">SDN:P02::AHGT</att>
-        <att name="sensor_depth">null</att>
-        <att name="sensor_type">null</att>
-        <att name="serial_number">null</att>
-      </addAttributes>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>CRAT_01</sourceName>
-      <destinationName>CRAT01</destinationName>
-      <dataType>double</dataType>
-      <!-- sourceAttributes>
-        <att name="_FillValue" type="double">1.0E35</att>
-        <att name="data_max" type="double">1.0E35</att>
-        <att name="data_min" type="double">0.586273</att>
-        <att name="generic_name">conductivity</att>
-        <att name="long_name">conductivity</att>
-        <att name="sdn_parameter_urn">SDN:P01::</att>
-        <att name="sensor_depth" type="double">7.0</att>
-        <att name="sensor_type">SBE37-SM V2.6 b</att>
-        <att name="serial_number">5345</att>
-        <att name="units">1</att>
-        <att name="valid_max" type="double">-10000.0</att>
-        <att name="valid_min" type="double">10000.0</att>
-    </sourceAttributes -->
-      <addAttributes>
-        <att name="colorBarMaximum" type="double">40.0</att>
-        <att name="colorBarMinimum" type="double">30.0</att>
-        <att name="ioos_category">Salinity</att>
-        <att name="sdn_P02_urn">SDN:P02::SAGE</att>
-        <att name="standard_name">sea_water_electrical_conductivity</att>
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
@@ -16978,7 +17062,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
 -->
     <addAttributes>
       <att name="cdm_data_type">TimeSeries</att>
-      <att name="cdm_timeseries_variables">station,latitude,longitude</att>
+      <att name="cdm_timeseries_variables">station,latitude,longitude,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, cruise_name,cruise_number,chief_scientist</att>
       <att name="Conventions">CF-1.7, COARDS, ACDD-1.3</att>
       <att name="infoUrl">???</att>
       <att name="keywords">bedford, conductivity, CRAT_01, data, density, department, dfo, dtut8601, earth, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Density, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, fisheries, identifier, institute, latitude, local, longitude, name, ocean, oceanography, oceans, physical, physical oceanography, platform, platform_name, POTM_01, practical, PRES_01, pressure, PSAL_01, salinity, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_pressure, sea_water_sigma_theta, seawater, sigma, sigmatheta, SIGP_01, source, station, TE90_01, temperature, theta, time, time_string, water</att>
@@ -16986,9 +17070,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="license">[standard]</att>
       <att name="sourceUrl">(local files)</att>
       <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station</att>
+      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename</att>
       <att name="summary">Bedford Institute of Oceanography, Department of Fisheries and Oceans (DFO) data from a local source.</att>
-      <att name="title">Maritimes Region Moored OTN CTD</att>
+      <att name="title">Maritimes Region Historical Ocean Tracking Network (OTN) Project Moored Time Series Data</att>
       <att name="institution">DFO BIO</att>
       <!-- Null global attributes -->
       <att name="data_type">null</att>
@@ -17108,6 +17192,13 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="sampling_interval">null</att>
       <att name="sounding" type="double">null</att>
       <att name="water_depth" type="double">null</att>
+      <att name="_NCProperties">null</att>
+      <att name="geospatial_bounds">null</att>
+      <att name="id">null</att>
+      <att name="location_description">null</att>
+      <att name="mission_description">null</att>
+      <att name="ODF_EVENT_header">null</att>
+      <att name="ODF_INSTRUMENT_header">null</att>
     </addAttributes>
     <dataVariable>
       <sourceName>***fileName,(.*),1</sourceName>
@@ -17144,6 +17235,70 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataVariable>
       <sourceName>global:serial_number</sourceName>
       <destinationName>serial_number</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:deployment_platform_name</sourceName>
+      <destinationName>deployment_platform_name</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:inst_type</sourceName>
+      <destinationName>inst_type</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument</sourceName>
+      <destinationName>instrument</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument_model</sourceName>
+      <destinationName>instrument_model</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument_offbottom_depth</sourceName>
+      <destinationName>instrument_offbottom_depth</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:mooring_number</sourceName>
+      <destinationName>mooring_number</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:program</sourceName>
+      <destinationName>program</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:sdn_instrument_id</sourceName>
+      <destinationName>sdn_instrument_id</destinationName>
       <dataType>String</dataType>
       <addAttributes>
         <att name="ioos_category">Identifier</att>
@@ -17268,35 +17423,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="colorBarMinimum" type="double">0.0</att>
         <att name="ioos_category">Pressure</att>
         <att name="sdn_P02_urn">SDN:P02::AHGT</att>
-        <att name="sensor_depth">null</att>
-        <att name="sensor_type">null</att>
-        <att name="serial_number">null</att>
-      </addAttributes>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>CRAT_01</sourceName>
-      <destinationName>CRAT01</destinationName>
-      <dataType>double</dataType>
-      <!-- sourceAttributes>
-        <att name="_FillValue" type="double">1.0E35</att>
-        <att name="data_max" type="double">1.0E35</att>
-        <att name="data_min" type="double">0.586273</att>
-        <att name="generic_name">conductivity</att>
-        <att name="long_name">conductivity</att>
-        <att name="sdn_parameter_urn">SDN:P01::</att>
-        <att name="sensor_depth" type="double">7.0</att>
-        <att name="sensor_type">SBE37-SM V2.6 b</att>
-        <att name="serial_number">5345</att>
-        <att name="units">1</att>
-        <att name="valid_max" type="double">-10000.0</att>
-        <att name="valid_min" type="double">10000.0</att>
-    </sourceAttributes -->
-      <addAttributes>
-        <att name="colorBarMaximum" type="double">40.0</att>
-        <att name="colorBarMinimum" type="double">30.0</att>
-        <att name="ioos_category">Salinity</att>
-        <att name="sdn_P02_urn">SDN:P02::SAGE</att>
-        <att name="standard_name">sea_water_electrical_conductivity</att>
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
@@ -17619,7 +17745,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
 -->
     <addAttributes>
       <att name="cdm_data_type">TimeSeries</att>
-      <att name="cdm_timeseries_variables">station,latitude,longitude</att>
+      <att name="cdm_timeseries_variables">station,latitude,longitude,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, cruise_name,cruise_number,chief_scientist</att>
       <att name="Conventions">CF-1.7, COARDS, ACDD-1.3</att>
       <att name="infoUrl">???</att>
       <att name="keywords">bedford, conductivity, CRAT_01, data, density, department, dfo, dtut8601, earth, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Density, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, fisheries, identifier, institute, latitude, local, longitude, name, ocean, oceanography, oceans, physical, physical oceanography, platform, platform_name, POTM_01, practical, PRES_01, pressure, PSAL_01, salinity, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_pressure, sea_water_sigma_theta, seawater, sigma, sigmatheta, SIGP_01, source, station, TE90_01, temperature, theta, time, time_string, water</att>
@@ -17627,9 +17753,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="license">[standard]</att>
       <att name="sourceUrl">(local files)</att>
       <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station</att>
+      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename</att>
       <att name="summary">Bedford Institute of Oceanography, Department of Fisheries and Oceans (DFO) data from a local source.</att>
-      <att name="title">Maritimes Region Moored Historical Offshore CTD</att>
+      <att name="title">Maritimes Region Historical Offshore Moored Time Series Data</att>
       <att name="institution">DFO BIO</att>
       <!-- Null global attributes -->
       <att name="data_type">null</att>
@@ -17749,6 +17875,13 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="sampling_interval">null</att>
       <att name="sounding" type="double">null</att>
       <att name="water_depth" type="double">null</att>
+      <att name="_NCProperties">null</att>
+      <att name="geospatial_bounds">null</att>
+      <att name="id">null</att>
+      <att name="location_description">null</att>
+      <att name="mission_description">null</att>
+      <att name="ODF_EVENT_header">null</att>
+      <att name="ODF_INSTRUMENT_header">null</att>
     </addAttributes>
     <dataVariable>
       <sourceName>***fileName,(.*),1</sourceName>
@@ -17785,6 +17918,70 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataVariable>
       <sourceName>global:serial_number</sourceName>
       <destinationName>serial_number</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:deployment_platform_name</sourceName>
+      <destinationName>deployment_platform_name</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:inst_type</sourceName>
+      <destinationName>inst_type</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument</sourceName>
+      <destinationName>instrument</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument_model</sourceName>
+      <destinationName>instrument_model</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument_offbottom_depth</sourceName>
+      <destinationName>instrument_offbottom_depth</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:mooring_number</sourceName>
+      <destinationName>mooring_number</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:program</sourceName>
+      <destinationName>program</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:sdn_instrument_id</sourceName>
+      <destinationName>sdn_instrument_id</destinationName>
       <dataType>String</dataType>
       <addAttributes>
         <att name="ioos_category">Identifier</att>
@@ -17909,35 +18106,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="colorBarMinimum" type="double">0.0</att>
         <att name="ioos_category">Pressure</att>
         <att name="sdn_P02_urn">SDN:P02::AHGT</att>
-        <att name="sensor_depth">null</att>
-        <att name="sensor_type">null</att>
-        <att name="serial_number">null</att>
-      </addAttributes>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>CRAT_01</sourceName>
-      <destinationName>CRAT01</destinationName>
-      <dataType>double</dataType>
-      <!-- sourceAttributes>
-        <att name="_FillValue" type="double">1.0E35</att>
-        <att name="data_max" type="double">1.0E35</att>
-        <att name="data_min" type="double">0.586273</att>
-        <att name="generic_name">conductivity</att>
-        <att name="long_name">conductivity</att>
-        <att name="sdn_parameter_urn">SDN:P01::</att>
-        <att name="sensor_depth" type="double">7.0</att>
-        <att name="sensor_type">SBE37-SM V2.6 b</att>
-        <att name="serial_number">5345</att>
-        <att name="units">1</att>
-        <att name="valid_max" type="double">-10000.0</att>
-        <att name="valid_min" type="double">10000.0</att>
-    </sourceAttributes -->
-      <addAttributes>
-        <att name="colorBarMaximum" type="double">40.0</att>
-        <att name="colorBarMinimum" type="double">30.0</att>
-        <att name="ioos_category">Salinity</att>
-        <att name="sdn_P02_urn">SDN:P02::SAGE</att>
-        <att name="standard_name">sea_water_electrical_conductivity</att>
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
@@ -18260,7 +18428,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
 -->
     <addAttributes>
       <att name="cdm_data_type">TimeSeries</att>
-      <att name="cdm_timeseries_variables">station,latitude,longitude</att>
+      <att name="cdm_timeseries_variables">station,latitude,longitude,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, cruise_name,cruise_number,chief_scientist</att>
       <att name="Conventions">CF-1.7, COARDS, ACDD-1.3</att>
       <att name="infoUrl">???</att>
       <att name="keywords">bedford, conductivity, CRAT_01, data, density, department, dfo, dtut8601, earth, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Density, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, fisheries, identifier, institute, latitude, local, longitude, name, ocean, oceanography, oceans, physical, physical oceanography, platform, platform_name, POTM_01, practical, PRES_01, pressure, PSAL_01, salinity, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_pressure, sea_water_sigma_theta, seawater, sigma, sigmatheta, SIGP_01, source, station, TE90_01, temperature, theta, time, time_string, water</att>
@@ -18268,9 +18436,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="license">[standard]</att>
       <att name="sourceUrl">(local files)</att>
       <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station</att>
+      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename</att>
       <att name="summary">Bedford Institute of Oceanography, Department of Fisheries and Oceans (DFO) data from a local source.</att>
-      <att name="title">Maritimes Region Moored Atlantic Zone Monitoring Program (AZMP) CTD</att>
+      <att name="title">Maritimes Region Atlantic Zone Monitoring Program (AZMP) Moored Time Series Data</att>
       <att name="institution">DFO BIO</att>
       <!-- Null global attributes -->
       <att name="data_type">null</att>
@@ -18390,6 +18558,13 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="sampling_interval">null</att>
       <att name="sounding" type="double">null</att>
       <att name="water_depth" type="double">null</att>
+      <att name="_NCProperties">null</att>
+      <att name="geospatial_bounds">null</att>
+      <att name="id">null</att>
+      <att name="location_description">null</att>
+      <att name="mission_description">null</att>
+      <att name="ODF_EVENT_header">null</att>
+      <att name="ODF_INSTRUMENT_header">null</att>
     </addAttributes>
     <dataVariable>
       <sourceName>***fileName,(.*),1</sourceName>
@@ -18426,6 +18601,70 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataVariable>
       <sourceName>global:serial_number</sourceName>
       <destinationName>serial_number</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:deployment_platform_name</sourceName>
+      <destinationName>deployment_platform_name</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:inst_type</sourceName>
+      <destinationName>inst_type</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument</sourceName>
+      <destinationName>instrument</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument_model</sourceName>
+      <destinationName>instrument_model</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument_offbottom_depth</sourceName>
+      <destinationName>instrument_offbottom_depth</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:mooring_number</sourceName>
+      <destinationName>mooring_number</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:program</sourceName>
+      <destinationName>program</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:sdn_instrument_id</sourceName>
+      <destinationName>sdn_instrument_id</destinationName>
       <dataType>String</dataType>
       <addAttributes>
         <att name="ioos_category">Identifier</att>
@@ -18550,35 +18789,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="colorBarMinimum" type="double">0.0</att>
         <att name="ioos_category">Pressure</att>
         <att name="sdn_P02_urn">SDN:P02::AHGT</att>
-        <att name="sensor_depth">null</att>
-        <att name="sensor_type">null</att>
-        <att name="serial_number">null</att>
-      </addAttributes>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>CRAT_01</sourceName>
-      <destinationName>CRAT01</destinationName>
-      <dataType>double</dataType>
-      <!-- sourceAttributes>
-        <att name="_FillValue" type="double">1.0E35</att>
-        <att name="data_max" type="double">1.0E35</att>
-        <att name="data_min" type="double">0.586273</att>
-        <att name="generic_name">conductivity</att>
-        <att name="long_name">conductivity</att>
-        <att name="sdn_parameter_urn">SDN:P01::</att>
-        <att name="sensor_depth" type="double">7.0</att>
-        <att name="sensor_type">SBE37-SM V2.6 b</att>
-        <att name="serial_number">5345</att>
-        <att name="units">1</att>
-        <att name="valid_max" type="double">-10000.0</att>
-        <att name="valid_min" type="double">10000.0</att>
-    </sourceAttributes -->
-      <addAttributes>
-        <att name="colorBarMaximum" type="double">40.0</att>
-        <att name="colorBarMinimum" type="double">30.0</att>
-        <att name="ioos_category">Salinity</att>
-        <att name="sdn_P02_urn">SDN:P02::SAGE</att>
-        <att name="standard_name">sea_water_electrical_conductivity</att>
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
@@ -18901,7 +19111,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
 -->
     <addAttributes>
       <att name="cdm_data_type">TimeSeries</att>
-      <att name="cdm_timeseries_variables">station,latitude,longitude</att>
+      <att name="cdm_timeseries_variables">station,latitude,longitude,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, cruise_name,cruise_number,chief_scientist</att>
       <att name="Conventions">CF-1.7, COARDS, ACDD-1.3</att>
       <att name="infoUrl">???</att>
       <att name="keywords">bedford, conductivity, CRAT_01, data, density, department, dfo, dtut8601, earth, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Density, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, fisheries, identifier, institute, latitude, local, longitude, name, ocean, oceanography, oceans, physical, physical oceanography, platform, platform_name, POTM_01, practical, PRES_01, pressure, PSAL_01, salinity, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_pressure, sea_water_sigma_theta, seawater, sigma, sigmatheta, SIGP_01, source, station, TE90_01, temperature, theta, time, time_string, water</att>
@@ -18909,9 +19119,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="license">[standard]</att>
       <att name="sourceUrl">(local files)</att>
       <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station</att>
+      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename</att>
       <att name="summary">Bedford Institute of Oceanography, Department of Fisheries and Oceans (DFO) data from a local source.</att>
-      <att name="title">Maritimes Region Moored Atlantic Zone Off-Shelf Monitoring Program (AZOMP) CTD</att>
+      <att name="title">Maritimes Region Atlantic Zone Off-Shelf Monitoring Program (AZOMP) Moored Time Series Data</att>
       <att name="institution">DFO BIO</att>
       <!-- Null global attributes -->
       <att name="data_type">null</att>
@@ -19031,6 +19241,13 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="sampling_interval">null</att>
       <att name="sounding" type="double">null</att>
       <att name="water_depth" type="double">null</att>
+      <att name="_NCProperties">null</att>
+      <att name="geospatial_bounds">null</att>
+      <att name="id">null</att>
+      <att name="location_description">null</att>
+      <att name="mission_description">null</att>
+      <att name="ODF_EVENT_header">null</att>
+      <att name="ODF_INSTRUMENT_header">null</att>
     </addAttributes>
     <dataVariable>
       <sourceName>***fileName,(.*),1</sourceName>
@@ -19067,6 +19284,70 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataVariable>
       <sourceName>global:serial_number</sourceName>
       <destinationName>serial_number</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:deployment_platform_name</sourceName>
+      <destinationName>deployment_platform_name</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:inst_type</sourceName>
+      <destinationName>inst_type</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument</sourceName>
+      <destinationName>instrument</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument_model</sourceName>
+      <destinationName>instrument_model</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument_offbottom_depth</sourceName>
+      <destinationName>instrument_offbottom_depth</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:mooring_number</sourceName>
+      <destinationName>mooring_number</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:program</sourceName>
+      <destinationName>program</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:sdn_instrument_id</sourceName>
+      <destinationName>sdn_instrument_id</destinationName>
       <dataType>String</dataType>
       <addAttributes>
         <att name="ioos_category">Identifier</att>
@@ -19191,35 +19472,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="colorBarMinimum" type="double">0.0</att>
         <att name="ioos_category">Pressure</att>
         <att name="sdn_P02_urn">SDN:P02::AHGT</att>
-        <att name="sensor_depth">null</att>
-        <att name="sensor_type">null</att>
-        <att name="serial_number">null</att>
-      </addAttributes>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>CRAT_01</sourceName>
-      <destinationName>CRAT01</destinationName>
-      <dataType>double</dataType>
-      <!-- sourceAttributes>
-        <att name="_FillValue" type="double">1.0E35</att>
-        <att name="data_max" type="double">1.0E35</att>
-        <att name="data_min" type="double">0.586273</att>
-        <att name="generic_name">conductivity</att>
-        <att name="long_name">conductivity</att>
-        <att name="sdn_parameter_urn">SDN:P01::</att>
-        <att name="sensor_depth" type="double">7.0</att>
-        <att name="sensor_type">SBE37-SM V2.6 b</att>
-        <att name="serial_number">5345</att>
-        <att name="units">1</att>
-        <att name="valid_max" type="double">-10000.0</att>
-        <att name="valid_min" type="double">10000.0</att>
-    </sourceAttributes -->
-      <addAttributes>
-        <att name="colorBarMaximum" type="double">40.0</att>
-        <att name="colorBarMinimum" type="double">30.0</att>
-        <att name="ioos_category">Salinity</att>
-        <att name="sdn_P02_urn">SDN:P02::SAGE</att>
-        <att name="standard_name">sea_water_electrical_conductivity</att>
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
@@ -19485,7 +19737,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <att name="ODF_HISTORY_59">PROCESS_058 : Edit Record: Field &quot;Num_Calibration&quot; has been changed from 0 to 0.</att>
     <att name="ODF_HISTORY_6">PROCESS_005 : Unknown WMO Code(UNKN_01) info: timeJ: time [julian days]</att>
     <att name="ODF_HISTORY_60">PROCESS_059 : Edit Record: Field &quot;Num_Swing&quot; has been changed from 0 to 0.</att>
-    <att name="ODF_HISTORY_61">PROCESS_060 : Edit Record: Field &quot;Num_History&quot; has been changed from 1 to 1.</att>
+    <att name="ODF_HISTORY_61">PROCESS_060 : Edit Record: Field &quot;cdm_timesNum_History&quot; has been changed from 1 to 1.</att>
     <att name="ODF_HISTORY_62">PROCESS_061 : Edit Record: Field &quot;Num_Cycle&quot; has been changed from 56162 to 56162.</att>
     <att name="ODF_HISTORY_63">PROCESS_062 : Edit Record: Field &quot;Num_Param&quot; has been changed from 10 to 10.</att>
     <att name="ODF_HISTORY_64">PROCESS_063 : Add_Parameter: A.Data.POTM_01 = evalin(&#39;caller&#39;,&#39;sw_ptmp(S.Data.PSAL_01,temp68,S.Data.PRES_01,0)&#39;);</att>
@@ -19542,7 +19794,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
 -->
     <addAttributes>
       <att name="cdm_data_type">TimeSeries</att>
-      <att name="cdm_timeseries_variables">station,latitude,longitude</att>
+      <att name="cdm_timeseries_variables">station,latitude,longitude,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, cruise_name,cruise_number,chief_scientist</att>
       <att name="Conventions">CF-1.7, COARDS, ACDD-1.3</att>
       <att name="infoUrl">???</att>
       <att name="keywords">bedford, conductivity, CRAT_01, data, density, department, dfo, dtut8601, earth, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Density, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, fisheries, identifier, institute, latitude, local, longitude, name, ocean, oceanography, oceans, physical, physical oceanography, platform, platform_name, POTM_01, practical, PRES_01, pressure, PSAL_01, salinity, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_pressure, sea_water_sigma_theta, seawater, sigma, sigmatheta, SIGP_01, source, station, TE90_01, temperature, theta, time, time_string, water</att>
@@ -19550,7 +19802,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="license">[standard]</att>
       <att name="sourceUrl">(local files)</att>
       <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station</att>
+      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename</att>
       <att name="summary">Bedford Institute of Oceanography, Department of Fisheries and Oceans (DFO) data from a local source.</att>
       <att name="title">Maritimes Region Moored Cetacean CTD</att>
       <att name="institution">DFO BIO</att>
@@ -19672,6 +19924,13 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="sampling_interval">null</att>
       <att name="sounding" type="double">null</att>
       <att name="water_depth" type="double">null</att>
+      <att name="_NCProperties">null</att>
+      <att name="geospatial_bounds">null</att>
+      <att name="id">null</att>
+      <att name="location_description">null</att>
+      <att name="mission_description">null</att>
+      <att name="ODF_EVENT_header">null</att>
+      <att name="ODF_INSTRUMENT_header">null</att>
     </addAttributes>
     <dataVariable>
       <sourceName>***fileName,(.*),1</sourceName>
@@ -19708,6 +19967,70 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataVariable>
       <sourceName>global:serial_number</sourceName>
       <destinationName>serial_number</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:deployment_platform_name</sourceName>
+      <destinationName>deployment_platform_name</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:inst_type</sourceName>
+      <destinationName>inst_type</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument</sourceName>
+      <destinationName>instrument</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument_model</sourceName>
+      <destinationName>instrument_model</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument_offbottom_depth</sourceName>
+      <destinationName>instrument_offbottom_depth</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:mooring_number</sourceName>
+      <destinationName>mooring_number</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:program</sourceName>
+      <destinationName>program</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:sdn_instrument_id</sourceName>
+      <destinationName>sdn_instrument_id</destinationName>
       <dataType>String</dataType>
       <addAttributes>
         <att name="ioos_category">Identifier</att>
@@ -19832,35 +20155,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="colorBarMinimum" type="double">0.0</att>
         <att name="ioos_category">Pressure</att>
         <att name="sdn_P02_urn">SDN:P02::AHGT</att>
-        <att name="sensor_depth">null</att>
-        <att name="sensor_type">null</att>
-        <att name="serial_number">null</att>
-      </addAttributes>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>CRAT_01</sourceName>
-      <destinationName>CRAT01</destinationName>
-      <dataType>double</dataType>
-      <!-- sourceAttributes>
-        <att name="_FillValue" type="double">1.0E35</att>
-        <att name="data_max" type="double">1.0E35</att>
-        <att name="data_min" type="double">0.586273</att>
-        <att name="generic_name">conductivity</att>
-        <att name="long_name">conductivity</att>
-        <att name="sdn_parameter_urn">SDN:P01::</att>
-        <att name="sensor_depth" type="double">7.0</att>
-        <att name="sensor_type">SBE37-SM V2.6 b</att>
-        <att name="serial_number">5345</att>
-        <att name="units">1</att>
-        <att name="valid_max" type="double">-10000.0</att>
-        <att name="valid_min" type="double">10000.0</att>
-    </sourceAttributes -->
-      <addAttributes>
-        <att name="colorBarMaximum" type="double">40.0</att>
-        <att name="colorBarMinimum" type="double">30.0</att>
-        <att name="ioos_category">Salinity</att>
-        <att name="sdn_P02_urn">SDN:P02::SAGE</att>
-        <att name="standard_name">sea_water_electrical_conductivity</att>
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
@@ -20018,14 +20312,14 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
   </dataset>
   <!-- BIO Moored Cetacean CTD: END -->
 
-  <!-- BIO Moored Canso CTD: START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_canso_ctd" active="true">
+  <!-- BIO Moored Historical Coastal CTD: START -->
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_historical_coastal_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/moored/</fileDir>
     <fileNameRegex>MCTD.*\.nc</fileNameRegex>
     <recursive>true</recursive>
-    <pathRegex>.*([0-9]{4})\/(|mctd\/(|Canso\/))</pathRegex>
+    <pathRegex>.*([0-9]{4})\/(|mctd\/(|historical_coastal\/))</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <removeMVRows>true</removeMVRows>
@@ -20183,7 +20477,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
 -->
     <addAttributes>
       <att name="cdm_data_type">TimeSeries</att>
-      <att name="cdm_timeseries_variables">station,latitude,longitude</att>
+      <att name="cdm_timeseries_variables">station,latitude,longitude,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, cruise_name,cruise_number,chief_scientist</att>
       <att name="Conventions">CF-1.7, COARDS, ACDD-1.3</att>
       <att name="infoUrl">???</att>
       <att name="keywords">bedford, conductivity, CRAT_01, data, density, department, dfo, dtut8601, earth, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Density, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, fisheries, identifier, institute, latitude, local, longitude, name, ocean, oceanography, oceans, physical, physical oceanography, platform, platform_name, POTM_01, practical, PRES_01, pressure, PSAL_01, salinity, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_pressure, sea_water_sigma_theta, seawater, sigma, sigmatheta, SIGP_01, source, station, TE90_01, temperature, theta, time, time_string, water</att>
@@ -20191,9 +20485,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="license">[standard]</att>
       <att name="sourceUrl">(local files)</att>
       <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station</att>
+      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename</att>
       <att name="summary">Bedford Institute of Oceanography, Department of Fisheries and Oceans (DFO) data from a local source.</att>
-      <att name="title">Maritimes Region Moored Canso CTD</att>
+      <att name="title">Maritimes Region Historical Coastal Moored Time Series Data</att>
       <att name="institution">DFO BIO</att>
       <!-- Null global attributes -->
       <att name="data_type">null</att>
@@ -20313,6 +20607,13 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="sampling_interval">null</att>
       <att name="sounding" type="double">null</att>
       <att name="water_depth" type="double">null</att>
+      <att name="_NCProperties">null</att>
+      <att name="geospatial_bounds">null</att>
+      <att name="id">null</att>
+      <att name="location_description">null</att>
+      <att name="mission_description">null</att>
+      <att name="ODF_EVENT_header">null</att>
+      <att name="ODF_INSTRUMENT_header">null</att>
     </addAttributes>
     <dataVariable>
       <sourceName>***fileName,(.*),1</sourceName>
@@ -20349,6 +20650,70 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataVariable>
       <sourceName>global:serial_number</sourceName>
       <destinationName>serial_number</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:deployment_platform_name</sourceName>
+      <destinationName>deployment_platform_name</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:inst_type</sourceName>
+      <destinationName>inst_type</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument</sourceName>
+      <destinationName>instrument</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument_model</sourceName>
+      <destinationName>instrument_model</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:instrument_offbottom_depth</sourceName>
+      <destinationName>instrument_offbottom_depth</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:mooring_number</sourceName>
+      <destinationName>mooring_number</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:program</sourceName>
+      <destinationName>program</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:sdn_instrument_id</sourceName>
+      <destinationName>sdn_instrument_id</destinationName>
       <dataType>String</dataType>
       <addAttributes>
         <att name="ioos_category">Identifier</att>
@@ -20473,35 +20838,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="colorBarMinimum" type="double">0.0</att>
         <att name="ioos_category">Pressure</att>
         <att name="sdn_P02_urn">SDN:P02::AHGT</att>
-        <att name="sensor_depth">null</att>
-        <att name="sensor_type">null</att>
-        <att name="serial_number">null</att>
-      </addAttributes>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>CRAT_01</sourceName>
-      <destinationName>CRAT01</destinationName>
-      <dataType>double</dataType>
-      <!-- sourceAttributes>
-        <att name="_FillValue" type="double">1.0E35</att>
-        <att name="data_max" type="double">1.0E35</att>
-        <att name="data_min" type="double">0.586273</att>
-        <att name="generic_name">conductivity</att>
-        <att name="long_name">conductivity</att>
-        <att name="sdn_parameter_urn">SDN:P01::</att>
-        <att name="sensor_depth" type="double">7.0</att>
-        <att name="sensor_type">SBE37-SM V2.6 b</att>
-        <att name="serial_number">5345</att>
-        <att name="units">1</att>
-        <att name="valid_max" type="double">-10000.0</att>
-        <att name="valid_min" type="double">10000.0</att>
-    </sourceAttributes -->
-      <addAttributes>
-        <att name="colorBarMaximum" type="double">40.0</att>
-        <att name="colorBarMinimum" type="double">30.0</att>
-        <att name="ioos_category">Salinity</att>
-        <att name="sdn_P02_urn">SDN:P02::SAGE</att>
-        <att name="standard_name">sea_water_electrical_conductivity</att>
         <att name="sensor_depth">null</att>
         <att name="sensor_type">null</att>
         <att name="serial_number">null</att>
@@ -20657,7 +20993,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       </addAttributes>
     </dataVariable>
   </dataset>
-  <!-- BIO Moored Canso CTD: START -->
+  <!-- BIO Moored Historical Coastal CTD: END -->
   <!-- BIO Moored CTDs: END -->
   
   <!-- NAFC AZMP CTDs: START-->

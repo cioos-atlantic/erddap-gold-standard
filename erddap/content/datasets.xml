@@ -14508,7 +14508,7 @@ Converted to netCDF via MATLAB by rdi2cdf.m 2.2c 10/22/99</att>
   </dataset>
 
   <!-- BIO Moored CTDs: START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_ctd" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_ctd" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/moored/</fileDir>
@@ -15544,6 +15544,7 @@ Wed Aug 22 15:19:39 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <!-- sourceAttributes>
     <att name="cdm_data_type">station</att>
     <att name="chief_scientist">Dave Hebert</att>
@@ -16227,6 +16228,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <!-- sourceAttributes>
     <att name="cdm_data_type">station</att>
     <att name="chief_scientist">Dave Hebert</att>
@@ -16910,6 +16912,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <!-- sourceAttributes>
     <att name="cdm_data_type">station</att>
     <att name="chief_scientist">Dave Hebert</att>
@@ -17593,6 +17596,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <!-- sourceAttributes>
     <att name="cdm_data_type">station</att>
     <att name="chief_scientist">Dave Hebert</att>
@@ -18276,6 +18280,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <!-- sourceAttributes>
     <att name="cdm_data_type">station</att>
     <att name="chief_scientist">Dave Hebert</att>
@@ -18959,6 +18964,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <!-- sourceAttributes>
     <att name="cdm_data_type">station</att>
     <att name="chief_scientist">Dave Hebert</att>
@@ -19642,6 +19648,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <!-- sourceAttributes>
     <att name="cdm_data_type">station</att>
     <att name="chief_scientist">Dave Hebert</att>
@@ -20325,6 +20332,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <!-- sourceAttributes>
     <att name="cdm_data_type">station</att>
     <att name="chief_scientist">Dave Hebert</att>

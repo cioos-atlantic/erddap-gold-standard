@@ -15532,7 +15532,7 @@ Wed Aug 22 15:19:39 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
   </dataset>
 
   <!-- BIO Moored Barrow CTD: START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_barrow_ctd" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_barrow_strait_program_moored_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/moored/</fileDir>
@@ -15544,6 +15544,7 @@ Wed Aug 22 15:19:39 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <!-- sourceAttributes>
     <att name="cdm_data_type">station</att>
     <att name="chief_scientist">Dave Hebert</att>
@@ -15696,7 +15697,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
 -->
     <addAttributes>
       <att name="cdm_data_type">TimeSeries</att>
-      <att name="cdm_timeseries_variables">station,latitude,longitude,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, cruise_name,cruise_number,chief_scientist</att>
+      <att name="cdm_timeseries_variables">station,latitude,longitude,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, cruise_name,cruise_number,chief_scientist, project</att>
       <att name="Conventions">CF-1.7, COARDS, ACDD-1.3</att>
       <att name="infoUrl">???</att>
       <att name="keywords">bedford, conductivity, CRAT_01, data, density, department, dfo, dtut8601, earth, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Density, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, fisheries, identifier, institute, latitude, local, longitude, name, ocean, oceanography, oceans, physical, physical oceanography, platform, platform_name, POTM_01, practical, PRES_01, pressure, PSAL_01, salinity, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_pressure, sea_water_sigma_theta, seawater, sigma, sigmatheta, SIGP_01, source, station, TE90_01, temperature, theta, time, time_string, water</att>
@@ -15704,7 +15705,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="license">[standard]</att>
       <att name="sourceUrl">(local files)</att>
       <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename</att>
+      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, project</att>
       <att name="summary">Bedford Institute of Oceanography, Department of Fisheries and Oceans (DFO) data from a local source.</att>
       <att name="title">Maritimes Region Barrow Strait Monitoring Program Moored Time Series Data</att>
       <att name="institution">DFO BIO</att>
@@ -15824,8 +15825,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="ODF_HISTORY_99">null</att>
       <att name="platform">null</att>
       <att name="sampling_interval">null</att>
-      <att name="sounding" type="double">null</att>
-      <att name="water_depth" type="double">null</att>
+      <att name="sounding">null</att>
+      <att name="water_depth">null</att>
       <att name="_NCProperties">null</att>
       <att name="geospatial_bounds">null</att>
       <att name="id">null</att>
@@ -15833,6 +15834,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="mission_description">null</att>
       <att name="ODF_EVENT_header">null</att>
       <att name="ODF_INSTRUMENT_header">null</att>
+      <att name="platform_id">null</att>
+      <att name="platform_name">null</att>
     </addAttributes>
     <dataVariable>
       <sourceName>***fileName,(.*),1</sourceName>
@@ -15925,6 +15928,14 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataVariable>
       <sourceName>global:program</sourceName>
       <destinationName>program</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:project</sourceName>
+      <destinationName>project</destinationName>
       <dataType>String</dataType>
       <addAttributes>
         <att name="ioos_category">Identifier</att>
@@ -16215,7 +16226,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
   <!-- BIO Moored Barrow CTD: END -->
 
   <!-- BIO Moored Rapid CTD: START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_rapid_ctd" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_rapid_moored_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/moored/</fileDir>
@@ -16227,6 +16238,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <!-- sourceAttributes>
     <att name="cdm_data_type">station</att>
     <att name="chief_scientist">Dave Hebert</att>
@@ -16379,7 +16391,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
 -->
     <addAttributes>
       <att name="cdm_data_type">TimeSeries</att>
-      <att name="cdm_timeseries_variables">station,latitude,longitude,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, cruise_name,cruise_number,chief_scientist</att>
+      <att name="cdm_timeseries_variables">station,latitude,longitude,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, cruise_name,cruise_number,chief_scientist, project</att>
       <att name="Conventions">CF-1.7, COARDS, ACDD-1.3</att>
       <att name="infoUrl">???</att>
       <att name="keywords">bedford, conductivity, CRAT_01, data, density, department, dfo, dtut8601, earth, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Density, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, fisheries, identifier, institute, latitude, local, longitude, name, ocean, oceanography, oceans, physical, physical oceanography, platform, platform_name, POTM_01, practical, PRES_01, pressure, PSAL_01, salinity, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_pressure, sea_water_sigma_theta, seawater, sigma, sigmatheta, SIGP_01, source, station, TE90_01, temperature, theta, time, time_string, water</att>
@@ -16387,7 +16399,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="license">[standard]</att>
       <att name="sourceUrl">(local files)</att>
       <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename</att>
+      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, project</att>
       <att name="summary">Bedford Institute of Oceanography, Department of Fisheries and Oceans (DFO) data from a local source.</att>
       <att name="title">Maritimes Region Historical RAPID Climate Change Program Moored Time Series Data</att>
       <att name="institution">DFO BIO</att>
@@ -16507,8 +16519,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="ODF_HISTORY_99">null</att>
       <att name="platform">null</att>
       <att name="sampling_interval">null</att>
-      <att name="sounding" type="double">null</att>
-      <att name="water_depth" type="double">null</att>
+      <att name="sounding">null</att>
+      <att name="water_depth">null</att>
       <att name="_NCProperties">null</att>
       <att name="geospatial_bounds">null</att>
       <att name="id">null</att>
@@ -16516,6 +16528,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="mission_description">null</att>
       <att name="ODF_EVENT_header">null</att>
       <att name="ODF_INSTRUMENT_header">null</att>
+      <att name="platform_id">null</att>
+      <att name="platform_name">null</att>
     </addAttributes>
     <dataVariable>
       <sourceName>***fileName,(.*),1</sourceName>
@@ -16608,6 +16622,14 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataVariable>
       <sourceName>global:program</sourceName>
       <destinationName>program</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:project</sourceName>
+      <destinationName>project</destinationName>
       <dataType>String</dataType>
       <addAttributes>
         <att name="ioos_category">Identifier</att>
@@ -16898,7 +16920,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
   <!-- BIO Moored Rapid CTD: END -->
 
   <!-- BIO Moored OTN CTD: START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_otn_ctd" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_ocean_tracking_network_moored_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/moored/</fileDir>
@@ -16910,6 +16932,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <!-- sourceAttributes>
     <att name="cdm_data_type">station</att>
     <att name="chief_scientist">Dave Hebert</att>
@@ -17062,7 +17085,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
 -->
     <addAttributes>
       <att name="cdm_data_type">TimeSeries</att>
-      <att name="cdm_timeseries_variables">station,latitude,longitude,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, cruise_name,cruise_number,chief_scientist</att>
+      <att name="cdm_timeseries_variables">station,latitude,longitude,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, cruise_name,cruise_number,chief_scientist, project</att>
       <att name="Conventions">CF-1.7, COARDS, ACDD-1.3</att>
       <att name="infoUrl">???</att>
       <att name="keywords">bedford, conductivity, CRAT_01, data, density, department, dfo, dtut8601, earth, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Density, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, fisheries, identifier, institute, latitude, local, longitude, name, ocean, oceanography, oceans, physical, physical oceanography, platform, platform_name, POTM_01, practical, PRES_01, pressure, PSAL_01, salinity, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_pressure, sea_water_sigma_theta, seawater, sigma, sigmatheta, SIGP_01, source, station, TE90_01, temperature, theta, time, time_string, water</att>
@@ -17070,7 +17093,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="license">[standard]</att>
       <att name="sourceUrl">(local files)</att>
       <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename</att>
+      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, project</att>
       <att name="summary">Bedford Institute of Oceanography, Department of Fisheries and Oceans (DFO) data from a local source.</att>
       <att name="title">Maritimes Region Historical Ocean Tracking Network (OTN) Project Moored Time Series Data</att>
       <att name="institution">DFO BIO</att>
@@ -17190,8 +17213,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="ODF_HISTORY_99">null</att>
       <att name="platform">null</att>
       <att name="sampling_interval">null</att>
-      <att name="sounding" type="double">null</att>
-      <att name="water_depth" type="double">null</att>
+      <att name="sounding">null</att>
+      <att name="water_depth">null</att>
       <att name="_NCProperties">null</att>
       <att name="geospatial_bounds">null</att>
       <att name="id">null</att>
@@ -17199,6 +17222,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="mission_description">null</att>
       <att name="ODF_EVENT_header">null</att>
       <att name="ODF_INSTRUMENT_header">null</att>
+      <att name="platform_id">null</att>
+      <att name="platform_name">null</att>
     </addAttributes>
     <dataVariable>
       <sourceName>***fileName,(.*),1</sourceName>
@@ -17291,6 +17316,14 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataVariable>
       <sourceName>global:program</sourceName>
       <destinationName>program</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:project</sourceName>
+      <destinationName>project</destinationName>
       <dataType>String</dataType>
       <addAttributes>
         <att name="ioos_category">Identifier</att>
@@ -17581,7 +17614,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
   <!-- BIO Moored OTN CTD: END -->
 
   <!-- BIO Moored Historical Offshore CTD: START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_historical_offshore_ctd" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_historical_offshore_moored_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/moored/</fileDir>
@@ -17593,6 +17626,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <!-- sourceAttributes>
     <att name="cdm_data_type">station</att>
     <att name="chief_scientist">Dave Hebert</att>
@@ -17745,7 +17779,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
 -->
     <addAttributes>
       <att name="cdm_data_type">TimeSeries</att>
-      <att name="cdm_timeseries_variables">station,latitude,longitude,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, cruise_name,cruise_number,chief_scientist</att>
+      <att name="cdm_timeseries_variables">station,latitude,longitude,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, cruise_name,cruise_number,chief_scientist, project</att>
       <att name="Conventions">CF-1.7, COARDS, ACDD-1.3</att>
       <att name="infoUrl">???</att>
       <att name="keywords">bedford, conductivity, CRAT_01, data, density, department, dfo, dtut8601, earth, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Density, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, fisheries, identifier, institute, latitude, local, longitude, name, ocean, oceanography, oceans, physical, physical oceanography, platform, platform_name, POTM_01, practical, PRES_01, pressure, PSAL_01, salinity, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_pressure, sea_water_sigma_theta, seawater, sigma, sigmatheta, SIGP_01, source, station, TE90_01, temperature, theta, time, time_string, water</att>
@@ -17753,7 +17787,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="license">[standard]</att>
       <att name="sourceUrl">(local files)</att>
       <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename</att>
+      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename,project</att>
       <att name="summary">Bedford Institute of Oceanography, Department of Fisheries and Oceans (DFO) data from a local source.</att>
       <att name="title">Maritimes Region Historical Offshore Moored Time Series Data</att>
       <att name="institution">DFO BIO</att>
@@ -17873,8 +17907,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="ODF_HISTORY_99">null</att>
       <att name="platform">null</att>
       <att name="sampling_interval">null</att>
-      <att name="sounding" type="double">null</att>
-      <att name="water_depth" type="double">null</att>
+      <att name="sounding">null</att>
+      <att name="water_depth">null</att>
       <att name="_NCProperties">null</att>
       <att name="geospatial_bounds">null</att>
       <att name="id">null</att>
@@ -17882,6 +17916,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="mission_description">null</att>
       <att name="ODF_EVENT_header">null</att>
       <att name="ODF_INSTRUMENT_header">null</att>
+      <att name="platform_id">null</att>
+      <att name="platform_name">null</att>
     </addAttributes>
     <dataVariable>
       <sourceName>***fileName,(.*),1</sourceName>
@@ -17974,6 +18010,14 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataVariable>
       <sourceName>global:program</sourceName>
       <destinationName>program</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:project</sourceName>
+      <destinationName>project</destinationName>
       <dataType>String</dataType>
       <addAttributes>
         <att name="ioos_category">Identifier</att>
@@ -18264,7 +18308,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
   <!-- BIO Moored Historical Offshore CTD: END -->
 
   <!-- BIO Moored AZMP CTD: START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_atlantic_zone_monitoring_program_ctd" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_atlantic_zone_monitoring_program_moored_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/moored/</fileDir>
@@ -18276,6 +18320,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <!-- sourceAttributes>
     <att name="cdm_data_type">station</att>
     <att name="chief_scientist">Dave Hebert</att>
@@ -18428,7 +18473,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
 -->
     <addAttributes>
       <att name="cdm_data_type">TimeSeries</att>
-      <att name="cdm_timeseries_variables">station,latitude,longitude,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, cruise_name,cruise_number,chief_scientist</att>
+      <att name="cdm_timeseries_variables">station,latitude,longitude,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, cruise_name,cruise_number,chief_scientist,project</att>
       <att name="Conventions">CF-1.7, COARDS, ACDD-1.3</att>
       <att name="infoUrl">???</att>
       <att name="keywords">bedford, conductivity, CRAT_01, data, density, department, dfo, dtut8601, earth, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Density, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, fisheries, identifier, institute, latitude, local, longitude, name, ocean, oceanography, oceans, physical, physical oceanography, platform, platform_name, POTM_01, practical, PRES_01, pressure, PSAL_01, salinity, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_pressure, sea_water_sigma_theta, seawater, sigma, sigmatheta, SIGP_01, source, station, TE90_01, temperature, theta, time, time_string, water</att>
@@ -18436,7 +18481,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="license">[standard]</att>
       <att name="sourceUrl">(local files)</att>
       <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename</att>
+      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename,project</att>
       <att name="summary">Bedford Institute of Oceanography, Department of Fisheries and Oceans (DFO) data from a local source.</att>
       <att name="title">Maritimes Region Atlantic Zone Monitoring Program (AZMP) Moored Time Series Data</att>
       <att name="institution">DFO BIO</att>
@@ -18556,8 +18601,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="ODF_HISTORY_99">null</att>
       <att name="platform">null</att>
       <att name="sampling_interval">null</att>
-      <att name="sounding" type="double">null</att>
-      <att name="water_depth" type="double">null</att>
+      <att name="sounding">null</att>
+      <att name="water_depth">null</att>
       <att name="_NCProperties">null</att>
       <att name="geospatial_bounds">null</att>
       <att name="id">null</att>
@@ -18565,6 +18610,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="mission_description">null</att>
       <att name="ODF_EVENT_header">null</att>
       <att name="ODF_INSTRUMENT_header">null</att>
+      <att name="platform_id">null</att>
+      <att name="platform_name">null</att>
     </addAttributes>
     <dataVariable>
       <sourceName>***fileName,(.*),1</sourceName>
@@ -18657,6 +18704,14 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataVariable>
       <sourceName>global:program</sourceName>
       <destinationName>program</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:project</sourceName>
+      <destinationName>project</destinationName>
       <dataType>String</dataType>
       <addAttributes>
         <att name="ioos_category">Identifier</att>
@@ -18947,7 +19002,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
   <!-- BIO Moored AZMP CTD: END -->
 
   <!-- BIO Moored AZOMP CTD: START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_atlantic_zone_off_shelf_monitoring_program_ctd" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_atlantic_zone_off_shelf_monitoring_program_moored_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/moored/</fileDir>
@@ -18959,6 +19014,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <!-- sourceAttributes>
     <att name="cdm_data_type">station</att>
     <att name="chief_scientist">Dave Hebert</att>
@@ -19111,7 +19167,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
 -->
     <addAttributes>
       <att name="cdm_data_type">TimeSeries</att>
-      <att name="cdm_timeseries_variables">station,latitude,longitude,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, cruise_name,cruise_number,chief_scientist</att>
+      <att name="cdm_timeseries_variables">station,latitude,longitude,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, cruise_name,cruise_number,chief_scientist, project</att>
       <att name="Conventions">CF-1.7, COARDS, ACDD-1.3</att>
       <att name="infoUrl">???</att>
       <att name="keywords">bedford, conductivity, CRAT_01, data, density, department, dfo, dtut8601, earth, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Density, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, fisheries, identifier, institute, latitude, local, longitude, name, ocean, oceanography, oceans, physical, physical oceanography, platform, platform_name, POTM_01, practical, PRES_01, pressure, PSAL_01, salinity, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_pressure, sea_water_sigma_theta, seawater, sigma, sigmatheta, SIGP_01, source, station, TE90_01, temperature, theta, time, time_string, water</att>
@@ -19119,7 +19175,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="license">[standard]</att>
       <att name="sourceUrl">(local files)</att>
       <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename</att>
+      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, project</att>
       <att name="summary">Bedford Institute of Oceanography, Department of Fisheries and Oceans (DFO) data from a local source.</att>
       <att name="title">Maritimes Region Atlantic Zone Off-Shelf Monitoring Program (AZOMP) Moored Time Series Data</att>
       <att name="institution">DFO BIO</att>
@@ -19239,8 +19295,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="ODF_HISTORY_99">null</att>
       <att name="platform">null</att>
       <att name="sampling_interval">null</att>
-      <att name="sounding" type="double">null</att>
-      <att name="water_depth" type="double">null</att>
+      <att name="sounding">null</att>
+      <att name="water_depth">null</att>
       <att name="_NCProperties">null</att>
       <att name="geospatial_bounds">null</att>
       <att name="id">null</att>
@@ -19248,6 +19304,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="mission_description">null</att>
       <att name="ODF_EVENT_header">null</att>
       <att name="ODF_INSTRUMENT_header">null</att>
+      <att name="platform_id">null</att>
+      <att name="platform_name">null</att>
     </addAttributes>
     <dataVariable>
       <sourceName>***fileName,(.*),1</sourceName>
@@ -19340,6 +19398,14 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataVariable>
       <sourceName>global:program</sourceName>
       <destinationName>program</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:project</sourceName>
+      <destinationName>project</destinationName>
       <dataType>String</dataType>
       <addAttributes>
         <att name="ioos_category">Identifier</att>
@@ -19630,7 +19696,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
   <!-- BIO Moored AZOMP CTD: END -->
 
   <!-- BIO Moored Cetacean CTD: START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_cetacean_ctd" active="false">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_cetacean_moored_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/moored/</fileDir>
@@ -19642,6 +19708,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <!-- sourceAttributes>
     <att name="cdm_data_type">station</att>
     <att name="chief_scientist">Dave Hebert</att>
@@ -19794,7 +19861,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
 -->
     <addAttributes>
       <att name="cdm_data_type">TimeSeries</att>
-      <att name="cdm_timeseries_variables">station,latitude,longitude,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, cruise_name,cruise_number,chief_scientist</att>
+      <att name="cdm_timeseries_variables">station,latitude,longitude,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, cruise_name,cruise_number,chief_scientist,project</att>
       <att name="Conventions">CF-1.7, COARDS, ACDD-1.3</att>
       <att name="infoUrl">???</att>
       <att name="keywords">bedford, conductivity, CRAT_01, data, density, department, dfo, dtut8601, earth, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Density, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, fisheries, identifier, institute, latitude, local, longitude, name, ocean, oceanography, oceans, physical, physical oceanography, platform, platform_name, POTM_01, practical, PRES_01, pressure, PSAL_01, salinity, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_pressure, sea_water_sigma_theta, seawater, sigma, sigmatheta, SIGP_01, source, station, TE90_01, temperature, theta, time, time_string, water</att>
@@ -19802,9 +19869,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="license">[standard]</att>
       <att name="sourceUrl">(local files)</att>
       <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename</att>
+      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename,project</att>
       <att name="summary">Bedford Institute of Oceanography, Department of Fisheries and Oceans (DFO) data from a local source.</att>
-      <att name="title">Maritimes Region Moored Cetacean CTD</att>
+      <att name="title">Maritimes Region Cetacean Monitoring Program MicroCAT conductivity, temperature and pressure time series data</att>
       <att name="institution">DFO BIO</att>
       <!-- Null global attributes -->
       <att name="data_type">null</att>
@@ -19922,8 +19989,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="ODF_HISTORY_99">null</att>
       <att name="platform">null</att>
       <att name="sampling_interval">null</att>
-      <att name="sounding" type="double">null</att>
-      <att name="water_depth" type="double">null</att>
+      <att name="sounding">null</att>
+      <att name="water_depth">null</att>
       <att name="_NCProperties">null</att>
       <att name="geospatial_bounds">null</att>
       <att name="id">null</att>
@@ -19931,6 +19998,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="mission_description">null</att>
       <att name="ODF_EVENT_header">null</att>
       <att name="ODF_INSTRUMENT_header">null</att>
+      <att name="platform_id">null</att>
+      <att name="platform_name">null</att>
     </addAttributes>
     <dataVariable>
       <sourceName>***fileName,(.*),1</sourceName>
@@ -20023,6 +20092,14 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataVariable>
       <sourceName>global:program</sourceName>
       <destinationName>program</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:project</sourceName>
+      <destinationName>project</destinationName>
       <dataType>String</dataType>
       <addAttributes>
         <att name="ioos_category">Identifier</att>
@@ -20313,7 +20390,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
   <!-- BIO Moored Cetacean CTD: END -->
 
   <!-- BIO Moored Historical Coastal CTD: START -->
-  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_moored_historical_coastal_ctd" active="true">
+  <dataset type="EDDTableFromMultidimNcFiles" datasetID="bio_historical_coastal_moored_ctd" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/moored/</fileDir>
@@ -20325,6 +20402,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <!-- sourceAttributes>
     <att name="cdm_data_type">station</att>
     <att name="chief_scientist">Dave Hebert</att>
@@ -20477,7 +20555,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
 -->
     <addAttributes>
       <att name="cdm_data_type">TimeSeries</att>
-      <att name="cdm_timeseries_variables">station,latitude,longitude,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, cruise_name,cruise_number,chief_scientist</att>
+      <att name="cdm_timeseries_variables">station,latitude,longitude,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename, cruise_name,cruise_number,chief_scientist,project</att>
       <att name="Conventions">CF-1.7, COARDS, ACDD-1.3</att>
       <att name="infoUrl">???</att>
       <att name="keywords">bedford, conductivity, CRAT_01, data, density, department, dfo, dtut8601, earth, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Density, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, fisheries, identifier, institute, latitude, local, longitude, name, ocean, oceanography, oceans, physical, physical oceanography, platform, platform_name, POTM_01, practical, PRES_01, pressure, PSAL_01, salinity, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_pressure, sea_water_sigma_theta, seawater, sigma, sigmatheta, SIGP_01, source, station, TE90_01, temperature, theta, time, time_string, water</att>
@@ -20485,7 +20563,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="license">[standard]</att>
       <att name="sourceUrl">(local files)</att>
       <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename</att>
+      <att name="subsetVariables">cruise_name,cruise_number,chief_scientist,serial_number,station,deployment_platform_name,inst_type,instrument,instrument_model, mooring_number, program, sdn_instrument_id, filename,project</att>
       <att name="summary">Bedford Institute of Oceanography, Department of Fisheries and Oceans (DFO) data from a local source.</att>
       <att name="title">Maritimes Region Historical Coastal Moored Time Series Data</att>
       <att name="institution">DFO BIO</att>
@@ -20605,8 +20683,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="ODF_HISTORY_99">null</att>
       <att name="platform">null</att>
       <att name="sampling_interval">null</att>
-      <att name="sounding" type="double">null</att>
-      <att name="water_depth" type="double">null</att>
+      <att name="sounding">null</att>
+      <att name="water_depth">null</att>
       <att name="_NCProperties">null</att>
       <att name="geospatial_bounds">null</att>
       <att name="id">null</att>
@@ -20614,6 +20692,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="mission_description">null</att>
       <att name="ODF_EVENT_header">null</att>
       <att name="ODF_INSTRUMENT_header">null</att>
+      <att name="platform_id">null</att>
+      <att name="platform_name">null</att>
     </addAttributes>
     <dataVariable>
       <sourceName>***fileName,(.*),1</sourceName>
@@ -20706,6 +20786,14 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataVariable>
       <sourceName>global:program</sourceName>
       <destinationName>program</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:project</sourceName>
+      <destinationName>project</destinationName>
       <dataType>String</dataType>
       <addAttributes>
         <att name="ioos_category">Identifier</att>

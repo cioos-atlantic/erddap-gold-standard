@@ -21812,6 +21812,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="ioos_category">Optical Properties</att>
         </addAttributes>
     </dataVariable>
+    </dataset>
+    <!-- NAFC AZMP CTDs: END-->
+    <!-- NAFC Multispecies CTDs: START-->
     <dataset type="EDDTableFromNcFiles" datasetID="nafc_multispecies_ctd_profiles" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
@@ -22541,5 +22544,5 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     </dataVariable>
     
   </dataset>
-  <!-- NAFC AZMP CTDs: END-->
+  <!-- NAFC Multispecies CTDs: END-->
 </erddapDatasets>

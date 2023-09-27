@@ -2543,7 +2543,7 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>Dissolved Oxygen</sourceName>
+      <sourceName>Dissolved Oxygen_percent saturation</sourceName>
       <destinationName>Dissolved_Oxygen</destinationName>
       <dataType>float</dataType>
       <addAttributes>
@@ -2557,7 +2557,7 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>Salinity</sourceName>
+      <sourceName>Salinity_practical salinity units</sourceName>
       <destinationName>Salinity</destinationName>
       <dataType>float</dataType>
       <addAttributes>
@@ -2567,7 +2567,7 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>Temperature</sourceName>
+      <sourceName>Temperature_degrees Celsius</sourceName>
       <destinationName>sea_water_temperature</destinationName>
       <dataType>float</dataType>
       <addAttributes>
@@ -2733,7 +2733,7 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>Dissolved Oxygen</sourceName>
+      <sourceName>Dissolved Oxygen_percent saturation</sourceName>
       <destinationName>Dissolved_Oxygen</destinationName>
       <dataType>float</dataType>
       <addAttributes>
@@ -2747,7 +2747,7 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>Temperature</sourceName>
+      <sourceName>Temperature_degrees Celsius</sourceName>
       <destinationName>sea_water_temperature</destinationName>
       <dataType>float</dataType>
       <addAttributes>
@@ -2913,7 +2913,7 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>Dissolved Oxygen</sourceName>
+      <sourceName>Dissolved Oxygen_percent saturation</sourceName>
       <destinationName>Dissolved_Oxygen</destinationName>
       <dataType>float</dataType>
       <addAttributes>
@@ -2927,7 +2927,7 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>Temperature</sourceName>
+      <sourceName>Temperature_degrees Celsius</sourceName>
       <destinationName>sea_water_temperature</destinationName>
       <dataType>float</dataType>
       <addAttributes>
@@ -3093,7 +3093,7 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>Dissolved Oxygen</sourceName>
+      <sourceName>Dissolved Oxygen_percent saturation</sourceName>
       <destinationName>Dissolved_Oxygen</destinationName>
       <dataType>float</dataType>
       <addAttributes>
@@ -3107,7 +3107,7 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>Salinity</sourceName>
+      <sourceName>Salinity_practical salinity units</sourceName>
       <destinationName>Salinity</destinationName>
       <dataType>float</dataType>
       <addAttributes>
@@ -3117,7 +3117,7 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>Temperature</sourceName>
+      <sourceName>Temperature_degrees Celsius</sourceName>
       <destinationName>sea_water_temperature</destinationName>
       <dataType>float</dataType>
       <addAttributes>
@@ -3283,7 +3283,7 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>Dissolved Oxygen</sourceName>
+      <sourceName>Dissolved Oxygen_percent saturation</sourceName>
       <destinationName>Dissolved_Oxygen</destinationName>
       <dataType>float</dataType>
       <addAttributes>
@@ -3297,7 +3297,7 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>Salinity</sourceName>
+      <sourceName>Salinity_practical salinity units</sourceName>
       <destinationName>Salinity</destinationName>
       <dataType>float</dataType>
       <addAttributes>
@@ -3307,7 +3307,7 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>Temperature</sourceName>
+      <sourceName>Temperature_degrees Celsius</sourceName>
       <destinationName>sea_water_temperature</destinationName>
       <dataType>float</dataType>
       <addAttributes>
@@ -3473,7 +3473,7 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>Dissolved Oxygen</sourceName>
+      <sourceName>Dissolved Oxygen_percent saturation</sourceName>
       <destinationName>Dissolved_Oxygen</destinationName>
       <dataType>float</dataType>
       <addAttributes>
@@ -3487,7 +3487,7 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>Temperature</sourceName>
+      <sourceName>Temperature_degrees Celsius</sourceName>
       <destinationName>sea_water_temperature</destinationName>
       <dataType>float</dataType>
       <addAttributes>
@@ -3653,7 +3653,7 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>Dissolved Oxygen</sourceName>
+      <sourceName>Dissolved Oxygen_percent saturation</sourceName>
       <destinationName>Dissolved_Oxygen</destinationName>
       <dataType>float</dataType>
       <addAttributes>
@@ -3667,7 +3667,7 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>Temperature</sourceName>
+      <sourceName>Temperature_degrees Celsius</sourceName>
       <destinationName>sea_water_temperature</destinationName>
       <dataType>float</dataType>
       <addAttributes>
@@ -3833,7 +3833,7 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>Dissolved Oxygen</sourceName>
+      <sourceName>Dissolved Oxygen_percent saturation</sourceName>
       <destinationName>Dissolved_Oxygen</destinationName>
       <dataType>float</dataType>
       <addAttributes>
@@ -3847,7 +3847,7 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>Temperature</sourceName>
+      <sourceName>Temperature_degrees Celsius</sourceName>
       <destinationName>sea_water_temperature</destinationName>
       <dataType>float</dataType>
       <addAttributes>
@@ -4013,7 +4013,7 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>Dissolved Oxygen</sourceName>
+      <sourceName>Dissolved Oxygen_percent saturation</sourceName>
       <destinationName>Dissolved_Oxygen</destinationName>
       <dataType>float</dataType>
       <addAttributes>
@@ -4027,7 +4027,7 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>Temperature</sourceName>
+      <sourceName>Temperature_degrees Celsius</sourceName>
       <destinationName>sea_water_temperature</destinationName>
       <dataType>float</dataType>
       <addAttributes>
@@ -4193,7 +4193,7 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>Dissolved Oxygen</sourceName>
+      <sourceName>Dissolved Oxygen_percent saturation</sourceName>
       <destinationName>Dissolved_Oxygen</destinationName>
       <dataType>float</dataType>
       <addAttributes>
@@ -4207,7 +4207,7 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>Temperature</sourceName>
+      <sourceName>Temperature_degrees Celsius</sourceName>
       <destinationName>sea_water_temperature</destinationName>
       <dataType>float</dataType>
       <addAttributes>

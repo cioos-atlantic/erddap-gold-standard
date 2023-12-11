@@ -21176,8 +21176,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
         <att name="subsetVariables">wmo_platform_code,platform_name,platform_call_sign,platform_nafc_code,station,trip</att>
-        <att name="summary">DFO Newfoundland AZMP dataset.</att>
-        <att name="title">DFO Newfoundland CTD AZMP dataset</att>
         <att name="card_1_id">null</att>
         <att name="card_4_id">null</att>
         <att name="card_8_id">null</att>
@@ -21193,6 +21191,22 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="scan_cnt">null</att>
         <att name="scan_rate">null</att>
         <att name="ww_code">null</att>
+        <att name="citation">Environmental Data Section (MEDS), M. (2023). Newfoundland and Labrador Region Atlantic Zone Monitoring Program (AZMP) Rosette Vertical Profiles (Version v1).</att>
+        <att name="creator_url">https://meds-sdmm.dfo-mpo.gc.ca/</att>
+        <att name="creator_institution">Fisheries and Oceans Canada</att>
+        <att name="publisher_email">Stephen.Snook@dfo-mpo.gc.ca</att>
+        <att name="publisher_institution">Fisheries and Oceans Canada</att>
+        <att name="publisher_url">https://www.dfo-mpo.gc.ca/index-eng.html</att>
+        <att name="date_created">2023-11-29</att>
+        <att name="institution">Fisheries and Oceans Canada,Fisheries and Oceans Canada,Fisheries and Oceans Canada</att>
+        <att name="license">https://open.canada.ca/en/open-government-licence-canada</att>
+        <att name="id">e4ac21ff-414c-40e0-a943-21f664c92e7e</att>
+        <att name="naming_authority">ca.cioos</att>
+        <att name="keywords">oceanographic missions,climate change,atmospheric pressure,chlorophyll a,fluorescence,physical-chemical,salinity,sea ice,water density,water temperature,wind,oxygen,beam attenuation,beam transmission,coloured dissolved organic matter,photosynthetically active radiation,Northwest Atlantic Ocean,Newfoundland and Labrador</att>
+        <att name="platform">ship</att>
+        <att name="platform_vocabulary">http://vocab.nerc.ac.uk/collection/L06/current/</att>
+        <att name="summary">The Atlantic Zone Monitoring Program (AZMP) was implemented in 1998 with the aim of detecting and tracking climate change and variability in the northwest Atlantic, evaluating changes in the physical, chemical and biological ocean properties and predator-prey dynamics of marine resources, thereby enhancing Canada&apos;s ability to understand, describe, and forecast the state of the marine ecosystem. AZMP&apos;s sampling scheme in the Newfoundland and Labrador Region involves oceanographic sampling at one high-frequency (biweekly to monthly) fixed coastal station (Station 27) as well as triannual sampling along fixed cross-shelf sections (Beachy Island, Makkovik Bank, Seal Island, White Bay, Bonavista Bay, Flemish Cap, Southeast Grand Banks, Southeast St. Pierre Bank and Southwest St. Pierre Bank). AZMP sampling is conducted according to standard procedures (see https://cat.fsl-bsf.scitech.gc.ca/record=b3951030~S6) and includes the collection of CTD profiles and water samples for the determination of physical (e.g., T, S), chemical (e.g., nutrients, carbonates, oxygen, pH), and biological (e.g., chl a) variables and vertical ring net tows. The data collected are synthesized into two annual reports on the physical and chemical/biological changes in the Newfoundland and Labrador Region, contribute to multiple Canadian Science Advisory Secretariat (CSAS) and Northwest Atlantic Fisheries Organization (NAFO) processes, and are also used to evaluate changes across the Atlantic zone.</att>
+        <att name="title">Newfoundland and Labrador Region Atlantic Zone Monitoring Program (AZMP) Rosette Vertical Profiles</att>
     </addAttributes>
     <dataVariable>
         <sourceName>***fileName,(.*).nc,1</sourceName>

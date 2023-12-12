@@ -21897,7 +21897,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
         <att name="subsetVariables">wmo_platform_code,platform_name,platform_call_sign,platform_nafc_code,station,trip</att>
         <att name="summary">DFO Newfoundland AZMP dataset.</att>
-        <att name="title">DFO Newfoundland CTD Multispecies dataset</att>
+<att name="title">Newfoundland and Labrador Region Multispecies CTD Profiles</att>
         <att name="card_1_id">null</att>
         <att name="card_4_id">null</att>
         <att name="card_8_id">null</att>
@@ -22538,7 +22538,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
     <att name="subsetVariables">wmo_platform_code,platform_name,platform_call_sign,platform_nafc_code,station,trip</att>
     <att name="summary">DFO Newfoundland NSRF dataset.</att>
-    <att name="title">DFO Newfoundland CTD NSRF dataset</att>
+<att name="title">Newfoundland and Labrador Region NSRF CTD Profiles</att>
     <att name="card_1_id">null</att>
     <att name="card_4_id">null</att>
     <att name="card_8_id">null</att>

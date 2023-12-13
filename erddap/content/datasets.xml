@@ -21227,13 +21227,22 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>global:wmo_platform_code</sourceName>
-        <destinationName>wmo_platform_code</destinationName>
-        <dataType>String</dataType>
-        <addAttributes>
-        <att name="long_name">WMO Platform Code</att>
+      <sourceName>global:dfo_nafc_platform_code</sourceName>
+      <destinationName>dfo_nafc_platform_code</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="long_name">DFO NAFC Platform Code</att>
         <att name="ioos_category">Identifier</att>
-        </addAttributes>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:dfo_nafc_platform_name</sourceName>
+      <destinationName>dfo_nafc_platform_name</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="long_name">DFO NAFC Platform Name</att>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>global:call_sign</sourceName>
@@ -21952,13 +21961,22 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>global:ship_code</sourceName>
-        <destinationName>platform_nafc_code</destinationName>
-        <dataType>String</dataType>
-        <addAttributes>
-        <att name="long_name">Platform NAFC code</att>
+      <sourceName>global:dfo_nafc_platform_code</sourceName>
+      <destinationName>dfo_nafc_platform_code</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="long_name">DFO NAFC Platform Code</att>
         <att name="ioos_category">Identifier</att>
-        </addAttributes>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:dfo_nafc_platform_name</sourceName>
+      <destinationName>dfo_nafc_platform_name</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="long_name">DFO NAFC Platform Name</att>
+        <att name="ioos_category">Identifier</att>
+      </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>global:station</sourceName>
@@ -22550,11 +22568,11 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     </addAttributes>
   </dataVariable>
   <dataVariable>
-    <sourceName>global:ship_code</sourceName>
-    <destinationName>platform_nafc_code</destinationName>
+    <sourceName>global:dfo_nafc_platform_code</sourceName>
+    <destinationName>dfo_nafc_platform_code</destinationName>
     <dataType>String</dataType>
     <addAttributes>
-      <att name="long_name">Platform NAFC code</att>
+      <att name="long_name">DFO NAFC Platform code</att>
       <att name="ioos_category">Identifier</att>
     </addAttributes>
   </dataVariable>

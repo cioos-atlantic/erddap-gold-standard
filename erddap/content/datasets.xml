@@ -13415,7 +13415,7 @@ AZOMP's sampling scheme off Atlantic Canada and the Labrador Sea involves annual
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>=56.1833</sourceName>
+      <sourceName>=-56.1833</sourceName>
       <destinationName>longitude</destinationName>
       <dataType>float</dataType>
       <addAttributes>

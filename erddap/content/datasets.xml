@@ -18312,9 +18312,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/moored/</fileDir>
-    <fileNameRegex>MCTD.*\.nc</fileNameRegex>
+    <fileNameRegex>(MCTD|MTR).*\.nc</fileNameRegex>
     <recursive>true</recursive>
-    <pathRegex>.*([0-9]{4})\/(|mctd\/(|AZMP\/))</pathRegex>
+    <pathRegex>.*([0-9]{4})\/(|(mctd|mtr)\/(|AZMP\/))</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <removeMVRows>true</removeMVRows>
@@ -19006,9 +19006,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/moored/</fileDir>
-    <fileNameRegex>MCTD.*\.nc</fileNameRegex>
+    <fileNameRegex>(MCTD|MTR).*\.nc</fileNameRegex>
     <recursive>true</recursive>
-    <pathRegex>.*([0-9]{4})\/(|mctd\/(|AZOMP\/))</pathRegex>
+    <pathRegex>.*([0-9]{4})\/(|(mctd|mtr)\/(|AZOMP\/))</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <removeMVRows>true</removeMVRows>
@@ -20394,9 +20394,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/bio/moored/</fileDir>
-    <fileNameRegex>MCTD.*\.nc</fileNameRegex>
+    <fileNameRegex>(MCTD|MTR).*\.nc</fileNameRegex>
     <recursive>true</recursive>
-    <pathRegex>.*([0-9]{4})\/(|mctd\/(|historical_coastal\/))</pathRegex>
+    <pathRegex>.*([0-9]{4})\/(|(mctd|mtr)\/(|historical_coastal\/))</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <removeMVRows>true</removeMVRows>

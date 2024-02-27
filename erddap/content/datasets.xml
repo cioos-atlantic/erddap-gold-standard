@@ -22989,6 +22989,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <metadataFrom>last</metadataFrom>
     <matchAxisNDigits>20</matchAxisNDigits>
     <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <!-- sourceAttributes>
         <att name="_NCProperties">version=2,netcdf=4.7.3,hdf5=1.10.4</att>
         <att name="cdm_data_type">Grid</att>
@@ -23011,7 +23012,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="geospatial_lon_units">degrees_east</att>
         <att name="history">Created with make_mapped_netcdf.R. Input data are 4km-resolution level-3 binned remote sensing reflectances (Rrs) from NASA OBPG, subset to the region of interest and used in conjunction with the most recent set of regionally-tuned parameters to generate the level-3 binned product. The data is then mapped using a Plate Carrée projection and an area-weighted mean for pixels with multiple overlapping bins.</att>
         <att name="infoUrl">https://bio-rsg.github.io/</att>
-        <att name="institution">dfo_bio</att>
+        <att name="institution">DFO BIO</att>
         <att name="keywords">Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Chlorophyll; Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Pigments &gt; Chlorophyll; Earth Science &gt; Oceans &gt; Ocean Optics &gt; Chlorophyll &gt; Chlorophyll concentration; Providers &gt; GOVERNMENT AGENCIES-NON-US &gt; CANADA &gt; CA/DFO/BIO; Platforms &gt; Space-based Platforms &gt; Earth Observation Satellites &gt; Aqua</att>
         <att name="keywords_vocabulary">NASA Global Change Master Directory (GCMD) Science Keywords</att>
         <att name="latitude_units">degrees_north</att>

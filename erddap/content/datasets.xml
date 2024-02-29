@@ -21162,7 +21162,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <addAttributes>
       <att name="_NCProperties">null</att>
       <att name="cdm_data_type">Profile</att>
-      <att name="cdm_profile_variables">station,latitude,longitude,time,id,platform_name,wmo_platform_code,platform_call_sign,dfo_nafc_platform_code,dfo_nafc_platform_name,fishing_strata,sub_interval,sounder_depth,trip,air_pressure,air_dry_temp_celsius,air_wet_temp_celsius,cloud_coverage,swell_dir,swell_height,swell_period,waves_height,waves_period,instrument,wind_dir,wind_speed_knots,ice_conc,ice_stage,ice_bergs,ice_sandt,comments</att>
+      <att name="cdm_profile_variables">station,latitude,longitude,time,id,platform_name,wmo_platform_code,platform_call_sign,dfo_nafc_platform_code,dfo_nafc_platform_name,fishing_strata,sub_interval,sounder_depth,trip,air_pressure,air_dry_temp_celsius,air_wet_temp_celsius,cloud_coverage,swell_dir,swell_height,swell_period,waves_height,waves_period,instrument,wind_dir,wind_speed_knots,ice_conc,ice_stage,ice_bergs,ice_sandt,comment</att>
       <att name="comment">null</att>
       <att name="Conventions">CF-1.6,ACDD-1.3, COARDS</att>
       <att name="format">null</att>
@@ -21539,7 +21539,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>int</dataType>
       <addAttributes>
         <att name="long_name">Ice Concentration</att>
-        <att name="ioos_category">Identifier</att>
+        <att name="ioos_category">Ice Distribution</att>
         <att name="_FillValue" type="int">2147483647</att>
       </addAttributes>
     </dataVariable>
@@ -21549,7 +21549,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>int</dataType>
       <addAttributes>
         <att name="long_name">Ice Stage</att>
-        <att name="ioos_category">Identifier</att>
+        <att name="ioos_category">Ice Distribution</att>
         <att name="_FillValue" type="int">2147483647</att>
       </addAttributes>
     </dataVariable>
@@ -21559,6 +21559,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>int</dataType>
       <addAttributes>
         <att name="long_name">Ice Bergs</att>
+        <att name="ioos_category">Ice Distribution</att>
         <att name="_FillValue" type="int">2147483647</att>
       </addAttributes>
     </dataVariable>
@@ -21568,6 +21569,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>int</dataType>
       <addAttributes>
         <att name="long_name">Ice SandT</att>
+        <att name="ioos_category">Ice Distribution</att>
         <att name="_FillValue" type="int">2147483647</att>
       </addAttributes>
     </dataVariable>
@@ -21941,7 +21943,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <addAttributes>
         <att name="_NCProperties">null</att>
         <att name="cdm_data_type">Profile</att>
-        <att name="cdm_profile_variables">station,latitude,longitude,time,id,platform_name,wmo_platform_code,platform_call_sign,dfo_nafc_platform_code,dfo_nafc_platform_name,fishing_strata,sub_interval,sounder_depth,trip,air_pressure,air_dry_temp_celsius,air_wet_temp_celsius,cloud_coverage,swell_dir,swell_height,swell_period,waves_height,waves_period,instrument,wind_dir,wind_speed_knots</att>
+        <att name="cdm_profile_variables">station,latitude,longitude,time,id,platform_name,wmo_platform_code,platform_call_sign,dfo_nafc_platform_code,dfo_nafc_platform_name,fishing_strata,sub_interval,sounder_depth,trip,air_pressure,air_dry_temp_celsius,air_wet_temp_celsius,cloud_coverage,swell_dir,swell_height,swell_period,waves_height,waves_period,instrument,wind_dir,wind_speed_knots,ice_conc,ice_stage,ice_bergs,ice_sandt,comment</att>
         <att name="comment">null</att>
         <att name="Conventions">CF-1.6,ACDD-1.3, COARDS</att>
         <att name="format">null</att>
@@ -22304,7 +22306,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>int</dataType>
       <addAttributes>
         <att name="long_name">Ice Concentration</att>
-        <att name="ioos_category">Identifier</att>
+        <att name="ioos_category">Ice Distribution</att>
         <att name="_FillValue" type="int">2147483647</att>
       </addAttributes>
     </dataVariable>
@@ -22314,7 +22316,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>int</dataType>
       <addAttributes>
         <att name="long_name">Ice Stage</att>
-        <att name="ioos_category">Identifier</att>
+        <att name="ioos_category">Ice Distribution</att>
         <att name="_FillValue" type="int">2147483647</att>
       </addAttributes>
     </dataVariable>
@@ -22324,6 +22326,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>int</dataType>
       <addAttributes>
         <att name="long_name">Ice Bergs</att>
+        <att name="ioos_category">Ice Distribution</att>
         <att name="_FillValue" type="int">2147483647</att>
       </addAttributes>
     </dataVariable>
@@ -22333,6 +22336,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>int</dataType>
       <addAttributes>
         <att name="long_name">Ice SandT</att>
+        <att name="ioos_category">Ice Distribution</att>
         <att name="_FillValue" type="int">2147483647</att>
       </addAttributes>
     </dataVariable>
@@ -22706,7 +22710,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
   <addAttributes>
     <att name="_NCProperties">null</att>
     <att name="cdm_data_type">Profile</att>
-    <att name="cdm_profile_variables">station,latitude,longitude,time,id,platform_name,wmo_platform_code,platform_call_sign,dfo_nafc_platform_code,fishing_strata,sub_interval,sounder_depth,trip,air_pressure,air_dry_temp_celsius,air_wet_temp_celsius,cloud_coverage,swell_dir,swell_height,swell_period,waves_height,waves_period,instrument,wind_dir,wind_speed_knots</att>
+    <att name="cdm_profile_variables">station,latitude,longitude,time,id,platform_name,wmo_platform_code,platform_call_sign,dfo_nafc_platform_code,dfo_nafc_platform_name,fishing_strata,sub_interval,sounder_depth,trip,air_pressure,air_dry_temp_celsius,air_wet_temp_celsius,cloud_coverage,swell_dir,swell_height,swell_period,waves_height,waves_period,instrument,wind_dir,wind_speed_knots,ice_conc,ice_stage,ice_bergs,ice_sandt,comment</att>
     <att name="comment">null</att>
     <att name="Conventions">CF-1.6,ACDD-1.3, COARDS</att>
     <att name="format">null</att>
@@ -23069,7 +23073,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataType>int</dataType>
     <addAttributes>
       <att name="long_name">Ice Concentration</att>
-      <att name="ioos_category">Identifier</att>
+      <att name="ioos_category">Ice Distribution</att>
       <att name="_FillValue" type="int">2147483647</att>
     </addAttributes>
   </dataVariable>
@@ -23079,7 +23083,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataType>int</dataType>
     <addAttributes>
       <att name="long_name">Ice Stage</att>
-      <att name="ioos_category">Identifier</att>
+      <att name="ioos_category">Ice Distribution</att>
       <att name="_FillValue" type="int">2147483647</att>
     </addAttributes>
   </dataVariable>
@@ -23089,6 +23093,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataType>int</dataType>
     <addAttributes>
       <att name="long_name">Ice Bergs</att>
+      <att name="ioos_category">Ice Distribution</att>
       <att name="_FillValue" type="int">2147483647</att>
     </addAttributes>
   </dataVariable>
@@ -23098,6 +23103,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataType>int</dataType>
     <addAttributes>
       <att name="long_name">Ice SandT</att>
+      <att name="ioos_category">Ice Distribution</att>
       <att name="_FillValue" type="int">2147483647</att>
     </addAttributes>
   </dataVariable>

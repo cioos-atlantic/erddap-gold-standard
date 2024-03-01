@@ -21377,9 +21377,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <destinationName>comment</destinationName>
       <dataType>String</dataType>
       <addAttributes>
-        <att name="long_name">Wave Period</att>
+        <att name="long_name">Comment</att>
         <att name="ioos_category">Identifier</att>
-        <att name="units">s</att>
         <att name="_FillValue" type="int">2147483647</att>
       </addAttributes>
     </dataVariable>
@@ -22145,9 +22144,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <destinationName>comment</destinationName>
       <dataType>String</dataType>
       <addAttributes>
-        <att name="long_name">Wave Period</att>
+        <att name="long_name">Comment</att>
         <att name="ioos_category">Identifier</att>
-        <att name="units">s</att>
         <att name="_FillValue" type="int">2147483647</att>
       </addAttributes>
     </dataVariable>
@@ -22912,9 +22910,8 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <destinationName>comment</destinationName>
     <dataType>String</dataType>
     <addAttributes>
-      <att name="long_name">Wave Period</att>
+      <att name="long_name">Comment</att>
       <att name="ioos_category">Identifier</att>
-      <att name="units">s</att>
       <att name="_FillValue" type="int">2147483647</att>
     </addAttributes>
   </dataVariable>

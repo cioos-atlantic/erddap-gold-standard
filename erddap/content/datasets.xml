@@ -21288,7 +21288,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Latitude</att>
-        <att name="actual_range">[47.35833333 47.35833333]</att>
         <att name="coverage_content_type">coordinate</att>
         <att name="legacy_p_code">latitude</att>
         <att name="variable_name">latitude</att>
@@ -21306,7 +21305,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Longitude</att>
-        <att name="actual_range">[-51.40833333 -51.40833333]</att>
         <att name="coverage_content_type">coordinate</att>
         <att name="legacy_p_code">longitude</att>
         <att name="variable_name">longitude</att>
@@ -21578,7 +21576,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>int</dataType>
       <addAttributes>
         <att name="long_name">Scan Count</att>
-        <att name="actual_range">[  3 265]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">scan</att>
         <att name="variable_name">scan</att>
@@ -21592,7 +21589,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <destinationName>depth</destinationName>
       <dataType>float</dataType>
       <addAttributes>
-        <att name="actual_range">[  1.99026889 174.1936488 ]</att>
         <att name="coverage_content_type">coordinate</att>
         <att name="legacy_p_code">pres</att>
         <att name="standard_name">depth</att>
@@ -21610,7 +21606,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Pressure, Digiquartz</att>
-        <att name="actual_range">[  2.007 175.732]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">pres</att>
         <att name="standard_name">sea_water_pressure</att>
@@ -21633,7 +21628,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Temperature [ITS-90]</att>
-        <att name="actual_range">[-1.385  3.548]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">temp</att>
         <att name="standard_name">sea_water_temperature</att>
@@ -21654,7 +21648,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Conductivity</att>
-        <att name="actual_range">[2.638 2.968]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">cond</att>
         <att name="standard_name">sea_water_electrical_conductivity</att>
@@ -21675,7 +21668,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Salinity, Practical</att>
-        <att name="actual_range">[31.271 33.329]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">sal</att>
         <att name="standard_name">sea_water_practical_salinity</att>
@@ -21697,7 +21689,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Sigma-T</att>
-        <att name="actual_range">[24.789 26.774]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">sigmat</att>
         <att name="standard_name">sea_water_sigma_t</att>
@@ -21717,7 +21708,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Fluorescence</att>
-        <att name="actual_range">[0.012 0.243]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">flor</att>
         <att name="standard_name">mass_concentration_of_chlorophyll_a_in_sea_water</att>
@@ -21738,7 +21728,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Oxygen, SBE 43</att>
-        <att name="actual_range">[0.    7.416]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">oxy</att>
         <att name="standard_name">volume_fraction_of_oxygen_in_sea_water</att>
@@ -21761,7 +21750,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Par/Irradiance, Biospherical/Licor</att>
-        <att name="actual_range">[  1.375 236.4  ]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">par</att>
         <att name="standard_name">downwelling_photon_spherical_irradiance_in_sea_water</att>
@@ -21782,7 +21770,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">pH</att>
-        <att name="actual_range">[7.976 8.091]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">ph</att>
         <att name="standard_name">sea_water_ph_reported_on_total_scale</att>
@@ -21802,7 +21789,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Beam Transmission, Wet Labs C-Star</att>
-        <att name="actual_range">[124.8185 131.6532]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">trp</att>
         <att name="units">%</att>
@@ -21822,7 +21808,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Beam Attenuation, Wet Labs C-Star</att>
-        <att name="actual_range">[-1.1    -0.8868]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">tra</att>
         <att name="standard_name">volume_beam_attenuation_coefficient_of_radiative_flux_in_sea_water</att>
@@ -21845,7 +21830,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Fluorescence, Wet Labs CDOM</att>
-        <att name="actual_range">[ -2.5 497.5]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">wet</att>
         <att name="standard_name">concentration_of_colored_dissolved_organic_matter_in_sea_water_expressed_as_equivalent_mass_fraction_of_quinine_sulfate_dihydrate</att>
@@ -22055,7 +22039,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Latitude</att>
-        <att name="actual_range">[47.35833333 47.35833333]</att>
         <att name="coverage_content_type">coordinate</att>
         <att name="legacy_p_code">latitude</att>
         <att name="variable_name">latitude</att>
@@ -22073,7 +22056,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Longitude</att>
-        <att name="actual_range">[-51.40833333 -51.40833333]</att>
         <att name="coverage_content_type">coordinate</att>
         <att name="legacy_p_code">longitude</att>
         <att name="variable_name">longitude</att>
@@ -22344,7 +22326,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>int</dataType>
       <addAttributes>
         <att name="long_name">Scan Count</att>
-        <att name="actual_range">[  3 265]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">scan</att>
         <att name="variable_name">scan</att>
@@ -22358,7 +22339,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <destinationName>depth</destinationName>
       <dataType>float</dataType>
       <addAttributes>
-        <att name="actual_range">[  1.99026889 174.1936488 ]</att>
         <att name="coverage_content_type">coordinate</att>
         <att name="legacy_p_code">pres</att>
         <att name="standard_name">depth</att>
@@ -22376,7 +22356,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Pressure, Digiquartz</att>
-        <att name="actual_range">[  2.007 175.732]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">pres</att>
         <att name="standard_name">sea_water_pressure</att>
@@ -22399,7 +22378,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Temperature [ITS-90]</att>
-        <att name="actual_range">[-1.385  3.548]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">temp</att>
         <att name="standard_name">sea_water_temperature</att>
@@ -22420,7 +22398,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Conductivity</att>
-        <att name="actual_range">[2.638 2.968]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">cond</att>
         <att name="standard_name">sea_water_electrical_conductivity</att>
@@ -22441,7 +22418,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Salinity, Practical</att>
-        <att name="actual_range">[31.271 33.329]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">sal</att>
         <att name="standard_name">sea_water_practical_salinity</att>
@@ -22463,7 +22439,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Sigma-T</att>
-        <att name="actual_range">[24.789 26.774]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">sigmat</att>
         <att name="standard_name">sea_water_sigma_t</att>
@@ -22483,7 +22458,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Fluorescence</att>
-        <att name="actual_range">[0.012 0.243]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">flor</att>
         <att name="standard_name">mass_concentration_of_chlorophyll_a_in_sea_water</att>
@@ -22504,7 +22478,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Oxygen, SBE 43</att>
-        <att name="actual_range">[0.    7.416]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">oxy</att>
         <att name="standard_name">volume_fraction_of_oxygen_in_sea_water</att>
@@ -22527,7 +22500,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Par/Irradiance, Biospherical/Licor</att>
-        <att name="actual_range">[  1.375 236.4  ]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">par</att>
         <att name="standard_name">downwelling_photon_spherical_irradiance_in_sea_water</att>
@@ -22548,7 +22520,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">pH</att>
-        <att name="actual_range">[7.976 8.091]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">ph</att>
         <att name="standard_name">sea_water_ph_reported_on_total_scale</att>
@@ -22568,7 +22539,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Beam Transmission, Wet Labs C-Star</att>
-        <att name="actual_range">[124.8185 131.6532]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">trp</att>
         <att name="units">%</att>
@@ -22588,7 +22558,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Beam Attenuation, Wet Labs C-Star</att>
-        <att name="actual_range">[-1.1    -0.8868]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">tra</att>
         <att name="standard_name">volume_beam_attenuation_coefficient_of_radiative_flux_in_sea_water</att>
@@ -22611,7 +22580,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <dataType>float</dataType>
       <addAttributes>
         <att name="long_name">Fluorescence, Wet Labs CDOM</att>
-        <att name="actual_range">[ -2.5 497.5]</att>
         <att name="coverage_content_type">physicalMeasurement</att>
         <att name="legacy_p_code">wet</att>
         <att name="standard_name">concentration_of_colored_dissolved_organic_matter_in_sea_water_expressed_as_equivalent_mass_fraction_of_quinine_sulfate_dihydrate</att>
@@ -22821,7 +22789,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataType>float</dataType>
     <addAttributes>
       <att name="long_name">Latitude</att>
-      <att name="actual_range">[47.35833333 47.35833333]</att>
       <att name="coverage_content_type">coordinate</att>
       <att name="legacy_p_code">latitude</att>
       <att name="variable_name">latitude</att>
@@ -22839,7 +22806,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataType>float</dataType>
     <addAttributes>
       <att name="long_name">Longitude</att>
-      <att name="actual_range">[-51.40833333 -51.40833333]</att>
       <att name="coverage_content_type">coordinate</att>
       <att name="legacy_p_code">longitude</att>
       <att name="variable_name">longitude</att>
@@ -23110,7 +23076,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataType>int</dataType>
     <addAttributes>
       <att name="long_name">Scan Count</att>
-      <att name="actual_range">[  3 265]</att>
       <att name="coverage_content_type">physicalMeasurement</att>
       <att name="legacy_p_code">scan</att>
       <att name="variable_name">scan</att>
@@ -23124,7 +23089,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <destinationName>depth</destinationName>
     <dataType>float</dataType>
     <addAttributes>
-      <att name="actual_range">[  1.99026889 174.1936488 ]</att>
       <att name="coverage_content_type">coordinate</att>
       <att name="legacy_p_code">pres</att>
       <att name="standard_name">depth</att>
@@ -23142,7 +23106,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataType>float</dataType>
     <addAttributes>
       <att name="long_name">Pressure, Digiquartz</att>
-      <att name="actual_range">[  2.007 175.732]</att>
       <att name="coverage_content_type">physicalMeasurement</att>
       <att name="legacy_p_code">pres</att>
       <att name="standard_name">sea_water_pressure</att>
@@ -23165,7 +23128,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataType>float</dataType>
     <addAttributes>
       <att name="long_name">Temperature [ITS-90]</att>
-      <att name="actual_range">[-1.385  3.548]</att>
       <att name="coverage_content_type">physicalMeasurement</att>
       <att name="legacy_p_code">temp</att>
       <att name="standard_name">sea_water_temperature</att>
@@ -23186,7 +23148,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataType>float</dataType>
     <addAttributes>
       <att name="long_name">Conductivity</att>
-      <att name="actual_range">[2.638 2.968]</att>
       <att name="coverage_content_type">physicalMeasurement</att>
       <att name="legacy_p_code">cond</att>
       <att name="standard_name">sea_water_electrical_conductivity</att>
@@ -23207,7 +23168,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataType>float</dataType>
     <addAttributes>
       <att name="long_name">Salinity, Practical</att>
-      <att name="actual_range">[31.271 33.329]</att>
       <att name="coverage_content_type">physicalMeasurement</att>
       <att name="legacy_p_code">sal</att>
       <att name="standard_name">sea_water_practical_salinity</att>
@@ -23229,7 +23189,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataType>float</dataType>
     <addAttributes>
       <att name="long_name">Sigma-T</att>
-      <att name="actual_range">[24.789 26.774]</att>
       <att name="coverage_content_type">physicalMeasurement</att>
       <att name="legacy_p_code">sigmat</att>
       <att name="standard_name">sea_water_sigma_t</att>
@@ -23249,7 +23208,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataType>float</dataType>
     <addAttributes>
       <att name="long_name">Fluorescence</att>
-      <att name="actual_range">[0.012 0.243]</att>
       <att name="coverage_content_type">physicalMeasurement</att>
       <att name="legacy_p_code">flor</att>
       <att name="standard_name">mass_concentration_of_chlorophyll_a_in_sea_water</att>
@@ -23270,7 +23228,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataType>float</dataType>
     <addAttributes>
       <att name="long_name">Oxygen, SBE 43</att>
-      <att name="actual_range">[0.    7.416]</att>
       <att name="coverage_content_type">physicalMeasurement</att>
       <att name="legacy_p_code">oxy</att>
       <att name="standard_name">volume_fraction_of_oxygen_in_sea_water</att>
@@ -23293,7 +23250,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataType>float</dataType>
     <addAttributes>
       <att name="long_name">Par/Irradiance, Biospherical/Licor</att>
-      <att name="actual_range">[  1.375 236.4  ]</att>
       <att name="coverage_content_type">physicalMeasurement</att>
       <att name="legacy_p_code">par</att>
       <att name="standard_name">downwelling_photon_spherical_irradiance_in_sea_water</att>
@@ -23314,7 +23270,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataType>float</dataType>
     <addAttributes>
       <att name="long_name">pH</att>
-      <att name="actual_range">[7.976 8.091]</att>
       <att name="coverage_content_type">physicalMeasurement</att>
       <att name="legacy_p_code">ph</att>
       <att name="standard_name">sea_water_ph_reported_on_total_scale</att>
@@ -23334,7 +23289,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataType>float</dataType>
     <addAttributes>
       <att name="long_name">Beam Transmission, Wet Labs C-Star</att>
-      <att name="actual_range">[124.8185 131.6532]</att>
       <att name="coverage_content_type">physicalMeasurement</att>
       <att name="legacy_p_code">trp</att>
       <att name="units">%</att>
@@ -23354,7 +23308,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataType>float</dataType>
     <addAttributes>
       <att name="long_name">Beam Attenuation, Wet Labs C-Star</att>
-      <att name="actual_range">[-1.1    -0.8868]</att>
       <att name="coverage_content_type">physicalMeasurement</att>
       <att name="legacy_p_code">tra</att>
       <att name="standard_name">volume_beam_attenuation_coefficient_of_radiative_flux_in_sea_water</att>
@@ -23377,7 +23330,6 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <dataType>float</dataType>
     <addAttributes>
       <att name="long_name">Fluorescence, Wet Labs CDOM</att>
-      <att name="actual_range">[ -2.5 497.5]</att>
       <att name="coverage_content_type">physicalMeasurement</att>
       <att name="legacy_p_code">wet</att>
       <att name="standard_name">concentration_of_colored_dissolved_organic_matter_in_sea_water_expressed_as_equivalent_mass_fraction_of_quinine_sulfate_dihydrate</att>

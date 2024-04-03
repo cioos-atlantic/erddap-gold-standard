@@ -23350,10 +23350,10 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
 <!-- NAFC NSRF CTDs: END-->
 
 <!-- NAFC Bulk CTDs: START-->
-<dataset type="EDDTableFromNcFiles" datasetID="nafc_other_ctd_profiles" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="nafc_bulk_unsorted_ctd_profiles" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/datasets/dfo/nafc/ctd/other</fileDir>
+  <fileDir>/datasets/dfo/nafc/ctd/bulk_unsorted</fileDir>
   <fileNameRegex>.*</fileNameRegex>
   <recursive>true</recursive>
   <pathRegex>.*</pathRegex>

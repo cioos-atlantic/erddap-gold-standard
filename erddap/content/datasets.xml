@@ -21967,7 +21967,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="geospatial_lon_min">-61.84</att>
         <att name="geospatial_vertical_min">1.0</att>
         <att name="geospatial_vertical_max">1650.0</att>
-        <att name="institution">Fisheries and Oceans Canada,Fisheries and Oceans Canada,Fisheries and Oceans Canada</att>
+        <att name="institution">DFO NAFC</att>
         <att name="license">https://open.canada.ca/en/open-government-licence-canada</att>
         <att name="id">dabda19f-fe2f-45a8-8fee-01805364fc43</att>
         <att name="naming_authority">ca.cioos</att>
@@ -22743,7 +22743,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <att name="geospatial_lon_min">-69.92</att>
     <att name="geospatial_vertical_min">1.0</att>
     <att name="geospatial_vertical_max">760.0</att>
-    <att name="institution">Fisheries and Oceans Canada,Fisheries and Oceans Canada,Fisheries and Oceans Canada</att>
+    <att name="institution">DFO NAFC</att>
     <att name="license">https://open.canada.ca/en/open-government-licence-canada</att>
     <att name="id">584b3c0c-fd99-435a-a6ef-9a470ee2c800</att>
     <att name="naming_authority">ca.cioos</att>

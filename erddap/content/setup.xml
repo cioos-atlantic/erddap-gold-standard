@@ -232,6 +232,18 @@ You can replace any of the [standardParts] with your own HTML.
 -->
 <units_standard>UDUNITS</units_standard>
 
+<!--
+  Enables file access to a dataset by default, all CIOOS datasets are open so 
+  this only makes sense and is a recommended setting for ERDDAP.
+  https://coastwatch.pfeg.noaa.gov/erddap/download/setupDatasetsXml.html#accessibleViaFiles
+  
+  This setting can be overridden on a dataset by dataset basis by adding the following tag
+  to the <dataset> definition:
+
+    <accessibleViaFiles>false</accessibleViaFiles>
+-->
+<defaultAccessibleViaFiles>true</defaultAccessibleViaFiles>
+
 <!-- ERDDAP automatically generates FGDC and ISO19115 metadata
 for all relevant datasets, using information from the dataset's metadata.
 By default these services are on (true). -->
@@ -475,6 +487,7 @@ information.
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154379011-2"></script>
+<script defer data-domain="all.cioosatlantic.ca,all.cioos.ca" src="https://plausible.server.cioospacific.ca/js/script.outbound-links.file-downloads.tagged-events.js"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -546,13 +559,7 @@ ERDDAP, Version &erddapVersion;
 
 <!-- The standard license is added to many dataset's global metadata (see datasets.xml) -->
 <standardLicense>
-The data may be used and redistributed for free but is not intended
-for legal use, since it may contain inaccuracies. Neither the data
-Contributor, ERD, NOAA, nor the United States Government, nor any
-of their employees or contractors, makes any warranty, express or
-implied, including warranties of merchantability and fitness for a
-particular purpose, or assumes any legal liability for the accuracy,
-completeness, or usefulness, of this information.
+  https://creativecommons.org/licenses/by/4.0/
 </standardLicense>
 
 <!-- This is used by <legal> in setup.xml. -->

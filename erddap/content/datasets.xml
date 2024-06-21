@@ -23458,7 +23458,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="ioos_category">Identifier</att>
       </addAttributes>
     </dataVariable>
-    <dataVariable>
+    <!-- <dataVariable>
       <sourceName>global:trip</sourceName>
       <destinationName>trip</destinationName>
       <dataType>int</dataType>
@@ -23467,7 +23467,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="ioos_category">Identifier</att>
         <att name="_FillValue" type="int">2147483647</att>
       </addAttributes>
-    </dataVariable>
+    </dataVariable> -->
     <dataVariable>
       <sourceName>global:station</sourceName>
       <destinationName>station</destinationName>
@@ -24043,9 +24043,9 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       </addAttributes>
     </dataVariable>
   </dataset>
-    <!-- NAFC AZMP CTDs: END-->
-    <!-- NAFC Multispecies CTDs: START-->
-    <dataset type="EDDTableFromNcFiles" datasetID="nafc_multispecies_ctd_profiles" active="true">
+  <!-- NAFC AZMP CTDs: END-->
+  <!-- NAFC Multispecies CTDs: START-->
+  <dataset type="EDDTableFromNcFiles" datasetID="nafc_multispecies_ctd_profiles" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/datasets/dfo/nafc/ctd/multispecies</fileDir>
@@ -24235,7 +24235,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="ioos_category">Identifier</att>
       </addAttributes>
     </dataVariable>
-    <dataVariable>
+    <!-- <dataVariable>
       <sourceName>global:trip</sourceName>
       <destinationName>trip</destinationName>
       <dataType>int</dataType>
@@ -24244,7 +24244,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="ioos_category">Identifier</att>
         <att name="_FillValue" type="int">2147483647</att>
       </addAttributes>
-    </dataVariable>
+    </dataVariable> -->
     <dataVariable>
       <sourceName>global:station</sourceName>
       <destinationName>station</destinationName>
@@ -25009,7 +25009,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="ioos_category">Identifier</att>
     </addAttributes>
   </dataVariable>
-  <dataVariable>
+  <!-- <dataVariable>
     <sourceName>global:trip</sourceName>
     <destinationName>trip</destinationName>
     <dataType>int</dataType>
@@ -25018,7 +25018,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="ioos_category">Identifier</att>
       <att name="_FillValue" type="int">2147483647</att>
     </addAttributes>
-  </dataVariable>
+  </dataVariable> -->
   <dataVariable>
     <sourceName>global:station</sourceName>
     <destinationName>station</destinationName>
@@ -25760,7 +25760,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="ioos_category">Identifier</att>
     </addAttributes>
   </dataVariable>
-  <dataVariable>
+  <!-- <dataVariable>
     <sourceName>global:trip</sourceName>
     <destinationName>trip</destinationName>
     <dataType>int</dataType>
@@ -25769,7 +25769,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="ioos_category">Identifier</att>
       <att name="_FillValue" type="int">2147483647</att>
     </addAttributes>
-  </dataVariable>
+  </dataVariable> -->
   <dataVariable>
     <sourceName>global:station</sourceName>
     <destinationName>station</destinationName>
@@ -26511,7 +26511,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="ioos_category">Identifier</att>
     </addAttributes>
   </dataVariable>
-  <dataVariable>
+  <!-- <dataVariable>
     <sourceName>global:trip</sourceName>
     <destinationName>trip</destinationName>
     <dataType>int</dataType>
@@ -26520,7 +26520,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="ioos_category">Identifier</att>
       <att name="_FillValue" type="int">2147483647</att>
     </addAttributes>
-  </dataVariable>
+  </dataVariable> -->
   <dataVariable>
     <sourceName>global:station</sourceName>
     <destinationName>station</destinationName>
@@ -27239,29 +27239,4 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
 </dataset>
 
 <!-- BIO REMOTE SENSING TEST: END -->
-
-<!-- Station27 Rollup Test: START -->
-<!-- Station 27 Bounding Box: 47.534, 47.559, -52.599, -52.574 -->
-<!-- <dataset type="EDDTableAggregateRows" datasetID="nafc_station_27_complete_test" active="true" >
-  <dataset type="EDDTableFromErddap" datasetID="nafc_station_27_ctd_profiles_child" active="true">
-     <sourceUrl>https://cioosatlantic:4oceans@dev.cioosatlantic.ca/erddap/tabledap/nafc_station_27_ctd_profiles</sourceUrl>
-  </dataset>
-  <dataset type="EDDTableFromErddap" datasetID="nafc_azmp_ctd_profiles_child" active="true">
-     <sourceUrl>https://cioosatlantic.ca/erddap/tabledap/nafc_azmp_ctd_profiles?&amp;latitude&gt;=47.534&amp;latitude&lt;=47.559&amp;longitude&gt;=-52.599&amp;longitude&lt;=-52.574</sourceUrl>
-    <defaultDataQuery>&amp;latitude&gt;=47.534&amp;latitude&lt;=47.559&amp;longitude&gt;=-52.599&amp;longitude&lt;=-52.574</defaultDataQuery>
-  </dataset>
-  <dataset type="EDDTableFromErddap" datasetID="nafc_bulk_unsorted_ctd_profiles_child" active="true" >
-    <sourceUrl>https://cioosatlantic:4oceans@dev.cioosatlantic.ca/erddap/tabledap/nafc_bulk_unsorted_ctd_profiles</sourceUrl>
-    <defaultDataQuery>&amp;latitude&gt;=47.534&amp;latitude&lt;=47.559&amp;longitude&gt;=-52.599&amp;longitude&lt;=-52.574</defaultDataQuery>
-  </dataset>
-  <dataset type="EDDTableFromErddap" datasetID="nafc_multispecies_ctd_profiles_child" active="true" >
-    <sourceUrl>https://cioosatlantic.ca/erddap/tabledap/nafc_multispecies_ctd_profiles?&amp;latitude&gt;=47.534&amp;latitude&lt;=47.559&amp;longitude&gt;=-52.599&amp;longitude&lt;=-52.574</sourceUrl>
-    <defaultDataQuery>&amp;latitude&gt;=47.534&amp;latitude&lt;=47.559&amp;longitude&gt;=-52.599&amp;longitude&lt;=-52.574</defaultDataQuery>
-  </dataset>
-  <dataset type="EDDTableFromErddap" datasetID="nafc_nsrf_ctd_profiles_child" active="true" >
-    <sourceUrl>https://cioosatlantic.ca/erddap/tabledap/nafc_nsrf_ctd_profiles?&amp;latitude&gt;=47.534&amp;latitude&lt;=47.559&amp;longitude&gt;=-52.599&amp;longitude&lt;=-52.574</sourceUrl>
-    <defaultDataQuery>&amp;latitude&gt;=47.534&amp;latitude&lt;=47.559&amp;longitude&gt;=-52.599&amp;longitude&lt;=-52.574</defaultDataQuery>
-  </dataset>
-</dataset> -->
-<!-- Station27 Rollup Test: END -->
 </erddapDatasets>

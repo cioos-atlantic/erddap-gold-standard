@@ -8586,6 +8586,50 @@
       </addAttributes>
     </dataVariable>
     <dataVariable>
+      <sourceName>TURBNTU01</sourceName>
+      <destinationName>TURBNTU01</destinationName>
+      <dataType>double</dataType>
+      <!-- sourceAttributes>
+        <att name="_FillValue" type="double">NaN</att>
+        <att name="actual_range" type="doubleList">7.545393 9.3981276</att>
+        <att name="coordinates">longitude time latitude</att>
+        <att name="coverage_content_type">physicalMeasurement</att>
+        <att name="ioos_category">Total Suspended Matter</att>
+        <att name="legacy_gf3_code">TUR4_01</att>
+        <att name="long_name">Turbidity of water in the water body</att>
+        <att name="resolution" type="double">1.0E-7</att>
+        <att name="sdn_parameter_name">Turbidity of water in the water body</att>
+        <att name="sdn_parameter_urn">SDN:P01::TURBXX01</att>
+        <att name="sdn_uom_name">Nephelometric Turbidity Units</att>
+        <att name="sdn_uom_urn">SDN:P06::USTU</att>
+        <att name="standard_name">sea_water_turbidity</att>
+        <att name="units">NTU</att>
+      </sourceAttributes -->
+      <addAttributes>
+        <att name="colorBarMaximum" type="double">9.5</att>
+        <att name="colorBarMinimum" type="double">7.5</att>
+        <att name="coordinates">null</att>
+        <att name="resolution">null</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>QTURB_01</sourceName>
+      <destinationName>QTURB_01</destinationName>
+      <dataType>int</dataType>
+      <addAttributes>
+        <att name="long_name">Quality Flag for Parameter: Turbidity of water in the water body</att>
+        <att name="standard_name">status_flag</att>
+        <att name="ioos_category">Quality</att>
+        <att name="cell_method">null</att>
+        <att name="legacy_gf3_code">QTURB_01</att>
+        <att name="resolution">1</att>
+        <att name="coverage_content_type">qualityInformation</att>
+        <att name="flag_values" type="intList">0 1 2 3 4 5 9</att>
+        <att name="flag_meanings">not_evaluated correct inconsistent_with_other_values doubtful erroneous modified missing</att>
+        <att name="_FillValue" type="int">9</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
       <sourceName>IRRDSV01</sourceName>
       <destinationName>IRRDSV01</destinationName>
       <dataType>float</dataType>
@@ -22600,7 +22644,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <fileDir>/datasets/dfo/bio/moored/</fileDir>
     <fileNameRegex>(MCTD|MTR).*\.nc</fileNameRegex>
     <recursive>true</recursive>
-    <pathRegex>.*([0-9]{4})\/(|(mctd|mtr)\/(|historical_coastal\/))</pathRegex>
+    <pathRegex>.*([0-9]{4})\/(|(mctd|mtr)\/(|historical_coastal\/|Coastal\/))</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <removeMVRows>true</removeMVRows>
@@ -23366,7 +23410,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <addAttributes>
       <att name="_NCProperties">null</att>
       <att name="cdm_data_type">Profile</att>
-      <att name="cdm_profile_variables">station,latitude,longitude,time,id,platform_name,wmo_platform_code,platform_call_sign,dfo_nafc_platform_code,dfo_nafc_platform_name,fishing_strata,sub_interval,sounder_depth,trip,air_pressure,air_dry_temp_celsius,air_wet_temp_celsius,cloud_coverage,swell_dir,swell_height,swell_period,waves_height,waves_period,instrument,wind_dir,wind_speed_knots,ice_conc,ice_stage,ice_bergs,ice_sandt,comment</att>
+      <att name="cdm_profile_variables">station,latitude,longitude,time,id,platform_name,wmo_platform_code,platform_call_sign,dfo_nafc_platform_code,dfo_nafc_platform_name,fishing_strata,sub_interval,sounder_depth,air_pressure,air_dry_temp_celsius,air_wet_temp_celsius,cloud_coverage,swell_dir,swell_height,swell_period,waves_height,waves_period,instrument,wind_dir,wind_speed_knots,ice_conc,ice_stage,ice_bergs,ice_sandt,comment</att>
       <att name="comment">null</att>
       <att name="Conventions">CF-1.6,ACDD-1.3, COARDS</att>
       <att name="format">null</att>
@@ -23379,7 +23423,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
       <att name="original_header">null</att>
       <att name="sourceUrl">(local files)</att>
       <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-      <att name="subsetVariables">wmo_platform_code,platform_name,platform_call_sign,dfo_nafc_platform_code,dfo_nafc_platform_name,station,trip</att>
+      <att name="subsetVariables">wmo_platform_code,platform_name,platform_call_sign,dfo_nafc_platform_code,dfo_nafc_platform_name,station</att>
       <att name="card_1_id">null</att>
       <att name="card_4_id">null</att>
       <att name="card_8_id">null</att>
@@ -24130,7 +24174,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <addAttributes>
         <att name="_NCProperties">null</att>
         <att name="cdm_data_type">Profile</att>
-        <att name="cdm_profile_variables">station,latitude,longitude,time,id,platform_name,wmo_platform_code,platform_call_sign,dfo_nafc_platform_code,dfo_nafc_platform_name,fishing_strata,sub_interval,sounder_depth,trip,air_pressure,air_dry_temp_celsius,air_wet_temp_celsius,cloud_coverage,swell_dir,swell_height,swell_period,waves_height,waves_period,instrument,wind_dir,wind_speed_knots,ice_conc,ice_stage,ice_bergs,ice_sandt,comment</att>
+        <att name="cdm_profile_variables">station,latitude,longitude,time,id,platform_name,wmo_platform_code,platform_call_sign,dfo_nafc_platform_code,dfo_nafc_platform_name,fishing_strata,sub_interval,sounder_depth,air_pressure,air_dry_temp_celsius,air_wet_temp_celsius,cloud_coverage,swell_dir,swell_height,swell_period,waves_height,waves_period,instrument,wind_dir,wind_speed_knots,ice_conc,ice_stage,ice_bergs,ice_sandt,comment</att>
         <att name="comment">null</att>
         <att name="Conventions">CF-1.6,ACDD-1.3, COARDS</att>
         <att name="format">null</att>
@@ -24143,7 +24187,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="original_header">null</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-        <att name="subsetVariables">wmo_platform_code,platform_name,platform_call_sign,dfo_nafc_platform_code,dfo_nafc_platform_name,station,trip</att>
+        <att name="subsetVariables">wmo_platform_code,platform_name,platform_call_sign,dfo_nafc_platform_code,dfo_nafc_platform_name,station</att>
         <att name="card_1_id">null</att>
         <att name="card_4_id">null</att>
         <att name="card_8_id">null</att>
@@ -24906,7 +24950,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
   <addAttributes>
     <att name="_NCProperties">null</att>
     <att name="cdm_data_type">Profile</att>
-    <att name="cdm_profile_variables">station,latitude,longitude,time,id,platform_name,wmo_platform_code,platform_call_sign,dfo_nafc_platform_code,dfo_nafc_platform_name,fishing_strata,sub_interval,sounder_depth,trip,air_pressure,air_dry_temp_celsius,air_wet_temp_celsius,cloud_coverage,swell_dir,swell_height,swell_period,waves_height,waves_period,instrument,wind_dir,wind_speed_knots,ice_conc,ice_stage,ice_bergs,ice_sandt,comment</att>
+    <att name="cdm_profile_variables">station,latitude,longitude,time,id,platform_name,wmo_platform_code,platform_call_sign,dfo_nafc_platform_code,dfo_nafc_platform_name,fishing_strata,sub_interval,sounder_depth,air_pressure,air_dry_temp_celsius,air_wet_temp_celsius,cloud_coverage,swell_dir,swell_height,swell_period,waves_height,waves_period,instrument,wind_dir,wind_speed_knots,ice_conc,ice_stage,ice_bergs,ice_sandt,comment</att>
     <att name="comment">null</att>
     <att name="Conventions">CF-1.6,ACDD-1.3, COARDS</att>
     <att name="format">null</att>
@@ -24919,7 +24963,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <att name="original_header">null</att>
     <att name="sourceUrl">(local files)</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-    <att name="subsetVariables">wmo_platform_code,platform_name,platform_call_sign,dfo_nafc_platform_code,station,trip</att>
+    <att name="subsetVariables">wmo_platform_code,platform_name,platform_call_sign,dfo_nafc_platform_code,station</att>
     <att name="card_1_id">null</att>
     <att name="card_4_id">null</att>
     <att name="card_8_id">null</att>
@@ -25681,7 +25725,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
   <addAttributes>
     <att name="_NCProperties">null</att>
     <att name="cdm_data_type">Profile</att>
-    <att name="cdm_profile_variables">station,latitude,longitude,time,id,platform_name,wmo_platform_code,platform_call_sign,dfo_nafc_platform_code,dfo_nafc_platform_name,fishing_strata,sub_interval,sounder_depth,trip,air_pressure,air_dry_temp_celsius,air_wet_temp_celsius,cloud_coverage,swell_dir,swell_height,swell_period,waves_height,waves_period,instrument,wind_dir,wind_speed_knots,ice_conc,ice_stage,ice_bergs,ice_sandt,comment</att>
+    <att name="cdm_profile_variables">station,latitude,longitude,time,id,platform_name,wmo_platform_code,platform_call_sign,dfo_nafc_platform_code,dfo_nafc_platform_name,fishing_strata,sub_interval,sounder_depth,air_pressure,air_dry_temp_celsius,air_wet_temp_celsius,cloud_coverage,swell_dir,swell_height,swell_period,waves_height,waves_period,instrument,wind_dir,wind_speed_knots,ice_conc,ice_stage,ice_bergs,ice_sandt,comment</att>
     <att name="comment">null</att>
     <att name="Conventions">CF-1.6,ACDD-1.3, COARDS</att>
     <att name="format">null</att>
@@ -25694,7 +25738,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <att name="original_header">null</att>
     <att name="sourceUrl">(local files)</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-    <att name="subsetVariables">wmo_platform_code,platform_name,platform_call_sign,dfo_nafc_platform_code,station,trip</att>
+    <att name="subsetVariables">wmo_platform_code,platform_name,platform_call_sign,dfo_nafc_platform_code,station</att>
     <att name="summary">DFO Newfoundland Bulk Unsorted dataset.</att>
     <att name="title">Newfoundland and Labrador Region Bulk Unsorted CTD Profiles</att>
     <att name="card_1_id">null</att>
@@ -26447,7 +26491,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
     <addAttributes>
         <att name="_NCProperties">null</att>
         <att name="cdm_data_type">Profile</att>
-        <att name="cdm_profile_variables">station,latitude,longitude,time,id,platform_name,wmo_platform_code,platform_call_sign,dfo_nafc_platform_code,dfo_nafc_platform_name,fishing_strata,sub_interval,sounder_depth,trip,air_pressure,air_dry_temp_celsius,air_wet_temp_celsius,cloud_coverage,swell_dir,swell_height,swell_period,waves_height,waves_period,instrument,wind_dir,wind_speed_knots,ice_conc,ice_stage,ice_bergs,ice_sandt,comment</att>
+        <att name="cdm_profile_variables">station,latitude,longitude,time,id,platform_name,wmo_platform_code,platform_call_sign,dfo_nafc_platform_code,dfo_nafc_platform_name,fishing_strata,sub_interval,sounder_depth,air_pressure,air_dry_temp_celsius,air_wet_temp_celsius,cloud_coverage,swell_dir,swell_height,swell_period,waves_height,waves_period,instrument,wind_dir,wind_speed_knots,ice_conc,ice_stage,ice_bergs,ice_sandt,comment</att>
         <att name="comment">null</att>
         <att name="Conventions">CF-1.6,ACDD-1.3, COARDS</att>
         <att name="format">null</att>
@@ -26460,7 +26504,7 @@ Wed Aug 22 14:19:15 2018: C:\nco\ncatted.exe -a _FillValue,global,d,, -O C:/nco/
         <att name="original_header">null</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-        <att name="subsetVariables">wmo_platform_code,platform_name,platform_call_sign,dfo_nafc_platform_code,station,trip</att>
+        <att name="subsetVariables">wmo_platform_code,platform_name,platform_call_sign,dfo_nafc_platform_code,station</att>
         <att name="summary">Station 27 Symlink Dataset. Department of Fisheries and Oceans (DFO)-NAFC data from a local source.</att>
         <att name="title">Station 27 CTD Profiles (symlink test)</att>
     </addAttributes>
